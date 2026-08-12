@@ -1,8 +1,16 @@
-# AME-M2 Airframe & Powerplant Exam Prep
+# AME-M2 Airframe & Powerplant Exam Prep — Exam-Style Update
 
-GitHub Pages-ready static website. Upload all files to the root of a repository and enable GitHub Pages.
+GitHub Pages-ready static website. Upload all files to the repository root and enable GitHub Pages.
 
-Features: AF / PP / Mixed, 25/50/100/200/all, question and answer shuffle, Practice mode, Exam mode, optional countdown timer, elapsed timer when countdown is off, Previous/Next, restart, main menu, AF/PP result breakdown, and incorrect-answer review.
+This update replaces the easy distractor bank with exam-style questions designed around TP 14038 Airframe and Powerplant subject areas. Each item has one defensible answer and multiple technically plausible distractors; many stems use qualifiers such as MOST, BEST, first, primary, and approved data.
 
-Question bank: 220 original Airframe questions and 220 original Powerplant questions organized by TP 14038 subject areas. This is an independent study aid, not an official Transport Canada exam or question bank.
-https://alexrahmanov.github.io/AME-M-AF-PP-practice-exam/
+Features: AF / PP / Mixed, 25/50/100/200, shuffle questions, optional shuffle answers, Practice mode, Exam mode, timer, previous/next, restart, main menu, result breakdown, and incorrect-answer review.
+
+Important: This is an independent study aid. It is not an official Transport Canada examination and does not contain claimed leaked/current Transport Canada exam questions.
+
+
+## General AME M Practice bank
+Added a separate 200-question bank derived from the user-supplied AME-M Practice(2).pdf. Question stems, correct-answer concepts, and source rationales are preserved; weak distractors were replaced with more plausible same-domain distractors for harder practice.
+
+
+v4 fixes the fourth-bank selection logic and renames it General AME M Practice.

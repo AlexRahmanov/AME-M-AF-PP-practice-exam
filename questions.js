@@ -2,6165 +2,9927 @@ const questionBanks = {
   "AF": [
     {
       "id": "AF001",
-      "section": "11.1",
-      "topic": "Basic Aerodynamics",
-      "question": "Which force relationship exists in steady, unaccelerated level flight?",
+      "section": "11",
+      "topic": "Aerodynamics",
+      "difficulty": "Exam-style",
+      "question": "In steady, unaccelerated level flight, which relationship is correct?",
       "options": [
-        "Lift equals weight and thrust equals drag",
-        "Lift equals drag and thrust equals weight",
-        "Lift exceeds weight and drag exceeds thrust",
-        "Weight equals thrust and lift equals drag"
+        "Lift equals weight and thrust equals drag.",
+        "Lift equals drag and thrust equals weight.",
+        "Lift is slightly greater than weight while thrust equals drag.",
+        "Lift equals thrust and weight equals drag."
       ],
       "answer": 0,
-      "explanation": "In steady, unaccelerated level flight, lift equals weight and thrust equals drag."
+      "explanation": "With no acceleration, the vertical and horizontal forces are separately balanced.",
+      "concept": "AF-C001"
     },
     {
       "id": "AF002",
-      "section": "11.1",
-      "topic": "Basic Aerodynamics",
-      "question": "Which statement is correct regarding this subject: which force relationship exists in steady, unaccelerated level flight?",
+      "section": "11",
+      "topic": "Aerodynamics",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. In steady, unaccelerated level flight, which relationship is correct?",
       "options": [
-        "Lift equals drag and thrust equals weight",
-        "Lift exceeds weight and drag exceeds thrust",
-        "Weight equals thrust and lift equals drag",
-        "Lift equals weight and thrust equals drag"
+        "Lift equals drag and thrust equals weight.",
+        "Lift is slightly greater than weight while thrust equals drag.",
+        "Lift equals thrust and weight equals drag.",
+        "Lift equals weight and thrust equals drag."
       ],
       "answer": 3,
-      "explanation": "In steady, unaccelerated level flight, lift equals weight and thrust equals drag."
+      "explanation": "With no acceleration, the vertical and horizontal forces are separately balanced.",
+      "concept": "AF-C001"
     },
     {
       "id": "AF003",
-      "section": "11.1",
-      "topic": "Basic Aerodynamics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which force relationship exists in steady, unaccelerated level flight?",
+      "section": "11",
+      "topic": "Aerodynamics",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? In steady, unaccelerated level flight, which relationship is correct?",
       "options": [
-        "Lift exceeds weight and drag exceeds thrust",
-        "Weight equals thrust and lift equals drag",
-        "Lift equals weight and thrust equals drag",
-        "Lift equals drag and thrust equals weight"
+        "Lift is slightly greater than weight while thrust equals drag.",
+        "Lift equals thrust and weight equals drag.",
+        "Lift equals weight and thrust equals drag.",
+        "Lift equals drag and thrust equals weight."
       ],
       "answer": 2,
-      "explanation": "In steady, unaccelerated level flight, lift equals weight and thrust equals drag."
+      "explanation": "With no acceleration, the vertical and horizontal forces are separately balanced.",
+      "concept": "AF-C001"
     },
     {
       "id": "AF004",
-      "section": "11.1",
-      "topic": "Basic Aerodynamics",
-      "question": "An AME is reviewing this system. Which force relationship exists in steady, unaccelerated level flight?",
+      "section": "11",
+      "topic": "Aerodynamics",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. In steady, unaccelerated level flight, which relationship is correct?",
       "options": [
-        "Weight equals thrust and lift equals drag",
-        "Lift equals weight and thrust equals drag",
-        "Lift equals drag and thrust equals weight",
-        "Lift exceeds weight and drag exceeds thrust"
+        "Lift equals thrust and weight equals drag.",
+        "Lift equals weight and thrust equals drag.",
+        "Lift equals drag and thrust equals weight.",
+        "Lift is slightly greater than weight while thrust equals drag."
       ],
       "answer": 1,
-      "explanation": "In steady, unaccelerated level flight, lift equals weight and thrust equals drag."
+      "explanation": "With no acceleration, the vertical and horizontal forces are separately balanced.",
+      "concept": "AF-C001"
     },
     {
       "id": "AF005",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "What directly causes an aerodynamic stall?",
+      "section": "11",
+      "topic": "Aerodynamics",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. In steady, unaccelerated level flight, which relationship is correct?",
       "options": [
-        "Exceeding the wing critical angle of attack",
-        "Flying below a specific indicated airspeed only",
-        "Reducing engine power below idle",
-        "Moving the centre of gravity forward"
+        "Lift equals weight and thrust equals drag.",
+        "Lift equals drag and thrust equals weight.",
+        "Lift is slightly greater than weight while thrust equals drag.",
+        "Lift equals thrust and weight equals drag."
       ],
       "answer": 0,
-      "explanation": "A stall occurs when the wing exceeds its critical angle of attack, regardless of airspeed."
+      "explanation": "With no acceleration, the vertical and horizontal forces are separately balanced.",
+      "concept": "AF-C001"
     },
     {
       "id": "AF006",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "Which statement is correct regarding this subject: what directly causes an aerodynamic stall?",
+      "section": "11",
+      "topic": "Stall",
+      "difficulty": "Exam-style",
+      "question": "An aircraft stalls when which condition is reached?",
       "options": [
-        "Flying below a specific indicated airspeed only",
-        "Reducing engine power below idle",
-        "Moving the centre of gravity forward",
-        "Exceeding the wing critical angle of attack"
+        "Indicated airspeed decreases below the published stall speed.",
+        "The wing reaches the angle of attack that produces maximum lift coefficient, but does not exceed it.",
+        "Engine thrust becomes less than aircraft drag.",
+        "The wing exceeds its critical angle of attack."
       ],
       "answer": 3,
-      "explanation": "A stall occurs when the wing exceeds its critical angle of attack, regardless of airspeed."
+      "explanation": "A stall is fundamentally an angle-of-attack event; published stall speed is conditional on configuration, loading and manoeuvre.",
+      "concept": "AF-C002"
     },
     {
       "id": "AF007",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What directly causes an aerodynamic stall?",
+      "section": "11",
+      "topic": "Stall",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. An aircraft stalls when which condition is reached?",
       "options": [
-        "Reducing engine power below idle",
-        "Moving the centre of gravity forward",
-        "Exceeding the wing critical angle of attack",
-        "Flying below a specific indicated airspeed only"
+        "The wing reaches the angle of attack that produces maximum lift coefficient, but does not exceed it.",
+        "Engine thrust becomes less than aircraft drag.",
+        "The wing exceeds its critical angle of attack.",
+        "Indicated airspeed decreases below the published stall speed."
       ],
       "answer": 2,
-      "explanation": "A stall occurs when the wing exceeds its critical angle of attack, regardless of airspeed."
+      "explanation": "A stall is fundamentally an angle-of-attack event; published stall speed is conditional on configuration, loading and manoeuvre.",
+      "concept": "AF-C002"
     },
     {
       "id": "AF008",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "An AME is reviewing this system. What directly causes an aerodynamic stall?",
+      "section": "11",
+      "topic": "Stall",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? An aircraft stalls when which condition is reached?",
       "options": [
-        "Moving the centre of gravity forward",
-        "Exceeding the wing critical angle of attack",
-        "Flying below a specific indicated airspeed only",
-        "Reducing engine power below idle"
+        "Engine thrust becomes less than aircraft drag.",
+        "The wing exceeds its critical angle of attack.",
+        "Indicated airspeed decreases below the published stall speed.",
+        "The wing reaches the angle of attack that produces maximum lift coefficient, but does not exceed it."
       ],
       "answer": 1,
-      "explanation": "A stall occurs when the wing exceeds its critical angle of attack, regardless of airspeed."
+      "explanation": "A stall is fundamentally an angle-of-attack event; published stall speed is conditional on configuration, loading and manoeuvre.",
+      "concept": "AF-C002"
     },
     {
       "id": "AF009",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "Before the critical angle is reached, increasing angle of attack generally causes what?",
+      "section": "11",
+      "topic": "Stall",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. An aircraft stalls when which condition is reached?",
       "options": [
-        "Lift coefficient and induced drag to increase",
-        "Lift coefficient and induced drag to decrease",
-        "Parasite drag to disappear",
-        "Aircraft weight to decrease"
+        "The wing exceeds its critical angle of attack.",
+        "Indicated airspeed decreases below the published stall speed.",
+        "The wing reaches the angle of attack that produces maximum lift coefficient, but does not exceed it.",
+        "Engine thrust becomes less than aircraft drag."
       ],
       "answer": 0,
-      "explanation": "Increasing angle of attack below the critical angle generally increases both lift coefficient and induced drag."
+      "explanation": "A stall is fundamentally an angle-of-attack event; published stall speed is conditional on configuration, loading and manoeuvre.",
+      "concept": "AF-C002"
     },
     {
       "id": "AF010",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "Which statement is correct regarding this subject: before the critical angle is reached, increasing angle of attack generally causes what?",
+      "section": "11",
+      "topic": "Stall",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. An aircraft stalls when which condition is reached?",
       "options": [
-        "Lift coefficient and induced drag to decrease",
-        "Parasite drag to disappear",
-        "Aircraft weight to decrease",
-        "Lift coefficient and induced drag to increase"
+        "Indicated airspeed decreases below the published stall speed.",
+        "The wing reaches the angle of attack that produces maximum lift coefficient, but does not exceed it.",
+        "Engine thrust becomes less than aircraft drag.",
+        "The wing exceeds its critical angle of attack."
       ],
       "answer": 3,
-      "explanation": "Increasing angle of attack below the critical angle generally increases both lift coefficient and induced drag."
+      "explanation": "A stall is fundamentally an angle-of-attack event; published stall speed is conditional on configuration, loading and manoeuvre.",
+      "concept": "AF-C002"
     },
     {
       "id": "AF011",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Before the critical angle is reached, increasing angle of attack generally causes what?",
+      "section": "11",
+      "topic": "Induced drag",
+      "difficulty": "Exam-style",
+      "question": "At constant weight and configuration, which change most directly increases induced drag?",
       "options": [
-        "Parasite drag to disappear",
-        "Aircraft weight to decrease",
-        "Lift coefficient and induced drag to increase",
-        "Lift coefficient and induced drag to decrease"
+        "Reducing angle of attack while maintaining the same airspeed and weight.",
+        "Increasing parasite drag by extending an antenna.",
+        "Flying at a lower airspeed while maintaining level flight.",
+        "Flying faster while maintaining the same lift coefficient."
       ],
       "answer": 2,
-      "explanation": "Increasing angle of attack below the critical angle generally increases both lift coefficient and induced drag."
+      "explanation": "At lower speed the wing needs a higher lift coefficient/angle of attack, increasing induced drag.",
+      "concept": "AF-C003"
     },
     {
       "id": "AF012",
-      "section": "11.3",
-      "topic": "Basic Aerodynamics",
-      "question": "An AME is reviewing this system. Before the critical angle is reached, increasing angle of attack generally causes what?",
+      "section": "11",
+      "topic": "Induced drag",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. At constant weight and configuration, which change most directly increases induced drag?",
       "options": [
-        "Aircraft weight to decrease",
-        "Lift coefficient and induced drag to increase",
-        "Lift coefficient and induced drag to decrease",
-        "Parasite drag to disappear"
+        "Increasing parasite drag by extending an antenna.",
+        "Flying at a lower airspeed while maintaining level flight.",
+        "Flying faster while maintaining the same lift coefficient.",
+        "Reducing angle of attack while maintaining the same airspeed and weight."
       ],
       "answer": 1,
-      "explanation": "Increasing angle of attack below the critical angle generally increases both lift coefficient and induced drag."
+      "explanation": "At lower speed the wing needs a higher lift coefficient/angle of attack, increasing induced drag.",
+      "concept": "AF-C003"
     },
     {
       "id": "AF013",
-      "section": "11.2",
-      "topic": "Atmosphere",
-      "question": "What normally happens to air density as altitude increases?",
+      "section": "11",
+      "topic": "Induced drag",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? At constant weight and configuration, which change most directly increases induced drag?",
       "options": [
-        "It decreases",
-        "It increases",
-        "It remains constant",
-        "It becomes independent of temperature"
+        "Flying at a lower airspeed while maintaining level flight.",
+        "Flying faster while maintaining the same lift coefficient.",
+        "Reducing angle of attack while maintaining the same airspeed and weight.",
+        "Increasing parasite drag by extending an antenna."
       ],
       "answer": 0,
-      "explanation": "As altitude increases in the standard atmosphere, air density generally decreases."
+      "explanation": "At lower speed the wing needs a higher lift coefficient/angle of attack, increasing induced drag.",
+      "concept": "AF-C003"
     },
     {
       "id": "AF014",
-      "section": "11.2",
-      "topic": "Atmosphere",
-      "question": "Which statement is correct regarding this subject: what normally happens to air density as altitude increases?",
+      "section": "11",
+      "topic": "Induced drag",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. At constant weight and configuration, which change most directly increases induced drag?",
       "options": [
-        "It increases",
-        "It remains constant",
-        "It becomes independent of temperature",
-        "It decreases"
+        "Flying faster while maintaining the same lift coefficient.",
+        "Reducing angle of attack while maintaining the same airspeed and weight.",
+        "Increasing parasite drag by extending an antenna.",
+        "Flying at a lower airspeed while maintaining level flight."
       ],
       "answer": 3,
-      "explanation": "As altitude increases in the standard atmosphere, air density generally decreases."
+      "explanation": "At lower speed the wing needs a higher lift coefficient/angle of attack, increasing induced drag.",
+      "concept": "AF-C003"
     },
     {
       "id": "AF015",
-      "section": "11.2",
-      "topic": "Atmosphere",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What normally happens to air density as altitude increases?",
+      "section": "11",
+      "topic": "Induced drag",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. At constant weight and configuration, which change most directly increases induced drag?",
       "options": [
-        "It remains constant",
-        "It becomes independent of temperature",
-        "It decreases",
-        "It increases"
+        "Reducing angle of attack while maintaining the same airspeed and weight.",
+        "Increasing parasite drag by extending an antenna.",
+        "Flying at a lower airspeed while maintaining level flight.",
+        "Flying faster while maintaining the same lift coefficient."
       ],
       "answer": 2,
-      "explanation": "As altitude increases in the standard atmosphere, air density generally decreases."
+      "explanation": "At lower speed the wing needs a higher lift coefficient/angle of attack, increasing induced drag.",
+      "concept": "AF-C003"
     },
     {
       "id": "AF016",
-      "section": "11.2",
-      "topic": "Atmosphere",
-      "question": "An AME is reviewing this system. What normally happens to air density as altitude increases?",
+      "section": "12",
+      "topic": "Semi-monocoque structure",
+      "difficulty": "Exam-style",
+      "question": "Which statement best describes a semi-monocoque fuselage?",
       "options": [
-        "It becomes independent of temperature",
-        "It decreases",
-        "It increases",
-        "It remains constant"
+        "The floor structure carries the fuselage flight loads.",
+        "The stressed skin and internal members share the structural loads.",
+        "The skin carries nearly all loads and internal members mainly preserve shape.",
+        "Frames carry the primary longitudinal bending load while stringers carry pressure loads."
       ],
       "answer": 1,
-      "explanation": "As altitude increases in the standard atmosphere, air density generally decreases."
+      "explanation": "Semi-monocoque structure distributes loads through skin, frames/bulkheads and longitudinal members.",
+      "concept": "AF-C004"
     },
     {
       "id": "AF017",
-      "section": "12.1",
-      "topic": "Aircraft Structures",
-      "question": "How are primary loads carried in a semi-monocoque fuselage?",
+      "section": "12",
+      "topic": "Semi-monocoque structure",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which statement best describes a semi-monocoque fuselage?",
       "options": [
-        "By the skin together with frames, bulkheads and longitudinal members",
-        "By the skin alone",
-        "By cabin furnishings and floor panels",
-        "Only by external stringers"
+        "The stressed skin and internal members share the structural loads.",
+        "The skin carries nearly all loads and internal members mainly preserve shape.",
+        "Frames carry the primary longitudinal bending load while stringers carry pressure loads.",
+        "The floor structure carries the fuselage flight loads."
       ],
       "answer": 0,
-      "explanation": "A semi-monocoque fuselage shares loads between stressed skin, frames, bulkheads and longitudinal members."
+      "explanation": "Semi-monocoque structure distributes loads through skin, frames/bulkheads and longitudinal members.",
+      "concept": "AF-C004"
     },
     {
       "id": "AF018",
-      "section": "12.1",
-      "topic": "Aircraft Structures",
-      "question": "Which statement is correct regarding this subject: how are primary loads carried in a semi-monocoque fuselage?",
+      "section": "12",
+      "topic": "Semi-monocoque structure",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which statement best describes a semi-monocoque fuselage?",
       "options": [
-        "By the skin alone",
-        "By cabin furnishings and floor panels",
-        "Only by external stringers",
-        "By the skin together with frames, bulkheads and longitudinal members"
+        "The skin carries nearly all loads and internal members mainly preserve shape.",
+        "Frames carry the primary longitudinal bending load while stringers carry pressure loads.",
+        "The floor structure carries the fuselage flight loads.",
+        "The stressed skin and internal members share the structural loads."
       ],
       "answer": 3,
-      "explanation": "A semi-monocoque fuselage shares loads between stressed skin, frames, bulkheads and longitudinal members."
+      "explanation": "Semi-monocoque structure distributes loads through skin, frames/bulkheads and longitudinal members.",
+      "concept": "AF-C004"
     },
     {
       "id": "AF019",
-      "section": "12.1",
-      "topic": "Aircraft Structures",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? How are primary loads carried in a semi-monocoque fuselage?",
+      "section": "12",
+      "topic": "Semi-monocoque structure",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which statement best describes a semi-monocoque fuselage?",
       "options": [
-        "By cabin furnishings and floor panels",
-        "Only by external stringers",
-        "By the skin together with frames, bulkheads and longitudinal members",
-        "By the skin alone"
+        "Frames carry the primary longitudinal bending load while stringers carry pressure loads.",
+        "The floor structure carries the fuselage flight loads.",
+        "The stressed skin and internal members share the structural loads.",
+        "The skin carries nearly all loads and internal members mainly preserve shape."
       ],
       "answer": 2,
-      "explanation": "A semi-monocoque fuselage shares loads between stressed skin, frames, bulkheads and longitudinal members."
+      "explanation": "Semi-monocoque structure distributes loads through skin, frames/bulkheads and longitudinal members.",
+      "concept": "AF-C004"
     },
     {
       "id": "AF020",
-      "section": "12.1",
-      "topic": "Aircraft Structures",
-      "question": "An AME is reviewing this system. How are primary loads carried in a semi-monocoque fuselage?",
+      "section": "12",
+      "topic": "Semi-monocoque structure",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which statement best describes a semi-monocoque fuselage?",
       "options": [
-        "Only by external stringers",
-        "By the skin together with frames, bulkheads and longitudinal members",
-        "By the skin alone",
-        "By cabin furnishings and floor panels"
+        "The floor structure carries the fuselage flight loads.",
+        "The stressed skin and internal members share the structural loads.",
+        "The skin carries nearly all loads and internal members mainly preserve shape.",
+        "Frames carry the primary longitudinal bending load while stringers carry pressure loads."
       ],
       "answer": 1,
-      "explanation": "A semi-monocoque fuselage shares loads between stressed skin, frames, bulkheads and longitudinal members."
+      "explanation": "Semi-monocoque structure distributes loads through skin, frames/bulkheads and longitudinal members.",
+      "concept": "AF-C004"
     },
     {
       "id": "AF021",
-      "section": "12.2",
-      "topic": "Aircraft Structures",
-      "question": "What is a primary structural function of a wing spar?",
+      "section": "12",
+      "topic": "Wing structure",
+      "difficulty": "Exam-style",
+      "question": "A wing spar is primarily designed to carry which load?",
       "options": [
-        "Carry major wing bending loads",
-        "Control cabin pressure",
-        "Prevent tire shimmy",
-        "Meter hydraulic fluid"
+        "Major spanwise bending loads.",
+        "Primarily torsional loads only, with ribs carrying bending.",
+        "Cabin pressurization loads transferred from the fuselage.",
+        "Only local skin loads around inspection panels."
       ],
       "answer": 0,
-      "explanation": "Spars are principal spanwise wing members that carry major bending loads."
+      "explanation": "The spar is a principal spanwise member and carries major bending/shear loads.",
+      "concept": "AF-C005"
     },
     {
       "id": "AF022",
-      "section": "12.2",
-      "topic": "Aircraft Structures",
-      "question": "Which statement is correct regarding this subject: what is a primary structural function of a wing spar?",
+      "section": "12",
+      "topic": "Wing structure",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A wing spar is primarily designed to carry which load?",
       "options": [
-        "Control cabin pressure",
-        "Prevent tire shimmy",
-        "Meter hydraulic fluid",
-        "Carry major wing bending loads"
+        "Primarily torsional loads only, with ribs carrying bending.",
+        "Cabin pressurization loads transferred from the fuselage.",
+        "Only local skin loads around inspection panels.",
+        "Major spanwise bending loads."
       ],
       "answer": 3,
-      "explanation": "Spars are principal spanwise wing members that carry major bending loads."
+      "explanation": "The spar is a principal spanwise member and carries major bending/shear loads.",
+      "concept": "AF-C005"
     },
     {
       "id": "AF023",
-      "section": "12.2",
-      "topic": "Aircraft Structures",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a primary structural function of a wing spar?",
+      "section": "12",
+      "topic": "Wing structure",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A wing spar is primarily designed to carry which load?",
       "options": [
-        "Prevent tire shimmy",
-        "Meter hydraulic fluid",
-        "Carry major wing bending loads",
-        "Control cabin pressure"
+        "Cabin pressurization loads transferred from the fuselage.",
+        "Only local skin loads around inspection panels.",
+        "Major spanwise bending loads.",
+        "Primarily torsional loads only, with ribs carrying bending."
       ],
       "answer": 2,
-      "explanation": "Spars are principal spanwise wing members that carry major bending loads."
+      "explanation": "The spar is a principal spanwise member and carries major bending/shear loads.",
+      "concept": "AF-C005"
     },
     {
       "id": "AF024",
-      "section": "12.2",
-      "topic": "Aircraft Structures",
-      "question": "An AME is reviewing this system. What is a primary structural function of a wing spar?",
+      "section": "12",
+      "topic": "Wing structure",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A wing spar is primarily designed to carry which load?",
       "options": [
-        "Meter hydraulic fluid",
-        "Carry major wing bending loads",
-        "Control cabin pressure",
-        "Prevent tire shimmy"
+        "Only local skin loads around inspection panels.",
+        "Major spanwise bending loads.",
+        "Primarily torsional loads only, with ribs carrying bending.",
+        "Cabin pressurization loads transferred from the fuselage."
       ],
       "answer": 1,
-      "explanation": "Spars are principal spanwise wing members that carry major bending loads."
+      "explanation": "The spar is a principal spanwise member and carries major bending/shear loads.",
+      "concept": "AF-C005"
     },
     {
       "id": "AF025",
-      "section": "12.3",
-      "topic": "Windows and Doors",
-      "question": "Why is condition of a pressurized aircraft door seal important?",
+      "section": "12",
+      "topic": "Wing structure",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A wing spar is primarily designed to carry which load?",
       "options": [
-        "Damage or poor seating can cause pressurization leakage",
-        "It controls engine oil pressure",
-        "It sets elevator neutral position",
-        "It determines tire pressure"
+        "Major spanwise bending loads.",
+        "Primarily torsional loads only, with ribs carrying bending.",
+        "Cabin pressurization loads transferred from the fuselage.",
+        "Only local skin loads around inspection panels."
       ],
       "answer": 0,
-      "explanation": "Pressurized door seals must be inspected for cuts, deformation and proper seating because leakage can affect pressurization."
+      "explanation": "The spar is a principal spanwise member and carries major bending/shear loads.",
+      "concept": "AF-C005"
     },
     {
       "id": "AF026",
-      "section": "12.3",
-      "topic": "Windows and Doors",
-      "question": "Which statement is correct regarding this subject: why is condition of a pressurized aircraft door seal important?",
+      "section": "13",
+      "topic": "Control rigging",
+      "difficulty": "Exam-style",
+      "question": "After replacing a primary flight-control cable, which check is most important before return to service?",
       "options": [
-        "It controls engine oil pressure",
-        "It sets elevator neutral position",
-        "It determines tire pressure",
-        "Damage or poor seating can cause pressurization leakage"
+        "Verify cable tension only; travel will be correct if the tension is correct.",
+        "Verify full travel and direction only; neutral position is established aerodynamically in flight.",
+        "Operate the autopilot and accept the rigging if no fault message appears.",
+        "Verify neutral position, travel, direction and cable tension against approved data."
       ],
       "answer": 3,
-      "explanation": "Pressurized door seals must be inspected for cuts, deformation and proper seating because leakage can affect pressurization."
+      "explanation": "Correct rigging requires all specified geometry, direction, travel and tension checks.",
+      "concept": "AF-C006"
     },
     {
       "id": "AF027",
-      "section": "12.3",
-      "topic": "Windows and Doors",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is condition of a pressurized aircraft door seal important?",
+      "section": "13",
+      "topic": "Control rigging",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. After replacing a primary flight-control cable, which check is most important before return to service?",
       "options": [
-        "It sets elevator neutral position",
-        "It determines tire pressure",
-        "Damage or poor seating can cause pressurization leakage",
-        "It controls engine oil pressure"
+        "Verify full travel and direction only; neutral position is established aerodynamically in flight.",
+        "Operate the autopilot and accept the rigging if no fault message appears.",
+        "Verify neutral position, travel, direction and cable tension against approved data.",
+        "Verify cable tension only; travel will be correct if the tension is correct."
       ],
       "answer": 2,
-      "explanation": "Pressurized door seals must be inspected for cuts, deformation and proper seating because leakage can affect pressurization."
+      "explanation": "Correct rigging requires all specified geometry, direction, travel and tension checks.",
+      "concept": "AF-C006"
     },
     {
       "id": "AF028",
-      "section": "12.3",
-      "topic": "Windows and Doors",
-      "question": "An AME is reviewing this system. Why is condition of a pressurized aircraft door seal important?",
+      "section": "13",
+      "topic": "Control rigging",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? After replacing a primary flight-control cable, which check is most important before return to service?",
       "options": [
-        "It determines tire pressure",
-        "Damage or poor seating can cause pressurization leakage",
-        "It controls engine oil pressure",
-        "It sets elevator neutral position"
+        "Operate the autopilot and accept the rigging if no fault message appears.",
+        "Verify neutral position, travel, direction and cable tension against approved data.",
+        "Verify cable tension only; travel will be correct if the tension is correct.",
+        "Verify full travel and direction only; neutral position is established aerodynamically in flight."
       ],
       "answer": 1,
-      "explanation": "Pressurized door seals must be inspected for cuts, deformation and proper seating because leakage can affect pressurization."
+      "explanation": "Correct rigging requires all specified geometry, direction, travel and tension checks.",
+      "concept": "AF-C006"
     },
     {
       "id": "AF029",
-      "section": "13.1",
-      "topic": "Fixed Wing Controls",
-      "question": "What is the purpose of a servo tab?",
+      "section": "13",
+      "topic": "Control rigging",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. After replacing a primary flight-control cable, which check is most important before return to service?",
       "options": [
-        "Use aerodynamic force to assist movement of the control surface",
-        "Lock the surface in neutral",
-        "Increase cable tension automatically",
-        "Provide static balance only"
+        "Verify neutral position, travel, direction and cable tension against approved data.",
+        "Verify cable tension only; travel will be correct if the tension is correct.",
+        "Verify full travel and direction only; neutral position is established aerodynamically in flight.",
+        "Operate the autopilot and accept the rigging if no fault message appears."
       ],
       "answer": 0,
-      "explanation": "A servo tab moves opposite the control surface to use aerodynamic force to assist surface movement."
+      "explanation": "Correct rigging requires all specified geometry, direction, travel and tension checks.",
+      "concept": "AF-C006"
     },
     {
       "id": "AF030",
-      "section": "13.1",
-      "topic": "Fixed Wing Controls",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a servo tab?",
+      "section": "13",
+      "topic": "Control rigging",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. After replacing a primary flight-control cable, which check is most important before return to service?",
       "options": [
-        "Lock the surface in neutral",
-        "Increase cable tension automatically",
-        "Provide static balance only",
-        "Use aerodynamic force to assist movement of the control surface"
+        "Verify cable tension only; travel will be correct if the tension is correct.",
+        "Verify full travel and direction only; neutral position is established aerodynamically in flight.",
+        "Operate the autopilot and accept the rigging if no fault message appears.",
+        "Verify neutral position, travel, direction and cable tension against approved data."
       ],
       "answer": 3,
-      "explanation": "A servo tab moves opposite the control surface to use aerodynamic force to assist surface movement."
+      "explanation": "Correct rigging requires all specified geometry, direction, travel and tension checks.",
+      "concept": "AF-C006"
     },
     {
       "id": "AF031",
-      "section": "13.1",
-      "topic": "Fixed Wing Controls",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a servo tab?",
+      "section": "13",
+      "topic": "Cable tension",
+      "difficulty": "Exam-style",
+      "question": "A flight-control cable is rigged to the specified tension in a warm hangar. Before final acceptance, what must also be considered?",
       "options": [
-        "Increase cable tension automatically",
-        "Provide static balance only",
-        "Use aerodynamic force to assist movement of the control surface",
-        "Lock the surface in neutral"
+        "The aircraft tire pressure because it changes cable tension.",
+        "The battery state of charge.",
+        "The manufacturer-specified temperature correction for cable tension, if applicable.",
+        "Only the cable diameter; ambient temperature has no effect on rigging."
       ],
       "answer": 2,
-      "explanation": "A servo tab moves opposite the control surface to use aerodynamic force to assist surface movement."
+      "explanation": "Airframe and cable materials expand differently; approved data may require temperature correction.",
+      "concept": "AF-C007"
     },
     {
       "id": "AF032",
-      "section": "13.1",
-      "topic": "Fixed Wing Controls",
-      "question": "An AME is reviewing this system. What is the purpose of a servo tab?",
+      "section": "13",
+      "topic": "Cable tension",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A flight-control cable is rigged to the specified tension in a warm hangar. Before final acceptance, what must also be considered?",
       "options": [
-        "Provide static balance only",
-        "Use aerodynamic force to assist movement of the control surface",
-        "Lock the surface in neutral",
-        "Increase cable tension automatically"
+        "The battery state of charge.",
+        "The manufacturer-specified temperature correction for cable tension, if applicable.",
+        "Only the cable diameter; ambient temperature has no effect on rigging.",
+        "The aircraft tire pressure because it changes cable tension."
       ],
       "answer": 1,
-      "explanation": "A servo tab moves opposite the control surface to use aerodynamic force to assist surface movement."
+      "explanation": "Airframe and cable materials expand differently; approved data may require temperature correction.",
+      "concept": "AF-C007"
     },
     {
       "id": "AF033",
-      "section": "13.3",
-      "topic": "Control Rigging",
-      "question": "When rigging a cable-operated flight control, what data is most important to verify?",
+      "section": "13",
+      "topic": "Cable tension",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A flight-control cable is rigged to the specified tension in a warm hangar. Before final acceptance, what must also be considered?",
       "options": [
-        "Specified neutral position, cable tension and control travel",
-        "Paint colour and upholstery condition",
-        "Fuel grade and oil quantity",
-        "Battery capacity only"
+        "The manufacturer-specified temperature correction for cable tension, if applicable.",
+        "Only the cable diameter; ambient temperature has no effect on rigging.",
+        "The aircraft tire pressure because it changes cable tension.",
+        "The battery state of charge."
       ],
       "answer": 0,
-      "explanation": "Flight-control rigging must follow specified neutral positions, cable tensions and travel limits in approved maintenance data."
+      "explanation": "Airframe and cable materials expand differently; approved data may require temperature correction.",
+      "concept": "AF-C007"
     },
     {
       "id": "AF034",
-      "section": "13.3",
-      "topic": "Control Rigging",
-      "question": "Which statement is correct regarding this subject: when rigging a cable-operated flight control, what data is most important to verify?",
+      "section": "13",
+      "topic": "Cable tension",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A flight-control cable is rigged to the specified tension in a warm hangar. Before final acceptance, what must also be considered?",
       "options": [
-        "Paint colour and upholstery condition",
-        "Fuel grade and oil quantity",
-        "Battery capacity only",
-        "Specified neutral position, cable tension and control travel"
+        "Only the cable diameter; ambient temperature has no effect on rigging.",
+        "The aircraft tire pressure because it changes cable tension.",
+        "The battery state of charge.",
+        "The manufacturer-specified temperature correction for cable tension, if applicable."
       ],
       "answer": 3,
-      "explanation": "Flight-control rigging must follow specified neutral positions, cable tensions and travel limits in approved maintenance data."
+      "explanation": "Airframe and cable materials expand differently; approved data may require temperature correction.",
+      "concept": "AF-C007"
     },
     {
       "id": "AF035",
-      "section": "13.3",
-      "topic": "Control Rigging",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? When rigging a cable-operated flight control, what data is most important to verify?",
+      "section": "13",
+      "topic": "Cable tension",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A flight-control cable is rigged to the specified tension in a warm hangar. Before final acceptance, what must also be considered?",
       "options": [
-        "Fuel grade and oil quantity",
-        "Battery capacity only",
-        "Specified neutral position, cable tension and control travel",
-        "Paint colour and upholstery condition"
+        "The aircraft tire pressure because it changes cable tension.",
+        "The battery state of charge.",
+        "The manufacturer-specified temperature correction for cable tension, if applicable.",
+        "Only the cable diameter; ambient temperature has no effect on rigging."
       ],
       "answer": 2,
-      "explanation": "Flight-control rigging must follow specified neutral positions, cable tensions and travel limits in approved maintenance data."
+      "explanation": "Airframe and cable materials expand differently; approved data may require temperature correction.",
+      "concept": "AF-C007"
     },
     {
       "id": "AF036",
-      "section": "13.3",
-      "topic": "Control Rigging",
-      "question": "An AME is reviewing this system. When rigging a cable-operated flight control, what data is most important to verify?",
+      "section": "13",
+      "topic": "Servo tabs",
+      "difficulty": "Exam-style",
+      "question": "What is the primary purpose of a servo tab?",
       "options": [
-        "Battery capacity only",
-        "Specified neutral position, cable tension and control travel",
-        "Paint colour and upholstery condition",
-        "Fuel grade and oil quantity"
+        "Prevent flutter solely by adding mass ahead of the hinge line.",
+        "Use aerodynamic force on the tab to assist movement of the main control surface.",
+        "Move in the same direction as the control surface to increase control force.",
+        "Balance the control surface statically without affecting aerodynamic hinge moment."
       ],
       "answer": 1,
-      "explanation": "Flight-control rigging must follow specified neutral positions, cable tensions and travel limits in approved maintenance data."
+      "explanation": "A servo tab normally moves to create an aerodynamic moment that assists the main surface.",
+      "concept": "AF-C008"
     },
     {
       "id": "AF037",
-      "section": "13.2",
-      "topic": "Symmetry",
-      "question": "What is the purpose of an aircraft symmetry check?",
+      "section": "13",
+      "topic": "Servo tabs",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the primary purpose of a servo tab?",
       "options": [
-        "Verify structural alignment relative to reference points and centreline",
-        "Measure engine compression",
-        "Check pitot heater current",
-        "Balance a propeller dynamically"
+        "Use aerodynamic force on the tab to assist movement of the main control surface.",
+        "Move in the same direction as the control surface to increase control force.",
+        "Balance the control surface statically without affecting aerodynamic hinge moment.",
+        "Prevent flutter solely by adding mass ahead of the hinge line."
       ],
       "answer": 0,
-      "explanation": "A symmetry check verifies that corresponding reference points on the airframe are correctly aligned relative to the aircraft centreline and datum."
+      "explanation": "A servo tab normally moves to create an aerodynamic moment that assists the main surface.",
+      "concept": "AF-C008"
     },
     {
       "id": "AF038",
-      "section": "13.2",
-      "topic": "Symmetry",
-      "question": "Which statement is correct regarding this subject: what is the purpose of an aircraft symmetry check?",
+      "section": "13",
+      "topic": "Servo tabs",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the primary purpose of a servo tab?",
       "options": [
-        "Measure engine compression",
-        "Check pitot heater current",
-        "Balance a propeller dynamically",
-        "Verify structural alignment relative to reference points and centreline"
+        "Move in the same direction as the control surface to increase control force.",
+        "Balance the control surface statically without affecting aerodynamic hinge moment.",
+        "Prevent flutter solely by adding mass ahead of the hinge line.",
+        "Use aerodynamic force on the tab to assist movement of the main control surface."
       ],
       "answer": 3,
-      "explanation": "A symmetry check verifies that corresponding reference points on the airframe are correctly aligned relative to the aircraft centreline and datum."
+      "explanation": "A servo tab normally moves to create an aerodynamic moment that assists the main surface.",
+      "concept": "AF-C008"
     },
     {
       "id": "AF039",
-      "section": "13.2",
-      "topic": "Symmetry",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of an aircraft symmetry check?",
+      "section": "13",
+      "topic": "Servo tabs",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the primary purpose of a servo tab?",
       "options": [
-        "Check pitot heater current",
-        "Balance a propeller dynamically",
-        "Verify structural alignment relative to reference points and centreline",
-        "Measure engine compression"
+        "Balance the control surface statically without affecting aerodynamic hinge moment.",
+        "Prevent flutter solely by adding mass ahead of the hinge line.",
+        "Use aerodynamic force on the tab to assist movement of the main control surface.",
+        "Move in the same direction as the control surface to increase control force."
       ],
       "answer": 2,
-      "explanation": "A symmetry check verifies that corresponding reference points on the airframe are correctly aligned relative to the aircraft centreline and datum."
+      "explanation": "A servo tab normally moves to create an aerodynamic moment that assists the main surface.",
+      "concept": "AF-C008"
     },
     {
       "id": "AF040",
-      "section": "13.2",
-      "topic": "Symmetry",
-      "question": "An AME is reviewing this system. What is the purpose of an aircraft symmetry check?",
+      "section": "13",
+      "topic": "Servo tabs",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the primary purpose of a servo tab?",
       "options": [
-        "Balance a propeller dynamically",
-        "Verify structural alignment relative to reference points and centreline",
-        "Measure engine compression",
-        "Check pitot heater current"
+        "Prevent flutter solely by adding mass ahead of the hinge line.",
+        "Use aerodynamic force on the tab to assist movement of the main control surface.",
+        "Move in the same direction as the control surface to increase control force.",
+        "Balance the control surface statically without affecting aerodynamic hinge moment."
       ],
       "answer": 1,
-      "explanation": "A symmetry check verifies that corresponding reference points on the airframe are correctly aligned relative to the aircraft centreline and datum."
+      "explanation": "A servo tab normally moves to create an aerodynamic moment that assists the main surface.",
+      "concept": "AF-C008"
     },
     {
       "id": "AF041",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "During a helicopter autorotation, what maintains rotor RPM?",
+      "section": "14",
+      "topic": "Autorotation",
+      "difficulty": "Exam-style",
+      "question": "Following engine power loss in a helicopter, what sustains rotor RPM during established autorotation?",
       "options": [
-        "Upward airflow through the rotor disc",
-        "Engine compressor bleed air",
-        "Tail-rotor thrust alone",
-        "Hydraulic accumulator pressure"
+        "Upward airflow through the rotor disc supplies aerodynamic driving force.",
+        "Residual engine torque through the freewheeling unit.",
+        "The tail rotor transfers kinetic energy to the main rotor.",
+        "Hydraulic pressure drives the rotor through the transmission."
       ],
       "answer": 0,
-      "explanation": "In autorotation, airflow upward through the rotor disc drives the rotor after engine power is lost or disconnected."
+      "explanation": "In autorotation the airflow through the disc drives the rotor; the freewheel disconnects a slower engine.",
+      "concept": "AF-C009"
     },
     {
       "id": "AF042",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "Which statement is correct regarding this subject: during a helicopter autorotation, what maintains rotor RPM?",
+      "section": "14",
+      "topic": "Autorotation",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Following engine power loss in a helicopter, what sustains rotor RPM during established autorotation?",
       "options": [
-        "Engine compressor bleed air",
-        "Tail-rotor thrust alone",
-        "Hydraulic accumulator pressure",
-        "Upward airflow through the rotor disc"
+        "Residual engine torque through the freewheeling unit.",
+        "The tail rotor transfers kinetic energy to the main rotor.",
+        "Hydraulic pressure drives the rotor through the transmission.",
+        "Upward airflow through the rotor disc supplies aerodynamic driving force."
       ],
       "answer": 3,
-      "explanation": "In autorotation, airflow upward through the rotor disc drives the rotor after engine power is lost or disconnected."
+      "explanation": "In autorotation the airflow through the disc drives the rotor; the freewheel disconnects a slower engine.",
+      "concept": "AF-C009"
     },
     {
       "id": "AF043",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? During a helicopter autorotation, what maintains rotor RPM?",
+      "section": "14",
+      "topic": "Autorotation",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Following engine power loss in a helicopter, what sustains rotor RPM during established autorotation?",
       "options": [
-        "Tail-rotor thrust alone",
-        "Hydraulic accumulator pressure",
-        "Upward airflow through the rotor disc",
-        "Engine compressor bleed air"
+        "The tail rotor transfers kinetic energy to the main rotor.",
+        "Hydraulic pressure drives the rotor through the transmission.",
+        "Upward airflow through the rotor disc supplies aerodynamic driving force.",
+        "Residual engine torque through the freewheeling unit."
       ],
       "answer": 2,
-      "explanation": "In autorotation, airflow upward through the rotor disc drives the rotor after engine power is lost or disconnected."
+      "explanation": "In autorotation the airflow through the disc drives the rotor; the freewheel disconnects a slower engine.",
+      "concept": "AF-C009"
     },
     {
       "id": "AF044",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "An AME is reviewing this system. During a helicopter autorotation, what maintains rotor RPM?",
+      "section": "14",
+      "topic": "Autorotation",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Following engine power loss in a helicopter, what sustains rotor RPM during established autorotation?",
       "options": [
-        "Hydraulic accumulator pressure",
-        "Upward airflow through the rotor disc",
-        "Engine compressor bleed air",
-        "Tail-rotor thrust alone"
+        "Hydraulic pressure drives the rotor through the transmission.",
+        "Upward airflow through the rotor disc supplies aerodynamic driving force.",
+        "Residual engine torque through the freewheeling unit.",
+        "The tail rotor transfers kinetic energy to the main rotor."
       ],
       "answer": 1,
-      "explanation": "In autorotation, airflow upward through the rotor disc drives the rotor after engine power is lost or disconnected."
+      "explanation": "In autorotation the airflow through the disc drives the rotor; the freewheel disconnects a slower engine.",
+      "concept": "AF-C009"
     },
     {
       "id": "AF045",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "What causes translating tendency in a conventional helicopter?",
+      "section": "14",
+      "topic": "Autorotation",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Following engine power loss in a helicopter, what sustains rotor RPM during established autorotation?",
       "options": [
-        "Lateral thrust produced by the tail rotor",
-        "Main rotor coning only",
-        "Cabin pressurization",
-        "Gyroscopic instruments"
+        "Upward airflow through the rotor disc supplies aerodynamic driving force.",
+        "Residual engine torque through the freewheeling unit.",
+        "The tail rotor transfers kinetic energy to the main rotor.",
+        "Hydraulic pressure drives the rotor through the transmission."
       ],
       "answer": 0,
-      "explanation": "Translating tendency is the lateral drift caused by tail-rotor thrust on a conventional single-main-rotor helicopter."
+      "explanation": "In autorotation the airflow through the disc drives the rotor; the freewheel disconnects a slower engine.",
+      "concept": "AF-C009"
     },
     {
       "id": "AF046",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "Which statement is correct regarding this subject: what causes translating tendency in a conventional helicopter?",
+      "section": "14",
+      "topic": "Translating tendency",
+      "difficulty": "Exam-style",
+      "question": "On a conventional single-main-rotor helicopter, translating tendency is primarily caused by what?",
       "options": [
-        "Main rotor coning only",
-        "Cabin pressurization",
-        "Gyroscopic instruments",
-        "Lateral thrust produced by the tail rotor"
+        "Torque reaction from the main rotor acting directly on the fuselage.",
+        "Dissymmetry of lift between advancing and retreating blades.",
+        "Gyroscopic precession of the main rotor.",
+        "Lateral thrust from the tail rotor."
       ],
       "answer": 3,
-      "explanation": "Translating tendency is the lateral drift caused by tail-rotor thrust on a conventional single-main-rotor helicopter."
+      "explanation": "Tail-rotor thrust produces a lateral force that tends to move the helicopter sideways.",
+      "concept": "AF-C010"
     },
     {
       "id": "AF047",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What causes translating tendency in a conventional helicopter?",
+      "section": "14",
+      "topic": "Translating tendency",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. On a conventional single-main-rotor helicopter, translating tendency is primarily caused by what?",
       "options": [
-        "Cabin pressurization",
-        "Gyroscopic instruments",
-        "Lateral thrust produced by the tail rotor",
-        "Main rotor coning only"
+        "Dissymmetry of lift between advancing and retreating blades.",
+        "Gyroscopic precession of the main rotor.",
+        "Lateral thrust from the tail rotor.",
+        "Torque reaction from the main rotor acting directly on the fuselage."
       ],
       "answer": 2,
-      "explanation": "Translating tendency is the lateral drift caused by tail-rotor thrust on a conventional single-main-rotor helicopter."
+      "explanation": "Tail-rotor thrust produces a lateral force that tends to move the helicopter sideways.",
+      "concept": "AF-C010"
     },
     {
       "id": "AF048",
-      "section": "14.1",
-      "topic": "Rotary Wing Aerodynamics",
-      "question": "An AME is reviewing this system. What causes translating tendency in a conventional helicopter?",
+      "section": "14",
+      "topic": "Translating tendency",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? On a conventional single-main-rotor helicopter, translating tendency is primarily caused by what?",
       "options": [
-        "Gyroscopic instruments",
-        "Lateral thrust produced by the tail rotor",
-        "Main rotor coning only",
-        "Cabin pressurization"
+        "Gyroscopic precession of the main rotor.",
+        "Lateral thrust from the tail rotor.",
+        "Torque reaction from the main rotor acting directly on the fuselage.",
+        "Dissymmetry of lift between advancing and retreating blades."
       ],
       "answer": 1,
-      "explanation": "Translating tendency is the lateral drift caused by tail-rotor thrust on a conventional single-main-rotor helicopter."
+      "explanation": "Tail-rotor thrust produces a lateral force that tends to move the helicopter sideways.",
+      "concept": "AF-C010"
     },
     {
       "id": "AF049",
-      "section": "14.2",
-      "topic": "Rotor Systems",
-      "question": "Which motions are provided by a fully articulated rotor system?",
+      "section": "14",
+      "topic": "Translating tendency",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. On a conventional single-main-rotor helicopter, translating tendency is primarily caused by what?",
       "options": [
-        "Flapping, lead-lag and pitch change",
-        "Pitch change only",
-        "Lead-lag only",
-        "Flapping and wheel steering"
+        "Lateral thrust from the tail rotor.",
+        "Torque reaction from the main rotor acting directly on the fuselage.",
+        "Dissymmetry of lift between advancing and retreating blades.",
+        "Gyroscopic precession of the main rotor."
       ],
       "answer": 0,
-      "explanation": "A fully articulated rotor permits blades to flap, lead-lag and change pitch."
+      "explanation": "Tail-rotor thrust produces a lateral force that tends to move the helicopter sideways.",
+      "concept": "AF-C010"
     },
     {
       "id": "AF050",
-      "section": "14.2",
-      "topic": "Rotor Systems",
-      "question": "Which statement is correct regarding this subject: which motions are provided by a fully articulated rotor system?",
+      "section": "14",
+      "topic": "Translating tendency",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. On a conventional single-main-rotor helicopter, translating tendency is primarily caused by what?",
       "options": [
-        "Pitch change only",
-        "Lead-lag only",
-        "Flapping and wheel steering",
-        "Flapping, lead-lag and pitch change"
+        "Torque reaction from the main rotor acting directly on the fuselage.",
+        "Dissymmetry of lift between advancing and retreating blades.",
+        "Gyroscopic precession of the main rotor.",
+        "Lateral thrust from the tail rotor."
       ],
       "answer": 3,
-      "explanation": "A fully articulated rotor permits blades to flap, lead-lag and change pitch."
+      "explanation": "Tail-rotor thrust produces a lateral force that tends to move the helicopter sideways.",
+      "concept": "AF-C010"
     },
     {
       "id": "AF051",
-      "section": "14.2",
-      "topic": "Rotor Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which motions are provided by a fully articulated rotor system?",
+      "section": "14",
+      "topic": "Retreating blade stall",
+      "difficulty": "Exam-style",
+      "question": "Which operating combination makes retreating-blade stall most likely?",
       "options": [
-        "Lead-lag only",
-        "Flapping and wheel steering",
-        "Flapping, lead-lag and pitch change",
-        "Pitch change only"
+        "High rotor RPM with low blade angle and low airspeed.",
+        "A stationary hover in calm air at low gross weight.",
+        "High forward speed, high gross weight and high load factor.",
+        "Low forward speed, low gross weight and low collective pitch."
       ],
       "answer": 2,
-      "explanation": "A fully articulated rotor permits blades to flap, lead-lag and change pitch."
+      "explanation": "The retreating side must produce lift at a higher angle of attack as forward speed/load increase.",
+      "concept": "AF-C011"
     },
     {
       "id": "AF052",
-      "section": "14.2",
-      "topic": "Rotor Systems",
-      "question": "An AME is reviewing this system. Which motions are provided by a fully articulated rotor system?",
+      "section": "14",
+      "topic": "Retreating blade stall",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which operating combination makes retreating-blade stall most likely?",
       "options": [
-        "Flapping and wheel steering",
-        "Flapping, lead-lag and pitch change",
-        "Pitch change only",
-        "Lead-lag only"
+        "A stationary hover in calm air at low gross weight.",
+        "High forward speed, high gross weight and high load factor.",
+        "Low forward speed, low gross weight and low collective pitch.",
+        "High rotor RPM with low blade angle and low airspeed."
       ],
       "answer": 1,
-      "explanation": "A fully articulated rotor permits blades to flap, lead-lag and change pitch."
+      "explanation": "The retreating side must produce lift at a higher angle of attack as forward speed/load increase.",
+      "concept": "AF-C011"
     },
     {
       "id": "AF053",
-      "section": "14.4",
-      "topic": "Vibration",
-      "question": "A pronounced 1/rev vertical helicopter vibration most strongly suggests what?",
+      "section": "14",
+      "topic": "Retreating blade stall",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which operating combination makes retreating-blade stall most likely?",
       "options": [
-        "Rotor blade tracking difference",
-        "Low battery electrolyte",
-        "Static port blockage",
-        "Brake wear"
+        "High forward speed, high gross weight and high load factor.",
+        "Low forward speed, low gross weight and low collective pitch.",
+        "High rotor RPM with low blade angle and low airspeed.",
+        "A stationary hover in calm air at low gross weight."
       ],
       "answer": 0,
-      "explanation": "A once-per-revolution vertical vibration is commonly associated with blade tracking differences."
+      "explanation": "The retreating side must produce lift at a higher angle of attack as forward speed/load increase.",
+      "concept": "AF-C011"
     },
     {
       "id": "AF054",
-      "section": "14.4",
-      "topic": "Vibration",
-      "question": "Which statement is correct regarding this subject: a pronounced 1/rev vertical helicopter vibration most strongly suggests what?",
+      "section": "14",
+      "topic": "Retreating blade stall",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which operating combination makes retreating-blade stall most likely?",
       "options": [
-        "Low battery electrolyte",
-        "Static port blockage",
-        "Brake wear",
-        "Rotor blade tracking difference"
+        "Low forward speed, low gross weight and low collective pitch.",
+        "High rotor RPM with low blade angle and low airspeed.",
+        "A stationary hover in calm air at low gross weight.",
+        "High forward speed, high gross weight and high load factor."
       ],
       "answer": 3,
-      "explanation": "A once-per-revolution vertical vibration is commonly associated with blade tracking differences."
+      "explanation": "The retreating side must produce lift at a higher angle of attack as forward speed/load increase.",
+      "concept": "AF-C011"
     },
     {
       "id": "AF055",
-      "section": "14.4",
-      "topic": "Vibration",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? A pronounced 1/rev vertical helicopter vibration most strongly suggests what?",
+      "section": "14",
+      "topic": "Retreating blade stall",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which operating combination makes retreating-blade stall most likely?",
       "options": [
-        "Static port blockage",
-        "Brake wear",
-        "Rotor blade tracking difference",
-        "Low battery electrolyte"
+        "High rotor RPM with low blade angle and low airspeed.",
+        "A stationary hover in calm air at low gross weight.",
+        "High forward speed, high gross weight and high load factor.",
+        "Low forward speed, low gross weight and low collective pitch."
       ],
       "answer": 2,
-      "explanation": "A once-per-revolution vertical vibration is commonly associated with blade tracking differences."
+      "explanation": "The retreating side must produce lift at a higher angle of attack as forward speed/load increase.",
+      "concept": "AF-C011"
     },
     {
       "id": "AF056",
-      "section": "14.4",
-      "topic": "Vibration",
-      "question": "An AME is reviewing this system. A pronounced 1/rev vertical helicopter vibration most strongly suggests what?",
+      "section": "14",
+      "topic": "Rotor vibration",
+      "difficulty": "Exam-style",
+      "question": "A helicopter has a pronounced once-per-revolution vertical vibration after blade replacement. What should be suspected first?",
       "options": [
-        "Brake wear",
-        "Rotor blade tracking difference",
-        "Low battery electrolyte",
-        "Static port blockage"
+        "Low hydraulic reservoir quantity.",
+        "Blade track or aerodynamic balance discrepancy.",
+        "A two-per-revolution transmission gear-mesh condition.",
+        "Tail-rotor imbalance, which normally appears only as vertical 1/rev vibration."
       ],
       "answer": 1,
-      "explanation": "A once-per-revolution vertical vibration is commonly associated with blade tracking differences."
+      "explanation": "A 1/rev vertical vibration commonly points toward main rotor track/aerodynamic differences.",
+      "concept": "AF-C012"
     },
     {
       "id": "AF057",
-      "section": "14.5",
-      "topic": "Power Train",
-      "question": "What is the function of a helicopter freewheeling unit?",
+      "section": "14",
+      "topic": "Rotor vibration",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A helicopter has a pronounced once-per-revolution vertical vibration after blade replacement. What should be suspected first?",
       "options": [
-        "Disconnect engine drive when rotor system overruns the engine",
-        "Increase hydraulic pressure",
-        "Lock rotor blades during flight",
-        "Drive the tail rotor electrically"
+        "Blade track or aerodynamic balance discrepancy.",
+        "A two-per-revolution transmission gear-mesh condition.",
+        "Tail-rotor imbalance, which normally appears only as vertical 1/rev vibration.",
+        "Low hydraulic reservoir quantity."
       ],
       "answer": 0,
-      "explanation": "A freewheeling unit or overrunning clutch allows the rotor to continue turning if engine speed falls below rotor drive speed."
+      "explanation": "A 1/rev vertical vibration commonly points toward main rotor track/aerodynamic differences.",
+      "concept": "AF-C012"
     },
     {
       "id": "AF058",
-      "section": "14.5",
-      "topic": "Power Train",
-      "question": "Which statement is correct regarding this subject: what is the function of a helicopter freewheeling unit?",
+      "section": "14",
+      "topic": "Rotor vibration",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A helicopter has a pronounced once-per-revolution vertical vibration after blade replacement. What should be suspected first?",
       "options": [
-        "Increase hydraulic pressure",
-        "Lock rotor blades during flight",
-        "Drive the tail rotor electrically",
-        "Disconnect engine drive when rotor system overruns the engine"
+        "A two-per-revolution transmission gear-mesh condition.",
+        "Tail-rotor imbalance, which normally appears only as vertical 1/rev vibration.",
+        "Low hydraulic reservoir quantity.",
+        "Blade track or aerodynamic balance discrepancy."
       ],
       "answer": 3,
-      "explanation": "A freewheeling unit or overrunning clutch allows the rotor to continue turning if engine speed falls below rotor drive speed."
+      "explanation": "A 1/rev vertical vibration commonly points toward main rotor track/aerodynamic differences.",
+      "concept": "AF-C012"
     },
     {
       "id": "AF059",
-      "section": "14.5",
-      "topic": "Power Train",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the function of a helicopter freewheeling unit?",
+      "section": "14",
+      "topic": "Rotor vibration",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A helicopter has a pronounced once-per-revolution vertical vibration after blade replacement. What should be suspected first?",
       "options": [
-        "Lock rotor blades during flight",
-        "Drive the tail rotor electrically",
-        "Disconnect engine drive when rotor system overruns the engine",
-        "Increase hydraulic pressure"
+        "Tail-rotor imbalance, which normally appears only as vertical 1/rev vibration.",
+        "Low hydraulic reservoir quantity.",
+        "Blade track or aerodynamic balance discrepancy.",
+        "A two-per-revolution transmission gear-mesh condition."
       ],
       "answer": 2,
-      "explanation": "A freewheeling unit or overrunning clutch allows the rotor to continue turning if engine speed falls below rotor drive speed."
+      "explanation": "A 1/rev vertical vibration commonly points toward main rotor track/aerodynamic differences.",
+      "concept": "AF-C012"
     },
     {
       "id": "AF060",
-      "section": "14.5",
-      "topic": "Power Train",
-      "question": "An AME is reviewing this system. What is the function of a helicopter freewheeling unit?",
+      "section": "14",
+      "topic": "Rotor vibration",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A helicopter has a pronounced once-per-revolution vertical vibration after blade replacement. What should be suspected first?",
       "options": [
-        "Drive the tail rotor electrically",
-        "Disconnect engine drive when rotor system overruns the engine",
-        "Increase hydraulic pressure",
-        "Lock rotor blades during flight"
+        "Low hydraulic reservoir quantity.",
+        "Blade track or aerodynamic balance discrepancy.",
+        "A two-per-revolution transmission gear-mesh condition.",
+        "Tail-rotor imbalance, which normally appears only as vertical 1/rev vibration."
       ],
       "answer": 1,
-      "explanation": "A freewheeling unit or overrunning clutch allows the rotor to continue turning if engine speed falls below rotor drive speed."
+      "explanation": "A 1/rev vertical vibration commonly points toward main rotor track/aerodynamic differences.",
+      "concept": "AF-C012"
     },
     {
       "id": "AF061",
-      "section": "15.2",
-      "topic": "Rotor Tracking and Balance",
-      "question": "What does rotor blade tracking primarily verify?",
+      "section": "14",
+      "topic": "Freewheeling unit",
+      "difficulty": "Exam-style",
+      "question": "What is the purpose of a helicopter freewheeling unit?",
       "options": [
-        "That blade tips follow the same rotational path",
-        "That all blades have identical serial numbers",
-        "That gearbox oil is at maximum level",
-        "That rotor RPM equals engine RPM"
+        "Permit the rotor system to overrun the engine when engine speed falls below rotor-drive speed.",
+        "Prevent the rotor from turning faster than the engine at any time.",
+        "Disconnect the tail rotor whenever collective pitch is lowered.",
+        "Provide a mechanical rotor brake in flight."
       ],
       "answer": 0,
-      "explanation": "Blade tracking checks whether rotor blade tips follow the same path; balance corrects mass/aerodynamic imbalance."
+      "explanation": "It automatically disconnects engine torque when the driven system overruns the engine.",
+      "concept": "AF-C013"
     },
     {
       "id": "AF062",
-      "section": "15.2",
-      "topic": "Rotor Tracking and Balance",
-      "question": "Which statement is correct regarding this subject: what does rotor blade tracking primarily verify?",
+      "section": "14",
+      "topic": "Freewheeling unit",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the purpose of a helicopter freewheeling unit?",
       "options": [
-        "That all blades have identical serial numbers",
-        "That gearbox oil is at maximum level",
-        "That rotor RPM equals engine RPM",
-        "That blade tips follow the same rotational path"
+        "Prevent the rotor from turning faster than the engine at any time.",
+        "Disconnect the tail rotor whenever collective pitch is lowered.",
+        "Provide a mechanical rotor brake in flight.",
+        "Permit the rotor system to overrun the engine when engine speed falls below rotor-drive speed."
       ],
       "answer": 3,
-      "explanation": "Blade tracking checks whether rotor blade tips follow the same path; balance corrects mass/aerodynamic imbalance."
+      "explanation": "It automatically disconnects engine torque when the driven system overruns the engine.",
+      "concept": "AF-C013"
     },
     {
       "id": "AF063",
-      "section": "15.2",
-      "topic": "Rotor Tracking and Balance",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does rotor blade tracking primarily verify?",
+      "section": "14",
+      "topic": "Freewheeling unit",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the purpose of a helicopter freewheeling unit?",
       "options": [
-        "That gearbox oil is at maximum level",
-        "That rotor RPM equals engine RPM",
-        "That blade tips follow the same rotational path",
-        "That all blades have identical serial numbers"
+        "Disconnect the tail rotor whenever collective pitch is lowered.",
+        "Provide a mechanical rotor brake in flight.",
+        "Permit the rotor system to overrun the engine when engine speed falls below rotor-drive speed.",
+        "Prevent the rotor from turning faster than the engine at any time."
       ],
       "answer": 2,
-      "explanation": "Blade tracking checks whether rotor blade tips follow the same path; balance corrects mass/aerodynamic imbalance."
+      "explanation": "It automatically disconnects engine torque when the driven system overruns the engine.",
+      "concept": "AF-C013"
     },
     {
       "id": "AF064",
-      "section": "15.2",
-      "topic": "Rotor Tracking and Balance",
-      "question": "An AME is reviewing this system. What does rotor blade tracking primarily verify?",
+      "section": "14",
+      "topic": "Freewheeling unit",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the purpose of a helicopter freewheeling unit?",
       "options": [
-        "That rotor RPM equals engine RPM",
-        "That blade tips follow the same rotational path",
-        "That all blades have identical serial numbers",
-        "That gearbox oil is at maximum level"
+        "Provide a mechanical rotor brake in flight.",
+        "Permit the rotor system to overrun the engine when engine speed falls below rotor-drive speed.",
+        "Prevent the rotor from turning faster than the engine at any time.",
+        "Disconnect the tail rotor whenever collective pitch is lowered."
       ],
       "answer": 1,
-      "explanation": "Blade tracking checks whether rotor blade tips follow the same path; balance corrects mass/aerodynamic imbalance."
+      "explanation": "It automatically disconnects engine torque when the driven system overruns the engine.",
+      "concept": "AF-C013"
     },
     {
       "id": "AF065",
-      "section": "15.3",
-      "topic": "Drive Shafts",
-      "question": "Why are flexible couplings used in helicopter drive shafts?",
+      "section": "14",
+      "topic": "Freewheeling unit",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the purpose of a helicopter freewheeling unit?",
       "options": [
-        "To transmit torque while accommodating limited misalignment",
-        "To increase fuel pressure",
-        "To provide rotor braking",
-        "To adjust collective pitch"
+        "Permit the rotor system to overrun the engine when engine speed falls below rotor-drive speed.",
+        "Prevent the rotor from turning faster than the engine at any time.",
+        "Disconnect the tail rotor whenever collective pitch is lowered.",
+        "Provide a mechanical rotor brake in flight."
       ],
       "answer": 0,
-      "explanation": "Flexible couplings in rotor drive systems accommodate limited misalignment and transmit torque."
+      "explanation": "It automatically disconnects engine torque when the driven system overruns the engine.",
+      "concept": "AF-C013"
     },
     {
       "id": "AF066",
-      "section": "15.3",
-      "topic": "Drive Shafts",
-      "question": "Which statement is correct regarding this subject: why are flexible couplings used in helicopter drive shafts?",
+      "section": "16",
+      "topic": "Structural stress",
+      "difficulty": "Exam-style",
+      "question": "Which load is primarily associated with one part of a material tending to slide past an adjacent part?",
       "options": [
-        "To increase fuel pressure",
-        "To provide rotor braking",
-        "To adjust collective pitch",
-        "To transmit torque while accommodating limited misalignment"
+        "Bearing.",
+        "Torsion.",
+        "Compression.",
+        "Shear."
       ],
       "answer": 3,
-      "explanation": "Flexible couplings in rotor drive systems accommodate limited misalignment and transmit torque."
+      "explanation": "Shear acts parallel to a plane and tends to slide adjacent material portions.",
+      "concept": "AF-C014"
     },
     {
       "id": "AF067",
-      "section": "15.3",
-      "topic": "Drive Shafts",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why are flexible couplings used in helicopter drive shafts?",
+      "section": "16",
+      "topic": "Structural stress",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which load is primarily associated with one part of a material tending to slide past an adjacent part?",
       "options": [
-        "To provide rotor braking",
-        "To adjust collective pitch",
-        "To transmit torque while accommodating limited misalignment",
-        "To increase fuel pressure"
+        "Torsion.",
+        "Compression.",
+        "Shear.",
+        "Bearing."
       ],
       "answer": 2,
-      "explanation": "Flexible couplings in rotor drive systems accommodate limited misalignment and transmit torque."
+      "explanation": "Shear acts parallel to a plane and tends to slide adjacent material portions.",
+      "concept": "AF-C014"
     },
     {
       "id": "AF068",
-      "section": "15.3",
-      "topic": "Drive Shafts",
-      "question": "An AME is reviewing this system. Why are flexible couplings used in helicopter drive shafts?",
+      "section": "16",
+      "topic": "Structural stress",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which load is primarily associated with one part of a material tending to slide past an adjacent part?",
       "options": [
-        "To adjust collective pitch",
-        "To transmit torque while accommodating limited misalignment",
-        "To increase fuel pressure",
-        "To provide rotor braking"
+        "Compression.",
+        "Shear.",
+        "Bearing.",
+        "Torsion."
       ],
       "answer": 1,
-      "explanation": "Flexible couplings in rotor drive systems accommodate limited misalignment and transmit torque."
+      "explanation": "Shear acts parallel to a plane and tends to slide adjacent material portions.",
+      "concept": "AF-C014"
     },
     {
       "id": "AF069",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "Which stress tends to make adjacent portions of material slide past each other?",
+      "section": "16",
+      "topic": "Structural stress",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which load is primarily associated with one part of a material tending to slide past an adjacent part?",
       "options": [
-        "Shear",
-        "Tension",
-        "Compression",
-        "Torsion"
+        "Shear.",
+        "Bearing.",
+        "Torsion.",
+        "Compression."
       ],
       "answer": 0,
-      "explanation": "Tension pulls material apart, compression pushes it together, shear tends to slide adjacent portions, torsion twists, and bending combines tension and compression."
+      "explanation": "Shear acts parallel to a plane and tends to slide adjacent material portions.",
+      "concept": "AF-C014"
     },
     {
       "id": "AF070",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "Which statement is correct regarding this subject: which stress tends to make adjacent portions of material slide past each other?",
+      "section": "16",
+      "topic": "Structural stress",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which load is primarily associated with one part of a material tending to slide past an adjacent part?",
       "options": [
-        "Tension",
-        "Compression",
-        "Torsion",
-        "Shear"
+        "Bearing.",
+        "Torsion.",
+        "Compression.",
+        "Shear."
       ],
       "answer": 3,
-      "explanation": "Tension pulls material apart, compression pushes it together, shear tends to slide adjacent portions, torsion twists, and bending combines tension and compression."
+      "explanation": "Shear acts parallel to a plane and tends to slide adjacent material portions.",
+      "concept": "AF-C014"
     },
     {
       "id": "AF071",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which stress tends to make adjacent portions of material slide past each other?",
+      "section": "16",
+      "topic": "Crack repair",
+      "difficulty": "Exam-style",
+      "question": "A small crack is found in primary structure. Which action is acceptable?",
       "options": [
-        "Compression",
-        "Torsion",
-        "Shear",
-        "Tension"
+        "Stop-drill first, then consult the SRM only if the crack returns.",
+        "Blend out the crack until it is no longer visible.",
+        "Use stop-drilling only if the applicable approved repair data specifically permits it.",
+        "Stop-drill the crack whenever its length is below the local fastener pitch."
       ],
       "answer": 2,
-      "explanation": "Tension pulls material apart, compression pushes it together, shear tends to slide adjacent portions, torsion twists, and bending combines tension and compression."
+      "explanation": "Crack disposition is controlled by approved maintenance/repair data; stop-drilling is not universally acceptable.",
+      "concept": "AF-C015"
     },
     {
       "id": "AF072",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "An AME is reviewing this system. Which stress tends to make adjacent portions of material slide past each other?",
+      "section": "16",
+      "topic": "Crack repair",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A small crack is found in primary structure. Which action is acceptable?",
       "options": [
-        "Torsion",
-        "Shear",
-        "Tension",
-        "Compression"
+        "Blend out the crack until it is no longer visible.",
+        "Use stop-drilling only if the applicable approved repair data specifically permits it.",
+        "Stop-drill the crack whenever its length is below the local fastener pitch.",
+        "Stop-drill first, then consult the SRM only if the crack returns."
       ],
       "answer": 1,
-      "explanation": "Tension pulls material apart, compression pushes it together, shear tends to slide adjacent portions, torsion twists, and bending combines tension and compression."
+      "explanation": "Crack disposition is controlled by approved maintenance/repair data; stop-drilling is not universally acceptable.",
+      "concept": "AF-C015"
     },
     {
       "id": "AF073",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "What type of stress results primarily from twisting?",
+      "section": "16",
+      "topic": "Crack repair",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A small crack is found in primary structure. Which action is acceptable?",
       "options": [
-        "Torsion",
-        "Shear only",
-        "Compression only",
-        "Bearing"
+        "Use stop-drilling only if the applicable approved repair data specifically permits it.",
+        "Stop-drill the crack whenever its length is below the local fastener pitch.",
+        "Stop-drill first, then consult the SRM only if the crack returns.",
+        "Blend out the crack until it is no longer visible."
       ],
       "answer": 0,
-      "explanation": "Torsion is a twisting stress created by opposing rotational forces."
+      "explanation": "Crack disposition is controlled by approved maintenance/repair data; stop-drilling is not universally acceptable.",
+      "concept": "AF-C015"
     },
     {
       "id": "AF074",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "Which statement is correct regarding this subject: what type of stress results primarily from twisting?",
+      "section": "16",
+      "topic": "Crack repair",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A small crack is found in primary structure. Which action is acceptable?",
       "options": [
-        "Shear only",
-        "Compression only",
-        "Bearing",
-        "Torsion"
+        "Stop-drill the crack whenever its length is below the local fastener pitch.",
+        "Stop-drill first, then consult the SRM only if the crack returns.",
+        "Blend out the crack until it is no longer visible.",
+        "Use stop-drilling only if the applicable approved repair data specifically permits it."
       ],
       "answer": 3,
-      "explanation": "Torsion is a twisting stress created by opposing rotational forces."
+      "explanation": "Crack disposition is controlled by approved maintenance/repair data; stop-drilling is not universally acceptable.",
+      "concept": "AF-C015"
     },
     {
       "id": "AF075",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What type of stress results primarily from twisting?",
+      "section": "16",
+      "topic": "Crack repair",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A small crack is found in primary structure. Which action is acceptable?",
       "options": [
-        "Compression only",
-        "Bearing",
-        "Torsion",
-        "Shear only"
+        "Stop-drill first, then consult the SRM only if the crack returns.",
+        "Blend out the crack until it is no longer visible.",
+        "Use stop-drilling only if the applicable approved repair data specifically permits it.",
+        "Stop-drill the crack whenever its length is below the local fastener pitch."
       ],
       "answer": 2,
-      "explanation": "Torsion is a twisting stress created by opposing rotational forces."
+      "explanation": "Crack disposition is controlled by approved maintenance/repair data; stop-drilling is not universally acceptable.",
+      "concept": "AF-C015"
     },
     {
       "id": "AF076",
-      "section": "16.2",
-      "topic": "Structural Stress",
-      "question": "An AME is reviewing this system. What type of stress results primarily from twisting?",
+      "section": "17",
+      "topic": "Composite damage",
+      "difficulty": "Exam-style",
+      "question": "A bonded honeycomb panel has no visible skin damage but gives a distinctly dull area during an approved tap test. What is the most likely concern?",
       "options": [
-        "Bearing",
-        "Torsion",
-        "Shear only",
-        "Compression only"
+        "Loss of electrical bonding between the panel and airframe.",
+        "A skin-to-core disbond or internal delamination.",
+        "Correct adhesive cure in the tested area.",
+        "Moisture only; a disbond would always be visually apparent."
       ],
       "answer": 1,
-      "explanation": "Torsion is a twisting stress created by opposing rotational forces."
+      "explanation": "A local change in acoustic response can indicate loss of bond or laminate integrity.",
+      "concept": "AF-C016"
     },
     {
       "id": "AF077",
-      "section": "16.1",
-      "topic": "Metal Structure",
-      "question": "When may stop-drilling a structural crack be used as a repair action?",
+      "section": "17",
+      "topic": "Composite damage",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A bonded honeycomb panel has no visible skin damage but gives a distinctly dull area during an approved tap test. What is the most likely concern?",
       "options": [
-        "Only when approved repair data specifically permits it",
-        "Whenever the crack is shorter than 25 mm",
-        "Whenever the crack is not visible from outside",
-        "Any time a technician believes it is adequate"
+        "A skin-to-core disbond or internal delamination.",
+        "Correct adhesive cure in the tested area.",
+        "Moisture only; a disbond would always be visually apparent.",
+        "Loss of electrical bonding between the panel and airframe."
       ],
       "answer": 0,
-      "explanation": "A crack stop-drill is only an approved action when specifically permitted by applicable repair data; it is not a universal crack repair."
+      "explanation": "A local change in acoustic response can indicate loss of bond or laminate integrity.",
+      "concept": "AF-C016"
     },
     {
       "id": "AF078",
-      "section": "16.1",
-      "topic": "Metal Structure",
-      "question": "Which statement is correct regarding this subject: when may stop-drilling a structural crack be used as a repair action?",
+      "section": "17",
+      "topic": "Composite damage",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A bonded honeycomb panel has no visible skin damage but gives a distinctly dull area during an approved tap test. What is the most likely concern?",
       "options": [
-        "Whenever the crack is shorter than 25 mm",
-        "Whenever the crack is not visible from outside",
-        "Any time a technician believes it is adequate",
-        "Only when approved repair data specifically permits it"
+        "Correct adhesive cure in the tested area.",
+        "Moisture only; a disbond would always be visually apparent.",
+        "Loss of electrical bonding between the panel and airframe.",
+        "A skin-to-core disbond or internal delamination."
       ],
       "answer": 3,
-      "explanation": "A crack stop-drill is only an approved action when specifically permitted by applicable repair data; it is not a universal crack repair."
+      "explanation": "A local change in acoustic response can indicate loss of bond or laminate integrity.",
+      "concept": "AF-C016"
     },
     {
       "id": "AF079",
-      "section": "16.1",
-      "topic": "Metal Structure",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? When may stop-drilling a structural crack be used as a repair action?",
+      "section": "17",
+      "topic": "Composite damage",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A bonded honeycomb panel has no visible skin damage but gives a distinctly dull area during an approved tap test. What is the most likely concern?",
       "options": [
-        "Whenever the crack is not visible from outside",
-        "Any time a technician believes it is adequate",
-        "Only when approved repair data specifically permits it",
-        "Whenever the crack is shorter than 25 mm"
+        "Moisture only; a disbond would always be visually apparent.",
+        "Loss of electrical bonding between the panel and airframe.",
+        "A skin-to-core disbond or internal delamination.",
+        "Correct adhesive cure in the tested area."
       ],
       "answer": 2,
-      "explanation": "A crack stop-drill is only an approved action when specifically permitted by applicable repair data; it is not a universal crack repair."
+      "explanation": "A local change in acoustic response can indicate loss of bond or laminate integrity.",
+      "concept": "AF-C016"
     },
     {
       "id": "AF080",
-      "section": "16.1",
-      "topic": "Metal Structure",
-      "question": "An AME is reviewing this system. When may stop-drilling a structural crack be used as a repair action?",
+      "section": "17",
+      "topic": "Composite damage",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A bonded honeycomb panel has no visible skin damage but gives a distinctly dull area during an approved tap test. What is the most likely concern?",
       "options": [
-        "Any time a technician believes it is adequate",
-        "Only when approved repair data specifically permits it",
-        "Whenever the crack is shorter than 25 mm",
-        "Whenever the crack is not visible from outside"
+        "Loss of electrical bonding between the panel and airframe.",
+        "A skin-to-core disbond or internal delamination.",
+        "Correct adhesive cure in the tested area.",
+        "Moisture only; a disbond would always be visually apparent."
       ],
       "answer": 1,
-      "explanation": "A crack stop-drill is only an approved action when specifically permitted by applicable repair data; it is not a universal crack repair."
+      "explanation": "A local change in acoustic response can indicate loss of bond or laminate integrity.",
+      "concept": "AF-C016"
     },
     {
       "id": "AF081",
-      "section": "17.4",
-      "topic": "Composites",
-      "question": "What is delamination in a composite structure?",
+      "section": "17",
+      "topic": "Composite repair",
+      "difficulty": "Exam-style",
+      "question": "Why must damaged composite structure be dried when required before an approved bonded repair?",
       "options": [
-        "Separation between laminate plies",
-        "Surface oxidation of aluminum",
-        "Stretching of a control cable",
-        "Loss of tire tread"
+        "Trapped moisture can impair bond quality and may expand during cure.",
+        "Drying increases fibre tensile strength above original design values.",
+        "Moisture is acceptable if additional adhesive is applied.",
+        "Drying is only cosmetic and does not affect the repair."
       ],
       "answer": 0,
-      "explanation": "Composite delamination is separation between laminate plies and may be difficult to detect visually."
+      "explanation": "Moisture can interfere with adhesive bonding and heat-cure processes.",
+      "concept": "AF-C017"
     },
     {
       "id": "AF082",
-      "section": "17.4",
-      "topic": "Composites",
-      "question": "Which statement is correct regarding this subject: what is delamination in a composite structure?",
+      "section": "17",
+      "topic": "Composite repair",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why must damaged composite structure be dried when required before an approved bonded repair?",
       "options": [
-        "Surface oxidation of aluminum",
-        "Stretching of a control cable",
-        "Loss of tire tread",
-        "Separation between laminate plies"
+        "Drying increases fibre tensile strength above original design values.",
+        "Moisture is acceptable if additional adhesive is applied.",
+        "Drying is only cosmetic and does not affect the repair.",
+        "Trapped moisture can impair bond quality and may expand during cure."
       ],
       "answer": 3,
-      "explanation": "Composite delamination is separation between laminate plies and may be difficult to detect visually."
+      "explanation": "Moisture can interfere with adhesive bonding and heat-cure processes.",
+      "concept": "AF-C017"
     },
     {
       "id": "AF083",
-      "section": "17.4",
-      "topic": "Composites",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is delamination in a composite structure?",
+      "section": "17",
+      "topic": "Composite repair",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why must damaged composite structure be dried when required before an approved bonded repair?",
       "options": [
-        "Stretching of a control cable",
-        "Loss of tire tread",
-        "Separation between laminate plies",
-        "Surface oxidation of aluminum"
+        "Moisture is acceptable if additional adhesive is applied.",
+        "Drying is only cosmetic and does not affect the repair.",
+        "Trapped moisture can impair bond quality and may expand during cure.",
+        "Drying increases fibre tensile strength above original design values."
       ],
       "answer": 2,
-      "explanation": "Composite delamination is separation between laminate plies and may be difficult to detect visually."
+      "explanation": "Moisture can interfere with adhesive bonding and heat-cure processes.",
+      "concept": "AF-C017"
     },
     {
       "id": "AF084",
-      "section": "17.4",
-      "topic": "Composites",
-      "question": "An AME is reviewing this system. What is delamination in a composite structure?",
+      "section": "17",
+      "topic": "Composite repair",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why must damaged composite structure be dried when required before an approved bonded repair?",
       "options": [
-        "Loss of tire tread",
-        "Separation between laminate plies",
-        "Surface oxidation of aluminum",
-        "Stretching of a control cable"
+        "Drying is only cosmetic and does not affect the repair.",
+        "Trapped moisture can impair bond quality and may expand during cure.",
+        "Drying increases fibre tensile strength above original design values.",
+        "Moisture is acceptable if additional adhesive is applied."
       ],
       "answer": 1,
-      "explanation": "Composite delamination is separation between laminate plies and may be difficult to detect visually."
+      "explanation": "Moisture can interfere with adhesive bonding and heat-cure processes.",
+      "concept": "AF-C017"
     },
     {
       "id": "AF085",
-      "section": "17.5",
-      "topic": "Honeycomb",
-      "question": "What may a change in sound during an approved tap test indicate on a bonded honeycomb panel?",
+      "section": "17",
+      "topic": "Composite repair",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why must damaged composite structure be dried when required before an approved bonded repair?",
       "options": [
-        "A possible disbond",
-        "Correct resin cure",
-        "Excessive tire pressure",
-        "Normal electrical bonding"
+        "Trapped moisture can impair bond quality and may expand during cure.",
+        "Drying increases fibre tensile strength above original design values.",
+        "Moisture is acceptable if additional adhesive is applied.",
+        "Drying is only cosmetic and does not affect the repair."
       ],
       "answer": 0,
-      "explanation": "A tap test can indicate a disbond in some bonded honeycomb structures by a change in sound, when approved by maintenance data."
+      "explanation": "Moisture can interfere with adhesive bonding and heat-cure processes.",
+      "concept": "AF-C017"
     },
     {
       "id": "AF086",
-      "section": "17.5",
-      "topic": "Honeycomb",
-      "question": "Which statement is correct regarding this subject: what may a change in sound during an approved tap test indicate on a bonded honeycomb panel?",
+      "section": "19",
+      "topic": "Weld inspection",
+      "difficulty": "Exam-style",
+      "question": "Which weld condition is most likely to require rejection or engineering evaluation?",
       "options": [
-        "Correct resin cure",
-        "Excessive tire pressure",
-        "Normal electrical bonding",
-        "A possible disbond"
+        "A smooth transition with profile within the approved limits.",
+        "Uniform reinforcement within the specified limit.",
+        "Normal heat tint where allowed by the process.",
+        "A crack extending from the weld toe."
       ],
       "answer": 3,
-      "explanation": "A tap test can indicate a disbond in some bonded honeycomb structures by a change in sound, when approved by maintenance data."
+      "explanation": "Cracking is a significant weld defect and must be evaluated to approved criteria.",
+      "concept": "AF-C018"
     },
     {
       "id": "AF087",
-      "section": "17.5",
-      "topic": "Honeycomb",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What may a change in sound during an approved tap test indicate on a bonded honeycomb panel?",
+      "section": "19",
+      "topic": "Weld inspection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which weld condition is most likely to require rejection or engineering evaluation?",
       "options": [
-        "Excessive tire pressure",
-        "Normal electrical bonding",
-        "A possible disbond",
-        "Correct resin cure"
+        "Uniform reinforcement within the specified limit.",
+        "Normal heat tint where allowed by the process.",
+        "A crack extending from the weld toe.",
+        "A smooth transition with profile within the approved limits."
       ],
       "answer": 2,
-      "explanation": "A tap test can indicate a disbond in some bonded honeycomb structures by a change in sound, when approved by maintenance data."
+      "explanation": "Cracking is a significant weld defect and must be evaluated to approved criteria.",
+      "concept": "AF-C018"
     },
     {
       "id": "AF088",
-      "section": "17.5",
-      "topic": "Honeycomb",
-      "question": "An AME is reviewing this system. What may a change in sound during an approved tap test indicate on a bonded honeycomb panel?",
+      "section": "19",
+      "topic": "Weld inspection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which weld condition is most likely to require rejection or engineering evaluation?",
       "options": [
-        "Normal electrical bonding",
-        "A possible disbond",
-        "Correct resin cure",
-        "Excessive tire pressure"
+        "Normal heat tint where allowed by the process.",
+        "A crack extending from the weld toe.",
+        "A smooth transition with profile within the approved limits.",
+        "Uniform reinforcement within the specified limit."
       ],
       "answer": 1,
-      "explanation": "A tap test can indicate a disbond in some bonded honeycomb structures by a change in sound, when approved by maintenance data."
+      "explanation": "Cracking is a significant weld defect and must be evaluated to approved criteria.",
+      "concept": "AF-C018"
     },
     {
       "id": "AF089",
-      "section": "18.2",
-      "topic": "Fabric Covering",
-      "question": "Why is visual appearance alone insufficient to determine aircraft fabric serviceability?",
+      "section": "19",
+      "topic": "Weld inspection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which weld condition is most likely to require rejection or engineering evaluation?",
       "options": [
-        "Fabric can lose strength without obvious visual damage",
-        "Fabric strength always increases with age",
-        "Paint thickness determines all fabric strength",
-        "Only colour affects fabric airworthiness"
+        "A crack extending from the weld toe.",
+        "A smooth transition with profile within the approved limits.",
+        "Uniform reinforcement within the specified limit.",
+        "Normal heat tint where allowed by the process."
       ],
       "answer": 0,
-      "explanation": "Fabric condition and strength must be assessed by approved inspection methods; appearance alone is not sufficient."
+      "explanation": "Cracking is a significant weld defect and must be evaluated to approved criteria.",
+      "concept": "AF-C018"
     },
     {
       "id": "AF090",
-      "section": "18.2",
-      "topic": "Fabric Covering",
-      "question": "Which statement is correct regarding this subject: why is visual appearance alone insufficient to determine aircraft fabric serviceability?",
+      "section": "19",
+      "topic": "Weld inspection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which weld condition is most likely to require rejection or engineering evaluation?",
       "options": [
-        "Fabric strength always increases with age",
-        "Paint thickness determines all fabric strength",
-        "Only colour affects fabric airworthiness",
-        "Fabric can lose strength without obvious visual damage"
+        "A smooth transition with profile within the approved limits.",
+        "Uniform reinforcement within the specified limit.",
+        "Normal heat tint where allowed by the process.",
+        "A crack extending from the weld toe."
       ],
       "answer": 3,
-      "explanation": "Fabric condition and strength must be assessed by approved inspection methods; appearance alone is not sufficient."
+      "explanation": "Cracking is a significant weld defect and must be evaluated to approved criteria.",
+      "concept": "AF-C018"
     },
     {
       "id": "AF091",
-      "section": "18.2",
-      "topic": "Fabric Covering",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is visual appearance alone insufficient to determine aircraft fabric serviceability?",
+      "section": "21",
+      "topic": "Ice protection",
+      "difficulty": "Exam-style",
+      "question": "Which statement correctly distinguishes anti-icing from de-icing?",
       "options": [
-        "Paint thickness determines all fabric strength",
-        "Only colour affects fabric airworthiness",
-        "Fabric can lose strength without obvious visual damage",
-        "Fabric strength always increases with age"
+        "Anti-icing is always thermal and de-icing is always pneumatic.",
+        "The terms refer only to ground procedures.",
+        "Anti-icing prevents or delays accumulation; de-icing removes ice after it has formed.",
+        "Anti-icing removes existing ice; de-icing prevents any ice from forming."
       ],
       "answer": 2,
-      "explanation": "Fabric condition and strength must be assessed by approved inspection methods; appearance alone is not sufficient."
+      "explanation": "The distinction is based on prevention versus removal, not the energy source.",
+      "concept": "AF-C019"
     },
     {
       "id": "AF092",
-      "section": "18.2",
-      "topic": "Fabric Covering",
-      "question": "An AME is reviewing this system. Why is visual appearance alone insufficient to determine aircraft fabric serviceability?",
+      "section": "21",
+      "topic": "Ice protection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which statement correctly distinguishes anti-icing from de-icing?",
       "options": [
-        "Only colour affects fabric airworthiness",
-        "Fabric can lose strength without obvious visual damage",
-        "Fabric strength always increases with age",
-        "Paint thickness determines all fabric strength"
+        "The terms refer only to ground procedures.",
+        "Anti-icing prevents or delays accumulation; de-icing removes ice after it has formed.",
+        "Anti-icing removes existing ice; de-icing prevents any ice from forming.",
+        "Anti-icing is always thermal and de-icing is always pneumatic."
       ],
       "answer": 1,
-      "explanation": "Fabric condition and strength must be assessed by approved inspection methods; appearance alone is not sufficient."
+      "explanation": "The distinction is based on prevention versus removal, not the energy source.",
+      "concept": "AF-C019"
     },
     {
       "id": "AF093",
-      "section": "19.1",
-      "topic": "Weld Inspection",
-      "question": "Which finding is a weld defect requiring evaluation?",
+      "section": "21",
+      "topic": "Ice protection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which statement correctly distinguishes anti-icing from de-icing?",
       "options": [
-        "Cracking at or adjacent to the weld",
-        "Uniform bead profile within limits",
-        "Correct penetration per approved data",
-        "Acceptable surface finish"
+        "Anti-icing prevents or delays accumulation; de-icing removes ice after it has formed.",
+        "Anti-icing removes existing ice; de-icing prevents any ice from forming.",
+        "Anti-icing is always thermal and de-icing is always pneumatic.",
+        "The terms refer only to ground procedures."
       ],
       "answer": 0,
-      "explanation": "Welds are inspected for defects such as cracks, porosity, undercut, incomplete fusion and distortion."
+      "explanation": "The distinction is based on prevention versus removal, not the energy source.",
+      "concept": "AF-C019"
     },
     {
       "id": "AF094",
-      "section": "19.1",
-      "topic": "Weld Inspection",
-      "question": "Which statement is correct regarding this subject: which finding is a weld defect requiring evaluation?",
+      "section": "21",
+      "topic": "Ice protection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which statement correctly distinguishes anti-icing from de-icing?",
       "options": [
-        "Uniform bead profile within limits",
-        "Correct penetration per approved data",
-        "Acceptable surface finish",
-        "Cracking at or adjacent to the weld"
+        "Anti-icing removes existing ice; de-icing prevents any ice from forming.",
+        "Anti-icing is always thermal and de-icing is always pneumatic.",
+        "The terms refer only to ground procedures.",
+        "Anti-icing prevents or delays accumulation; de-icing removes ice after it has formed."
       ],
       "answer": 3,
-      "explanation": "Welds are inspected for defects such as cracks, porosity, undercut, incomplete fusion and distortion."
+      "explanation": "The distinction is based on prevention versus removal, not the energy source.",
+      "concept": "AF-C019"
     },
     {
       "id": "AF095",
-      "section": "19.1",
-      "topic": "Weld Inspection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which finding is a weld defect requiring evaluation?",
+      "section": "21",
+      "topic": "Ice protection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which statement correctly distinguishes anti-icing from de-icing?",
       "options": [
-        "Correct penetration per approved data",
-        "Acceptable surface finish",
-        "Cracking at or adjacent to the weld",
-        "Uniform bead profile within limits"
+        "Anti-icing is always thermal and de-icing is always pneumatic.",
+        "The terms refer only to ground procedures.",
+        "Anti-icing prevents or delays accumulation; de-icing removes ice after it has formed.",
+        "Anti-icing removes existing ice; de-icing prevents any ice from forming."
       ],
       "answer": 2,
-      "explanation": "Welds are inspected for defects such as cracks, porosity, undercut, incomplete fusion and distortion."
+      "explanation": "The distinction is based on prevention versus removal, not the energy source.",
+      "concept": "AF-C019"
     },
     {
       "id": "AF096",
-      "section": "19.1",
-      "topic": "Weld Inspection",
-      "question": "An AME is reviewing this system. Which finding is a weld defect requiring evaluation?",
+      "section": "21",
+      "topic": "Pneumatic boots",
+      "difficulty": "Exam-style",
+      "question": "Why are pneumatic de-ice boots normally operated according to a specified cycling procedure rather than left continuously inflated?",
       "options": [
-        "Acceptable surface finish",
-        "Cracking at or adjacent to the weld",
-        "Uniform bead profile within limits",
-        "Correct penetration per approved data"
+        "The boots require engine oil pressure to deflate.",
+        "They are designed to inflate and deflate cyclically to fracture accumulated ice while preserving the aerodynamic shape between cycles.",
+        "Continuous inflation would provide excessive heating to the leading edge.",
+        "Continuous inflation would cause the boots to act as anti-ice heaters."
       ],
       "answer": 1,
-      "explanation": "Welds are inspected for defects such as cracks, porosity, undercut, incomplete fusion and distortion."
+      "explanation": "Boot systems remove ice by cyclic shape change; continuous inflation is not their normal operating principle.",
+      "concept": "AF-C020"
     },
     {
       "id": "AF097",
-      "section": "20.1",
-      "topic": "Painting and Finishing",
-      "question": "Why is proper surface preparation required before refinishing aircraft metal?",
+      "section": "21",
+      "topic": "Pneumatic boots",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why are pneumatic de-ice boots normally operated according to a specified cycling procedure rather than left continuously inflated?",
       "options": [
-        "To promote coating adhesion and corrosion protection",
-        "To increase structural load limits",
-        "To eliminate the need for primer in all cases",
-        "To change alloy temper"
+        "They are designed to inflate and deflate cyclically to fracture accumulated ice while preserving the aerodynamic shape between cycles.",
+        "Continuous inflation would provide excessive heating to the leading edge.",
+        "Continuous inflation would cause the boots to act as anti-ice heaters.",
+        "The boots require engine oil pressure to deflate."
       ],
       "answer": 0,
-      "explanation": "Surface preparation is essential for coating adhesion and corrosion protection."
+      "explanation": "Boot systems remove ice by cyclic shape change; continuous inflation is not their normal operating principle.",
+      "concept": "AF-C020"
     },
     {
       "id": "AF098",
-      "section": "20.1",
-      "topic": "Painting and Finishing",
-      "question": "Which statement is correct regarding this subject: why is proper surface preparation required before refinishing aircraft metal?",
+      "section": "21",
+      "topic": "Pneumatic boots",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why are pneumatic de-ice boots normally operated according to a specified cycling procedure rather than left continuously inflated?",
       "options": [
-        "To increase structural load limits",
-        "To eliminate the need for primer in all cases",
-        "To change alloy temper",
-        "To promote coating adhesion and corrosion protection"
+        "Continuous inflation would provide excessive heating to the leading edge.",
+        "Continuous inflation would cause the boots to act as anti-ice heaters.",
+        "The boots require engine oil pressure to deflate.",
+        "They are designed to inflate and deflate cyclically to fracture accumulated ice while preserving the aerodynamic shape between cycles."
       ],
       "answer": 3,
-      "explanation": "Surface preparation is essential for coating adhesion and corrosion protection."
+      "explanation": "Boot systems remove ice by cyclic shape change; continuous inflation is not their normal operating principle.",
+      "concept": "AF-C020"
     },
     {
       "id": "AF099",
-      "section": "20.1",
-      "topic": "Painting and Finishing",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is proper surface preparation required before refinishing aircraft metal?",
+      "section": "21",
+      "topic": "Pneumatic boots",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why are pneumatic de-ice boots normally operated according to a specified cycling procedure rather than left continuously inflated?",
       "options": [
-        "To eliminate the need for primer in all cases",
-        "To change alloy temper",
-        "To promote coating adhesion and corrosion protection",
-        "To increase structural load limits"
+        "Continuous inflation would cause the boots to act as anti-ice heaters.",
+        "The boots require engine oil pressure to deflate.",
+        "They are designed to inflate and deflate cyclically to fracture accumulated ice while preserving the aerodynamic shape between cycles.",
+        "Continuous inflation would provide excessive heating to the leading edge."
       ],
       "answer": 2,
-      "explanation": "Surface preparation is essential for coating adhesion and corrosion protection."
+      "explanation": "Boot systems remove ice by cyclic shape change; continuous inflation is not their normal operating principle.",
+      "concept": "AF-C020"
     },
     {
       "id": "AF100",
-      "section": "20.1",
-      "topic": "Painting and Finishing",
-      "question": "An AME is reviewing this system. Why is proper surface preparation required before refinishing aircraft metal?",
+      "section": "21",
+      "topic": "Pneumatic boots",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why are pneumatic de-ice boots normally operated according to a specified cycling procedure rather than left continuously inflated?",
       "options": [
-        "To change alloy temper",
-        "To promote coating adhesion and corrosion protection",
-        "To increase structural load limits",
-        "To eliminate the need for primer in all cases"
+        "The boots require engine oil pressure to deflate.",
+        "They are designed to inflate and deflate cyclically to fracture accumulated ice while preserving the aerodynamic shape between cycles.",
+        "Continuous inflation would provide excessive heating to the leading edge.",
+        "Continuous inflation would cause the boots to act as anti-ice heaters."
       ],
       "answer": 1,
-      "explanation": "Surface preparation is essential for coating adhesion and corrosion protection."
+      "explanation": "Boot systems remove ice by cyclic shape change; continuous inflation is not their normal operating principle.",
+      "concept": "AF-C020"
     },
     {
       "id": "AF101",
-      "section": "21.2",
-      "topic": "Ice Protection",
-      "question": "What best distinguishes anti-ice from de-ice systems?",
+      "section": "22",
+      "topic": "Hydraulics",
+      "difficulty": "Exam-style",
+      "question": "A double-acting hydraulic actuator slowly creeps from a commanded position while external leakage is absent. Which fault is most consistent with this symptom?",
       "options": [
-        "Anti-ice prevents formation; de-ice removes accumulated ice",
-        "Anti-ice is electrical only; de-ice is pneumatic only",
-        "Anti-ice is used only on the ground",
-        "There is no functional difference"
+        "Internal leakage across the actuator piston or a control valve.",
+        "Accumulator precharge slightly above nominal, with all valves seated.",
+        "A reservoir level exactly at the full mark.",
+        "A clogged return-line filter that has not opened its bypass."
       ],
       "answer": 0,
-      "explanation": "Anti-ice systems prevent or reduce ice formation; de-ice systems remove ice after it forms."
+      "explanation": "Creep under load without external leakage points to internal bypass leakage.",
+      "concept": "AF-C021"
     },
     {
       "id": "AF102",
-      "section": "21.2",
-      "topic": "Ice Protection",
-      "question": "Which statement is correct regarding this subject: what best distinguishes anti-ice from de-ice systems?",
+      "section": "22",
+      "topic": "Hydraulics",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A double-acting hydraulic actuator slowly creeps from a commanded position while external leakage is absent. Which fault is most consistent with this symptom?",
       "options": [
-        "Anti-ice is electrical only; de-ice is pneumatic only",
-        "Anti-ice is used only on the ground",
-        "There is no functional difference",
-        "Anti-ice prevents formation; de-ice removes accumulated ice"
+        "Accumulator precharge slightly above nominal, with all valves seated.",
+        "A reservoir level exactly at the full mark.",
+        "A clogged return-line filter that has not opened its bypass.",
+        "Internal leakage across the actuator piston or a control valve."
       ],
       "answer": 3,
-      "explanation": "Anti-ice systems prevent or reduce ice formation; de-ice systems remove ice after it forms."
+      "explanation": "Creep under load without external leakage points to internal bypass leakage.",
+      "concept": "AF-C021"
     },
     {
       "id": "AF103",
-      "section": "21.2",
-      "topic": "Ice Protection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What best distinguishes anti-ice from de-ice systems?",
+      "section": "22",
+      "topic": "Hydraulics",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A double-acting hydraulic actuator slowly creeps from a commanded position while external leakage is absent. Which fault is most consistent with this symptom?",
       "options": [
-        "Anti-ice is used only on the ground",
-        "There is no functional difference",
-        "Anti-ice prevents formation; de-ice removes accumulated ice",
-        "Anti-ice is electrical only; de-ice is pneumatic only"
+        "A reservoir level exactly at the full mark.",
+        "A clogged return-line filter that has not opened its bypass.",
+        "Internal leakage across the actuator piston or a control valve.",
+        "Accumulator precharge slightly above nominal, with all valves seated."
       ],
       "answer": 2,
-      "explanation": "Anti-ice systems prevent or reduce ice formation; de-ice systems remove ice after it forms."
+      "explanation": "Creep under load without external leakage points to internal bypass leakage.",
+      "concept": "AF-C021"
     },
     {
       "id": "AF104",
-      "section": "21.2",
-      "topic": "Ice Protection",
-      "question": "An AME is reviewing this system. What best distinguishes anti-ice from de-ice systems?",
+      "section": "22",
+      "topic": "Hydraulics",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A double-acting hydraulic actuator slowly creeps from a commanded position while external leakage is absent. Which fault is most consistent with this symptom?",
       "options": [
-        "There is no functional difference",
-        "Anti-ice prevents formation; de-ice removes accumulated ice",
-        "Anti-ice is electrical only; de-ice is pneumatic only",
-        "Anti-ice is used only on the ground"
+        "A clogged return-line filter that has not opened its bypass.",
+        "Internal leakage across the actuator piston or a control valve.",
+        "Accumulator precharge slightly above nominal, with all valves seated.",
+        "A reservoir level exactly at the full mark."
       ],
       "answer": 1,
-      "explanation": "Anti-ice systems prevent or reduce ice formation; de-ice systems remove ice after it forms."
+      "explanation": "Creep under load without external leakage points to internal bypass leakage.",
+      "concept": "AF-C021"
     },
     {
       "id": "AF105",
-      "section": "21.3",
-      "topic": "De-ice",
-      "question": "How do pneumatic de-ice boots remove ice?",
+      "section": "22",
+      "topic": "Hydraulics",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A double-acting hydraulic actuator slowly creeps from a commanded position while external leakage is absent. Which fault is most consistent with this symptom?",
       "options": [
-        "They inflate cyclically to break accumulated ice",
-        "They continuously heat the wing skin",
-        "They spray hydraulic fluid on the leading edge",
-        "They reduce cabin pressure"
+        "Internal leakage across the actuator piston or a control valve.",
+        "Accumulator precharge slightly above nominal, with all valves seated.",
+        "A reservoir level exactly at the full mark.",
+        "A clogged return-line filter that has not opened its bypass."
       ],
       "answer": 0,
-      "explanation": "Pneumatic de-ice boots remove ice by cyclic inflation that breaks accumulated ice from protected leading edges."
+      "explanation": "Creep under load without external leakage points to internal bypass leakage.",
+      "concept": "AF-C021"
     },
     {
       "id": "AF106",
-      "section": "21.3",
-      "topic": "De-ice",
-      "question": "Which statement is correct regarding this subject: how do pneumatic de-ice boots remove ice?",
+      "section": "22",
+      "topic": "Accumulator",
+      "difficulty": "Exam-style",
+      "question": "What is a principal function of a hydraulic accumulator?",
       "options": [
-        "They continuously heat the wing skin",
-        "They spray hydraulic fluid on the leading edge",
-        "They reduce cabin pressure",
-        "They inflate cyclically to break accumulated ice"
+        "Maintain system pressure by continuously adding fluid volume from the reservoir.",
+        "Remove entrained air by venting system pressure overboard.",
+        "Set actuator travel limits mechanically.",
+        "Store hydraulic energy and help absorb pressure fluctuations."
       ],
       "answer": 3,
-      "explanation": "Pneumatic de-ice boots remove ice by cyclic inflation that breaks accumulated ice from protected leading edges."
+      "explanation": "An accumulator stores pressurized fluid energy and can damp pulsations/provide reserve pressure.",
+      "concept": "AF-C022"
     },
     {
       "id": "AF107",
-      "section": "21.3",
-      "topic": "De-ice",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? How do pneumatic de-ice boots remove ice?",
+      "section": "22",
+      "topic": "Accumulator",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is a principal function of a hydraulic accumulator?",
       "options": [
-        "They spray hydraulic fluid on the leading edge",
-        "They reduce cabin pressure",
-        "They inflate cyclically to break accumulated ice",
-        "They continuously heat the wing skin"
+        "Remove entrained air by venting system pressure overboard.",
+        "Set actuator travel limits mechanically.",
+        "Store hydraulic energy and help absorb pressure fluctuations.",
+        "Maintain system pressure by continuously adding fluid volume from the reservoir."
       ],
       "answer": 2,
-      "explanation": "Pneumatic de-ice boots remove ice by cyclic inflation that breaks accumulated ice from protected leading edges."
+      "explanation": "An accumulator stores pressurized fluid energy and can damp pulsations/provide reserve pressure.",
+      "concept": "AF-C022"
     },
     {
       "id": "AF108",
-      "section": "21.3",
-      "topic": "De-ice",
-      "question": "An AME is reviewing this system. How do pneumatic de-ice boots remove ice?",
+      "section": "22",
+      "topic": "Accumulator",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is a principal function of a hydraulic accumulator?",
       "options": [
-        "They reduce cabin pressure",
-        "They inflate cyclically to break accumulated ice",
-        "They continuously heat the wing skin",
-        "They spray hydraulic fluid on the leading edge"
+        "Set actuator travel limits mechanically.",
+        "Store hydraulic energy and help absorb pressure fluctuations.",
+        "Maintain system pressure by continuously adding fluid volume from the reservoir.",
+        "Remove entrained air by venting system pressure overboard."
       ],
       "answer": 1,
-      "explanation": "Pneumatic de-ice boots remove ice by cyclic inflation that breaks accumulated ice from protected leading edges."
+      "explanation": "An accumulator stores pressurized fluid energy and can damp pulsations/provide reserve pressure.",
+      "concept": "AF-C022"
     },
     {
       "id": "AF109",
-      "section": "22.2",
-      "topic": "Hydraulics",
-      "question": "What is a common function of a hydraulic accumulator?",
+      "section": "22",
+      "topic": "Accumulator",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is a principal function of a hydraulic accumulator?",
       "options": [
-        "Store hydraulic energy and damp pressure fluctuations",
-        "Remove all air from fuel tanks",
-        "Generate AC electrical power",
-        "Measure pitot pressure"
+        "Store hydraulic energy and help absorb pressure fluctuations.",
+        "Maintain system pressure by continuously adding fluid volume from the reservoir.",
+        "Remove entrained air by venting system pressure overboard.",
+        "Set actuator travel limits mechanically."
       ],
       "answer": 0,
-      "explanation": "A hydraulic accumulator stores energy using pressurized fluid against gas or a spring and can damp pressure fluctuations or provide reserve pressure."
+      "explanation": "An accumulator stores pressurized fluid energy and can damp pulsations/provide reserve pressure.",
+      "concept": "AF-C022"
     },
     {
       "id": "AF110",
-      "section": "22.2",
-      "topic": "Hydraulics",
-      "question": "Which statement is correct regarding this subject: what is a common function of a hydraulic accumulator?",
+      "section": "22",
+      "topic": "Accumulator",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is a principal function of a hydraulic accumulator?",
       "options": [
-        "Remove all air from fuel tanks",
-        "Generate AC electrical power",
-        "Measure pitot pressure",
-        "Store hydraulic energy and damp pressure fluctuations"
+        "Maintain system pressure by continuously adding fluid volume from the reservoir.",
+        "Remove entrained air by venting system pressure overboard.",
+        "Set actuator travel limits mechanically.",
+        "Store hydraulic energy and help absorb pressure fluctuations."
       ],
       "answer": 3,
-      "explanation": "A hydraulic accumulator stores energy using pressurized fluid against gas or a spring and can damp pressure fluctuations or provide reserve pressure."
+      "explanation": "An accumulator stores pressurized fluid energy and can damp pulsations/provide reserve pressure.",
+      "concept": "AF-C022"
     },
     {
       "id": "AF111",
-      "section": "22.2",
-      "topic": "Hydraulics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a common function of a hydraulic accumulator?",
+      "section": "22",
+      "topic": "Hydraulic contamination",
+      "difficulty": "Exam-style",
+      "question": "Which action is most appropriate after finding metallic contamination in a hydraulic filter?",
       "options": [
-        "Generate AC electrical power",
-        "Measure pitot pressure",
-        "Store hydraulic energy and damp pressure fluctuations",
-        "Remove all air from fuel tanks"
+        "Flush only the component immediately downstream of the filter.",
+        "Increase relief-valve pressure to improve flushing action.",
+        "Identify the source and follow the applicable contamination/troubleshooting procedure before release.",
+        "Replace the filter element and release the aircraft if system pressure is normal."
       ],
       "answer": 2,
-      "explanation": "A hydraulic accumulator stores energy using pressurized fluid against gas or a spring and can damp pressure fluctuations or provide reserve pressure."
+      "explanation": "Metal indicates possible component wear; the system must be evaluated per approved data.",
+      "concept": "AF-C023"
     },
     {
       "id": "AF112",
-      "section": "22.2",
-      "topic": "Hydraulics",
-      "question": "An AME is reviewing this system. What is a common function of a hydraulic accumulator?",
+      "section": "22",
+      "topic": "Hydraulic contamination",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which action is most appropriate after finding metallic contamination in a hydraulic filter?",
       "options": [
-        "Measure pitot pressure",
-        "Store hydraulic energy and damp pressure fluctuations",
-        "Remove all air from fuel tanks",
-        "Generate AC electrical power"
+        "Increase relief-valve pressure to improve flushing action.",
+        "Identify the source and follow the applicable contamination/troubleshooting procedure before release.",
+        "Replace the filter element and release the aircraft if system pressure is normal.",
+        "Flush only the component immediately downstream of the filter."
       ],
       "answer": 1,
-      "explanation": "A hydraulic accumulator stores energy using pressurized fluid against gas or a spring and can damp pressure fluctuations or provide reserve pressure."
+      "explanation": "Metal indicates possible component wear; the system must be evaluated per approved data.",
+      "concept": "AF-C023"
     },
     {
       "id": "AF113",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "Which principle explains force transmission in a hydraulic system?",
+      "section": "22",
+      "topic": "Hydraulic contamination",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which action is most appropriate after finding metallic contamination in a hydraulic filter?",
       "options": [
-        "Pascal’s law",
-        "Ohm’s law",
-        "Faraday’s law",
-        "Bernoulli’s theorem only"
+        "Identify the source and follow the applicable contamination/troubleshooting procedure before release.",
+        "Replace the filter element and release the aircraft if system pressure is normal.",
+        "Flush only the component immediately downstream of the filter.",
+        "Increase relief-valve pressure to improve flushing action."
       ],
       "answer": 0,
-      "explanation": "Hydraulic pressure is transmitted essentially undiminished through a confined fluid, consistent with Pascal’s law."
+      "explanation": "Metal indicates possible component wear; the system must be evaluated per approved data.",
+      "concept": "AF-C023"
     },
     {
       "id": "AF114",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "Which statement is correct regarding this subject: which principle explains force transmission in a hydraulic system?",
+      "section": "22",
+      "topic": "Hydraulic contamination",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which action is most appropriate after finding metallic contamination in a hydraulic filter?",
       "options": [
-        "Ohm’s law",
-        "Faraday’s law",
-        "Bernoulli’s theorem only",
-        "Pascal’s law"
+        "Replace the filter element and release the aircraft if system pressure is normal.",
+        "Flush only the component immediately downstream of the filter.",
+        "Increase relief-valve pressure to improve flushing action.",
+        "Identify the source and follow the applicable contamination/troubleshooting procedure before release."
       ],
       "answer": 3,
-      "explanation": "Hydraulic pressure is transmitted essentially undiminished through a confined fluid, consistent with Pascal’s law."
+      "explanation": "Metal indicates possible component wear; the system must be evaluated per approved data.",
+      "concept": "AF-C023"
     },
     {
       "id": "AF115",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which principle explains force transmission in a hydraulic system?",
+      "section": "22",
+      "topic": "Hydraulic contamination",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which action is most appropriate after finding metallic contamination in a hydraulic filter?",
       "options": [
-        "Faraday’s law",
-        "Bernoulli’s theorem only",
-        "Pascal’s law",
-        "Ohm’s law"
+        "Flush only the component immediately downstream of the filter.",
+        "Increase relief-valve pressure to improve flushing action.",
+        "Identify the source and follow the applicable contamination/troubleshooting procedure before release.",
+        "Replace the filter element and release the aircraft if system pressure is normal."
       ],
       "answer": 2,
-      "explanation": "Hydraulic pressure is transmitted essentially undiminished through a confined fluid, consistent with Pascal’s law."
+      "explanation": "Metal indicates possible component wear; the system must be evaluated per approved data.",
+      "concept": "AF-C023"
     },
     {
       "id": "AF116",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "An AME is reviewing this system. Which principle explains force transmission in a hydraulic system?",
+      "section": "23",
+      "topic": "Weight-on-wheels",
+      "difficulty": "Exam-style",
+      "question": "What is a primary purpose of a weight-on-wheels (squat) switch?",
       "options": [
-        "Bernoulli’s theorem only",
-        "Pascal’s law",
-        "Ohm’s law",
-        "Faraday’s law"
+        "Apply normal braking pressure during landing.",
+        "Provide ground/air logic used to enable or inhibit aircraft-system functions.",
+        "Mechanically lock the landing gear down when weight is applied.",
+        "Measure shock-strut extension for tire-pressure correction."
       ],
       "answer": 1,
-      "explanation": "Hydraulic pressure is transmitted essentially undiminished through a confined fluid, consistent with Pascal’s law."
+      "explanation": "WOW logic changes the permitted operation of systems between ground and flight.",
+      "concept": "AF-C024"
     },
     {
       "id": "AF117",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "A hydraulic actuator slowly creeps under load with no external leak. What is a likely cause?",
+      "section": "23",
+      "topic": "Weight-on-wheels",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is a primary purpose of a weight-on-wheels (squat) switch?",
       "options": [
-        "Internal leakage past the piston seal",
-        "Excessive tire pressure",
-        "Open static drain",
-        "Incorrect compass deviation"
+        "Provide ground/air logic used to enable or inhibit aircraft-system functions.",
+        "Mechanically lock the landing gear down when weight is applied.",
+        "Measure shock-strut extension for tire-pressure correction.",
+        "Apply normal braking pressure during landing."
       ],
       "answer": 0,
-      "explanation": "Internal leakage across an actuator piston may cause creeping or inability to hold position without visible external leakage."
+      "explanation": "WOW logic changes the permitted operation of systems between ground and flight.",
+      "concept": "AF-C024"
     },
     {
       "id": "AF118",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "Which statement is correct regarding this subject: a hydraulic actuator slowly creeps under load with no external leak. What is a likely cause?",
+      "section": "23",
+      "topic": "Weight-on-wheels",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is a primary purpose of a weight-on-wheels (squat) switch?",
       "options": [
-        "Excessive tire pressure",
-        "Open static drain",
-        "Incorrect compass deviation",
-        "Internal leakage past the piston seal"
+        "Mechanically lock the landing gear down when weight is applied.",
+        "Measure shock-strut extension for tire-pressure correction.",
+        "Apply normal braking pressure during landing.",
+        "Provide ground/air logic used to enable or inhibit aircraft-system functions."
       ],
       "answer": 3,
-      "explanation": "Internal leakage across an actuator piston may cause creeping or inability to hold position without visible external leakage."
+      "explanation": "WOW logic changes the permitted operation of systems between ground and flight.",
+      "concept": "AF-C024"
     },
     {
       "id": "AF119",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? A hydraulic actuator slowly creeps under load with no external leak. What is a likely cause?",
+      "section": "23",
+      "topic": "Weight-on-wheels",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is a primary purpose of a weight-on-wheels (squat) switch?",
       "options": [
-        "Open static drain",
-        "Incorrect compass deviation",
-        "Internal leakage past the piston seal",
-        "Excessive tire pressure"
+        "Measure shock-strut extension for tire-pressure correction.",
+        "Apply normal braking pressure during landing.",
+        "Provide ground/air logic used to enable or inhibit aircraft-system functions.",
+        "Mechanically lock the landing gear down when weight is applied."
       ],
       "answer": 2,
-      "explanation": "Internal leakage across an actuator piston may cause creeping or inability to hold position without visible external leakage."
+      "explanation": "WOW logic changes the permitted operation of systems between ground and flight.",
+      "concept": "AF-C024"
     },
     {
       "id": "AF120",
-      "section": "22.3",
-      "topic": "Hydraulics",
-      "question": "An AME is reviewing this system. A hydraulic actuator slowly creeps under load with no external leak. What is a likely cause?",
+      "section": "23",
+      "topic": "Weight-on-wheels",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is a primary purpose of a weight-on-wheels (squat) switch?",
       "options": [
-        "Incorrect compass deviation",
-        "Internal leakage past the piston seal",
-        "Excessive tire pressure",
-        "Open static drain"
+        "Apply normal braking pressure during landing.",
+        "Provide ground/air logic used to enable or inhibit aircraft-system functions.",
+        "Mechanically lock the landing gear down when weight is applied.",
+        "Measure shock-strut extension for tire-pressure correction."
       ],
       "answer": 1,
-      "explanation": "Internal leakage across an actuator piston may cause creeping or inability to hold position without visible external leakage."
+      "explanation": "WOW logic changes the permitted operation of systems between ground and flight.",
+      "concept": "AF-C024"
     },
     {
       "id": "AF121",
-      "section": "22.4",
-      "topic": "Pneumatics",
-      "question": "Why is moisture control important in aircraft pneumatic systems?",
+      "section": "23",
+      "topic": "Shimmy",
+      "difficulty": "Exam-style",
+      "question": "A nose wheel begins rapid side-to-side oscillation during taxi. Which component is specifically intended to suppress this motion?",
       "options": [
-        "Moisture can freeze and interfere with system operation",
-        "Moisture increases electrical resistance only",
-        "Moisture improves lubrication",
-        "Moisture prevents corrosion"
+        "The shimmy damper.",
+        "The steering centering cam only.",
+        "The main-gear side brace.",
+        "The anti-skid control valve."
       ],
       "answer": 0,
-      "explanation": "Pneumatic systems use compressed gas; moisture contamination can freeze and cause malfunction in cold conditions."
+      "explanation": "The shimmy damper attenuates rapid nose-wheel steering oscillations.",
+      "concept": "AF-C025"
     },
     {
       "id": "AF122",
-      "section": "22.4",
-      "topic": "Pneumatics",
-      "question": "Which statement is correct regarding this subject: why is moisture control important in aircraft pneumatic systems?",
+      "section": "23",
+      "topic": "Shimmy",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A nose wheel begins rapid side-to-side oscillation during taxi. Which component is specifically intended to suppress this motion?",
       "options": [
-        "Moisture increases electrical resistance only",
-        "Moisture improves lubrication",
-        "Moisture prevents corrosion",
-        "Moisture can freeze and interfere with system operation"
+        "The steering centering cam only.",
+        "The main-gear side brace.",
+        "The anti-skid control valve.",
+        "The shimmy damper."
       ],
       "answer": 3,
-      "explanation": "Pneumatic systems use compressed gas; moisture contamination can freeze and cause malfunction in cold conditions."
+      "explanation": "The shimmy damper attenuates rapid nose-wheel steering oscillations.",
+      "concept": "AF-C025"
     },
     {
       "id": "AF123",
-      "section": "22.4",
-      "topic": "Pneumatics",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is moisture control important in aircraft pneumatic systems?",
+      "section": "23",
+      "topic": "Shimmy",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A nose wheel begins rapid side-to-side oscillation during taxi. Which component is specifically intended to suppress this motion?",
       "options": [
-        "Moisture improves lubrication",
-        "Moisture prevents corrosion",
-        "Moisture can freeze and interfere with system operation",
-        "Moisture increases electrical resistance only"
+        "The main-gear side brace.",
+        "The anti-skid control valve.",
+        "The shimmy damper.",
+        "The steering centering cam only."
       ],
       "answer": 2,
-      "explanation": "Pneumatic systems use compressed gas; moisture contamination can freeze and cause malfunction in cold conditions."
+      "explanation": "The shimmy damper attenuates rapid nose-wheel steering oscillations.",
+      "concept": "AF-C025"
     },
     {
       "id": "AF124",
-      "section": "22.4",
-      "topic": "Pneumatics",
-      "question": "An AME is reviewing this system. Why is moisture control important in aircraft pneumatic systems?",
+      "section": "23",
+      "topic": "Shimmy",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A nose wheel begins rapid side-to-side oscillation during taxi. Which component is specifically intended to suppress this motion?",
       "options": [
-        "Moisture prevents corrosion",
-        "Moisture can freeze and interfere with system operation",
-        "Moisture increases electrical resistance only",
-        "Moisture improves lubrication"
+        "The anti-skid control valve.",
+        "The shimmy damper.",
+        "The steering centering cam only.",
+        "The main-gear side brace."
       ],
       "answer": 1,
-      "explanation": "Pneumatic systems use compressed gas; moisture contamination can freeze and cause malfunction in cold conditions."
+      "explanation": "The shimmy damper attenuates rapid nose-wheel steering oscillations.",
+      "concept": "AF-C025"
     },
     {
       "id": "AF125",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "What is a principal purpose of a weight-on-wheels switch?",
+      "section": "23",
+      "topic": "Shimmy",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A nose wheel begins rapid side-to-side oscillation during taxi. Which component is specifically intended to suppress this motion?",
       "options": [
-        "Provide ground/air logic to aircraft systems",
-        "Set brake hydraulic pressure",
-        "Measure tire temperature",
-        "Balance the nose wheel"
+        "The shimmy damper.",
+        "The steering centering cam only.",
+        "The main-gear side brace.",
+        "The anti-skid control valve."
       ],
       "answer": 0,
-      "explanation": "A squat or weight-on-wheels switch provides ground/air logic used to inhibit or enable functions such as gear retraction."
+      "explanation": "The shimmy damper attenuates rapid nose-wheel steering oscillations.",
+      "concept": "AF-C025"
     },
     {
       "id": "AF126",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "Which statement is correct regarding this subject: what is a principal purpose of a weight-on-wheels switch?",
+      "section": "23",
+      "topic": "Anti-skid",
+      "difficulty": "Exam-style",
+      "question": "What does an anti-skid system normally do when excessive wheel slip is detected during braking?",
       "options": [
-        "Set brake hydraulic pressure",
-        "Measure tire temperature",
-        "Balance the nose wheel",
-        "Provide ground/air logic to aircraft systems"
+        "Increase brake pressure until the wheel fully stops, then release it.",
+        "Release pressure on all wheels whenever one wheel slows.",
+        "Command nose-wheel steering to correct the skid.",
+        "Reduce or modulate brake pressure to allow wheel speed to recover."
       ],
       "answer": 3,
-      "explanation": "A squat or weight-on-wheels switch provides ground/air logic used to inhibit or enable functions such as gear retraction."
+      "explanation": "Anti-skid controls individual brake pressure to avoid excessive slip/lockup.",
+      "concept": "AF-C026"
     },
     {
       "id": "AF127",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a principal purpose of a weight-on-wheels switch?",
+      "section": "23",
+      "topic": "Anti-skid",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What does an anti-skid system normally do when excessive wheel slip is detected during braking?",
       "options": [
-        "Measure tire temperature",
-        "Balance the nose wheel",
-        "Provide ground/air logic to aircraft systems",
-        "Set brake hydraulic pressure"
+        "Release pressure on all wheels whenever one wheel slows.",
+        "Command nose-wheel steering to correct the skid.",
+        "Reduce or modulate brake pressure to allow wheel speed to recover.",
+        "Increase brake pressure until the wheel fully stops, then release it."
       ],
       "answer": 2,
-      "explanation": "A squat or weight-on-wheels switch provides ground/air logic used to inhibit or enable functions such as gear retraction."
+      "explanation": "Anti-skid controls individual brake pressure to avoid excessive slip/lockup.",
+      "concept": "AF-C026"
     },
     {
       "id": "AF128",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "An AME is reviewing this system. What is a principal purpose of a weight-on-wheels switch?",
+      "section": "23",
+      "topic": "Anti-skid",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What does an anti-skid system normally do when excessive wheel slip is detected during braking?",
       "options": [
-        "Balance the nose wheel",
-        "Provide ground/air logic to aircraft systems",
-        "Set brake hydraulic pressure",
-        "Measure tire temperature"
+        "Command nose-wheel steering to correct the skid.",
+        "Reduce or modulate brake pressure to allow wheel speed to recover.",
+        "Increase brake pressure until the wheel fully stops, then release it.",
+        "Release pressure on all wheels whenever one wheel slows."
       ],
       "answer": 1,
-      "explanation": "A squat or weight-on-wheels switch provides ground/air logic used to inhibit or enable functions such as gear retraction."
+      "explanation": "Anti-skid controls individual brake pressure to avoid excessive slip/lockup.",
+      "concept": "AF-C026"
     },
     {
       "id": "AF129",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "What is the function of a landing-gear uplock?",
+      "section": "23",
+      "topic": "Anti-skid",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What does an anti-skid system normally do when excessive wheel slip is detected during braking?",
       "options": [
-        "Hold the gear in the retracted position",
-        "Center the nose wheel during taxi",
-        "Apply wheel brakes automatically",
-        "Extend the shock strut"
+        "Reduce or modulate brake pressure to allow wheel speed to recover.",
+        "Increase brake pressure until the wheel fully stops, then release it.",
+        "Release pressure on all wheels whenever one wheel slows.",
+        "Command nose-wheel steering to correct the skid."
       ],
       "answer": 0,
-      "explanation": "An uplock holds retractable landing gear in the retracted position until commanded to release."
+      "explanation": "Anti-skid controls individual brake pressure to avoid excessive slip/lockup.",
+      "concept": "AF-C026"
     },
     {
       "id": "AF130",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "Which statement is correct regarding this subject: what is the function of a landing-gear uplock?",
+      "section": "23",
+      "topic": "Anti-skid",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What does an anti-skid system normally do when excessive wheel slip is detected during braking?",
       "options": [
-        "Center the nose wheel during taxi",
-        "Apply wheel brakes automatically",
-        "Extend the shock strut",
-        "Hold the gear in the retracted position"
+        "Increase brake pressure until the wheel fully stops, then release it.",
+        "Release pressure on all wheels whenever one wheel slows.",
+        "Command nose-wheel steering to correct the skid.",
+        "Reduce or modulate brake pressure to allow wheel speed to recover."
       ],
       "answer": 3,
-      "explanation": "An uplock holds retractable landing gear in the retracted position until commanded to release."
+      "explanation": "Anti-skid controls individual brake pressure to avoid excessive slip/lockup.",
+      "concept": "AF-C026"
     },
     {
       "id": "AF131",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the function of a landing-gear uplock?",
+      "section": "24",
+      "topic": "Pressurization",
+      "difficulty": "Exam-style",
+      "question": "Cabin altitude is increasing above schedule while adequate conditioned-air supply is available. Which component is most directly responsible for regulating cabin pressure?",
       "options": [
-        "Apply wheel brakes automatically",
-        "Extend the shock strut",
-        "Hold the gear in the retracted position",
-        "Center the nose wheel during taxi"
+        "The engine bleed-air pressure regulator alone.",
+        "The recirculation fan.",
+        "The outflow valve/control system.",
+        "The positive pressure-relief valve during all normal operation."
       ],
       "answer": 2,
-      "explanation": "An uplock holds retractable landing gear in the retracted position until commanded to release."
+      "explanation": "Normal cabin pressure is controlled mainly by regulating air leaving through the outflow valve.",
+      "concept": "AF-C027"
     },
     {
       "id": "AF132",
-      "section": "23.1",
-      "topic": "Landing Gear",
-      "question": "An AME is reviewing this system. What is the function of a landing-gear uplock?",
+      "section": "24",
+      "topic": "Pressurization",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Cabin altitude is increasing above schedule while adequate conditioned-air supply is available. Which component is most directly responsible for regulating cabin pressure?",
       "options": [
-        "Extend the shock strut",
-        "Hold the gear in the retracted position",
-        "Center the nose wheel during taxi",
-        "Apply wheel brakes automatically"
+        "The recirculation fan.",
+        "The outflow valve/control system.",
+        "The positive pressure-relief valve during all normal operation.",
+        "The engine bleed-air pressure regulator alone."
       ],
       "answer": 1,
-      "explanation": "An uplock holds retractable landing gear in the retracted position until commanded to release."
+      "explanation": "Normal cabin pressure is controlled mainly by regulating air leaving through the outflow valve.",
+      "concept": "AF-C027"
     },
     {
       "id": "AF133",
-      "section": "23.2",
-      "topic": "Nose Wheel Steering",
-      "question": "What is the purpose of a nose-wheel shimmy damper?",
+      "section": "24",
+      "topic": "Pressurization",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Cabin altitude is increasing above schedule while adequate conditioned-air supply is available. Which component is most directly responsible for regulating cabin pressure?",
       "options": [
-        "Reduce rapid steering oscillations",
-        "Increase tire inflation pressure",
-        "Lock the gear retracted",
-        "Control anti-skid braking"
+        "The outflow valve/control system.",
+        "The positive pressure-relief valve during all normal operation.",
+        "The engine bleed-air pressure regulator alone.",
+        "The recirculation fan."
       ],
       "answer": 0,
-      "explanation": "Shimmy dampers reduce rapid oscillation of the nose wheel."
+      "explanation": "Normal cabin pressure is controlled mainly by regulating air leaving through the outflow valve.",
+      "concept": "AF-C027"
     },
     {
       "id": "AF134",
-      "section": "23.2",
-      "topic": "Nose Wheel Steering",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a nose-wheel shimmy damper?",
+      "section": "24",
+      "topic": "Pressurization",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Cabin altitude is increasing above schedule while adequate conditioned-air supply is available. Which component is most directly responsible for regulating cabin pressure?",
       "options": [
-        "Increase tire inflation pressure",
-        "Lock the gear retracted",
-        "Control anti-skid braking",
-        "Reduce rapid steering oscillations"
+        "The positive pressure-relief valve during all normal operation.",
+        "The engine bleed-air pressure regulator alone.",
+        "The recirculation fan.",
+        "The outflow valve/control system."
       ],
       "answer": 3,
-      "explanation": "Shimmy dampers reduce rapid oscillation of the nose wheel."
+      "explanation": "Normal cabin pressure is controlled mainly by regulating air leaving through the outflow valve.",
+      "concept": "AF-C027"
     },
     {
       "id": "AF135",
-      "section": "23.2",
-      "topic": "Nose Wheel Steering",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a nose-wheel shimmy damper?",
+      "section": "24",
+      "topic": "Pressurization",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Cabin altitude is increasing above schedule while adequate conditioned-air supply is available. Which component is most directly responsible for regulating cabin pressure?",
       "options": [
-        "Lock the gear retracted",
-        "Control anti-skid braking",
-        "Reduce rapid steering oscillations",
-        "Increase tire inflation pressure"
+        "The engine bleed-air pressure regulator alone.",
+        "The recirculation fan.",
+        "The outflow valve/control system.",
+        "The positive pressure-relief valve during all normal operation."
       ],
       "answer": 2,
-      "explanation": "Shimmy dampers reduce rapid oscillation of the nose wheel."
+      "explanation": "Normal cabin pressure is controlled mainly by regulating air leaving through the outflow valve.",
+      "concept": "AF-C027"
     },
     {
       "id": "AF136",
-      "section": "23.2",
-      "topic": "Nose Wheel Steering",
-      "question": "An AME is reviewing this system. What is the purpose of a nose-wheel shimmy damper?",
+      "section": "24",
+      "topic": "Pressure relief",
+      "difficulty": "Exam-style",
+      "question": "What is the purpose of a positive pressure-relief valve in a pressurized fuselage?",
       "options": [
-        "Control anti-skid braking",
-        "Reduce rapid steering oscillations",
-        "Increase tire inflation pressure",
-        "Lock the gear retracted"
+        "Regulate bleed-air temperature.",
+        "Prevent cabin-to-ambient differential pressure from exceeding a safe limit.",
+        "Maintain the scheduled cabin altitude during normal cruise.",
+        "Prevent ambient pressure from exceeding cabin pressure during descent."
       ],
       "answer": 1,
-      "explanation": "Shimmy dampers reduce rapid oscillation of the nose wheel."
+      "explanation": "It is a safety device for excessive positive differential, distinct from normal outflow control and negative relief.",
+      "concept": "AF-C028"
     },
     {
       "id": "AF137",
-      "section": "23.4",
-      "topic": "Wheels and Brakes",
-      "question": "What does an anti-skid system do during braking?",
+      "section": "24",
+      "topic": "Pressure relief",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the purpose of a positive pressure-relief valve in a pressurized fuselage?",
       "options": [
-        "Modulates brake pressure to prevent wheel lockup",
-        "Increases brake pressure continuously",
-        "Retracts the landing gear",
-        "Controls nose-wheel caster only"
+        "Prevent cabin-to-ambient differential pressure from exceeding a safe limit.",
+        "Maintain the scheduled cabin altitude during normal cruise.",
+        "Prevent ambient pressure from exceeding cabin pressure during descent.",
+        "Regulate bleed-air temperature."
       ],
       "answer": 0,
-      "explanation": "Anti-skid systems modulate brake pressure to prevent excessive wheel slip or lockup."
+      "explanation": "It is a safety device for excessive positive differential, distinct from normal outflow control and negative relief.",
+      "concept": "AF-C028"
     },
     {
       "id": "AF138",
-      "section": "23.4",
-      "topic": "Wheels and Brakes",
-      "question": "Which statement is correct regarding this subject: what does an anti-skid system do during braking?",
+      "section": "24",
+      "topic": "Pressure relief",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the purpose of a positive pressure-relief valve in a pressurized fuselage?",
       "options": [
-        "Increases brake pressure continuously",
-        "Retracts the landing gear",
-        "Controls nose-wheel caster only",
-        "Modulates brake pressure to prevent wheel lockup"
+        "Maintain the scheduled cabin altitude during normal cruise.",
+        "Prevent ambient pressure from exceeding cabin pressure during descent.",
+        "Regulate bleed-air temperature.",
+        "Prevent cabin-to-ambient differential pressure from exceeding a safe limit."
       ],
       "answer": 3,
-      "explanation": "Anti-skid systems modulate brake pressure to prevent excessive wheel slip or lockup."
+      "explanation": "It is a safety device for excessive positive differential, distinct from normal outflow control and negative relief.",
+      "concept": "AF-C028"
     },
     {
       "id": "AF139",
-      "section": "23.4",
-      "topic": "Wheels and Brakes",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does an anti-skid system do during braking?",
+      "section": "24",
+      "topic": "Pressure relief",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the purpose of a positive pressure-relief valve in a pressurized fuselage?",
       "options": [
-        "Retracts the landing gear",
-        "Controls nose-wheel caster only",
-        "Modulates brake pressure to prevent wheel lockup",
-        "Increases brake pressure continuously"
+        "Prevent ambient pressure from exceeding cabin pressure during descent.",
+        "Regulate bleed-air temperature.",
+        "Prevent cabin-to-ambient differential pressure from exceeding a safe limit.",
+        "Maintain the scheduled cabin altitude during normal cruise."
       ],
       "answer": 2,
-      "explanation": "Anti-skid systems modulate brake pressure to prevent excessive wheel slip or lockup."
+      "explanation": "It is a safety device for excessive positive differential, distinct from normal outflow control and negative relief.",
+      "concept": "AF-C028"
     },
     {
       "id": "AF140",
-      "section": "23.4",
-      "topic": "Wheels and Brakes",
-      "question": "An AME is reviewing this system. What does an anti-skid system do during braking?",
+      "section": "24",
+      "topic": "Pressure relief",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the purpose of a positive pressure-relief valve in a pressurized fuselage?",
       "options": [
-        "Controls nose-wheel caster only",
-        "Modulates brake pressure to prevent wheel lockup",
-        "Increases brake pressure continuously",
-        "Retracts the landing gear"
+        "Regulate bleed-air temperature.",
+        "Prevent cabin-to-ambient differential pressure from exceeding a safe limit.",
+        "Maintain the scheduled cabin altitude during normal cruise.",
+        "Prevent ambient pressure from exceeding cabin pressure during descent."
       ],
       "answer": 1,
-      "explanation": "Anti-skid systems modulate brake pressure to prevent excessive wheel slip or lockup."
+      "explanation": "It is a safety device for excessive positive differential, distinct from normal outflow control and negative relief.",
+      "concept": "AF-C028"
     },
     {
       "id": "AF141",
-      "section": "23.4",
-      "topic": "Tires",
-      "question": "Which source should govern aircraft tire inflation pressure?",
+      "section": "24",
+      "topic": "Oxygen",
+      "difficulty": "Exam-style",
+      "question": "Why are petroleum-based oils and greases prohibited on oxygen-system fittings?",
       "options": [
-        "Approved aircraft or tire manufacturer maintenance data",
-        "The pressure printed on automotive tires",
-        "A technician’s preferred value",
-        "Ambient humidity only"
+        "They may ignite or react violently in an oxygen-enriched environment.",
+        "They cause oxygen pressure to become too low by absorbing oxygen.",
+        "They make oxygen non-breathable by changing its molecular composition.",
+        "They damage only elastomer colour coding."
       ],
       "answer": 0,
-      "explanation": "Aircraft tire inflation should be checked using approved procedures and pressure corrected as required for temperature/conditions specified by the manufacturer."
+      "explanation": "Hydrocarbons present a serious ignition/fire hazard in high-concentration oxygen.",
+      "concept": "AF-C029"
     },
     {
       "id": "AF142",
-      "section": "23.4",
-      "topic": "Tires",
-      "question": "Which statement is correct regarding this subject: which source should govern aircraft tire inflation pressure?",
+      "section": "24",
+      "topic": "Oxygen",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why are petroleum-based oils and greases prohibited on oxygen-system fittings?",
       "options": [
-        "The pressure printed on automotive tires",
-        "A technician’s preferred value",
-        "Ambient humidity only",
-        "Approved aircraft or tire manufacturer maintenance data"
+        "They cause oxygen pressure to become too low by absorbing oxygen.",
+        "They make oxygen non-breathable by changing its molecular composition.",
+        "They damage only elastomer colour coding.",
+        "They may ignite or react violently in an oxygen-enriched environment."
       ],
       "answer": 3,
-      "explanation": "Aircraft tire inflation should be checked using approved procedures and pressure corrected as required for temperature/conditions specified by the manufacturer."
+      "explanation": "Hydrocarbons present a serious ignition/fire hazard in high-concentration oxygen.",
+      "concept": "AF-C029"
     },
     {
       "id": "AF143",
-      "section": "23.4",
-      "topic": "Tires",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which source should govern aircraft tire inflation pressure?",
+      "section": "24",
+      "topic": "Oxygen",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why are petroleum-based oils and greases prohibited on oxygen-system fittings?",
       "options": [
-        "A technician’s preferred value",
-        "Ambient humidity only",
-        "Approved aircraft or tire manufacturer maintenance data",
-        "The pressure printed on automotive tires"
+        "They make oxygen non-breathable by changing its molecular composition.",
+        "They damage only elastomer colour coding.",
+        "They may ignite or react violently in an oxygen-enriched environment.",
+        "They cause oxygen pressure to become too low by absorbing oxygen."
       ],
       "answer": 2,
-      "explanation": "Aircraft tire inflation should be checked using approved procedures and pressure corrected as required for temperature/conditions specified by the manufacturer."
+      "explanation": "Hydrocarbons present a serious ignition/fire hazard in high-concentration oxygen.",
+      "concept": "AF-C029"
     },
     {
       "id": "AF144",
-      "section": "23.4",
-      "topic": "Tires",
-      "question": "An AME is reviewing this system. Which source should govern aircraft tire inflation pressure?",
+      "section": "24",
+      "topic": "Oxygen",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why are petroleum-based oils and greases prohibited on oxygen-system fittings?",
       "options": [
-        "Ambient humidity only",
-        "Approved aircraft or tire manufacturer maintenance data",
-        "The pressure printed on automotive tires",
-        "A technician’s preferred value"
+        "They damage only elastomer colour coding.",
+        "They may ignite or react violently in an oxygen-enriched environment.",
+        "They cause oxygen pressure to become too low by absorbing oxygen.",
+        "They make oxygen non-breathable by changing its molecular composition."
       ],
       "answer": 1,
-      "explanation": "Aircraft tire inflation should be checked using approved procedures and pressure corrected as required for temperature/conditions specified by the manufacturer."
+      "explanation": "Hydrocarbons present a serious ignition/fire hazard in high-concentration oxygen.",
+      "concept": "AF-C029"
     },
     {
       "id": "AF145",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "Which component primarily regulates cabin pressure in many pressurization systems?",
+      "section": "24",
+      "topic": "Oxygen",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why are petroleum-based oils and greases prohibited on oxygen-system fittings?",
       "options": [
-        "Outflow valve",
-        "Fuel boost pump",
-        "Landing gear uplock",
-        "Pitot mast"
+        "They may ignite or react violently in an oxygen-enriched environment.",
+        "They cause oxygen pressure to become too low by absorbing oxygen.",
+        "They make oxygen non-breathable by changing its molecular composition.",
+        "They damage only elastomer colour coding."
       ],
       "answer": 0,
-      "explanation": "The outflow valve controls cabin pressure primarily by regulating the amount of air discharged from the pressure vessel."
+      "explanation": "Hydrocarbons present a serious ignition/fire hazard in high-concentration oxygen.",
+      "concept": "AF-C029"
     },
     {
       "id": "AF146",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "Which statement is correct regarding this subject: which component primarily regulates cabin pressure in many pressurization systems?",
+      "section": "25",
+      "topic": "Fuel venting",
+      "difficulty": "Exam-style",
+      "question": "What is the primary reason an aircraft fuel tank must be correctly vented?",
       "options": [
-        "Fuel boost pump",
-        "Landing gear uplock",
-        "Pitot mast",
-        "Outflow valve"
+        "To keep fuel pressure above engine pump inlet pressure in all conditions.",
+        "To remove all fuel vapour from the tank before flight.",
+        "To keep fuel temperature equal to ambient temperature.",
+        "To prevent excessive positive or negative tank pressure as fuel volume and altitude change."
       ],
       "answer": 3,
-      "explanation": "The outflow valve controls cabin pressure primarily by regulating the amount of air discharged from the pressure vessel."
+      "explanation": "Tank venting prevents structural/flow problems caused by pressure differential.",
+      "concept": "AF-C030"
     },
     {
       "id": "AF147",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which component primarily regulates cabin pressure in many pressurization systems?",
+      "section": "25",
+      "topic": "Fuel venting",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the primary reason an aircraft fuel tank must be correctly vented?",
       "options": [
-        "Landing gear uplock",
-        "Pitot mast",
-        "Outflow valve",
-        "Fuel boost pump"
+        "To remove all fuel vapour from the tank before flight.",
+        "To keep fuel temperature equal to ambient temperature.",
+        "To prevent excessive positive or negative tank pressure as fuel volume and altitude change.",
+        "To keep fuel pressure above engine pump inlet pressure in all conditions."
       ],
       "answer": 2,
-      "explanation": "The outflow valve controls cabin pressure primarily by regulating the amount of air discharged from the pressure vessel."
+      "explanation": "Tank venting prevents structural/flow problems caused by pressure differential.",
+      "concept": "AF-C030"
     },
     {
       "id": "AF148",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "An AME is reviewing this system. Which component primarily regulates cabin pressure in many pressurization systems?",
+      "section": "25",
+      "topic": "Fuel venting",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the primary reason an aircraft fuel tank must be correctly vented?",
       "options": [
-        "Pitot mast",
-        "Outflow valve",
-        "Fuel boost pump",
-        "Landing gear uplock"
+        "To keep fuel temperature equal to ambient temperature.",
+        "To prevent excessive positive or negative tank pressure as fuel volume and altitude change.",
+        "To keep fuel pressure above engine pump inlet pressure in all conditions.",
+        "To remove all fuel vapour from the tank before flight."
       ],
       "answer": 1,
-      "explanation": "The outflow valve controls cabin pressure primarily by regulating the amount of air discharged from the pressure vessel."
+      "explanation": "Tank venting prevents structural/flow problems caused by pressure differential.",
+      "concept": "AF-C030"
     },
     {
       "id": "AF149",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "What is the function of a cabin positive pressure relief valve?",
+      "section": "25",
+      "topic": "Fuel venting",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the primary reason an aircraft fuel tank must be correctly vented?",
       "options": [
-        "Prevent excessive cabin differential pressure",
-        "Maintain hydraulic reservoir pressure",
-        "Control windshield heat",
-        "Prevent fuel tank venting"
+        "To prevent excessive positive or negative tank pressure as fuel volume and altitude change.",
+        "To keep fuel pressure above engine pump inlet pressure in all conditions.",
+        "To remove all fuel vapour from the tank before flight.",
+        "To keep fuel temperature equal to ambient temperature."
       ],
       "answer": 0,
-      "explanation": "A positive pressure relief valve protects the fuselage from excessive cabin-to-ambient differential pressure."
+      "explanation": "Tank venting prevents structural/flow problems caused by pressure differential.",
+      "concept": "AF-C030"
     },
     {
       "id": "AF150",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "Which statement is correct regarding this subject: what is the function of a cabin positive pressure relief valve?",
+      "section": "25",
+      "topic": "Fuel venting",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the primary reason an aircraft fuel tank must be correctly vented?",
       "options": [
-        "Maintain hydraulic reservoir pressure",
-        "Control windshield heat",
-        "Prevent fuel tank venting",
-        "Prevent excessive cabin differential pressure"
+        "To keep fuel pressure above engine pump inlet pressure in all conditions.",
+        "To remove all fuel vapour from the tank before flight.",
+        "To keep fuel temperature equal to ambient temperature.",
+        "To prevent excessive positive or negative tank pressure as fuel volume and altitude change."
       ],
       "answer": 3,
-      "explanation": "A positive pressure relief valve protects the fuselage from excessive cabin-to-ambient differential pressure."
+      "explanation": "Tank venting prevents structural/flow problems caused by pressure differential.",
+      "concept": "AF-C030"
     },
     {
       "id": "AF151",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the function of a cabin positive pressure relief valve?",
+      "section": "25",
+      "topic": "Fuel contamination",
+      "difficulty": "Exam-style",
+      "question": "A clear fuel sample is taken from a sump. What is the best reason to continue checking additional specified drains?",
       "options": [
-        "Control windshield heat",
-        "Prevent fuel tank venting",
-        "Prevent excessive cabin differential pressure",
-        "Maintain hydraulic reservoir pressure"
+        "Water floats on aviation fuel and therefore appears only at upper drains.",
+        "Additional drains are checked only to equalize tank pressure.",
+        "Water or contamination can collect at multiple low points and may not appear at the first drain.",
+        "A clear first sample proves only that the fuel grade is correct."
       ],
       "answer": 2,
-      "explanation": "A positive pressure relief valve protects the fuselage from excessive cabin-to-ambient differential pressure."
+      "explanation": "Water/sediment settles in low areas; one clean point does not prove the entire system is clean.",
+      "concept": "AF-C031"
     },
     {
       "id": "AF152",
-      "section": "24.1",
-      "topic": "Pressurization",
-      "question": "An AME is reviewing this system. What is the function of a cabin positive pressure relief valve?",
+      "section": "25",
+      "topic": "Fuel contamination",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A clear fuel sample is taken from a sump. What is the best reason to continue checking additional specified drains?",
       "options": [
-        "Prevent fuel tank venting",
-        "Prevent excessive cabin differential pressure",
-        "Maintain hydraulic reservoir pressure",
-        "Control windshield heat"
+        "Additional drains are checked only to equalize tank pressure.",
+        "Water or contamination can collect at multiple low points and may not appear at the first drain.",
+        "A clear first sample proves only that the fuel grade is correct.",
+        "Water floats on aviation fuel and therefore appears only at upper drains."
       ],
       "answer": 1,
-      "explanation": "A positive pressure relief valve protects the fuselage from excessive cabin-to-ambient differential pressure."
+      "explanation": "Water/sediment settles in low areas; one clean point does not prove the entire system is clean.",
+      "concept": "AF-C031"
     },
     {
       "id": "AF153",
-      "section": "24.4",
-      "topic": "Oxygen",
-      "question": "Why must oil and grease be kept away from aircraft oxygen equipment?",
+      "section": "25",
+      "topic": "Fuel contamination",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A clear fuel sample is taken from a sump. What is the best reason to continue checking additional specified drains?",
       "options": [
-        "They can ignite violently in an oxygen-rich environment",
-        "They lower oxygen pressure by evaporation",
-        "They block radio signals",
-        "They cause tire imbalance"
+        "Water or contamination can collect at multiple low points and may not appear at the first drain.",
+        "A clear first sample proves only that the fuel grade is correct.",
+        "Water floats on aviation fuel and therefore appears only at upper drains.",
+        "Additional drains are checked only to equalize tank pressure."
       ],
       "answer": 0,
-      "explanation": "Oil, grease and other hydrocarbons must be kept away from oxygen system components because they can ignite violently in oxygen-enriched conditions."
+      "explanation": "Water/sediment settles in low areas; one clean point does not prove the entire system is clean.",
+      "concept": "AF-C031"
     },
     {
       "id": "AF154",
-      "section": "24.4",
-      "topic": "Oxygen",
-      "question": "Which statement is correct regarding this subject: why must oil and grease be kept away from aircraft oxygen equipment?",
+      "section": "25",
+      "topic": "Fuel contamination",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A clear fuel sample is taken from a sump. What is the best reason to continue checking additional specified drains?",
       "options": [
-        "They lower oxygen pressure by evaporation",
-        "They block radio signals",
-        "They cause tire imbalance",
-        "They can ignite violently in an oxygen-rich environment"
+        "A clear first sample proves only that the fuel grade is correct.",
+        "Water floats on aviation fuel and therefore appears only at upper drains.",
+        "Additional drains are checked only to equalize tank pressure.",
+        "Water or contamination can collect at multiple low points and may not appear at the first drain."
       ],
       "answer": 3,
-      "explanation": "Oil, grease and other hydrocarbons must be kept away from oxygen system components because they can ignite violently in oxygen-enriched conditions."
+      "explanation": "Water/sediment settles in low areas; one clean point does not prove the entire system is clean.",
+      "concept": "AF-C031"
     },
     {
       "id": "AF155",
-      "section": "24.4",
-      "topic": "Oxygen",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must oil and grease be kept away from aircraft oxygen equipment?",
+      "section": "25",
+      "topic": "Fuel contamination",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A clear fuel sample is taken from a sump. What is the best reason to continue checking additional specified drains?",
       "options": [
-        "They block radio signals",
-        "They cause tire imbalance",
-        "They can ignite violently in an oxygen-rich environment",
-        "They lower oxygen pressure by evaporation"
+        "Water floats on aviation fuel and therefore appears only at upper drains.",
+        "Additional drains are checked only to equalize tank pressure.",
+        "Water or contamination can collect at multiple low points and may not appear at the first drain.",
+        "A clear first sample proves only that the fuel grade is correct."
       ],
       "answer": 2,
-      "explanation": "Oil, grease and other hydrocarbons must be kept away from oxygen system components because they can ignite violently in oxygen-enriched conditions."
+      "explanation": "Water/sediment settles in low areas; one clean point does not prove the entire system is clean.",
+      "concept": "AF-C031"
     },
     {
       "id": "AF156",
-      "section": "24.4",
-      "topic": "Oxygen",
-      "question": "An AME is reviewing this system. Why must oil and grease be kept away from aircraft oxygen equipment?",
+      "section": "26",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "What distinguishes a continuous-loop fire detector from a spot detector?",
       "options": [
-        "They cause tire imbalance",
-        "They can ignite violently in an oxygen-rich environment",
-        "They lower oxygen pressure by evaporation",
-        "They block radio signals"
+        "It does not require electrical continuity monitoring.",
+        "A sensing element monitors temperature/heat over a continuous protected path.",
+        "It automatically discharges extinguishing agent anywhere along the loop.",
+        "It measures only smoke density rather than temperature."
       ],
       "answer": 1,
-      "explanation": "Oil, grease and other hydrocarbons must be kept away from oxygen system components because they can ignite violently in oxygen-enriched conditions."
+      "explanation": "A loop senses along a length; spot detectors sense at discrete locations.",
+      "concept": "AF-C032"
     },
     {
       "id": "AF157",
-      "section": "25.1",
-      "topic": "Fuel Systems",
-      "question": "What is a common purpose of an aircraft fuel boost pump?",
+      "section": "26",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What distinguishes a continuous-loop fire detector from a spot detector?",
       "options": [
-        "Provide positive fuel pressure to the engine feed system",
-        "Pressurize the hydraulic system",
-        "Drive the generator",
-        "Control cabin altitude"
+        "A sensing element monitors temperature/heat over a continuous protected path.",
+        "It automatically discharges extinguishing agent anywhere along the loop.",
+        "It measures only smoke density rather than temperature.",
+        "It does not require electrical continuity monitoring."
       ],
       "answer": 0,
-      "explanation": "A boost pump provides positive fuel pressure and can help prevent vapour formation and ensure supply to the engine-driven pump."
+      "explanation": "A loop senses along a length; spot detectors sense at discrete locations.",
+      "concept": "AF-C032"
     },
     {
       "id": "AF158",
-      "section": "25.1",
-      "topic": "Fuel Systems",
-      "question": "Which statement is correct regarding this subject: what is a common purpose of an aircraft fuel boost pump?",
+      "section": "26",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What distinguishes a continuous-loop fire detector from a spot detector?",
       "options": [
-        "Pressurize the hydraulic system",
-        "Drive the generator",
-        "Control cabin altitude",
-        "Provide positive fuel pressure to the engine feed system"
+        "It automatically discharges extinguishing agent anywhere along the loop.",
+        "It measures only smoke density rather than temperature.",
+        "It does not require electrical continuity monitoring.",
+        "A sensing element monitors temperature/heat over a continuous protected path."
       ],
       "answer": 3,
-      "explanation": "A boost pump provides positive fuel pressure and can help prevent vapour formation and ensure supply to the engine-driven pump."
+      "explanation": "A loop senses along a length; spot detectors sense at discrete locations.",
+      "concept": "AF-C032"
     },
     {
       "id": "AF159",
-      "section": "25.1",
-      "topic": "Fuel Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a common purpose of an aircraft fuel boost pump?",
+      "section": "26",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What distinguishes a continuous-loop fire detector from a spot detector?",
       "options": [
-        "Drive the generator",
-        "Control cabin altitude",
-        "Provide positive fuel pressure to the engine feed system",
-        "Pressurize the hydraulic system"
+        "It measures only smoke density rather than temperature.",
+        "It does not require electrical continuity monitoring.",
+        "A sensing element monitors temperature/heat over a continuous protected path.",
+        "It automatically discharges extinguishing agent anywhere along the loop."
       ],
       "answer": 2,
-      "explanation": "A boost pump provides positive fuel pressure and can help prevent vapour formation and ensure supply to the engine-driven pump."
+      "explanation": "A loop senses along a length; spot detectors sense at discrete locations.",
+      "concept": "AF-C032"
     },
     {
       "id": "AF160",
-      "section": "25.1",
-      "topic": "Fuel Systems",
-      "question": "An AME is reviewing this system. What is a common purpose of an aircraft fuel boost pump?",
+      "section": "26",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What distinguishes a continuous-loop fire detector from a spot detector?",
       "options": [
-        "Control cabin altitude",
-        "Provide positive fuel pressure to the engine feed system",
-        "Pressurize the hydraulic system",
-        "Drive the generator"
+        "It does not require electrical continuity monitoring.",
+        "A sensing element monitors temperature/heat over a continuous protected path.",
+        "It automatically discharges extinguishing agent anywhere along the loop.",
+        "It measures only smoke density rather than temperature."
       ],
       "answer": 1,
-      "explanation": "A boost pump provides positive fuel pressure and can help prevent vapour formation and ensure supply to the engine-driven pump."
+      "explanation": "A loop senses along a length; spot detectors sense at discrete locations.",
+      "concept": "AF-C032"
     },
     {
       "id": "AF161",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "Why must aircraft fuel tanks be vented?",
+      "section": "27",
+      "topic": "Electrical troubleshooting",
+      "difficulty": "Exam-style",
+      "question": "A high-current load operates slowly and the supply voltage at the bus is normal, but a large voltage drop is measured across one connector. What is the most likely fault?",
       "options": [
-        "To prevent damaging pressure differentials in the tank",
-        "To increase fuel octane",
-        "To operate wheel brakes",
-        "To cool avionics"
+        "Excessive resistance at the connector.",
+        "An open circuit downstream of the load.",
+        "An overcharged battery with low internal resistance.",
+        "A generator producing too high a frequency."
       ],
       "answer": 0,
-      "explanation": "Fuel tank vents maintain appropriate tank pressure and prevent excessive positive or negative pressure as fuel quantity and altitude change."
+      "explanation": "Voltage drop across a connection under load is evidence of resistance and associated heating/power loss.",
+      "concept": "AF-C033"
     },
     {
       "id": "AF162",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "Which statement is correct regarding this subject: why must aircraft fuel tanks be vented?",
+      "section": "27",
+      "topic": "Electrical troubleshooting",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A high-current load operates slowly and the supply voltage at the bus is normal, but a large voltage drop is measured across one connector. What is the most likely fault?",
       "options": [
-        "To increase fuel octane",
-        "To operate wheel brakes",
-        "To cool avionics",
-        "To prevent damaging pressure differentials in the tank"
+        "An open circuit downstream of the load.",
+        "An overcharged battery with low internal resistance.",
+        "A generator producing too high a frequency.",
+        "Excessive resistance at the connector."
       ],
       "answer": 3,
-      "explanation": "Fuel tank vents maintain appropriate tank pressure and prevent excessive positive or negative pressure as fuel quantity and altitude change."
+      "explanation": "Voltage drop across a connection under load is evidence of resistance and associated heating/power loss.",
+      "concept": "AF-C033"
     },
     {
       "id": "AF163",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must aircraft fuel tanks be vented?",
+      "section": "27",
+      "topic": "Electrical troubleshooting",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A high-current load operates slowly and the supply voltage at the bus is normal, but a large voltage drop is measured across one connector. What is the most likely fault?",
       "options": [
-        "To operate wheel brakes",
-        "To cool avionics",
-        "To prevent damaging pressure differentials in the tank",
-        "To increase fuel octane"
+        "An overcharged battery with low internal resistance.",
+        "A generator producing too high a frequency.",
+        "Excessive resistance at the connector.",
+        "An open circuit downstream of the load."
       ],
       "answer": 2,
-      "explanation": "Fuel tank vents maintain appropriate tank pressure and prevent excessive positive or negative pressure as fuel quantity and altitude change."
+      "explanation": "Voltage drop across a connection under load is evidence of resistance and associated heating/power loss.",
+      "concept": "AF-C033"
     },
     {
       "id": "AF164",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "An AME is reviewing this system. Why must aircraft fuel tanks be vented?",
+      "section": "27",
+      "topic": "Electrical troubleshooting",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A high-current load operates slowly and the supply voltage at the bus is normal, but a large voltage drop is measured across one connector. What is the most likely fault?",
       "options": [
-        "To cool avionics",
-        "To prevent damaging pressure differentials in the tank",
-        "To increase fuel octane",
-        "To operate wheel brakes"
+        "A generator producing too high a frequency.",
+        "Excessive resistance at the connector.",
+        "An open circuit downstream of the load.",
+        "An overcharged battery with low internal resistance."
       ],
       "answer": 1,
-      "explanation": "Fuel tank vents maintain appropriate tank pressure and prevent excessive positive or negative pressure as fuel quantity and altitude change."
+      "explanation": "Voltage drop across a connection under load is evidence of resistance and associated heating/power loss.",
+      "concept": "AF-C033"
     },
     {
       "id": "AF165",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "Why are fuel sump drains located at low points?",
+      "section": "27",
+      "topic": "Electrical troubleshooting",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A high-current load operates slowly and the supply voltage at the bus is normal, but a large voltage drop is measured across one connector. What is the most likely fault?",
       "options": [
-        "Water and sediment tend to collect there",
-        "Fuel vapour rises there",
-        "Electrical bonding is strongest there",
-        "Fuel is least dense there"
+        "Excessive resistance at the connector.",
+        "An open circuit downstream of the load.",
+        "An overcharged battery with low internal resistance.",
+        "A generator producing too high a frequency."
       ],
       "answer": 0,
-      "explanation": "Water is normally denser than aviation fuel and tends to collect at low points, where sump drains are located."
+      "explanation": "Voltage drop across a connection under load is evidence of resistance and associated heating/power loss.",
+      "concept": "AF-C033"
     },
     {
       "id": "AF166",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "Which statement is correct regarding this subject: why are fuel sump drains located at low points?",
+      "section": "27",
+      "topic": "Circuit protection",
+      "difficulty": "Exam-style",
+      "question": "A circuit breaker trips repeatedly after being reset once. What is the most appropriate maintenance action?",
       "options": [
-        "Fuel vapour rises there",
-        "Electrical bonding is strongest there",
-        "Fuel is least dense there",
-        "Water and sediment tend to collect there"
+        "Hold the breaker closed long enough to determine whether the load begins working.",
+        "Install the next higher-rated breaker if the wire does not feel warm.",
+        "Bypass the breaker temporarily to isolate the load.",
+        "Investigate the circuit fault rather than repeatedly resetting the breaker."
       ],
       "answer": 3,
-      "explanation": "Water is normally denser than aviation fuel and tends to collect at low points, where sump drains are located."
+      "explanation": "Repeated trips indicate an abnormal condition; protection must not be defeated or repeatedly reset.",
+      "concept": "AF-C034"
     },
     {
       "id": "AF167",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why are fuel sump drains located at low points?",
+      "section": "27",
+      "topic": "Circuit protection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A circuit breaker trips repeatedly after being reset once. What is the most appropriate maintenance action?",
       "options": [
-        "Electrical bonding is strongest there",
-        "Fuel is least dense there",
-        "Water and sediment tend to collect there",
-        "Fuel vapour rises there"
+        "Install the next higher-rated breaker if the wire does not feel warm.",
+        "Bypass the breaker temporarily to isolate the load.",
+        "Investigate the circuit fault rather than repeatedly resetting the breaker.",
+        "Hold the breaker closed long enough to determine whether the load begins working."
       ],
       "answer": 2,
-      "explanation": "Water is normally denser than aviation fuel and tends to collect at low points, where sump drains are located."
+      "explanation": "Repeated trips indicate an abnormal condition; protection must not be defeated or repeatedly reset.",
+      "concept": "AF-C034"
     },
     {
       "id": "AF168",
-      "section": "25.2",
-      "topic": "Fuel Systems",
-      "question": "An AME is reviewing this system. Why are fuel sump drains located at low points?",
+      "section": "27",
+      "topic": "Circuit protection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A circuit breaker trips repeatedly after being reset once. What is the most appropriate maintenance action?",
       "options": [
-        "Fuel is least dense there",
-        "Water and sediment tend to collect there",
-        "Fuel vapour rises there",
-        "Electrical bonding is strongest there"
+        "Bypass the breaker temporarily to isolate the load.",
+        "Investigate the circuit fault rather than repeatedly resetting the breaker.",
+        "Hold the breaker closed long enough to determine whether the load begins working.",
+        "Install the next higher-rated breaker if the wire does not feel warm."
       ],
       "answer": 1,
-      "explanation": "Water is normally denser than aviation fuel and tends to collect at low points, where sump drains are located."
+      "explanation": "Repeated trips indicate an abnormal condition; protection must not be defeated or repeatedly reset.",
+      "concept": "AF-C034"
     },
     {
       "id": "AF169",
-      "section": "26.1",
-      "topic": "Fire Detection",
-      "question": "What is a key feature of a continuous-loop fire detection system?",
+      "section": "27",
+      "topic": "Circuit protection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A circuit breaker trips repeatedly after being reset once. What is the most appropriate maintenance action?",
       "options": [
-        "It senses over a length of protected area rather than at one point only",
-        "It extinguishes fire without a bottle",
-        "It measures fuel quantity",
-        "It controls cabin temperature"
+        "Investigate the circuit fault rather than repeatedly resetting the breaker.",
+        "Hold the breaker closed long enough to determine whether the load begins working.",
+        "Install the next higher-rated breaker if the wire does not feel warm.",
+        "Bypass the breaker temporarily to isolate the load."
       ],
       "answer": 0,
-      "explanation": "Continuous-loop fire detection systems respond to heat along a sensing element and provide warning when a threshold/condition is reached."
+      "explanation": "Repeated trips indicate an abnormal condition; protection must not be defeated or repeatedly reset.",
+      "concept": "AF-C034"
     },
     {
       "id": "AF170",
-      "section": "26.1",
-      "topic": "Fire Detection",
-      "question": "Which statement is correct regarding this subject: what is a key feature of a continuous-loop fire detection system?",
+      "section": "27",
+      "topic": "Circuit protection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A circuit breaker trips repeatedly after being reset once. What is the most appropriate maintenance action?",
       "options": [
-        "It extinguishes fire without a bottle",
-        "It measures fuel quantity",
-        "It controls cabin temperature",
-        "It senses over a length of protected area rather than at one point only"
+        "Hold the breaker closed long enough to determine whether the load begins working.",
+        "Install the next higher-rated breaker if the wire does not feel warm.",
+        "Bypass the breaker temporarily to isolate the load.",
+        "Investigate the circuit fault rather than repeatedly resetting the breaker."
       ],
       "answer": 3,
-      "explanation": "Continuous-loop fire detection systems respond to heat along a sensing element and provide warning when a threshold/condition is reached."
+      "explanation": "Repeated trips indicate an abnormal condition; protection must not be defeated or repeatedly reset.",
+      "concept": "AF-C034"
     },
     {
       "id": "AF171",
-      "section": "26.1",
-      "topic": "Fire Detection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a key feature of a continuous-loop fire detection system?",
+      "section": "27",
+      "topic": "Wiring",
+      "difficulty": "Exam-style",
+      "question": "Which wire-routing condition is most likely unacceptable even if electrical continuity is normal?",
       "options": [
-        "It measures fuel quantity",
-        "It controls cabin temperature",
-        "It senses over a length of protected area rather than at one point only",
-        "It extinguishes fire without a bottle"
+        "A wire protected by approved sleeving at a clamp.",
+        "A correctly sealed environmental splice.",
+        "A bundle contacting structure where vibration can cause chafing.",
+        "A bundle supported at approved intervals with service loops where specified."
       ],
       "answer": 2,
-      "explanation": "Continuous-loop fire detection systems respond to heat along a sensing element and provide warning when a threshold/condition is reached."
+      "explanation": "Mechanical protection and routing are airworthiness requirements even before an electrical fault develops.",
+      "concept": "AF-C035"
     },
     {
       "id": "AF172",
-      "section": "26.1",
-      "topic": "Fire Detection",
-      "question": "An AME is reviewing this system. What is a key feature of a continuous-loop fire detection system?",
+      "section": "27",
+      "topic": "Wiring",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which wire-routing condition is most likely unacceptable even if electrical continuity is normal?",
       "options": [
-        "It controls cabin temperature",
-        "It senses over a length of protected area rather than at one point only",
-        "It extinguishes fire without a bottle",
-        "It measures fuel quantity"
+        "A correctly sealed environmental splice.",
+        "A bundle contacting structure where vibration can cause chafing.",
+        "A bundle supported at approved intervals with service loops where specified.",
+        "A wire protected by approved sleeving at a clamp."
       ],
       "answer": 1,
-      "explanation": "Continuous-loop fire detection systems respond to heat along a sensing element and provide warning when a threshold/condition is reached."
+      "explanation": "Mechanical protection and routing are airworthiness requirements even before an electrical fault develops.",
+      "concept": "AF-C035"
     },
     {
       "id": "AF173",
-      "section": "26.2",
-      "topic": "Fire Extinguishing",
-      "question": "What is the purpose of a fire bottle discharge indicator?",
+      "section": "27",
+      "topic": "Wiring",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which wire-routing condition is most likely unacceptable even if electrical continuity is normal?",
       "options": [
-        "Show that the extinguishing bottle has discharged",
-        "Set engine idle speed",
-        "Measure brake wear",
-        "Indicate fuel contamination"
+        "A bundle contacting structure where vibration can cause chafing.",
+        "A bundle supported at approved intervals with service loops where specified.",
+        "A wire protected by approved sleeving at a clamp.",
+        "A correctly sealed environmental splice."
       ],
       "answer": 0,
-      "explanation": "A fire-extinguisher discharge indicator can provide evidence that a bottle has discharged thermally or by crew command, depending on system design."
+      "explanation": "Mechanical protection and routing are airworthiness requirements even before an electrical fault develops.",
+      "concept": "AF-C035"
     },
     {
       "id": "AF174",
-      "section": "26.2",
-      "topic": "Fire Extinguishing",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a fire bottle discharge indicator?",
+      "section": "27",
+      "topic": "Wiring",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which wire-routing condition is most likely unacceptable even if electrical continuity is normal?",
       "options": [
-        "Set engine idle speed",
-        "Measure brake wear",
-        "Indicate fuel contamination",
-        "Show that the extinguishing bottle has discharged"
+        "A bundle supported at approved intervals with service loops where specified.",
+        "A wire protected by approved sleeving at a clamp.",
+        "A correctly sealed environmental splice.",
+        "A bundle contacting structure where vibration can cause chafing."
       ],
       "answer": 3,
-      "explanation": "A fire-extinguisher discharge indicator can provide evidence that a bottle has discharged thermally or by crew command, depending on system design."
+      "explanation": "Mechanical protection and routing are airworthiness requirements even before an electrical fault develops.",
+      "concept": "AF-C035"
     },
     {
       "id": "AF175",
-      "section": "26.2",
-      "topic": "Fire Extinguishing",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a fire bottle discharge indicator?",
+      "section": "27",
+      "topic": "Wiring",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which wire-routing condition is most likely unacceptable even if electrical continuity is normal?",
       "options": [
-        "Measure brake wear",
-        "Indicate fuel contamination",
-        "Show that the extinguishing bottle has discharged",
-        "Set engine idle speed"
+        "A wire protected by approved sleeving at a clamp.",
+        "A correctly sealed environmental splice.",
+        "A bundle contacting structure where vibration can cause chafing.",
+        "A bundle supported at approved intervals with service loops where specified."
       ],
       "answer": 2,
-      "explanation": "A fire-extinguisher discharge indicator can provide evidence that a bottle has discharged thermally or by crew command, depending on system design."
+      "explanation": "Mechanical protection and routing are airworthiness requirements even before an electrical fault develops.",
+      "concept": "AF-C035"
     },
     {
       "id": "AF176",
-      "section": "26.2",
-      "topic": "Fire Extinguishing",
-      "question": "An AME is reviewing this system. What is the purpose of a fire bottle discharge indicator?",
+      "section": "28",
+      "topic": "Pitot-static",
+      "difficulty": "Exam-style",
+      "question": "The pitot inlet becomes blocked but the drain opening remains clear. What happens to the airspeed indication?",
       "options": [
-        "Indicate fuel contamination",
-        "Show that the extinguishing bottle has discharged",
-        "Set engine idle speed",
-        "Measure brake wear"
+        "It overreads in both climb and descent.",
+        "It tends toward zero because pitot pressure cannot be retained.",
+        "It freezes at the airspeed indicated when the blockage occurred.",
+        "It behaves like an altimeter because trapped pitot pressure remains constant."
       ],
       "answer": 1,
-      "explanation": "A fire-extinguisher discharge indicator can provide evidence that a bottle has discharged thermally or by crew command, depending on system design."
+      "explanation": "With the drain open, pitot pressure bleeds to ambient/static conditions, removing differential pressure.",
+      "concept": "AF-C036"
     },
     {
       "id": "AF177",
-      "section": "27.1",
-      "topic": "Electrical Systems",
-      "question": "Why must battery maintenance follow the specific battery type instructions?",
+      "section": "28",
+      "topic": "Pitot-static",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. The pitot inlet becomes blocked but the drain opening remains clear. What happens to the airspeed indication?",
       "options": [
-        "Different chemistries require different servicing and charging procedures",
-        "All aircraft batteries are chemically identical",
-        "Battery type affects only paint colour",
-        "Charging procedure is unrelated to battery chemistry"
+        "It tends toward zero because pitot pressure cannot be retained.",
+        "It freezes at the airspeed indicated when the blockage occurred.",
+        "It behaves like an altimeter because trapped pitot pressure remains constant.",
+        "It overreads in both climb and descent."
       ],
       "answer": 0,
-      "explanation": "Lead-acid and nickel-cadmium batteries require different maintenance procedures and charging practices."
+      "explanation": "With the drain open, pitot pressure bleeds to ambient/static conditions, removing differential pressure.",
+      "concept": "AF-C036"
     },
     {
       "id": "AF178",
-      "section": "27.1",
-      "topic": "Electrical Systems",
-      "question": "Which statement is correct regarding this subject: why must battery maintenance follow the specific battery type instructions?",
+      "section": "28",
+      "topic": "Pitot-static",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? The pitot inlet becomes blocked but the drain opening remains clear. What happens to the airspeed indication?",
       "options": [
-        "All aircraft batteries are chemically identical",
-        "Battery type affects only paint colour",
-        "Charging procedure is unrelated to battery chemistry",
-        "Different chemistries require different servicing and charging procedures"
+        "It freezes at the airspeed indicated when the blockage occurred.",
+        "It behaves like an altimeter because trapped pitot pressure remains constant.",
+        "It overreads in both climb and descent.",
+        "It tends toward zero because pitot pressure cannot be retained."
       ],
       "answer": 3,
-      "explanation": "Lead-acid and nickel-cadmium batteries require different maintenance procedures and charging practices."
+      "explanation": "With the drain open, pitot pressure bleeds to ambient/static conditions, removing differential pressure.",
+      "concept": "AF-C036"
     },
     {
       "id": "AF179",
-      "section": "27.1",
-      "topic": "Electrical Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must battery maintenance follow the specific battery type instructions?",
+      "section": "28",
+      "topic": "Pitot-static",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. The pitot inlet becomes blocked but the drain opening remains clear. What happens to the airspeed indication?",
       "options": [
-        "Battery type affects only paint colour",
-        "Charging procedure is unrelated to battery chemistry",
-        "Different chemistries require different servicing and charging procedures",
-        "All aircraft batteries are chemically identical"
+        "It behaves like an altimeter because trapped pitot pressure remains constant.",
+        "It overreads in both climb and descent.",
+        "It tends toward zero because pitot pressure cannot be retained.",
+        "It freezes at the airspeed indicated when the blockage occurred."
       ],
       "answer": 2,
-      "explanation": "Lead-acid and nickel-cadmium batteries require different maintenance procedures and charging practices."
+      "explanation": "With the drain open, pitot pressure bleeds to ambient/static conditions, removing differential pressure.",
+      "concept": "AF-C036"
     },
     {
       "id": "AF180",
-      "section": "27.1",
-      "topic": "Electrical Systems",
-      "question": "An AME is reviewing this system. Why must battery maintenance follow the specific battery type instructions?",
+      "section": "28",
+      "topic": "Pitot-static",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. The pitot inlet becomes blocked but the drain opening remains clear. What happens to the airspeed indication?",
       "options": [
-        "Charging procedure is unrelated to battery chemistry",
-        "Different chemistries require different servicing and charging procedures",
-        "All aircraft batteries are chemically identical",
-        "Battery type affects only paint colour"
+        "It overreads in both climb and descent.",
+        "It tends toward zero because pitot pressure cannot be retained.",
+        "It freezes at the airspeed indicated when the blockage occurred.",
+        "It behaves like an altimeter because trapped pitot pressure remains constant."
       ],
       "answer": 1,
-      "explanation": "Lead-acid and nickel-cadmium batteries require different maintenance procedures and charging practices."
+      "explanation": "With the drain open, pitot pressure bleeds to ambient/static conditions, removing differential pressure.",
+      "concept": "AF-C036"
     },
     {
       "id": "AF181",
-      "section": "27.2",
-      "topic": "Electrical Systems",
-      "question": "What is the main role of a voltage regulator or generator control unit?",
+      "section": "28",
+      "topic": "Static blockage",
+      "difficulty": "Exam-style",
+      "question": "A complete static-system blockage occurs in level flight. Which instrument combination is affected?",
       "options": [
-        "Maintain generated electrical voltage within limits",
-        "Control hydraulic pressure",
-        "Set flap travel",
-        "Regulate cabin oxygen flow"
+        "Altimeter, vertical-speed indicator and airspeed indicator.",
+        "Airspeed indicator and turn coordinator only.",
+        "Altimeter and magnetic compass only.",
+        "Vertical-speed indicator and tachometer only."
       ],
       "answer": 0,
-      "explanation": "A generator control unit or voltage regulator maintains system voltage within specified limits and may provide protective functions."
+      "explanation": "All three pitot-static instruments use static pressure; ASI also uses pitot pressure.",
+      "concept": "AF-C037"
     },
     {
       "id": "AF182",
-      "section": "27.2",
-      "topic": "Electrical Systems",
-      "question": "Which statement is correct regarding this subject: what is the main role of a voltage regulator or generator control unit?",
+      "section": "28",
+      "topic": "Static blockage",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A complete static-system blockage occurs in level flight. Which instrument combination is affected?",
       "options": [
-        "Control hydraulic pressure",
-        "Set flap travel",
-        "Regulate cabin oxygen flow",
-        "Maintain generated electrical voltage within limits"
+        "Airspeed indicator and turn coordinator only.",
+        "Altimeter and magnetic compass only.",
+        "Vertical-speed indicator and tachometer only.",
+        "Altimeter, vertical-speed indicator and airspeed indicator."
       ],
       "answer": 3,
-      "explanation": "A generator control unit or voltage regulator maintains system voltage within specified limits and may provide protective functions."
+      "explanation": "All three pitot-static instruments use static pressure; ASI also uses pitot pressure.",
+      "concept": "AF-C037"
     },
     {
       "id": "AF183",
-      "section": "27.2",
-      "topic": "Electrical Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the main role of a voltage regulator or generator control unit?",
+      "section": "28",
+      "topic": "Static blockage",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A complete static-system blockage occurs in level flight. Which instrument combination is affected?",
       "options": [
-        "Set flap travel",
-        "Regulate cabin oxygen flow",
-        "Maintain generated electrical voltage within limits",
-        "Control hydraulic pressure"
+        "Altimeter and magnetic compass only.",
+        "Vertical-speed indicator and tachometer only.",
+        "Altimeter, vertical-speed indicator and airspeed indicator.",
+        "Airspeed indicator and turn coordinator only."
       ],
       "answer": 2,
-      "explanation": "A generator control unit or voltage regulator maintains system voltage within specified limits and may provide protective functions."
+      "explanation": "All three pitot-static instruments use static pressure; ASI also uses pitot pressure.",
+      "concept": "AF-C037"
     },
     {
       "id": "AF184",
-      "section": "27.2",
-      "topic": "Electrical Systems",
-      "question": "An AME is reviewing this system. What is the main role of a voltage regulator or generator control unit?",
+      "section": "28",
+      "topic": "Static blockage",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A complete static-system blockage occurs in level flight. Which instrument combination is affected?",
       "options": [
-        "Regulate cabin oxygen flow",
-        "Maintain generated electrical voltage within limits",
-        "Control hydraulic pressure",
-        "Set flap travel"
+        "Vertical-speed indicator and tachometer only.",
+        "Altimeter, vertical-speed indicator and airspeed indicator.",
+        "Airspeed indicator and turn coordinator only.",
+        "Altimeter and magnetic compass only."
       ],
       "answer": 1,
-      "explanation": "A generator control unit or voltage regulator maintains system voltage within specified limits and may provide protective functions."
+      "explanation": "All three pitot-static instruments use static pressure; ASI also uses pitot pressure.",
+      "concept": "AF-C037"
     },
     {
       "id": "AF185",
-      "section": "27.3",
-      "topic": "Wiring",
-      "question": "Which wiring condition is unacceptable?",
+      "section": "28",
+      "topic": "Static blockage",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A complete static-system blockage occurs in level flight. Which instrument combination is affected?",
       "options": [
-        "A wire bundle chafing against structure",
-        "A properly supported bundle with correct clearance",
-        "A correctly crimped terminal",
-        "Approved sleeving at a high-wear location"
+        "Altimeter, vertical-speed indicator and airspeed indicator.",
+        "Airspeed indicator and turn coordinator only.",
+        "Altimeter and magnetic compass only.",
+        "Vertical-speed indicator and tachometer only."
       ],
       "answer": 0,
-      "explanation": "Electrical wiring must be supported and routed to prevent chafing, excessive heat exposure, fluid contamination and interference with controls."
+      "explanation": "All three pitot-static instruments use static pressure; ASI also uses pitot pressure.",
+      "concept": "AF-C037"
     },
     {
       "id": "AF186",
-      "section": "27.3",
-      "topic": "Wiring",
-      "question": "Which statement is correct regarding this subject: which wiring condition is unacceptable?",
+      "section": "28",
+      "topic": "Compass",
+      "difficulty": "Exam-style",
+      "question": "After installing electrical equipment near a magnetic compass, what maintenance check is appropriate?",
       "options": [
-        "A properly supported bundle with correct clearance",
-        "A correctly crimped terminal",
-        "Approved sleeving at a high-wear location",
-        "A wire bundle chafing against structure"
+        "No check is required if the equipment is switched off during installation.",
+        "Adjust the compass only if the aircraft heading indicator disagrees in flight.",
+        "Demagnetize the entire fuselage.",
+        "Perform the applicable compass interference/compensation check in accordance with approved data."
       ],
       "answer": 3,
-      "explanation": "Electrical wiring must be supported and routed to prevent chafing, excessive heat exposure, fluid contamination and interference with controls."
+      "explanation": "Local magnetic fields can create deviation; installation data determines required compass checks.",
+      "concept": "AF-C038"
     },
     {
       "id": "AF187",
-      "section": "27.3",
-      "topic": "Wiring",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which wiring condition is unacceptable?",
+      "section": "28",
+      "topic": "Compass",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. After installing electrical equipment near a magnetic compass, what maintenance check is appropriate?",
       "options": [
-        "A correctly crimped terminal",
-        "Approved sleeving at a high-wear location",
-        "A wire bundle chafing against structure",
-        "A properly supported bundle with correct clearance"
+        "Adjust the compass only if the aircraft heading indicator disagrees in flight.",
+        "Demagnetize the entire fuselage.",
+        "Perform the applicable compass interference/compensation check in accordance with approved data.",
+        "No check is required if the equipment is switched off during installation."
       ],
       "answer": 2,
-      "explanation": "Electrical wiring must be supported and routed to prevent chafing, excessive heat exposure, fluid contamination and interference with controls."
+      "explanation": "Local magnetic fields can create deviation; installation data determines required compass checks.",
+      "concept": "AF-C038"
     },
     {
       "id": "AF188",
-      "section": "27.3",
-      "topic": "Wiring",
-      "question": "An AME is reviewing this system. Which wiring condition is unacceptable?",
+      "section": "28",
+      "topic": "Compass",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? After installing electrical equipment near a magnetic compass, what maintenance check is appropriate?",
       "options": [
-        "Approved sleeving at a high-wear location",
-        "A wire bundle chafing against structure",
-        "A properly supported bundle with correct clearance",
-        "A correctly crimped terminal"
+        "Demagnetize the entire fuselage.",
+        "Perform the applicable compass interference/compensation check in accordance with approved data.",
+        "No check is required if the equipment is switched off during installation.",
+        "Adjust the compass only if the aircraft heading indicator disagrees in flight."
       ],
       "answer": 1,
-      "explanation": "Electrical wiring must be supported and routed to prevent chafing, excessive heat exposure, fluid contamination and interference with controls."
+      "explanation": "Local magnetic fields can create deviation; installation data determines required compass checks.",
+      "concept": "AF-C038"
     },
     {
       "id": "AF189",
-      "section": "27.4",
-      "topic": "Electrical Troubleshooting",
-      "question": "What is a likely effect of a high-resistance electrical connection under load?",
+      "section": "28",
+      "topic": "Compass",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. After installing electrical equipment near a magnetic compass, what maintenance check is appropriate?",
       "options": [
-        "Excessive voltage drop and heating",
-        "Higher generator frequency only",
-        "Increased hydraulic flow",
-        "Reduced aerodynamic drag"
+        "Perform the applicable compass interference/compensation check in accordance with approved data.",
+        "No check is required if the equipment is switched off during installation.",
+        "Adjust the compass only if the aircraft heading indicator disagrees in flight.",
+        "Demagnetize the entire fuselage."
       ],
       "answer": 0,
-      "explanation": "A high-resistance connection can cause a voltage drop and localized heating under load."
+      "explanation": "Local magnetic fields can create deviation; installation data determines required compass checks.",
+      "concept": "AF-C038"
     },
     {
       "id": "AF190",
-      "section": "27.4",
-      "topic": "Electrical Troubleshooting",
-      "question": "Which statement is correct regarding this subject: what is a likely effect of a high-resistance electrical connection under load?",
+      "section": "28",
+      "topic": "Compass",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. After installing electrical equipment near a magnetic compass, what maintenance check is appropriate?",
       "options": [
-        "Higher generator frequency only",
-        "Increased hydraulic flow",
-        "Reduced aerodynamic drag",
-        "Excessive voltage drop and heating"
+        "No check is required if the equipment is switched off during installation.",
+        "Adjust the compass only if the aircraft heading indicator disagrees in flight.",
+        "Demagnetize the entire fuselage.",
+        "Perform the applicable compass interference/compensation check in accordance with approved data."
       ],
       "answer": 3,
-      "explanation": "A high-resistance connection can cause a voltage drop and localized heating under load."
+      "explanation": "Local magnetic fields can create deviation; installation data determines required compass checks.",
+      "concept": "AF-C038"
     },
     {
       "id": "AF191",
-      "section": "27.4",
-      "topic": "Electrical Troubleshooting",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a likely effect of a high-resistance electrical connection under load?",
+      "section": "29",
+      "topic": "Weather radar",
+      "difficulty": "Exam-style",
+      "question": "Why is operating airborne weather radar near personnel or during certain maintenance conditions controlled by procedures?",
       "options": [
-        "Increased hydraulic flow",
-        "Reduced aerodynamic drag",
-        "Excessive voltage drop and heating",
-        "Higher generator frequency only"
+        "Weather radar transmits ionizing radiation comparable to X-rays.",
+        "The antenna can only be damaged when the aircraft is airborne.",
+        "The transmitter can produce hazardous RF energy and procedures also protect equipment.",
+        "The radar beam can ignite aviation fuel at any distance."
       ],
       "answer": 2,
-      "explanation": "A high-resistance connection can cause a voltage drop and localized heating under load."
+      "explanation": "High-power RF transmitters require defined safety precautions; the energy is non-ionizing but can be hazardous.",
+      "concept": "AF-C039"
     },
     {
       "id": "AF192",
-      "section": "27.4",
-      "topic": "Electrical Troubleshooting",
-      "question": "An AME is reviewing this system. What is a likely effect of a high-resistance electrical connection under load?",
+      "section": "29",
+      "topic": "Weather radar",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why is operating airborne weather radar near personnel or during certain maintenance conditions controlled by procedures?",
       "options": [
-        "Reduced aerodynamic drag",
-        "Excessive voltage drop and heating",
-        "Higher generator frequency only",
-        "Increased hydraulic flow"
+        "The antenna can only be damaged when the aircraft is airborne.",
+        "The transmitter can produce hazardous RF energy and procedures also protect equipment.",
+        "The radar beam can ignite aviation fuel at any distance.",
+        "Weather radar transmits ionizing radiation comparable to X-rays."
       ],
       "answer": 1,
-      "explanation": "A high-resistance connection can cause a voltage drop and localized heating under load."
+      "explanation": "High-power RF transmitters require defined safety precautions; the energy is non-ionizing but can be hazardous.",
+      "concept": "AF-C039"
     },
     {
       "id": "AF193",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "If the pitot inlet is blocked but the drain hole remains open, what is the likely airspeed indication?",
+      "section": "29",
+      "topic": "Weather radar",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why is operating airborne weather radar near personnel or during certain maintenance conditions controlled by procedures?",
       "options": [
-        "It tends toward zero because pitot pressure is lost",
-        "It behaves exactly like an altimeter",
-        "It always indicates maximum airspeed",
-        "It is unaffected"
+        "The transmitter can produce hazardous RF energy and procedures also protect equipment.",
+        "The radar beam can ignite aviation fuel at any distance.",
+        "Weather radar transmits ionizing radiation comparable to X-rays.",
+        "The antenna can only be damaged when the aircraft is airborne."
       ],
       "answer": 0,
-      "explanation": "A blocked pitot opening with an open drain prevents normal dynamic pressure from reaching the airspeed indicator."
+      "explanation": "High-power RF transmitters require defined safety precautions; the energy is non-ionizing but can be hazardous.",
+      "concept": "AF-C039"
     },
     {
       "id": "AF194",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "Which statement is correct regarding this subject: if the pitot inlet is blocked but the drain hole remains open, what is the likely airspeed indication?",
+      "section": "29",
+      "topic": "Weather radar",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why is operating airborne weather radar near personnel or during certain maintenance conditions controlled by procedures?",
       "options": [
-        "It behaves exactly like an altimeter",
-        "It always indicates maximum airspeed",
-        "It is unaffected",
-        "It tends toward zero because pitot pressure is lost"
+        "The radar beam can ignite aviation fuel at any distance.",
+        "Weather radar transmits ionizing radiation comparable to X-rays.",
+        "The antenna can only be damaged when the aircraft is airborne.",
+        "The transmitter can produce hazardous RF energy and procedures also protect equipment."
       ],
       "answer": 3,
-      "explanation": "A blocked pitot opening with an open drain prevents normal dynamic pressure from reaching the airspeed indicator."
+      "explanation": "High-power RF transmitters require defined safety precautions; the energy is non-ionizing but can be hazardous.",
+      "concept": "AF-C039"
     },
     {
       "id": "AF195",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? If the pitot inlet is blocked but the drain hole remains open, what is the likely airspeed indication?",
+      "section": "29",
+      "topic": "Weather radar",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why is operating airborne weather radar near personnel or during certain maintenance conditions controlled by procedures?",
       "options": [
-        "It always indicates maximum airspeed",
-        "It is unaffected",
-        "It tends toward zero because pitot pressure is lost",
-        "It behaves exactly like an altimeter"
+        "Weather radar transmits ionizing radiation comparable to X-rays.",
+        "The antenna can only be damaged when the aircraft is airborne.",
+        "The transmitter can produce hazardous RF energy and procedures also protect equipment.",
+        "The radar beam can ignite aviation fuel at any distance."
       ],
       "answer": 2,
-      "explanation": "A blocked pitot opening with an open drain prevents normal dynamic pressure from reaching the airspeed indicator."
+      "explanation": "High-power RF transmitters require defined safety precautions; the energy is non-ionizing but can be hazardous.",
+      "concept": "AF-C039"
     },
     {
       "id": "AF196",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "An AME is reviewing this system. If the pitot inlet is blocked but the drain hole remains open, what is the likely airspeed indication?",
+      "section": "29",
+      "topic": "TCAS",
+      "difficulty": "Exam-style",
+      "question": "TCAS traffic information fundamentally depends on what source from nearby aircraft?",
       "options": [
-        "It is unaffected",
-        "It tends toward zero because pitot pressure is lost",
-        "It behaves exactly like an altimeter",
-        "It always indicates maximum airspeed"
+        "Pitot-static broadcasts.",
+        "Transponder replies.",
+        "Primary weather-radar returns.",
+        "VHF voice transmissions."
       ],
       "answer": 1,
-      "explanation": "A blocked pitot opening with an open drain prevents normal dynamic pressure from reaching the airspeed indicator."
+      "explanation": "TCAS interrogates/receives compatible transponder data to determine traffic.",
+      "concept": "AF-C040"
     },
     {
       "id": "AF197",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "Which instruments are affected by a complete static-system blockage?",
+      "section": "29",
+      "topic": "TCAS",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. TCAS traffic information fundamentally depends on what source from nearby aircraft?",
       "options": [
-        "Altimeter, VSI and airspeed indicator",
-        "Tachometer, oil pressure and fuel flow only",
-        "Magnetic compass only",
-        "Engine EGT only"
+        "Transponder replies.",
+        "Primary weather-radar returns.",
+        "VHF voice transmissions.",
+        "Pitot-static broadcasts."
       ],
       "answer": 0,
-      "explanation": "A blockage of the static system affects instruments that use static pressure, including altimeter, VSI and airspeed indication."
+      "explanation": "TCAS interrogates/receives compatible transponder data to determine traffic.",
+      "concept": "AF-C040"
     },
     {
       "id": "AF198",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "Which statement is correct regarding this subject: which instruments are affected by a complete static-system blockage?",
+      "section": "29",
+      "topic": "TCAS",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? TCAS traffic information fundamentally depends on what source from nearby aircraft?",
       "options": [
-        "Tachometer, oil pressure and fuel flow only",
-        "Magnetic compass only",
-        "Engine EGT only",
-        "Altimeter, VSI and airspeed indicator"
+        "Primary weather-radar returns.",
+        "VHF voice transmissions.",
+        "Pitot-static broadcasts.",
+        "Transponder replies."
       ],
       "answer": 3,
-      "explanation": "A blockage of the static system affects instruments that use static pressure, including altimeter, VSI and airspeed indication."
+      "explanation": "TCAS interrogates/receives compatible transponder data to determine traffic.",
+      "concept": "AF-C040"
     },
     {
       "id": "AF199",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which instruments are affected by a complete static-system blockage?",
+      "section": "29",
+      "topic": "TCAS",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. TCAS traffic information fundamentally depends on what source from nearby aircraft?",
       "options": [
-        "Magnetic compass only",
-        "Engine EGT only",
-        "Altimeter, VSI and airspeed indicator",
-        "Tachometer, oil pressure and fuel flow only"
+        "VHF voice transmissions.",
+        "Pitot-static broadcasts.",
+        "Transponder replies.",
+        "Primary weather-radar returns."
       ],
       "answer": 2,
-      "explanation": "A blockage of the static system affects instruments that use static pressure, including altimeter, VSI and airspeed indication."
+      "explanation": "TCAS interrogates/receives compatible transponder data to determine traffic.",
+      "concept": "AF-C040"
     },
     {
       "id": "AF200",
-      "section": "28.2",
-      "topic": "Pitot-Static",
-      "question": "An AME is reviewing this system. Which instruments are affected by a complete static-system blockage?",
+      "section": "29",
+      "topic": "TCAS",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. TCAS traffic information fundamentally depends on what source from nearby aircraft?",
       "options": [
-        "Engine EGT only",
-        "Altimeter, VSI and airspeed indicator",
-        "Tachometer, oil pressure and fuel flow only",
-        "Magnetic compass only"
+        "Pitot-static broadcasts.",
+        "Transponder replies.",
+        "Primary weather-radar returns.",
+        "VHF voice transmissions."
       ],
       "answer": 1,
-      "explanation": "A blockage of the static system affects instruments that use static pressure, including altimeter, VSI and airspeed indication."
+      "explanation": "TCAS interrogates/receives compatible transponder data to determine traffic.",
+      "concept": "AF-C040"
     },
     {
       "id": "AF201",
-      "section": "28.3",
-      "topic": "Compass",
-      "question": "What commonly causes magnetic compass deviation in an aircraft?",
+      "section": "30",
+      "topic": "Autopilot",
+      "difficulty": "Exam-style",
+      "question": "In a conventional autopilot system, which component physically moves the flight control in response to controller commands?",
       "options": [
-        "Local magnetic fields from aircraft structure or electrical equipment",
-        "Atmospheric pressure only",
-        "Fuel density only",
-        "Wing loading only"
+        "A servo/actuator.",
+        "The attitude sensor.",
+        "The mode selector.",
+        "The flight director display."
       ],
       "answer": 0,
-      "explanation": "Ferrous materials and electrical currents near a magnetic compass can create deviation."
+      "explanation": "Sensors and computers generate commands; servos/actuators apply them to the controls.",
+      "concept": "AF-C041"
     },
     {
       "id": "AF202",
-      "section": "28.3",
-      "topic": "Compass",
-      "question": "Which statement is correct regarding this subject: what commonly causes magnetic compass deviation in an aircraft?",
+      "section": "30",
+      "topic": "Autopilot",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. In a conventional autopilot system, which component physically moves the flight control in response to controller commands?",
       "options": [
-        "Atmospheric pressure only",
-        "Fuel density only",
-        "Wing loading only",
-        "Local magnetic fields from aircraft structure or electrical equipment"
+        "The attitude sensor.",
+        "The mode selector.",
+        "The flight director display.",
+        "A servo/actuator."
       ],
       "answer": 3,
-      "explanation": "Ferrous materials and electrical currents near a magnetic compass can create deviation."
+      "explanation": "Sensors and computers generate commands; servos/actuators apply them to the controls.",
+      "concept": "AF-C041"
     },
     {
       "id": "AF203",
-      "section": "28.3",
-      "topic": "Compass",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What commonly causes magnetic compass deviation in an aircraft?",
+      "section": "30",
+      "topic": "Autopilot",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? In a conventional autopilot system, which component physically moves the flight control in response to controller commands?",
       "options": [
-        "Fuel density only",
-        "Wing loading only",
-        "Local magnetic fields from aircraft structure or electrical equipment",
-        "Atmospheric pressure only"
+        "The mode selector.",
+        "The flight director display.",
+        "A servo/actuator.",
+        "The attitude sensor."
       ],
       "answer": 2,
-      "explanation": "Ferrous materials and electrical currents near a magnetic compass can create deviation."
+      "explanation": "Sensors and computers generate commands; servos/actuators apply them to the controls.",
+      "concept": "AF-C041"
     },
     {
       "id": "AF204",
-      "section": "28.3",
-      "topic": "Compass",
-      "question": "An AME is reviewing this system. What commonly causes magnetic compass deviation in an aircraft?",
+      "section": "30",
+      "topic": "Autopilot",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. In a conventional autopilot system, which component physically moves the flight control in response to controller commands?",
       "options": [
-        "Wing loading only",
-        "Local magnetic fields from aircraft structure or electrical equipment",
-        "Atmospheric pressure only",
-        "Fuel density only"
+        "The flight director display.",
+        "A servo/actuator.",
+        "The attitude sensor.",
+        "The mode selector."
       ],
       "answer": 1,
-      "explanation": "Ferrous materials and electrical currents near a magnetic compass can create deviation."
+      "explanation": "Sensors and computers generate commands; servos/actuators apply them to the controls.",
+      "concept": "AF-C041"
     },
     {
       "id": "AF205",
-      "section": "28.4",
-      "topic": "Air Data",
-      "question": "What is the basic function of an air data computer?",
+      "section": "30",
+      "topic": "Autopilot",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. In a conventional autopilot system, which component physically moves the flight control in response to controller commands?",
       "options": [
-        "Process sensor inputs to calculate and distribute air-data information",
-        "Control fuel nozzle spray pattern",
-        "Drive landing gear mechanically",
-        "Store hydraulic fluid"
+        "A servo/actuator.",
+        "The attitude sensor.",
+        "The mode selector.",
+        "The flight director display."
       ],
       "answer": 0,
-      "explanation": "An air data computer processes pressure/temperature inputs to provide calculated air-data parameters to aircraft systems."
-    },
-    {
-      "id": "AF206",
-      "section": "28.4",
-      "topic": "Air Data",
-      "question": "Which statement is correct regarding this subject: what is the basic function of an air data computer?",
-      "options": [
-        "Control fuel nozzle spray pattern",
-        "Drive landing gear mechanically",
-        "Store hydraulic fluid",
-        "Process sensor inputs to calculate and distribute air-data information"
-      ],
-      "answer": 3,
-      "explanation": "An air data computer processes pressure/temperature inputs to provide calculated air-data parameters to aircraft systems."
-    },
-    {
-      "id": "AF207",
-      "section": "28.4",
-      "topic": "Air Data",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the basic function of an air data computer?",
-      "options": [
-        "Drive landing gear mechanically",
-        "Store hydraulic fluid",
-        "Process sensor inputs to calculate and distribute air-data information",
-        "Control fuel nozzle spray pattern"
-      ],
-      "answer": 2,
-      "explanation": "An air data computer processes pressure/temperature inputs to provide calculated air-data parameters to aircraft systems."
-    },
-    {
-      "id": "AF208",
-      "section": "28.4",
-      "topic": "Air Data",
-      "question": "An AME is reviewing this system. What is the basic function of an air data computer?",
-      "options": [
-        "Store hydraulic fluid",
-        "Process sensor inputs to calculate and distribute air-data information",
-        "Control fuel nozzle spray pattern",
-        "Drive landing gear mechanically"
-      ],
-      "answer": 1,
-      "explanation": "An air data computer processes pressure/temperature inputs to provide calculated air-data parameters to aircraft systems."
-    },
-    {
-      "id": "AF209",
-      "section": "29.2",
-      "topic": "Antennas",
-      "question": "Which maintenance finding can reduce aircraft antenna performance?",
-      "options": [
-        "Corrosion or poor bonding at the antenna installation",
-        "Correct coaxial connector torque",
-        "Approved sealant application",
-        "Proper ground plane condition"
-      ],
-      "answer": 0,
-      "explanation": "Damage, poor bonding, corrosion or incorrect installation of an antenna can degrade radio performance."
-    },
-    {
-      "id": "AF210",
-      "section": "29.2",
-      "topic": "Antennas",
-      "question": "Which statement is correct regarding this subject: which maintenance finding can reduce aircraft antenna performance?",
-      "options": [
-        "Correct coaxial connector torque",
-        "Approved sealant application",
-        "Proper ground plane condition",
-        "Corrosion or poor bonding at the antenna installation"
-      ],
-      "answer": 3,
-      "explanation": "Damage, poor bonding, corrosion or incorrect installation of an antenna can degrade radio performance."
-    },
-    {
-      "id": "AF211",
-      "section": "29.2",
-      "topic": "Antennas",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which maintenance finding can reduce aircraft antenna performance?",
-      "options": [
-        "Approved sealant application",
-        "Proper ground plane condition",
-        "Corrosion or poor bonding at the antenna installation",
-        "Correct coaxial connector torque"
-      ],
-      "answer": 2,
-      "explanation": "Damage, poor bonding, corrosion or incorrect installation of an antenna can degrade radio performance."
-    },
-    {
-      "id": "AF212",
-      "section": "29.2",
-      "topic": "Antennas",
-      "question": "An AME is reviewing this system. Which maintenance finding can reduce aircraft antenna performance?",
-      "options": [
-        "Proper ground plane condition",
-        "Corrosion or poor bonding at the antenna installation",
-        "Correct coaxial connector torque",
-        "Approved sealant application"
-      ],
-      "answer": 1,
-      "explanation": "Damage, poor bonding, corrosion or incorrect installation of an antenna can degrade radio performance."
-    },
-    {
-      "id": "AF213",
-      "section": "29.3",
-      "topic": "Weather Radar",
-      "question": "What does airborne weather radar primarily detect?",
-      "options": [
-        "Returns from precipitation",
-        "Engine oil contamination",
-        "Hydraulic leakage",
-        "Cabin oxygen concentration"
-      ],
-      "answer": 0,
-      "explanation": "Weather radar transmits microwave energy and analyzes returned energy from precipitation to display weather intensity/location."
-    },
-    {
-      "id": "AF214",
-      "section": "29.3",
-      "topic": "Weather Radar",
-      "question": "Which statement is correct regarding this subject: what does airborne weather radar primarily detect?",
-      "options": [
-        "Engine oil contamination",
-        "Hydraulic leakage",
-        "Cabin oxygen concentration",
-        "Returns from precipitation"
-      ],
-      "answer": 3,
-      "explanation": "Weather radar transmits microwave energy and analyzes returned energy from precipitation to display weather intensity/location."
-    },
-    {
-      "id": "AF215",
-      "section": "29.3",
-      "topic": "Weather Radar",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does airborne weather radar primarily detect?",
-      "options": [
-        "Hydraulic leakage",
-        "Cabin oxygen concentration",
-        "Returns from precipitation",
-        "Engine oil contamination"
-      ],
-      "answer": 2,
-      "explanation": "Weather radar transmits microwave energy and analyzes returned energy from precipitation to display weather intensity/location."
-    },
-    {
-      "id": "AF216",
-      "section": "29.3",
-      "topic": "Weather Radar",
-      "question": "An AME is reviewing this system. What does airborne weather radar primarily detect?",
-      "options": [
-        "Cabin oxygen concentration",
-        "Returns from precipitation",
-        "Engine oil contamination",
-        "Hydraulic leakage"
-      ],
-      "answer": 1,
-      "explanation": "Weather radar transmits microwave energy and analyzes returned energy from precipitation to display weather intensity/location."
-    },
-    {
-      "id": "AF217",
-      "section": "29.5",
-      "topic": "TCAS",
-      "question": "What information source is fundamental to TCAS operation?",
-      "options": [
-        "Transponder replies from nearby aircraft",
-        "Pitot heat current",
-        "Fuel quantity probes",
-        "Brake temperature sensors"
-      ],
-      "answer": 0,
-      "explanation": "TCAS uses transponder information from nearby aircraft to provide traffic advisories and, for compatible systems, resolution advisories."
-    },
-    {
-      "id": "AF218",
-      "section": "29.5",
-      "topic": "TCAS",
-      "question": "Which statement is correct regarding this subject: what information source is fundamental to TCAS operation?",
-      "options": [
-        "Pitot heat current",
-        "Fuel quantity probes",
-        "Brake temperature sensors",
-        "Transponder replies from nearby aircraft"
-      ],
-      "answer": 3,
-      "explanation": "TCAS uses transponder information from nearby aircraft to provide traffic advisories and, for compatible systems, resolution advisories."
-    },
-    {
-      "id": "AF219",
-      "section": "29.5",
-      "topic": "TCAS",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What information source is fundamental to TCAS operation?",
-      "options": [
-        "Fuel quantity probes",
-        "Brake temperature sensors",
-        "Transponder replies from nearby aircraft",
-        "Pitot heat current"
-      ],
-      "answer": 2,
-      "explanation": "TCAS uses transponder information from nearby aircraft to provide traffic advisories and, for compatible systems, resolution advisories."
-    },
-    {
-      "id": "AF220",
-      "section": "29.5",
-      "topic": "TCAS",
-      "question": "An AME is reviewing this system. What information source is fundamental to TCAS operation?",
-      "options": [
-        "Brake temperature sensors",
-        "Transponder replies from nearby aircraft",
-        "Pitot heat current",
-        "Fuel quantity probes"
-      ],
-      "answer": 1,
-      "explanation": "TCAS uses transponder information from nearby aircraft to provide traffic advisories and, for compatible systems, resolution advisories."
+      "explanation": "Sensors and computers generate commands; servos/actuators apply them to the controls.",
+      "concept": "AF-C041"
     }
   ],
   "PP": [
     {
       "id": "PP001",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "What is the correct sequence of a four-stroke engine cycle?",
+      "section": "31",
+      "topic": "Four-stroke cycle",
+      "difficulty": "Exam-style",
+      "question": "Which sequence correctly describes one complete four-stroke reciprocating-engine cycle?",
       "options": [
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake"
+        "Intake, compression, power, exhaust.",
+        "Intake, power, compression, exhaust.",
+        "Compression, intake, power, exhaust.",
+        "Intake, compression, exhaust, power."
       ],
       "answer": 0,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The four strokes occur in intake-compression-power-exhaust order over two crankshaft revolutions.",
+      "concept": "PP-C001"
     },
     {
       "id": "PP002",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Which statement is correct regarding this subject: what is the correct sequence of a four-stroke engine cycle?",
+      "section": "31",
+      "topic": "Four-stroke cycle",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which sequence correctly describes one complete four-stroke reciprocating-engine cycle?",
       "options": [
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust"
+        "Intake, power, compression, exhaust.",
+        "Compression, intake, power, exhaust.",
+        "Intake, compression, exhaust, power.",
+        "Intake, compression, power, exhaust."
       ],
       "answer": 3,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The four strokes occur in intake-compression-power-exhaust order over two crankshaft revolutions.",
+      "concept": "PP-C001"
     },
     {
       "id": "PP003",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the correct sequence of a four-stroke engine cycle?",
+      "section": "31",
+      "topic": "Four-stroke cycle",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which sequence correctly describes one complete four-stroke reciprocating-engine cycle?",
       "options": [
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power"
+        "Compression, intake, power, exhaust.",
+        "Intake, compression, exhaust, power.",
+        "Intake, compression, power, exhaust.",
+        "Intake, power, compression, exhaust."
       ],
       "answer": 2,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The four strokes occur in intake-compression-power-exhaust order over two crankshaft revolutions.",
+      "concept": "PP-C001"
     },
     {
       "id": "PP004",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "An AME is reviewing this system. What is the correct sequence of a four-stroke engine cycle?",
+      "section": "31",
+      "topic": "Four-stroke cycle",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which sequence correctly describes one complete four-stroke reciprocating-engine cycle?",
       "options": [
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust"
+        "Intake, compression, exhaust, power.",
+        "Intake, compression, power, exhaust.",
+        "Intake, power, compression, exhaust.",
+        "Compression, intake, power, exhaust."
       ],
       "answer": 1,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The four strokes occur in intake-compression-power-exhaust order over two crankshaft revolutions.",
+      "concept": "PP-C001"
     },
     {
       "id": "PP005",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "What best describes detonation in a reciprocating engine?",
+      "section": "31",
+      "topic": "Four-stroke cycle",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which sequence correctly describes one complete four-stroke reciprocating-engine cycle?",
       "options": [
-        "Abnormally rapid explosive combustion after normal ignition begins",
-        "Normal flame-front travel from the spark plug",
-        "Ignition occurring before the spark because of a hot spot",
-        "A rich mixture at idle only"
+        "Intake, compression, power, exhaust.",
+        "Intake, power, compression, exhaust.",
+        "Compression, intake, power, exhaust.",
+        "Intake, compression, exhaust, power."
       ],
       "answer": 0,
-      "explanation": "Detonation is an uncontrolled explosive combustion of the end gas after normal ignition and can cause very high cylinder pressures and temperatures."
+      "explanation": "The four strokes occur in intake-compression-power-exhaust order over two crankshaft revolutions.",
+      "concept": "PP-C001"
     },
     {
       "id": "PP006",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Which statement is correct regarding this subject: what best describes detonation in a reciprocating engine?",
+      "section": "31",
+      "topic": "Detonation vs pre-ignition",
+      "difficulty": "Exam-style",
+      "question": "Which statement correctly distinguishes detonation from pre-ignition?",
       "options": [
-        "Normal flame-front travel from the spark plug",
-        "Ignition occurring before the spark because of a hot spot",
-        "A rich mixture at idle only",
-        "Abnormally rapid explosive combustion after normal ignition begins"
+        "Detonation always begins before the spark; pre-ignition occurs only after normal combustion starts.",
+        "Both terms describe the same event, but detonation is used for turbine engines.",
+        "Pre-ignition is simply normal combustion with advanced magneto timing.",
+        "Detonation is abnormal explosive end-gas combustion after normal ignition begins; pre-ignition starts before the scheduled spark due to a hot source."
       ],
       "answer": 3,
-      "explanation": "Detonation is an uncontrolled explosive combustion of the end gas after normal ignition and can cause very high cylinder pressures and temperatures."
+      "explanation": "The timing/mechanism differs: detonation follows normal ignition; pre-ignition starts early from a hot spot.",
+      "concept": "PP-C002"
     },
     {
       "id": "PP007",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What best describes detonation in a reciprocating engine?",
+      "section": "31",
+      "topic": "Detonation vs pre-ignition",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which statement correctly distinguishes detonation from pre-ignition?",
       "options": [
-        "Ignition occurring before the spark because of a hot spot",
-        "A rich mixture at idle only",
-        "Abnormally rapid explosive combustion after normal ignition begins",
-        "Normal flame-front travel from the spark plug"
+        "Both terms describe the same event, but detonation is used for turbine engines.",
+        "Pre-ignition is simply normal combustion with advanced magneto timing.",
+        "Detonation is abnormal explosive end-gas combustion after normal ignition begins; pre-ignition starts before the scheduled spark due to a hot source.",
+        "Detonation always begins before the spark; pre-ignition occurs only after normal combustion starts."
       ],
       "answer": 2,
-      "explanation": "Detonation is an uncontrolled explosive combustion of the end gas after normal ignition and can cause very high cylinder pressures and temperatures."
+      "explanation": "The timing/mechanism differs: detonation follows normal ignition; pre-ignition starts early from a hot spot.",
+      "concept": "PP-C002"
     },
     {
       "id": "PP008",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "An AME is reviewing this system. What best describes detonation in a reciprocating engine?",
+      "section": "31",
+      "topic": "Detonation vs pre-ignition",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which statement correctly distinguishes detonation from pre-ignition?",
       "options": [
-        "A rich mixture at idle only",
-        "Abnormally rapid explosive combustion after normal ignition begins",
-        "Normal flame-front travel from the spark plug",
-        "Ignition occurring before the spark because of a hot spot"
+        "Pre-ignition is simply normal combustion with advanced magneto timing.",
+        "Detonation is abnormal explosive end-gas combustion after normal ignition begins; pre-ignition starts before the scheduled spark due to a hot source.",
+        "Detonation always begins before the spark; pre-ignition occurs only after normal combustion starts.",
+        "Both terms describe the same event, but detonation is used for turbine engines."
       ],
       "answer": 1,
-      "explanation": "Detonation is an uncontrolled explosive combustion of the end gas after normal ignition and can cause very high cylinder pressures and temperatures."
+      "explanation": "The timing/mechanism differs: detonation follows normal ignition; pre-ignition starts early from a hot spot.",
+      "concept": "PP-C002"
     },
     {
       "id": "PP009",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "What is pre-ignition?",
+      "section": "31",
+      "topic": "Detonation vs pre-ignition",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which statement correctly distinguishes detonation from pre-ignition?",
       "options": [
-        "Ignition of the mixture before the scheduled spark event",
-        "Normal ignition followed by detonation only",
-        "A magneto that fires after top dead centre at all speeds",
-        "Fuel vaporization in the carburetor"
+        "Detonation is abnormal explosive end-gas combustion after normal ignition begins; pre-ignition starts before the scheduled spark due to a hot source.",
+        "Detonation always begins before the spark; pre-ignition occurs only after normal combustion starts.",
+        "Both terms describe the same event, but detonation is used for turbine engines.",
+        "Pre-ignition is simply normal combustion with advanced magneto timing."
       ],
       "answer": 0,
-      "explanation": "Pre-ignition occurs when the mixture ignites before the normal spark event due to a hot spot in the combustion chamber."
+      "explanation": "The timing/mechanism differs: detonation follows normal ignition; pre-ignition starts early from a hot spot.",
+      "concept": "PP-C002"
     },
     {
       "id": "PP010",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Which statement is correct regarding this subject: what is pre-ignition?",
+      "section": "31",
+      "topic": "Detonation vs pre-ignition",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which statement correctly distinguishes detonation from pre-ignition?",
       "options": [
-        "Normal ignition followed by detonation only",
-        "A magneto that fires after top dead centre at all speeds",
-        "Fuel vaporization in the carburetor",
-        "Ignition of the mixture before the scheduled spark event"
+        "Detonation always begins before the spark; pre-ignition occurs only after normal combustion starts.",
+        "Both terms describe the same event, but detonation is used for turbine engines.",
+        "Pre-ignition is simply normal combustion with advanced magneto timing.",
+        "Detonation is abnormal explosive end-gas combustion after normal ignition begins; pre-ignition starts before the scheduled spark due to a hot source."
       ],
       "answer": 3,
-      "explanation": "Pre-ignition occurs when the mixture ignites before the normal spark event due to a hot spot in the combustion chamber."
+      "explanation": "The timing/mechanism differs: detonation follows normal ignition; pre-ignition starts early from a hot spot.",
+      "concept": "PP-C002"
     },
     {
       "id": "PP011",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is pre-ignition?",
+      "section": "31",
+      "topic": "Compression check",
+      "difficulty": "Exam-style",
+      "question": "During a differential compression test, significant air is heard at the exhaust outlet. What does this most strongly indicate?",
       "options": [
-        "A magneto that fires after top dead centre at all speeds",
-        "Fuel vaporization in the carburetor",
-        "Ignition of the mixture before the scheduled spark event",
-        "Normal ignition followed by detonation only"
+        "Leakage past piston rings into the crankcase.",
+        "A leaking spark-plug gasket only.",
+        "Leakage past an exhaust valve.",
+        "Leakage past an intake valve."
       ],
       "answer": 2,
-      "explanation": "Pre-ignition occurs when the mixture ignites before the normal spark event due to a hot spot in the combustion chamber."
+      "explanation": "Where the escaping air is heard helps localize leakage: exhaust outlet points to exhaust-valve sealing.",
+      "concept": "PP-C003"
     },
     {
       "id": "PP012",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "An AME is reviewing this system. What is pre-ignition?",
+      "section": "31",
+      "topic": "Compression check",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. During a differential compression test, significant air is heard at the exhaust outlet. What does this most strongly indicate?",
       "options": [
-        "Fuel vaporization in the carburetor",
-        "Ignition of the mixture before the scheduled spark event",
-        "Normal ignition followed by detonation only",
-        "A magneto that fires after top dead centre at all speeds"
+        "A leaking spark-plug gasket only.",
+        "Leakage past an exhaust valve.",
+        "Leakage past an intake valve.",
+        "Leakage past piston rings into the crankcase."
       ],
       "answer": 1,
-      "explanation": "Pre-ignition occurs when the mixture ignites before the normal spark event due to a hot spot in the combustion chamber."
+      "explanation": "Where the escaping air is heard helps localize leakage: exhaust outlet points to exhaust-valve sealing.",
+      "concept": "PP-C003"
     },
     {
       "id": "PP013",
-      "section": "31.2",
-      "topic": "Engine Mounts",
-      "question": "What is a primary function of an engine mount?",
+      "section": "31",
+      "topic": "Compression check",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? During a differential compression test, significant air is heard at the exhaust outlet. What does this most strongly indicate?",
       "options": [
-        "Transmit engine loads to the airframe while maintaining alignment",
-        "Meter fuel to the cylinders",
-        "Regulate propeller pitch",
-        "Control cabin altitude"
+        "Leakage past an exhaust valve.",
+        "Leakage past an intake valve.",
+        "Leakage past piston rings into the crankcase.",
+        "A leaking spark-plug gasket only."
       ],
       "answer": 0,
-      "explanation": "Engine mounts transmit loads to the airframe and often incorporate vibration-isolating elements."
+      "explanation": "Where the escaping air is heard helps localize leakage: exhaust outlet points to exhaust-valve sealing.",
+      "concept": "PP-C003"
     },
     {
       "id": "PP014",
-      "section": "31.2",
-      "topic": "Engine Mounts",
-      "question": "Which statement is correct regarding this subject: what is a primary function of an engine mount?",
+      "section": "31",
+      "topic": "Compression check",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. During a differential compression test, significant air is heard at the exhaust outlet. What does this most strongly indicate?",
       "options": [
-        "Meter fuel to the cylinders",
-        "Regulate propeller pitch",
-        "Control cabin altitude",
-        "Transmit engine loads to the airframe while maintaining alignment"
+        "Leakage past an intake valve.",
+        "Leakage past piston rings into the crankcase.",
+        "A leaking spark-plug gasket only.",
+        "Leakage past an exhaust valve."
       ],
       "answer": 3,
-      "explanation": "Engine mounts transmit loads to the airframe and often incorporate vibration-isolating elements."
+      "explanation": "Where the escaping air is heard helps localize leakage: exhaust outlet points to exhaust-valve sealing.",
+      "concept": "PP-C003"
     },
     {
       "id": "PP015",
-      "section": "31.2",
-      "topic": "Engine Mounts",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a primary function of an engine mount?",
+      "section": "31",
+      "topic": "Compression check",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. During a differential compression test, significant air is heard at the exhaust outlet. What does this most strongly indicate?",
       "options": [
-        "Regulate propeller pitch",
-        "Control cabin altitude",
-        "Transmit engine loads to the airframe while maintaining alignment",
-        "Meter fuel to the cylinders"
+        "Leakage past piston rings into the crankcase.",
+        "A leaking spark-plug gasket only.",
+        "Leakage past an exhaust valve.",
+        "Leakage past an intake valve."
       ],
       "answer": 2,
-      "explanation": "Engine mounts transmit loads to the airframe and often incorporate vibration-isolating elements."
+      "explanation": "Where the escaping air is heard helps localize leakage: exhaust outlet points to exhaust-valve sealing.",
+      "concept": "PP-C003"
     },
     {
       "id": "PP016",
-      "section": "31.2",
-      "topic": "Engine Mounts",
-      "question": "An AME is reviewing this system. What is a primary function of an engine mount?",
+      "section": "31",
+      "topic": "Manifold pressure",
+      "difficulty": "Exam-style",
+      "question": "On a normally aspirated reciprocating engine at constant RPM, what generally happens to manifold pressure when the throttle is opened?",
       "options": [
-        "Control cabin altitude",
-        "Transmit engine loads to the airframe while maintaining alignment",
-        "Meter fuel to the cylinders",
-        "Regulate propeller pitch"
+        "It immediately exceeds ambient pressure.",
+        "It increases toward ambient pressure.",
+        "It decreases because the engine draws more air.",
+        "It remains constant because RPM has not changed."
       ],
       "answer": 1,
-      "explanation": "Engine mounts transmit loads to the airframe and often incorporate vibration-isolating elements."
+      "explanation": "Opening the throttle reduces intake restriction, increasing absolute manifold pressure.",
+      "concept": "PP-C004"
     },
     {
       "id": "PP017",
-      "section": "31.4",
-      "topic": "Gearboxes",
-      "question": "Why is reduction gearing used on some aircraft engines?",
+      "section": "31",
+      "topic": "Manifold pressure",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. On a normally aspirated reciprocating engine at constant RPM, what generally happens to manifold pressure when the throttle is opened?",
       "options": [
-        "To allow the engine to turn faster than the propeller or output shaft",
-        "To increase fuel octane",
-        "To eliminate lubrication",
-        "To increase compressor inlet temperature"
+        "It increases toward ambient pressure.",
+        "It decreases because the engine draws more air.",
+        "It remains constant because RPM has not changed.",
+        "It immediately exceeds ambient pressure."
       ],
       "answer": 0,
-      "explanation": "Reduction gearing allows a high-speed engine to drive an output such as a propeller at a lower suitable RPM."
+      "explanation": "Opening the throttle reduces intake restriction, increasing absolute manifold pressure.",
+      "concept": "PP-C004"
     },
     {
       "id": "PP018",
-      "section": "31.4",
-      "topic": "Gearboxes",
-      "question": "Which statement is correct regarding this subject: why is reduction gearing used on some aircraft engines?",
+      "section": "31",
+      "topic": "Manifold pressure",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? On a normally aspirated reciprocating engine at constant RPM, what generally happens to manifold pressure when the throttle is opened?",
       "options": [
-        "To increase fuel octane",
-        "To eliminate lubrication",
-        "To increase compressor inlet temperature",
-        "To allow the engine to turn faster than the propeller or output shaft"
+        "It decreases because the engine draws more air.",
+        "It remains constant because RPM has not changed.",
+        "It immediately exceeds ambient pressure.",
+        "It increases toward ambient pressure."
       ],
       "answer": 3,
-      "explanation": "Reduction gearing allows a high-speed engine to drive an output such as a propeller at a lower suitable RPM."
+      "explanation": "Opening the throttle reduces intake restriction, increasing absolute manifold pressure.",
+      "concept": "PP-C004"
     },
     {
       "id": "PP019",
-      "section": "31.4",
-      "topic": "Gearboxes",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is reduction gearing used on some aircraft engines?",
+      "section": "31",
+      "topic": "Manifold pressure",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. On a normally aspirated reciprocating engine at constant RPM, what generally happens to manifold pressure when the throttle is opened?",
       "options": [
-        "To eliminate lubrication",
-        "To increase compressor inlet temperature",
-        "To allow the engine to turn faster than the propeller or output shaft",
-        "To increase fuel octane"
+        "It remains constant because RPM has not changed.",
+        "It immediately exceeds ambient pressure.",
+        "It increases toward ambient pressure.",
+        "It decreases because the engine draws more air."
       ],
       "answer": 2,
-      "explanation": "Reduction gearing allows a high-speed engine to drive an output such as a propeller at a lower suitable RPM."
+      "explanation": "Opening the throttle reduces intake restriction, increasing absolute manifold pressure.",
+      "concept": "PP-C004"
     },
     {
       "id": "PP020",
-      "section": "31.4",
-      "topic": "Gearboxes",
-      "question": "An AME is reviewing this system. Why is reduction gearing used on some aircraft engines?",
+      "section": "31",
+      "topic": "Manifold pressure",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. On a normally aspirated reciprocating engine at constant RPM, what generally happens to manifold pressure when the throttle is opened?",
       "options": [
-        "To increase compressor inlet temperature",
-        "To allow the engine to turn faster than the propeller or output shaft",
-        "To increase fuel octane",
-        "To eliminate lubrication"
+        "It immediately exceeds ambient pressure.",
+        "It increases toward ambient pressure.",
+        "It decreases because the engine draws more air.",
+        "It remains constant because RPM has not changed."
       ],
       "answer": 1,
-      "explanation": "Reduction gearing allows a high-speed engine to drive an output such as a propeller at a lower suitable RPM."
+      "explanation": "Opening the throttle reduces intake restriction, increasing absolute manifold pressure.",
+      "concept": "PP-C004"
     },
     {
       "id": "PP021",
-      "section": "31.5",
-      "topic": "Engine Instruments",
-      "question": "What does a manifold pressure gauge indicate?",
+      "section": "32",
+      "topic": "Carburetor icing",
+      "difficulty": "Exam-style",
+      "question": "Why can carburetor ice form when outside air temperature is above 0°C?",
       "options": [
-        "Absolute pressure in the engine intake manifold",
-        "Cylinder compression pressure during cranking",
-        "Fuel tank pressure",
-        "Hydraulic brake pressure"
+        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing.",
+        "Only because moisture in the fuel itself freezes in the float bowl.",
+        "Because carburetor heat lowers throat temperature before warming it.",
+        "It cannot form above 0°C unless visible precipitation exists."
       ],
       "answer": 0,
-      "explanation": "A manifold pressure gauge indicates absolute pressure in the intake manifold of many reciprocating engines."
+      "explanation": "Venturi pressure drop and latent heat of fuel vaporization can produce substantial local cooling.",
+      "concept": "PP-C005"
     },
     {
       "id": "PP022",
-      "section": "31.5",
-      "topic": "Engine Instruments",
-      "question": "Which statement is correct regarding this subject: what does a manifold pressure gauge indicate?",
+      "section": "32",
+      "topic": "Carburetor icing",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why can carburetor ice form when outside air temperature is above 0°C?",
       "options": [
-        "Cylinder compression pressure during cranking",
-        "Fuel tank pressure",
-        "Hydraulic brake pressure",
-        "Absolute pressure in the engine intake manifold"
+        "Only because moisture in the fuel itself freezes in the float bowl.",
+        "Because carburetor heat lowers throat temperature before warming it.",
+        "It cannot form above 0°C unless visible precipitation exists.",
+        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing."
       ],
       "answer": 3,
-      "explanation": "A manifold pressure gauge indicates absolute pressure in the intake manifold of many reciprocating engines."
+      "explanation": "Venturi pressure drop and latent heat of fuel vaporization can produce substantial local cooling.",
+      "concept": "PP-C005"
     },
     {
       "id": "PP023",
-      "section": "31.5",
-      "topic": "Engine Instruments",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does a manifold pressure gauge indicate?",
+      "section": "32",
+      "topic": "Carburetor icing",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why can carburetor ice form when outside air temperature is above 0°C?",
       "options": [
-        "Fuel tank pressure",
-        "Hydraulic brake pressure",
-        "Absolute pressure in the engine intake manifold",
-        "Cylinder compression pressure during cranking"
+        "Because carburetor heat lowers throat temperature before warming it.",
+        "It cannot form above 0°C unless visible precipitation exists.",
+        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing.",
+        "Only because moisture in the fuel itself freezes in the float bowl."
       ],
       "answer": 2,
-      "explanation": "A manifold pressure gauge indicates absolute pressure in the intake manifold of many reciprocating engines."
+      "explanation": "Venturi pressure drop and latent heat of fuel vaporization can produce substantial local cooling.",
+      "concept": "PP-C005"
     },
     {
       "id": "PP024",
-      "section": "31.5",
-      "topic": "Engine Instruments",
-      "question": "An AME is reviewing this system. What does a manifold pressure gauge indicate?",
+      "section": "32",
+      "topic": "Carburetor icing",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why can carburetor ice form when outside air temperature is above 0°C?",
       "options": [
-        "Hydraulic brake pressure",
-        "Absolute pressure in the engine intake manifold",
-        "Cylinder compression pressure during cranking",
-        "Fuel tank pressure"
+        "It cannot form above 0°C unless visible precipitation exists.",
+        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing.",
+        "Only because moisture in the fuel itself freezes in the float bowl.",
+        "Because carburetor heat lowers throat temperature before warming it."
       ],
       "answer": 1,
-      "explanation": "A manifold pressure gauge indicates absolute pressure in the intake manifold of many reciprocating engines."
+      "explanation": "Venturi pressure drop and latent heat of fuel vaporization can produce substantial local cooling.",
+      "concept": "PP-C005"
     },
     {
       "id": "PP025",
-      "section": "31.6",
-      "topic": "Trend Monitoring",
-      "question": "What is the purpose of engine trend monitoring?",
+      "section": "32",
+      "topic": "Carburetor icing",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why can carburetor ice form when outside air temperature is above 0°C?",
       "options": [
-        "Detect gradual deterioration by comparing operating parameters over time",
-        "Replace all scheduled inspections",
-        "Set aircraft centre of gravity",
-        "Control propeller feathering directly"
+        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing.",
+        "Only because moisture in the fuel itself freezes in the float bowl.",
+        "Because carburetor heat lowers throat temperature before warming it.",
+        "It cannot form above 0°C unless visible precipitation exists."
       ],
       "answer": 0,
-      "explanation": "Trend monitoring looks for changes over time in engine parameters to identify deterioration before limits are exceeded."
+      "explanation": "Venturi pressure drop and latent heat of fuel vaporization can produce substantial local cooling.",
+      "concept": "PP-C005"
     },
     {
       "id": "PP026",
-      "section": "31.6",
-      "topic": "Trend Monitoring",
-      "question": "Which statement is correct regarding this subject: what is the purpose of engine trend monitoring?",
+      "section": "32",
+      "topic": "Carb heat",
+      "difficulty": "Exam-style",
+      "question": "On a fixed-pitch propeller aircraft with carburetor ice present, what is a typical indication after applying carburetor heat?",
       "options": [
-        "Replace all scheduled inspections",
-        "Set aircraft centre of gravity",
-        "Control propeller feathering directly",
-        "Detect gradual deterioration by comparing operating parameters over time"
+        "RPM immediately increases and remains high because heated air is denser.",
+        "RPM is unchanged because carburetor heat affects only mixture temperature.",
+        "Manifold pressure must drop to zero before recovery.",
+        "RPM may initially decrease, then increase as the ice clears."
       ],
       "answer": 3,
-      "explanation": "Trend monitoring looks for changes over time in engine parameters to identify deterioration before limits are exceeded."
+      "explanation": "Hot air is less dense, but removing the restriction can restore power after an initial change.",
+      "concept": "PP-C006"
     },
     {
       "id": "PP027",
-      "section": "31.6",
-      "topic": "Trend Monitoring",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of engine trend monitoring?",
+      "section": "32",
+      "topic": "Carb heat",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. On a fixed-pitch propeller aircraft with carburetor ice present, what is a typical indication after applying carburetor heat?",
       "options": [
-        "Set aircraft centre of gravity",
-        "Control propeller feathering directly",
-        "Detect gradual deterioration by comparing operating parameters over time",
-        "Replace all scheduled inspections"
+        "RPM is unchanged because carburetor heat affects only mixture temperature.",
+        "Manifold pressure must drop to zero before recovery.",
+        "RPM may initially decrease, then increase as the ice clears.",
+        "RPM immediately increases and remains high because heated air is denser."
       ],
       "answer": 2,
-      "explanation": "Trend monitoring looks for changes over time in engine parameters to identify deterioration before limits are exceeded."
+      "explanation": "Hot air is less dense, but removing the restriction can restore power after an initial change.",
+      "concept": "PP-C006"
     },
     {
       "id": "PP028",
-      "section": "31.6",
-      "topic": "Trend Monitoring",
-      "question": "An AME is reviewing this system. What is the purpose of engine trend monitoring?",
+      "section": "32",
+      "topic": "Carb heat",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? On a fixed-pitch propeller aircraft with carburetor ice present, what is a typical indication after applying carburetor heat?",
       "options": [
-        "Control propeller feathering directly",
-        "Detect gradual deterioration by comparing operating parameters over time",
-        "Replace all scheduled inspections",
-        "Set aircraft centre of gravity"
+        "Manifold pressure must drop to zero before recovery.",
+        "RPM may initially decrease, then increase as the ice clears.",
+        "RPM immediately increases and remains high because heated air is denser.",
+        "RPM is unchanged because carburetor heat affects only mixture temperature."
       ],
       "answer": 1,
-      "explanation": "Trend monitoring looks for changes over time in engine parameters to identify deterioration before limits are exceeded."
+      "explanation": "Hot air is less dense, but removing the restriction can restore power after an initial change.",
+      "concept": "PP-C006"
     },
     {
       "id": "PP029",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "Why can carburetor ice form at temperatures above freezing?",
+      "section": "32",
+      "topic": "Carb heat",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. On a fixed-pitch propeller aircraft with carburetor ice present, what is a typical indication after applying carburetor heat?",
       "options": [
-        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing",
-        "Engine oil always freezes first",
-        "Fuel pressure increases air temperature",
-        "Magnetos create ice during operation"
+        "RPM may initially decrease, then increase as the ice clears.",
+        "RPM immediately increases and remains high because heated air is denser.",
+        "RPM is unchanged because carburetor heat affects only mixture temperature.",
+        "Manifold pressure must drop to zero before recovery."
       ],
       "answer": 0,
-      "explanation": "Carburetor icing can occur because pressure drop and fuel vaporization lower air temperature in the carburetor throat."
+      "explanation": "Hot air is less dense, but removing the restriction can restore power after an initial change.",
+      "concept": "PP-C006"
     },
     {
       "id": "PP030",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "Which statement is correct regarding this subject: why can carburetor ice form at temperatures above freezing?",
+      "section": "32",
+      "topic": "Carb heat",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. On a fixed-pitch propeller aircraft with carburetor ice present, what is a typical indication after applying carburetor heat?",
       "options": [
-        "Engine oil always freezes first",
-        "Fuel pressure increases air temperature",
-        "Magnetos create ice during operation",
-        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing"
+        "RPM immediately increases and remains high because heated air is denser.",
+        "RPM is unchanged because carburetor heat affects only mixture temperature.",
+        "Manifold pressure must drop to zero before recovery.",
+        "RPM may initially decrease, then increase as the ice clears."
       ],
       "answer": 3,
-      "explanation": "Carburetor icing can occur because pressure drop and fuel vaporization lower air temperature in the carburetor throat."
+      "explanation": "Hot air is less dense, but removing the restriction can restore power after an initial change.",
+      "concept": "PP-C006"
     },
     {
       "id": "PP031",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why can carburetor ice form at temperatures above freezing?",
+      "section": "32",
+      "topic": "Fuel injection",
+      "difficulty": "Exam-style",
+      "question": "Compared with a float carburetor, a typical fuel-injection system is less susceptible to carburetor icing primarily because what is absent?",
       "options": [
-        "Fuel pressure increases air temperature",
-        "Magnetos create ice during operation",
-        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing",
-        "Engine oil always freezes first"
+        "An engine-driven fuel pump.",
+        "Mixture control.",
+        "A fuel-vaporizing venturi/throttle arrangement of the same type in which strong local cooling occurs.",
+        "Any throttle valve or induction pressure drop."
       ],
       "answer": 2,
-      "explanation": "Carburetor icing can occur because pressure drop and fuel vaporization lower air temperature in the carburetor throat."
+      "explanation": "Injection avoids the classic carburetor venturi/fuel-vaporization icing mechanism, though induction icing can still occur.",
+      "concept": "PP-C007"
     },
     {
       "id": "PP032",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "An AME is reviewing this system. Why can carburetor ice form at temperatures above freezing?",
+      "section": "32",
+      "topic": "Fuel injection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Compared with a float carburetor, a typical fuel-injection system is less susceptible to carburetor icing primarily because what is absent?",
       "options": [
-        "Magnetos create ice during operation",
-        "Pressure drop and fuel vaporization can cool the carburetor throat below freezing",
-        "Engine oil always freezes first",
-        "Fuel pressure increases air temperature"
+        "Mixture control.",
+        "A fuel-vaporizing venturi/throttle arrangement of the same type in which strong local cooling occurs.",
+        "Any throttle valve or induction pressure drop.",
+        "An engine-driven fuel pump."
       ],
       "answer": 1,
-      "explanation": "Carburetor icing can occur because pressure drop and fuel vaporization lower air temperature in the carburetor throat."
+      "explanation": "Injection avoids the classic carburetor venturi/fuel-vaporization icing mechanism, though induction icing can still occur.",
+      "concept": "PP-C007"
     },
     {
       "id": "PP033",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "What is a normal effect of applying carburetor heat?",
+      "section": "32",
+      "topic": "Fuel injection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Compared with a float carburetor, a typical fuel-injection system is less susceptible to carburetor icing primarily because what is absent?",
       "options": [
-        "Warmer, less dense induction air and possible RPM/power change",
-        "Higher air density and automatic leaning in all systems",
-        "Increased manifold pressure in every condition",
-        "Elimination of all induction restrictions"
+        "A fuel-vaporizing venturi/throttle arrangement of the same type in which strong local cooling occurs.",
+        "Any throttle valve or induction pressure drop.",
+        "An engine-driven fuel pump.",
+        "Mixture control."
       ],
       "answer": 0,
-      "explanation": "Carburetor heat introduces warmer air to prevent or remove carburetor ice and usually reduces mixture density."
+      "explanation": "Injection avoids the classic carburetor venturi/fuel-vaporization icing mechanism, though induction icing can still occur.",
+      "concept": "PP-C007"
     },
     {
       "id": "PP034",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "Which statement is correct regarding this subject: what is a normal effect of applying carburetor heat?",
+      "section": "32",
+      "topic": "Fuel injection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Compared with a float carburetor, a typical fuel-injection system is less susceptible to carburetor icing primarily because what is absent?",
       "options": [
-        "Higher air density and automatic leaning in all systems",
-        "Increased manifold pressure in every condition",
-        "Elimination of all induction restrictions",
-        "Warmer, less dense induction air and possible RPM/power change"
+        "Any throttle valve or induction pressure drop.",
+        "An engine-driven fuel pump.",
+        "Mixture control.",
+        "A fuel-vaporizing venturi/throttle arrangement of the same type in which strong local cooling occurs."
       ],
       "answer": 3,
-      "explanation": "Carburetor heat introduces warmer air to prevent or remove carburetor ice and usually reduces mixture density."
+      "explanation": "Injection avoids the classic carburetor venturi/fuel-vaporization icing mechanism, though induction icing can still occur.",
+      "concept": "PP-C007"
     },
     {
       "id": "PP035",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a normal effect of applying carburetor heat?",
+      "section": "32",
+      "topic": "Fuel injection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Compared with a float carburetor, a typical fuel-injection system is less susceptible to carburetor icing primarily because what is absent?",
       "options": [
-        "Increased manifold pressure in every condition",
-        "Elimination of all induction restrictions",
-        "Warmer, less dense induction air and possible RPM/power change",
-        "Higher air density and automatic leaning in all systems"
+        "An engine-driven fuel pump.",
+        "Mixture control.",
+        "A fuel-vaporizing venturi/throttle arrangement of the same type in which strong local cooling occurs.",
+        "Any throttle valve or induction pressure drop."
       ],
       "answer": 2,
-      "explanation": "Carburetor heat introduces warmer air to prevent or remove carburetor ice and usually reduces mixture density."
+      "explanation": "Injection avoids the classic carburetor venturi/fuel-vaporization icing mechanism, though induction icing can still occur.",
+      "concept": "PP-C007"
     },
     {
       "id": "PP036",
-      "section": "32.1",
-      "topic": "Carburetion",
-      "question": "An AME is reviewing this system. What is a normal effect of applying carburetor heat?",
+      "section": "32",
+      "topic": "Turbocharger wastegate",
+      "difficulty": "Exam-style",
+      "question": "What is the primary function of a turbocharger wastegate?",
       "options": [
-        "Elimination of all induction restrictions",
-        "Warmer, less dense induction air and possible RPM/power change",
-        "Higher air density and automatic leaning in all systems",
-        "Increased manifold pressure in every condition"
+        "Prevent exhaust gas from reaching the turbine during all high-power operation.",
+        "Regulate turbine-driving exhaust flow to control boost.",
+        "Regulate compressor inlet air directly by bypassing the compressor.",
+        "Control oil pressure to the propeller governor."
       ],
       "answer": 1,
-      "explanation": "Carburetor heat introduces warmer air to prevent or remove carburetor ice and usually reduces mixture density."
+      "explanation": "The wastegate controls how much exhaust bypasses versus drives the turbine.",
+      "concept": "PP-C008"
     },
     {
       "id": "PP037",
-      "section": "32.2",
-      "topic": "Fuel Injection",
-      "question": "What is a principal advantage of many fuel-injection systems over float carburetors?",
+      "section": "32",
+      "topic": "Turbocharger wastegate",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the primary function of a turbocharger wastegate?",
       "options": [
-        "Reduced susceptibility to carburetor icing and more precise fuel distribution",
-        "No requirement for any fuel pump",
-        "No need for mixture control",
-        "Complete elimination of vapour lock"
+        "Regulate turbine-driving exhaust flow to control boost.",
+        "Regulate compressor inlet air directly by bypassing the compressor.",
+        "Control oil pressure to the propeller governor.",
+        "Prevent exhaust gas from reaching the turbine during all high-power operation."
       ],
       "answer": 0,
-      "explanation": "Fuel injection meters fuel and delivers it to the induction system or individual cylinders without a float-type carburetor."
+      "explanation": "The wastegate controls how much exhaust bypasses versus drives the turbine.",
+      "concept": "PP-C008"
     },
     {
       "id": "PP038",
-      "section": "32.2",
-      "topic": "Fuel Injection",
-      "question": "Which statement is correct regarding this subject: what is a principal advantage of many fuel-injection systems over float carburetors?",
+      "section": "32",
+      "topic": "Turbocharger wastegate",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the primary function of a turbocharger wastegate?",
       "options": [
-        "No requirement for any fuel pump",
-        "No need for mixture control",
-        "Complete elimination of vapour lock",
-        "Reduced susceptibility to carburetor icing and more precise fuel distribution"
+        "Regulate compressor inlet air directly by bypassing the compressor.",
+        "Control oil pressure to the propeller governor.",
+        "Prevent exhaust gas from reaching the turbine during all high-power operation.",
+        "Regulate turbine-driving exhaust flow to control boost."
       ],
       "answer": 3,
-      "explanation": "Fuel injection meters fuel and delivers it to the induction system or individual cylinders without a float-type carburetor."
+      "explanation": "The wastegate controls how much exhaust bypasses versus drives the turbine.",
+      "concept": "PP-C008"
     },
     {
       "id": "PP039",
-      "section": "32.2",
-      "topic": "Fuel Injection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a principal advantage of many fuel-injection systems over float carburetors?",
+      "section": "32",
+      "topic": "Turbocharger wastegate",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the primary function of a turbocharger wastegate?",
       "options": [
-        "No need for mixture control",
-        "Complete elimination of vapour lock",
-        "Reduced susceptibility to carburetor icing and more precise fuel distribution",
-        "No requirement for any fuel pump"
+        "Control oil pressure to the propeller governor.",
+        "Prevent exhaust gas from reaching the turbine during all high-power operation.",
+        "Regulate turbine-driving exhaust flow to control boost.",
+        "Regulate compressor inlet air directly by bypassing the compressor."
       ],
       "answer": 2,
-      "explanation": "Fuel injection meters fuel and delivers it to the induction system or individual cylinders without a float-type carburetor."
+      "explanation": "The wastegate controls how much exhaust bypasses versus drives the turbine.",
+      "concept": "PP-C008"
     },
     {
       "id": "PP040",
-      "section": "32.2",
-      "topic": "Fuel Injection",
-      "question": "An AME is reviewing this system. What is a principal advantage of many fuel-injection systems over float carburetors?",
+      "section": "32",
+      "topic": "Turbocharger wastegate",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the primary function of a turbocharger wastegate?",
       "options": [
-        "Complete elimination of vapour lock",
-        "Reduced susceptibility to carburetor icing and more precise fuel distribution",
-        "No requirement for any fuel pump",
-        "No need for mixture control"
+        "Prevent exhaust gas from reaching the turbine during all high-power operation.",
+        "Regulate turbine-driving exhaust flow to control boost.",
+        "Regulate compressor inlet air directly by bypassing the compressor.",
+        "Control oil pressure to the propeller governor."
       ],
       "answer": 1,
-      "explanation": "Fuel injection meters fuel and delivers it to the induction system or individual cylinders without a float-type carburetor."
+      "explanation": "The wastegate controls how much exhaust bypasses versus drives the turbine.",
+      "concept": "PP-C008"
     },
     {
       "id": "PP041",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "What drives the compressor in an exhaust-driven turbocharger?",
+      "section": "33",
+      "topic": "Magneto P-lead",
+      "difficulty": "Exam-style",
+      "question": "What is the function of a magneto P-lead?",
       "options": [
-        "A turbine powered by exhaust gas",
-        "An electric cabin fan",
-        "The magneto distributor",
-        "Hydraulic brake pressure"
+        "Ground the magneto primary circuit when ignition is selected OFF.",
+        "Supply battery power to the magneto during starting.",
+        "Carry high voltage from the magneto to the spark plugs.",
+        "Synchronize the two magnetos mechanically."
       ],
       "answer": 0,
-      "explanation": "A turbocharger uses exhaust-gas energy to drive a turbine connected to a compressor that raises induction pressure."
+      "explanation": "Grounding the primary stops magneto output; an open P-lead can leave the magneto live.",
+      "concept": "PP-C009"
     },
     {
       "id": "PP042",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "Which statement is correct regarding this subject: what drives the compressor in an exhaust-driven turbocharger?",
+      "section": "33",
+      "topic": "Magneto P-lead",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the function of a magneto P-lead?",
       "options": [
-        "An electric cabin fan",
-        "The magneto distributor",
-        "Hydraulic brake pressure",
-        "A turbine powered by exhaust gas"
+        "Supply battery power to the magneto during starting.",
+        "Carry high voltage from the magneto to the spark plugs.",
+        "Synchronize the two magnetos mechanically.",
+        "Ground the magneto primary circuit when ignition is selected OFF."
       ],
       "answer": 3,
-      "explanation": "A turbocharger uses exhaust-gas energy to drive a turbine connected to a compressor that raises induction pressure."
+      "explanation": "Grounding the primary stops magneto output; an open P-lead can leave the magneto live.",
+      "concept": "PP-C009"
     },
     {
       "id": "PP043",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What drives the compressor in an exhaust-driven turbocharger?",
+      "section": "33",
+      "topic": "Magneto P-lead",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the function of a magneto P-lead?",
       "options": [
-        "The magneto distributor",
-        "Hydraulic brake pressure",
-        "A turbine powered by exhaust gas",
-        "An electric cabin fan"
+        "Carry high voltage from the magneto to the spark plugs.",
+        "Synchronize the two magnetos mechanically.",
+        "Ground the magneto primary circuit when ignition is selected OFF.",
+        "Supply battery power to the magneto during starting."
       ],
       "answer": 2,
-      "explanation": "A turbocharger uses exhaust-gas energy to drive a turbine connected to a compressor that raises induction pressure."
+      "explanation": "Grounding the primary stops magneto output; an open P-lead can leave the magneto live.",
+      "concept": "PP-C009"
     },
     {
       "id": "PP044",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "An AME is reviewing this system. What drives the compressor in an exhaust-driven turbocharger?",
+      "section": "33",
+      "topic": "Magneto P-lead",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the function of a magneto P-lead?",
       "options": [
-        "Hydraulic brake pressure",
-        "A turbine powered by exhaust gas",
-        "An electric cabin fan",
-        "The magneto distributor"
+        "Synchronize the two magnetos mechanically.",
+        "Ground the magneto primary circuit when ignition is selected OFF.",
+        "Supply battery power to the magneto during starting.",
+        "Carry high voltage from the magneto to the spark plugs."
       ],
       "answer": 1,
-      "explanation": "A turbocharger uses exhaust-gas energy to drive a turbine connected to a compressor that raises induction pressure."
+      "explanation": "Grounding the primary stops magneto output; an open P-lead can leave the magneto live.",
+      "concept": "PP-C009"
     },
     {
       "id": "PP045",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "What is the purpose of a turbocharger wastegate?",
+      "section": "33",
+      "topic": "Magneto P-lead",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the function of a magneto P-lead?",
       "options": [
-        "Control exhaust flow through the turbine to regulate boost",
-        "Control oil flow to propeller blades",
-        "Regulate ignition timing",
-        "Drain fuel from the manifold"
+        "Ground the magneto primary circuit when ignition is selected OFF.",
+        "Supply battery power to the magneto during starting.",
+        "Carry high voltage from the magneto to the spark plugs.",
+        "Synchronize the two magnetos mechanically."
       ],
       "answer": 0,
-      "explanation": "A wastegate controls how much exhaust gas bypasses the turbocharger turbine and therefore helps regulate boost."
+      "explanation": "Grounding the primary stops magneto output; an open P-lead can leave the magneto live.",
+      "concept": "PP-C009"
     },
     {
       "id": "PP046",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a turbocharger wastegate?",
+      "section": "33",
+      "topic": "Hot magneto",
+      "difficulty": "Exam-style",
+      "question": "The ignition switch is OFF but an open P-lead exists. Why is turning the propeller hazardous?",
       "options": [
-        "Control oil flow to propeller blades",
-        "Regulate ignition timing",
-        "Drain fuel from the manifold",
-        "Control exhaust flow through the turbine to regulate boost"
+        "The starter will automatically engage when the propeller moves.",
+        "Battery current can flow directly through the spark plugs.",
+        "The propeller governor can command reverse pitch.",
+        "The magneto may still generate spark and the engine may fire."
       ],
       "answer": 3,
-      "explanation": "A wastegate controls how much exhaust gas bypasses the turbocharger turbine and therefore helps regulate boost."
+      "explanation": "A self-generating magneto with an ungrounded primary can produce ignition whenever rotated.",
+      "concept": "PP-C010"
     },
     {
       "id": "PP047",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a turbocharger wastegate?",
+      "section": "33",
+      "topic": "Hot magneto",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. The ignition switch is OFF but an open P-lead exists. Why is turning the propeller hazardous?",
       "options": [
-        "Regulate ignition timing",
-        "Drain fuel from the manifold",
-        "Control exhaust flow through the turbine to regulate boost",
-        "Control oil flow to propeller blades"
+        "Battery current can flow directly through the spark plugs.",
+        "The propeller governor can command reverse pitch.",
+        "The magneto may still generate spark and the engine may fire.",
+        "The starter will automatically engage when the propeller moves."
       ],
       "answer": 2,
-      "explanation": "A wastegate controls how much exhaust gas bypasses the turbocharger turbine and therefore helps regulate boost."
+      "explanation": "A self-generating magneto with an ungrounded primary can produce ignition whenever rotated.",
+      "concept": "PP-C010"
     },
     {
       "id": "PP048",
-      "section": "32.3",
-      "topic": "Turbocharging",
-      "question": "An AME is reviewing this system. What is the purpose of a turbocharger wastegate?",
+      "section": "33",
+      "topic": "Hot magneto",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? The ignition switch is OFF but an open P-lead exists. Why is turning the propeller hazardous?",
       "options": [
-        "Drain fuel from the manifold",
-        "Control exhaust flow through the turbine to regulate boost",
-        "Control oil flow to propeller blades",
-        "Regulate ignition timing"
+        "The propeller governor can command reverse pitch.",
+        "The magneto may still generate spark and the engine may fire.",
+        "The starter will automatically engage when the propeller moves.",
+        "Battery current can flow directly through the spark plugs."
       ],
       "answer": 1,
-      "explanation": "A wastegate controls how much exhaust gas bypasses the turbocharger turbine and therefore helps regulate boost."
+      "explanation": "A self-generating magneto with an ungrounded primary can produce ignition whenever rotated.",
+      "concept": "PP-C010"
     },
     {
       "id": "PP049",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "Why can a magneto-equipped engine continue to run after the aircraft battery is disconnected?",
+      "section": "33",
+      "topic": "Hot magneto",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. The ignition switch is OFF but an open P-lead exists. Why is turning the propeller hazardous?",
       "options": [
-        "The magnetos generate their own ignition electrical energy",
-        "The spark plugs contain batteries",
-        "The alternator always powers the magnetos directly",
-        "Residual hydraulic pressure powers ignition"
+        "The magneto may still generate spark and the engine may fire.",
+        "The starter will automatically engage when the propeller moves.",
+        "Battery current can flow directly through the spark plugs.",
+        "The propeller governor can command reverse pitch."
       ],
       "answer": 0,
-      "explanation": "Aircraft magnetos are self-contained ignition generators and do not require aircraft battery power to produce spark once rotating."
+      "explanation": "A self-generating magneto with an ungrounded primary can produce ignition whenever rotated.",
+      "concept": "PP-C010"
     },
     {
       "id": "PP050",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "Which statement is correct regarding this subject: why can a magneto-equipped engine continue to run after the aircraft battery is disconnected?",
+      "section": "33",
+      "topic": "Hot magneto",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. The ignition switch is OFF but an open P-lead exists. Why is turning the propeller hazardous?",
       "options": [
-        "The spark plugs contain batteries",
-        "The alternator always powers the magnetos directly",
-        "Residual hydraulic pressure powers ignition",
-        "The magnetos generate their own ignition electrical energy"
+        "The starter will automatically engage when the propeller moves.",
+        "Battery current can flow directly through the spark plugs.",
+        "The propeller governor can command reverse pitch.",
+        "The magneto may still generate spark and the engine may fire."
       ],
       "answer": 3,
-      "explanation": "Aircraft magnetos are self-contained ignition generators and do not require aircraft battery power to produce spark once rotating."
+      "explanation": "A self-generating magneto with an ungrounded primary can produce ignition whenever rotated.",
+      "concept": "PP-C010"
     },
     {
       "id": "PP051",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why can a magneto-equipped engine continue to run after the aircraft battery is disconnected?",
+      "section": "33",
+      "topic": "Magneto timing",
+      "difficulty": "Exam-style",
+      "question": "If magneto-to-engine timing is advanced beyond specification, what is a likely consequence?",
       "options": [
-        "The alternator always powers the magnetos directly",
-        "Residual hydraulic pressure powers ignition",
-        "The magnetos generate their own ignition electrical energy",
-        "The spark plugs contain batteries"
+        "The spark becomes weaker because magneto output depends only on timing angle.",
+        "Oil pressure decreases because ignition timing controls the oil pump.",
+        "Peak cylinder pressure occurs too early, increasing the risk of detonation and high stresses.",
+        "Combustion occurs later and exhaust temperature always decreases."
       ],
       "answer": 2,
-      "explanation": "Aircraft magnetos are self-contained ignition generators and do not require aircraft battery power to produce spark once rotating."
+      "explanation": "Excessive advance causes combustion pressure to rise too early in the cycle.",
+      "concept": "PP-C011"
     },
     {
       "id": "PP052",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "An AME is reviewing this system. Why can a magneto-equipped engine continue to run after the aircraft battery is disconnected?",
+      "section": "33",
+      "topic": "Magneto timing",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. If magneto-to-engine timing is advanced beyond specification, what is a likely consequence?",
       "options": [
-        "Residual hydraulic pressure powers ignition",
-        "The magnetos generate their own ignition electrical energy",
-        "The spark plugs contain batteries",
-        "The alternator always powers the magnetos directly"
+        "Oil pressure decreases because ignition timing controls the oil pump.",
+        "Peak cylinder pressure occurs too early, increasing the risk of detonation and high stresses.",
+        "Combustion occurs later and exhaust temperature always decreases.",
+        "The spark becomes weaker because magneto output depends only on timing angle."
       ],
       "answer": 1,
-      "explanation": "Aircraft magnetos are self-contained ignition generators and do not require aircraft battery power to produce spark once rotating."
+      "explanation": "Excessive advance causes combustion pressure to rise too early in the cycle.",
+      "concept": "PP-C011"
     },
     {
       "id": "PP053",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "What happens when a magneto P-lead is grounded?",
+      "section": "33",
+      "topic": "Magneto timing",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? If magneto-to-engine timing is advanced beyond specification, what is a likely consequence?",
       "options": [
-        "The magneto is disabled",
-        "The magneto output voltage doubles",
-        "The starter engages",
-        "The propeller feathers"
+        "Peak cylinder pressure occurs too early, increasing the risk of detonation and high stresses.",
+        "Combustion occurs later and exhaust temperature always decreases.",
+        "The spark becomes weaker because magneto output depends only on timing angle.",
+        "Oil pressure decreases because ignition timing controls the oil pump."
       ],
       "answer": 0,
-      "explanation": "The P-lead grounds the magneto primary circuit to stop magneto ignition when selected OFF."
+      "explanation": "Excessive advance causes combustion pressure to rise too early in the cycle.",
+      "concept": "PP-C011"
     },
     {
       "id": "PP054",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "Which statement is correct regarding this subject: what happens when a magneto P-lead is grounded?",
+      "section": "33",
+      "topic": "Magneto timing",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. If magneto-to-engine timing is advanced beyond specification, what is a likely consequence?",
       "options": [
-        "The magneto output voltage doubles",
-        "The starter engages",
-        "The propeller feathers",
-        "The magneto is disabled"
+        "Combustion occurs later and exhaust temperature always decreases.",
+        "The spark becomes weaker because magneto output depends only on timing angle.",
+        "Oil pressure decreases because ignition timing controls the oil pump.",
+        "Peak cylinder pressure occurs too early, increasing the risk of detonation and high stresses."
       ],
       "answer": 3,
-      "explanation": "The P-lead grounds the magneto primary circuit to stop magneto ignition when selected OFF."
+      "explanation": "Excessive advance causes combustion pressure to rise too early in the cycle.",
+      "concept": "PP-C011"
     },
     {
       "id": "PP055",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What happens when a magneto P-lead is grounded?",
+      "section": "33",
+      "topic": "Magneto timing",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. If magneto-to-engine timing is advanced beyond specification, what is a likely consequence?",
       "options": [
-        "The starter engages",
-        "The propeller feathers",
-        "The magneto is disabled",
-        "The magneto output voltage doubles"
+        "The spark becomes weaker because magneto output depends only on timing angle.",
+        "Oil pressure decreases because ignition timing controls the oil pump.",
+        "Peak cylinder pressure occurs too early, increasing the risk of detonation and high stresses.",
+        "Combustion occurs later and exhaust temperature always decreases."
       ],
       "answer": 2,
-      "explanation": "The P-lead grounds the magneto primary circuit to stop magneto ignition when selected OFF."
+      "explanation": "Excessive advance causes combustion pressure to rise too early in the cycle.",
+      "concept": "PP-C011"
     },
     {
       "id": "PP056",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "An AME is reviewing this system. What happens when a magneto P-lead is grounded?",
+      "section": "34",
+      "topic": "Dry sump",
+      "difficulty": "Exam-style",
+      "question": "Which feature identifies a dry-sump lubrication system?",
       "options": [
-        "The propeller feathers",
-        "The magneto is disabled",
-        "The magneto output voltage doubles",
-        "The starter engages"
+        "Oil is mixed with fuel before entering the engine.",
+        "Most operating oil is stored in a separate tank and scavenged from the engine.",
+        "All operating oil is stored in the crankcase below the crankshaft.",
+        "The system has a pressure pump but no scavenge pump."
       ],
       "answer": 1,
-      "explanation": "The P-lead grounds the magneto primary circuit to stop magneto ignition when selected OFF."
+      "explanation": "Dry-sump systems use a separate reservoir and scavenge return.",
+      "concept": "PP-C012"
     },
     {
       "id": "PP057",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "Why is an open magneto P-lead hazardous?",
+      "section": "34",
+      "topic": "Dry sump",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which feature identifies a dry-sump lubrication system?",
       "options": [
-        "The magneto may remain live with the switch OFF",
-        "It always drains the battery immediately",
-        "It locks the engine crankshaft",
-        "It prevents oil circulation"
+        "Most operating oil is stored in a separate tank and scavenged from the engine.",
+        "All operating oil is stored in the crankcase below the crankshaft.",
+        "The system has a pressure pump but no scavenge pump.",
+        "Oil is mixed with fuel before entering the engine."
       ],
       "answer": 0,
-      "explanation": "A broken or open P-lead can leave a magneto live even when the ignition switch is OFF, creating a propeller hazard."
+      "explanation": "Dry-sump systems use a separate reservoir and scavenge return.",
+      "concept": "PP-C012"
     },
     {
       "id": "PP058",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "Which statement is correct regarding this subject: why is an open magneto P-lead hazardous?",
+      "section": "34",
+      "topic": "Dry sump",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which feature identifies a dry-sump lubrication system?",
       "options": [
-        "It always drains the battery immediately",
-        "It locks the engine crankshaft",
-        "It prevents oil circulation",
-        "The magneto may remain live with the switch OFF"
+        "All operating oil is stored in the crankcase below the crankshaft.",
+        "The system has a pressure pump but no scavenge pump.",
+        "Oil is mixed with fuel before entering the engine.",
+        "Most operating oil is stored in a separate tank and scavenged from the engine."
       ],
       "answer": 3,
-      "explanation": "A broken or open P-lead can leave a magneto live even when the ignition switch is OFF, creating a propeller hazard."
+      "explanation": "Dry-sump systems use a separate reservoir and scavenge return.",
+      "concept": "PP-C012"
     },
     {
       "id": "PP059",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is an open magneto P-lead hazardous?",
+      "section": "34",
+      "topic": "Dry sump",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which feature identifies a dry-sump lubrication system?",
       "options": [
-        "It locks the engine crankshaft",
-        "It prevents oil circulation",
-        "The magneto may remain live with the switch OFF",
-        "It always drains the battery immediately"
+        "The system has a pressure pump but no scavenge pump.",
+        "Oil is mixed with fuel before entering the engine.",
+        "Most operating oil is stored in a separate tank and scavenged from the engine.",
+        "All operating oil is stored in the crankcase below the crankshaft."
       ],
       "answer": 2,
-      "explanation": "A broken or open P-lead can leave a magneto live even when the ignition switch is OFF, creating a propeller hazard."
+      "explanation": "Dry-sump systems use a separate reservoir and scavenge return.",
+      "concept": "PP-C012"
     },
     {
       "id": "PP060",
-      "section": "33.1",
-      "topic": "Ignition",
-      "question": "An AME is reviewing this system. Why is an open magneto P-lead hazardous?",
+      "section": "34",
+      "topic": "Dry sump",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which feature identifies a dry-sump lubrication system?",
       "options": [
-        "It prevents oil circulation",
-        "The magneto may remain live with the switch OFF",
-        "It always drains the battery immediately",
-        "It locks the engine crankshaft"
+        "Oil is mixed with fuel before entering the engine.",
+        "Most operating oil is stored in a separate tank and scavenged from the engine.",
+        "All operating oil is stored in the crankcase below the crankshaft.",
+        "The system has a pressure pump but no scavenge pump."
       ],
       "answer": 1,
-      "explanation": "A broken or open P-lead can leave a magneto live even when the ignition switch is OFF, creating a propeller hazard."
+      "explanation": "Dry-sump systems use a separate reservoir and scavenge return.",
+      "concept": "PP-C012"
     },
     {
       "id": "PP061",
-      "section": "33.2",
-      "topic": "Starting Systems",
-      "question": "What is the purpose of an engine starter?",
+      "section": "34",
+      "topic": "Oil pressure",
+      "difficulty": "Exam-style",
+      "question": "Oil pressure is low but oil temperature is normal and quantity is correct. Which action is most appropriate?",
       "options": [
-        "Rotate the engine to a speed at which ignition and combustion can become self-sustaining",
-        "Maintain cruise RPM continuously",
-        "Control compressor bleed air in flight",
-        "Meter engine oil after shutdown"
+        "Treat it as a fault and troubleshoot the indication/system according to approved data before operation.",
+        "Increase engine RPM to restore pressure and continue if temperature remains normal.",
+        "Add oil above the full mark to increase pump inlet head.",
+        "Use a higher viscosity oil without reference to approved data."
       ],
       "answer": 0,
-      "explanation": "A starter converts electrical, pneumatic or hydraulic energy into mechanical torque to rotate the engine for starting."
+      "explanation": "Normal quantity/temperature do not make low pressure acceptable; indication and system faults must be resolved.",
+      "concept": "PP-C013"
     },
     {
       "id": "PP062",
-      "section": "33.2",
-      "topic": "Starting Systems",
-      "question": "Which statement is correct regarding this subject: what is the purpose of an engine starter?",
+      "section": "34",
+      "topic": "Oil pressure",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Oil pressure is low but oil temperature is normal and quantity is correct. Which action is most appropriate?",
       "options": [
-        "Maintain cruise RPM continuously",
-        "Control compressor bleed air in flight",
-        "Meter engine oil after shutdown",
-        "Rotate the engine to a speed at which ignition and combustion can become self-sustaining"
+        "Increase engine RPM to restore pressure and continue if temperature remains normal.",
+        "Add oil above the full mark to increase pump inlet head.",
+        "Use a higher viscosity oil without reference to approved data.",
+        "Treat it as a fault and troubleshoot the indication/system according to approved data before operation."
       ],
       "answer": 3,
-      "explanation": "A starter converts electrical, pneumatic or hydraulic energy into mechanical torque to rotate the engine for starting."
+      "explanation": "Normal quantity/temperature do not make low pressure acceptable; indication and system faults must be resolved.",
+      "concept": "PP-C013"
     },
     {
       "id": "PP063",
-      "section": "33.2",
-      "topic": "Starting Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of an engine starter?",
+      "section": "34",
+      "topic": "Oil pressure",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Oil pressure is low but oil temperature is normal and quantity is correct. Which action is most appropriate?",
       "options": [
-        "Control compressor bleed air in flight",
-        "Meter engine oil after shutdown",
-        "Rotate the engine to a speed at which ignition and combustion can become self-sustaining",
-        "Maintain cruise RPM continuously"
+        "Add oil above the full mark to increase pump inlet head.",
+        "Use a higher viscosity oil without reference to approved data.",
+        "Treat it as a fault and troubleshoot the indication/system according to approved data before operation.",
+        "Increase engine RPM to restore pressure and continue if temperature remains normal."
       ],
       "answer": 2,
-      "explanation": "A starter converts electrical, pneumatic or hydraulic energy into mechanical torque to rotate the engine for starting."
+      "explanation": "Normal quantity/temperature do not make low pressure acceptable; indication and system faults must be resolved.",
+      "concept": "PP-C013"
     },
     {
       "id": "PP064",
-      "section": "33.2",
-      "topic": "Starting Systems",
-      "question": "An AME is reviewing this system. What is the purpose of an engine starter?",
+      "section": "34",
+      "topic": "Oil pressure",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Oil pressure is low but oil temperature is normal and quantity is correct. Which action is most appropriate?",
       "options": [
-        "Meter engine oil after shutdown",
-        "Rotate the engine to a speed at which ignition and combustion can become self-sustaining",
-        "Maintain cruise RPM continuously",
-        "Control compressor bleed air in flight"
+        "Use a higher viscosity oil without reference to approved data.",
+        "Treat it as a fault and troubleshoot the indication/system according to approved data before operation.",
+        "Increase engine RPM to restore pressure and continue if temperature remains normal.",
+        "Add oil above the full mark to increase pump inlet head."
       ],
       "answer": 1,
-      "explanation": "A starter converts electrical, pneumatic or hydraulic energy into mechanical torque to rotate the engine for starting."
+      "explanation": "Normal quantity/temperature do not make low pressure acceptable; indication and system faults must be resolved.",
+      "concept": "PP-C013"
     },
     {
       "id": "PP065",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "Which is a normal function of engine lubricating oil?",
+      "section": "34",
+      "topic": "Oil pressure",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Oil pressure is low but oil temperature is normal and quantity is correct. Which action is most appropriate?",
       "options": [
-        "Reduce friction and help remove heat",
-        "Increase detonation tendency",
-        "Serve as the primary ignition source",
-        "Replace the fuel-air mixture"
+        "Treat it as a fault and troubleshoot the indication/system according to approved data before operation.",
+        "Increase engine RPM to restore pressure and continue if temperature remains normal.",
+        "Add oil above the full mark to increase pump inlet head.",
+        "Use a higher viscosity oil without reference to approved data."
       ],
       "answer": 0,
-      "explanation": "Engine oil lubricates, cools, cleans, seals and protects internal parts from corrosion."
+      "explanation": "Normal quantity/temperature do not make low pressure acceptable; indication and system faults must be resolved.",
+      "concept": "PP-C013"
     },
     {
       "id": "PP066",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "Which statement is correct regarding this subject: which is a normal function of engine lubricating oil?",
+      "section": "34",
+      "topic": "SOAP",
+      "difficulty": "Exam-style",
+      "question": "What is the main value of spectrometric oil analysis?",
       "options": [
-        "Increase detonation tendency",
-        "Serve as the primary ignition source",
-        "Replace the fuel-air mixture",
-        "Reduce friction and help remove heat"
+        "Detecting all large chips that would otherwise be trapped by the filter.",
+        "Measuring oil viscosity directly during flight.",
+        "Determining fuel octane contamination only.",
+        "Trending microscopic wear-metal content to identify abnormal internal wear."
       ],
       "answer": 3,
-      "explanation": "Engine oil lubricates, cools, cleans, seals and protects internal parts from corrosion."
+      "explanation": "SOAP is primarily a trend tool for elemental wear particles; it complements filters/chip detectors.",
+      "concept": "PP-C014"
     },
     {
       "id": "PP067",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which is a normal function of engine lubricating oil?",
+      "section": "34",
+      "topic": "SOAP",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the main value of spectrometric oil analysis?",
       "options": [
-        "Serve as the primary ignition source",
-        "Replace the fuel-air mixture",
-        "Reduce friction and help remove heat",
-        "Increase detonation tendency"
+        "Measuring oil viscosity directly during flight.",
+        "Determining fuel octane contamination only.",
+        "Trending microscopic wear-metal content to identify abnormal internal wear.",
+        "Detecting all large chips that would otherwise be trapped by the filter."
       ],
       "answer": 2,
-      "explanation": "Engine oil lubricates, cools, cleans, seals and protects internal parts from corrosion."
+      "explanation": "SOAP is primarily a trend tool for elemental wear particles; it complements filters/chip detectors.",
+      "concept": "PP-C014"
     },
     {
       "id": "PP068",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "An AME is reviewing this system. Which is a normal function of engine lubricating oil?",
+      "section": "34",
+      "topic": "SOAP",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the main value of spectrometric oil analysis?",
       "options": [
-        "Replace the fuel-air mixture",
-        "Reduce friction and help remove heat",
-        "Increase detonation tendency",
-        "Serve as the primary ignition source"
+        "Determining fuel octane contamination only.",
+        "Trending microscopic wear-metal content to identify abnormal internal wear.",
+        "Detecting all large chips that would otherwise be trapped by the filter.",
+        "Measuring oil viscosity directly during flight."
       ],
       "answer": 1,
-      "explanation": "Engine oil lubricates, cools, cleans, seals and protects internal parts from corrosion."
+      "explanation": "SOAP is primarily a trend tool for elemental wear particles; it complements filters/chip detectors.",
+      "concept": "PP-C014"
     },
     {
       "id": "PP069",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "What characterizes a dry-sump engine lubrication system?",
+      "section": "34",
+      "topic": "SOAP",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the main value of spectrometric oil analysis?",
       "options": [
-        "Oil is stored in a separate tank and scavenged from the engine",
-        "All oil remains in the crankcase sump",
-        "No oil pump is required",
-        "Oil is mixed directly with aviation gasoline"
+        "Trending microscopic wear-metal content to identify abnormal internal wear.",
+        "Detecting all large chips that would otherwise be trapped by the filter.",
+        "Measuring oil viscosity directly during flight.",
+        "Determining fuel octane contamination only."
       ],
       "answer": 0,
-      "explanation": "In a dry-sump system, oil is stored in a separate tank and scavenged from the engine sump back to the tank."
+      "explanation": "SOAP is primarily a trend tool for elemental wear particles; it complements filters/chip detectors.",
+      "concept": "PP-C014"
     },
     {
       "id": "PP070",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "Which statement is correct regarding this subject: what characterizes a dry-sump engine lubrication system?",
+      "section": "34",
+      "topic": "SOAP",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the main value of spectrometric oil analysis?",
       "options": [
-        "All oil remains in the crankcase sump",
-        "No oil pump is required",
-        "Oil is mixed directly with aviation gasoline",
-        "Oil is stored in a separate tank and scavenged from the engine"
+        "Detecting all large chips that would otherwise be trapped by the filter.",
+        "Measuring oil viscosity directly during flight.",
+        "Determining fuel octane contamination only.",
+        "Trending microscopic wear-metal content to identify abnormal internal wear."
       ],
       "answer": 3,
-      "explanation": "In a dry-sump system, oil is stored in a separate tank and scavenged from the engine sump back to the tank."
+      "explanation": "SOAP is primarily a trend tool for elemental wear particles; it complements filters/chip detectors.",
+      "concept": "PP-C014"
     },
     {
       "id": "PP071",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What characterizes a dry-sump engine lubrication system?",
+      "section": "35",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "A continuous-loop engine fire detector indicates a fire warning. What is the maintenance principle for confirming whether the warning was false?",
       "options": [
-        "No oil pump is required",
-        "Oil is mixed directly with aviation gasoline",
-        "Oil is stored in a separate tank and scavenged from the engine",
-        "All oil remains in the crankcase sump"
+        "Reset the warning and release the aircraft if it does not immediately recur.",
+        "Disconnect one loop conductor to prevent nuisance warnings.",
+        "Troubleshoot the detection loop and associated system using approved test procedures; do not assume a false warning solely because no fire damage is visible.",
+        "Replace the extinguisher bottle first because it is the most common source of false warnings."
       ],
       "answer": 2,
-      "explanation": "In a dry-sump system, oil is stored in a separate tank and scavenged from the engine sump back to the tank."
+      "explanation": "Fire-warning faults must be isolated by approved tests because detector/open/short faults can mimic conditions depending on system design.",
+      "concept": "PP-C015"
     },
     {
       "id": "PP072",
-      "section": "34.1",
-      "topic": "Lubrication",
-      "question": "An AME is reviewing this system. What characterizes a dry-sump engine lubrication system?",
+      "section": "35",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A continuous-loop engine fire detector indicates a fire warning. What is the maintenance principle for confirming whether the warning was false?",
       "options": [
-        "Oil is mixed directly with aviation gasoline",
-        "Oil is stored in a separate tank and scavenged from the engine",
-        "All oil remains in the crankcase sump",
-        "No oil pump is required"
+        "Disconnect one loop conductor to prevent nuisance warnings.",
+        "Troubleshoot the detection loop and associated system using approved test procedures; do not assume a false warning solely because no fire damage is visible.",
+        "Replace the extinguisher bottle first because it is the most common source of false warnings.",
+        "Reset the warning and release the aircraft if it does not immediately recur."
       ],
       "answer": 1,
-      "explanation": "In a dry-sump system, oil is stored in a separate tank and scavenged from the engine sump back to the tank."
+      "explanation": "Fire-warning faults must be isolated by approved tests because detector/open/short faults can mimic conditions depending on system design.",
+      "concept": "PP-C015"
     },
     {
       "id": "PP073",
-      "section": "34.3",
-      "topic": "SOAP",
-      "question": "What does a SOAP program primarily monitor?",
+      "section": "35",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A continuous-loop engine fire detector indicates a fire warning. What is the maintenance principle for confirming whether the warning was false?",
       "options": [
-        "Wear-metal trends in engine oil",
-        "Propeller blade angle",
-        "Fuel octane rating",
-        "Magneto timing mechanically"
+        "Troubleshoot the detection loop and associated system using approved test procedures; do not assume a false warning solely because no fire damage is visible.",
+        "Replace the extinguisher bottle first because it is the most common source of false warnings.",
+        "Reset the warning and release the aircraft if it does not immediately recur.",
+        "Disconnect one loop conductor to prevent nuisance warnings."
       ],
       "answer": 0,
-      "explanation": "Spectrometric oil analysis detects and trends microscopic wear-metal elements in oil samples."
+      "explanation": "Fire-warning faults must be isolated by approved tests because detector/open/short faults can mimic conditions depending on system design.",
+      "concept": "PP-C015"
     },
     {
       "id": "PP074",
-      "section": "34.3",
-      "topic": "SOAP",
-      "question": "Which statement is correct regarding this subject: what does a SOAP program primarily monitor?",
+      "section": "35",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A continuous-loop engine fire detector indicates a fire warning. What is the maintenance principle for confirming whether the warning was false?",
       "options": [
-        "Propeller blade angle",
-        "Fuel octane rating",
-        "Magneto timing mechanically",
-        "Wear-metal trends in engine oil"
+        "Replace the extinguisher bottle first because it is the most common source of false warnings.",
+        "Reset the warning and release the aircraft if it does not immediately recur.",
+        "Disconnect one loop conductor to prevent nuisance warnings.",
+        "Troubleshoot the detection loop and associated system using approved test procedures; do not assume a false warning solely because no fire damage is visible."
       ],
       "answer": 3,
-      "explanation": "Spectrometric oil analysis detects and trends microscopic wear-metal elements in oil samples."
+      "explanation": "Fire-warning faults must be isolated by approved tests because detector/open/short faults can mimic conditions depending on system design.",
+      "concept": "PP-C015"
     },
     {
       "id": "PP075",
-      "section": "34.3",
-      "topic": "SOAP",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does a SOAP program primarily monitor?",
+      "section": "35",
+      "topic": "Fire detection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A continuous-loop engine fire detector indicates a fire warning. What is the maintenance principle for confirming whether the warning was false?",
       "options": [
-        "Fuel octane rating",
-        "Magneto timing mechanically",
-        "Wear-metal trends in engine oil",
-        "Propeller blade angle"
+        "Reset the warning and release the aircraft if it does not immediately recur.",
+        "Disconnect one loop conductor to prevent nuisance warnings.",
+        "Troubleshoot the detection loop and associated system using approved test procedures; do not assume a false warning solely because no fire damage is visible.",
+        "Replace the extinguisher bottle first because it is the most common source of false warnings."
       ],
       "answer": 2,
-      "explanation": "Spectrometric oil analysis detects and trends microscopic wear-metal elements in oil samples."
+      "explanation": "Fire-warning faults must be isolated by approved tests because detector/open/short faults can mimic conditions depending on system design.",
+      "concept": "PP-C015"
     },
     {
       "id": "PP076",
-      "section": "34.3",
-      "topic": "SOAP",
-      "question": "An AME is reviewing this system. What does a SOAP program primarily monitor?",
+      "section": "36",
+      "topic": "Gas turbine sequence",
+      "difficulty": "Exam-style",
+      "question": "Which sequence best represents airflow through a simple gas-turbine engine?",
       "options": [
-        "Magneto timing mechanically",
-        "Wear-metal trends in engine oil",
-        "Propeller blade angle",
-        "Fuel octane rating"
+        "Inlet, combustor, compressor, turbine, exhaust.",
+        "Inlet, compressor, combustor, turbine, exhaust.",
+        "Inlet, turbine, compressor, combustor, exhaust.",
+        "Compressor, inlet, combustor, exhaust, turbine."
       ],
       "answer": 1,
-      "explanation": "Spectrometric oil analysis detects and trends microscopic wear-metal elements in oil samples."
+      "explanation": "Air is compressed before fuel is burned; the turbine then extracts energy from the gas.",
+      "concept": "PP-C016"
     },
     {
       "id": "PP077",
-      "section": "35.1",
-      "topic": "Engine Fire Detection",
-      "question": "What is the purpose of an engine fire detection system?",
+      "section": "36",
+      "topic": "Gas turbine sequence",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which sequence best represents airflow through a simple gas-turbine engine?",
       "options": [
-        "Provide warning of an overheat or fire condition",
-        "Automatically overhaul the engine",
-        "Measure compressor efficiency",
-        "Control fuel grade"
+        "Inlet, compressor, combustor, turbine, exhaust.",
+        "Inlet, turbine, compressor, combustor, exhaust.",
+        "Compressor, inlet, combustor, exhaust, turbine.",
+        "Inlet, combustor, compressor, turbine, exhaust."
       ],
       "answer": 0,
-      "explanation": "Fire detection systems provide warning of abnormal heat or fire conditions in protected engine zones."
+      "explanation": "Air is compressed before fuel is burned; the turbine then extracts energy from the gas.",
+      "concept": "PP-C016"
     },
     {
       "id": "PP078",
-      "section": "35.1",
-      "topic": "Engine Fire Detection",
-      "question": "Which statement is correct regarding this subject: what is the purpose of an engine fire detection system?",
+      "section": "36",
+      "topic": "Gas turbine sequence",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which sequence best represents airflow through a simple gas-turbine engine?",
       "options": [
-        "Automatically overhaul the engine",
-        "Measure compressor efficiency",
-        "Control fuel grade",
-        "Provide warning of an overheat or fire condition"
+        "Inlet, turbine, compressor, combustor, exhaust.",
+        "Compressor, inlet, combustor, exhaust, turbine.",
+        "Inlet, combustor, compressor, turbine, exhaust.",
+        "Inlet, compressor, combustor, turbine, exhaust."
       ],
       "answer": 3,
-      "explanation": "Fire detection systems provide warning of abnormal heat or fire conditions in protected engine zones."
+      "explanation": "Air is compressed before fuel is burned; the turbine then extracts energy from the gas.",
+      "concept": "PP-C016"
     },
     {
       "id": "PP079",
-      "section": "35.1",
-      "topic": "Engine Fire Detection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of an engine fire detection system?",
+      "section": "36",
+      "topic": "Gas turbine sequence",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which sequence best represents airflow through a simple gas-turbine engine?",
       "options": [
-        "Measure compressor efficiency",
-        "Control fuel grade",
-        "Provide warning of an overheat or fire condition",
-        "Automatically overhaul the engine"
+        "Compressor, inlet, combustor, exhaust, turbine.",
+        "Inlet, combustor, compressor, turbine, exhaust.",
+        "Inlet, compressor, combustor, turbine, exhaust.",
+        "Inlet, turbine, compressor, combustor, exhaust."
       ],
       "answer": 2,
-      "explanation": "Fire detection systems provide warning of abnormal heat or fire conditions in protected engine zones."
+      "explanation": "Air is compressed before fuel is burned; the turbine then extracts energy from the gas.",
+      "concept": "PP-C016"
     },
     {
       "id": "PP080",
-      "section": "35.1",
-      "topic": "Engine Fire Detection",
-      "question": "An AME is reviewing this system. What is the purpose of an engine fire detection system?",
+      "section": "36",
+      "topic": "Gas turbine sequence",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which sequence best represents airflow through a simple gas-turbine engine?",
       "options": [
-        "Control fuel grade",
-        "Provide warning of an overheat or fire condition",
-        "Automatically overhaul the engine",
-        "Measure compressor efficiency"
+        "Inlet, combustor, compressor, turbine, exhaust.",
+        "Inlet, compressor, combustor, turbine, exhaust.",
+        "Inlet, turbine, compressor, combustor, exhaust.",
+        "Compressor, inlet, combustor, exhaust, turbine."
       ],
       "answer": 1,
-      "explanation": "Fire detection systems provide warning of abnormal heat or fire conditions in protected engine zones."
+      "explanation": "Air is compressed before fuel is burned; the turbine then extracts energy from the gas.",
+      "concept": "PP-C016"
     },
     {
       "id": "PP081",
-      "section": "35.2",
-      "topic": "Engine Fire Extinguishing",
-      "question": "What must be verified when servicing an engine fire-extinguishing bottle?",
+      "section": "36",
+      "topic": "Turbine function",
+      "difficulty": "Exam-style",
+      "question": "What is the primary function of the turbine section?",
       "options": [
-        "Condition/charge in accordance with approved maintenance data",
-        "Only exterior paint colour",
-        "Fuel nozzle flow rate",
-        "Propeller track"
+        "Extract energy from the hot gas stream to drive the compressor and accessories, with remaining energy available for thrust/power.",
+        "Increase air pressure before fuel is added.",
+        "Diffuse inlet air to the highest static pressure in the engine.",
+        "Meter fuel during acceleration."
       ],
       "answer": 0,
-      "explanation": "Fire extinguishing systems discharge an approved agent into a designated fire zone; correct bottle pressure/indication and distribution are essential."
+      "explanation": "The compressor consumes shaft work supplied by the turbine.",
+      "concept": "PP-C017"
     },
     {
       "id": "PP082",
-      "section": "35.2",
-      "topic": "Engine Fire Extinguishing",
-      "question": "Which statement is correct regarding this subject: what must be verified when servicing an engine fire-extinguishing bottle?",
+      "section": "36",
+      "topic": "Turbine function",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the primary function of the turbine section?",
       "options": [
-        "Only exterior paint colour",
-        "Fuel nozzle flow rate",
-        "Propeller track",
-        "Condition/charge in accordance with approved maintenance data"
+        "Increase air pressure before fuel is added.",
+        "Diffuse inlet air to the highest static pressure in the engine.",
+        "Meter fuel during acceleration.",
+        "Extract energy from the hot gas stream to drive the compressor and accessories, with remaining energy available for thrust/power."
       ],
       "answer": 3,
-      "explanation": "Fire extinguishing systems discharge an approved agent into a designated fire zone; correct bottle pressure/indication and distribution are essential."
+      "explanation": "The compressor consumes shaft work supplied by the turbine.",
+      "concept": "PP-C017"
     },
     {
       "id": "PP083",
-      "section": "35.2",
-      "topic": "Engine Fire Extinguishing",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What must be verified when servicing an engine fire-extinguishing bottle?",
+      "section": "36",
+      "topic": "Turbine function",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the primary function of the turbine section?",
       "options": [
-        "Fuel nozzle flow rate",
-        "Propeller track",
-        "Condition/charge in accordance with approved maintenance data",
-        "Only exterior paint colour"
+        "Diffuse inlet air to the highest static pressure in the engine.",
+        "Meter fuel during acceleration.",
+        "Extract energy from the hot gas stream to drive the compressor and accessories, with remaining energy available for thrust/power.",
+        "Increase air pressure before fuel is added."
       ],
       "answer": 2,
-      "explanation": "Fire extinguishing systems discharge an approved agent into a designated fire zone; correct bottle pressure/indication and distribution are essential."
+      "explanation": "The compressor consumes shaft work supplied by the turbine.",
+      "concept": "PP-C017"
     },
     {
       "id": "PP084",
-      "section": "35.2",
-      "topic": "Engine Fire Extinguishing",
-      "question": "An AME is reviewing this system. What must be verified when servicing an engine fire-extinguishing bottle?",
+      "section": "36",
+      "topic": "Turbine function",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the primary function of the turbine section?",
       "options": [
-        "Propeller track",
-        "Condition/charge in accordance with approved maintenance data",
-        "Only exterior paint colour",
-        "Fuel nozzle flow rate"
+        "Meter fuel during acceleration.",
+        "Extract energy from the hot gas stream to drive the compressor and accessories, with remaining energy available for thrust/power.",
+        "Increase air pressure before fuel is added.",
+        "Diffuse inlet air to the highest static pressure in the engine."
       ],
       "answer": 1,
-      "explanation": "Fire extinguishing systems discharge an approved agent into a designated fire zone; correct bottle pressure/indication and distribution are essential."
+      "explanation": "The compressor consumes shaft work supplied by the turbine.",
+      "concept": "PP-C017"
     },
     {
       "id": "PP085",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "What is the basic airflow sequence through a simple gas turbine engine?",
+      "section": "36",
+      "topic": "Turbine function",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the primary function of the turbine section?",
       "options": [
-        "Intake, compression, combustion, turbine, exhaust",
-        "Compression, exhaust, intake, combustion, turbine",
-        "Intake, turbine, compression, exhaust, combustion",
-        "Combustion, intake, turbine, compression, exhaust"
+        "Extract energy from the hot gas stream to drive the compressor and accessories, with remaining energy available for thrust/power.",
+        "Increase air pressure before fuel is added.",
+        "Diffuse inlet air to the highest static pressure in the engine.",
+        "Meter fuel during acceleration."
       ],
       "answer": 0,
-      "explanation": "A gas turbine core operates through continuous intake, compression, combustion and expansion through turbine stages."
+      "explanation": "The compressor consumes shaft work supplied by the turbine.",
+      "concept": "PP-C017"
     },
     {
       "id": "PP086",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Which statement is correct regarding this subject: what is the basic airflow sequence through a simple gas turbine engine?",
+      "section": "36",
+      "topic": "Compressor stall",
+      "difficulty": "Exam-style",
+      "question": "Which indication is most consistent with a compressor stall/surge?",
       "options": [
-        "Compression, exhaust, intake, combustion, turbine",
-        "Intake, turbine, compression, exhaust, combustion",
-        "Combustion, intake, turbine, compression, exhaust",
-        "Intake, compression, combustion, turbine, exhaust"
+        "A smooth, stable increase in N1 and EGT during acceleration.",
+        "A gradual oil-temperature increase over several flights with no performance change.",
+        "A steady fuel-flow decrease caused by aircraft descent.",
+        "Abnormal noise/bangs with rapid fluctuations in airflow-related engine parameters and possible temperature rise."
       ],
       "answer": 3,
-      "explanation": "A gas turbine core operates through continuous intake, compression, combustion and expansion through turbine stages."
+      "explanation": "A stall/surge is unstable compressor airflow and can create bangs, vibration, parameter fluctuation and high temperature.",
+      "concept": "PP-C018"
     },
     {
       "id": "PP087",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the basic airflow sequence through a simple gas turbine engine?",
+      "section": "36",
+      "topic": "Compressor stall",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which indication is most consistent with a compressor stall/surge?",
       "options": [
-        "Intake, turbine, compression, exhaust, combustion",
-        "Combustion, intake, turbine, compression, exhaust",
-        "Intake, compression, combustion, turbine, exhaust",
-        "Compression, exhaust, intake, combustion, turbine"
+        "A gradual oil-temperature increase over several flights with no performance change.",
+        "A steady fuel-flow decrease caused by aircraft descent.",
+        "Abnormal noise/bangs with rapid fluctuations in airflow-related engine parameters and possible temperature rise.",
+        "A smooth, stable increase in N1 and EGT during acceleration."
       ],
       "answer": 2,
-      "explanation": "A gas turbine core operates through continuous intake, compression, combustion and expansion through turbine stages."
+      "explanation": "A stall/surge is unstable compressor airflow and can create bangs, vibration, parameter fluctuation and high temperature.",
+      "concept": "PP-C018"
     },
     {
       "id": "PP088",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "An AME is reviewing this system. What is the basic airflow sequence through a simple gas turbine engine?",
+      "section": "36",
+      "topic": "Compressor stall",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which indication is most consistent with a compressor stall/surge?",
       "options": [
-        "Combustion, intake, turbine, compression, exhaust",
-        "Intake, compression, combustion, turbine, exhaust",
-        "Compression, exhaust, intake, combustion, turbine",
-        "Intake, turbine, compression, exhaust, combustion"
+        "A steady fuel-flow decrease caused by aircraft descent.",
+        "Abnormal noise/bangs with rapid fluctuations in airflow-related engine parameters and possible temperature rise.",
+        "A smooth, stable increase in N1 and EGT during acceleration.",
+        "A gradual oil-temperature increase over several flights with no performance change."
       ],
       "answer": 1,
-      "explanation": "A gas turbine core operates through continuous intake, compression, combustion and expansion through turbine stages."
+      "explanation": "A stall/surge is unstable compressor airflow and can create bangs, vibration, parameter fluctuation and high temperature.",
+      "concept": "PP-C018"
     },
     {
       "id": "PP089",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "What is the primary function of the turbine section in a gas turbine engine?",
+      "section": "36",
+      "topic": "Compressor stall",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which indication is most consistent with a compressor stall/surge?",
       "options": [
-        "Extract energy from hot gas to drive the compressor and accessories",
-        "Increase inlet air pressure directly",
-        "Atomize fuel before the nozzles",
-        "Store engine oil"
+        "Abnormal noise/bangs with rapid fluctuations in airflow-related engine parameters and possible temperature rise.",
+        "A smooth, stable increase in N1 and EGT during acceleration.",
+        "A gradual oil-temperature increase over several flights with no performance change.",
+        "A steady fuel-flow decrease caused by aircraft descent."
       ],
       "answer": 0,
-      "explanation": "The compressor raises air pressure before combustion; the turbine extracts energy from hot gas to drive the compressor and accessories."
+      "explanation": "A stall/surge is unstable compressor airflow and can create bangs, vibration, parameter fluctuation and high temperature.",
+      "concept": "PP-C018"
     },
     {
       "id": "PP090",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Which statement is correct regarding this subject: what is the primary function of the turbine section in a gas turbine engine?",
+      "section": "36",
+      "topic": "Compressor stall",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which indication is most consistent with a compressor stall/surge?",
       "options": [
-        "Increase inlet air pressure directly",
-        "Atomize fuel before the nozzles",
-        "Store engine oil",
-        "Extract energy from hot gas to drive the compressor and accessories"
+        "A smooth, stable increase in N1 and EGT during acceleration.",
+        "A gradual oil-temperature increase over several flights with no performance change.",
+        "A steady fuel-flow decrease caused by aircraft descent.",
+        "Abnormal noise/bangs with rapid fluctuations in airflow-related engine parameters and possible temperature rise."
       ],
       "answer": 3,
-      "explanation": "The compressor raises air pressure before combustion; the turbine extracts energy from hot gas to drive the compressor and accessories."
+      "explanation": "A stall/surge is unstable compressor airflow and can create bangs, vibration, parameter fluctuation and high temperature.",
+      "concept": "PP-C018"
     },
     {
       "id": "PP091",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the primary function of the turbine section in a gas turbine engine?",
+      "section": "36",
+      "topic": "Hot start",
+      "difficulty": "Exam-style",
+      "question": "What best describes a turbine-engine hot start?",
       "options": [
-        "Atomize fuel before the nozzles",
-        "Store engine oil",
-        "Extract energy from hot gas to drive the compressor and accessories",
-        "Increase inlet air pressure directly"
+        "Engine acceleration above governed RPM after start.",
+        "An oil temperature that remains below minimum after start.",
+        "An excessive EGT/ITT/TGT rise during start, usually before the engine reaches normal self-sustaining speed.",
+        "Starter rotation with no light-off and no temperature rise."
       ],
       "answer": 2,
-      "explanation": "The compressor raises air pressure before combustion; the turbine extracts energy from hot gas to drive the compressor and accessories."
+      "explanation": "A hot start is excessive start temperature from too much fuel/insufficient airflow or delayed acceleration.",
+      "concept": "PP-C019"
     },
     {
       "id": "PP092",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "An AME is reviewing this system. What is the primary function of the turbine section in a gas turbine engine?",
+      "section": "36",
+      "topic": "Hot start",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What best describes a turbine-engine hot start?",
       "options": [
-        "Store engine oil",
-        "Extract energy from hot gas to drive the compressor and accessories",
-        "Increase inlet air pressure directly",
-        "Atomize fuel before the nozzles"
+        "An oil temperature that remains below minimum after start.",
+        "An excessive EGT/ITT/TGT rise during start, usually before the engine reaches normal self-sustaining speed.",
+        "Starter rotation with no light-off and no temperature rise.",
+        "Engine acceleration above governed RPM after start."
       ],
       "answer": 1,
-      "explanation": "The compressor raises air pressure before combustion; the turbine extracts energy from hot gas to drive the compressor and accessories."
+      "explanation": "A hot start is excessive start temperature from too much fuel/insufficient airflow or delayed acceleration.",
+      "concept": "PP-C019"
     },
     {
       "id": "PP093",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Which condition is associated with compressor stall or surge?",
+      "section": "36",
+      "topic": "Hot start",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What best describes a turbine-engine hot start?",
       "options": [
-        "Unstable compressor airflow with possible bangs and parameter fluctuations",
-        "Steady oil pressure at cruise",
-        "Normal exhaust colour",
-        "Smooth acceleration with stable EGT"
+        "An excessive EGT/ITT/TGT rise during start, usually before the engine reaches normal self-sustaining speed.",
+        "Starter rotation with no light-off and no temperature rise.",
+        "Engine acceleration above governed RPM after start.",
+        "An oil temperature that remains below minimum after start."
       ],
       "answer": 0,
-      "explanation": "Compressor stall or surge involves unstable compressor airflow and may be accompanied by bangs, vibration and rapid parameter changes."
+      "explanation": "A hot start is excessive start temperature from too much fuel/insufficient airflow or delayed acceleration.",
+      "concept": "PP-C019"
     },
     {
       "id": "PP094",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Which statement is correct regarding this subject: which condition is associated with compressor stall or surge?",
+      "section": "36",
+      "topic": "Hot start",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What best describes a turbine-engine hot start?",
       "options": [
-        "Steady oil pressure at cruise",
-        "Normal exhaust colour",
-        "Smooth acceleration with stable EGT",
-        "Unstable compressor airflow with possible bangs and parameter fluctuations"
+        "Starter rotation with no light-off and no temperature rise.",
+        "Engine acceleration above governed RPM after start.",
+        "An oil temperature that remains below minimum after start.",
+        "An excessive EGT/ITT/TGT rise during start, usually before the engine reaches normal self-sustaining speed."
       ],
       "answer": 3,
-      "explanation": "Compressor stall or surge involves unstable compressor airflow and may be accompanied by bangs, vibration and rapid parameter changes."
+      "explanation": "A hot start is excessive start temperature from too much fuel/insufficient airflow or delayed acceleration.",
+      "concept": "PP-C019"
     },
     {
       "id": "PP095",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Which condition is associated with compressor stall or surge?",
+      "section": "36",
+      "topic": "Hot start",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What best describes a turbine-engine hot start?",
       "options": [
-        "Normal exhaust colour",
-        "Smooth acceleration with stable EGT",
-        "Unstable compressor airflow with possible bangs and parameter fluctuations",
-        "Steady oil pressure at cruise"
+        "Engine acceleration above governed RPM after start.",
+        "An oil temperature that remains below minimum after start.",
+        "An excessive EGT/ITT/TGT rise during start, usually before the engine reaches normal self-sustaining speed.",
+        "Starter rotation with no light-off and no temperature rise."
       ],
       "answer": 2,
-      "explanation": "Compressor stall or surge involves unstable compressor airflow and may be accompanied by bangs, vibration and rapid parameter changes."
+      "explanation": "A hot start is excessive start temperature from too much fuel/insufficient airflow or delayed acceleration.",
+      "concept": "PP-C019"
     },
     {
       "id": "PP096",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "An AME is reviewing this system. Which condition is associated with compressor stall or surge?",
+      "section": "36",
+      "topic": "Hung start",
+      "difficulty": "Exam-style",
+      "question": "What best describes a hung start?",
       "options": [
-        "Smooth acceleration with stable EGT",
-        "Unstable compressor airflow with possible bangs and parameter fluctuations",
-        "Steady oil pressure at cruise",
-        "Normal exhaust colour"
+        "The engine reaches idle but generator voltage is low.",
+        "The engine lights off but stabilizes below normal self-sustaining/idle RPM instead of continuing to accelerate.",
+        "The engine exceeds its temperature limit while accelerating normally to idle.",
+        "The starter fails to rotate the engine at all."
       ],
       "answer": 1,
-      "explanation": "Compressor stall or surge involves unstable compressor airflow and may be accompanied by bangs, vibration and rapid parameter changes."
+      "explanation": "A hung start is failure to continue acceleration after light-off.",
+      "concept": "PP-C020"
     },
     {
       "id": "PP097",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Why must compressor blade FOD be evaluated carefully?",
+      "section": "36",
+      "topic": "Hung start",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What best describes a hung start?",
       "options": [
-        "Damage can reduce performance and create crack-producing stress concentrations",
-        "It only affects exterior appearance",
-        "It increases blade strength",
-        "It has no effect unless the engine stops"
+        "The engine lights off but stabilizes below normal self-sustaining/idle RPM instead of continuing to accelerate.",
+        "The engine exceeds its temperature limit while accelerating normally to idle.",
+        "The starter fails to rotate the engine at all.",
+        "The engine reaches idle but generator voltage is low."
       ],
       "answer": 0,
-      "explanation": "Foreign object damage to compressor blades can reduce efficiency and create stress concentrations that require evaluation to approved limits."
+      "explanation": "A hung start is failure to continue acceleration after light-off.",
+      "concept": "PP-C020"
     },
     {
       "id": "PP098",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "Which statement is correct regarding this subject: why must compressor blade FOD be evaluated carefully?",
+      "section": "36",
+      "topic": "Hung start",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What best describes a hung start?",
       "options": [
-        "It only affects exterior appearance",
-        "It increases blade strength",
-        "It has no effect unless the engine stops",
-        "Damage can reduce performance and create crack-producing stress concentrations"
+        "The engine exceeds its temperature limit while accelerating normally to idle.",
+        "The starter fails to rotate the engine at all.",
+        "The engine reaches idle but generator voltage is low.",
+        "The engine lights off but stabilizes below normal self-sustaining/idle RPM instead of continuing to accelerate."
       ],
       "answer": 3,
-      "explanation": "Foreign object damage to compressor blades can reduce efficiency and create stress concentrations that require evaluation to approved limits."
+      "explanation": "A hung start is failure to continue acceleration after light-off.",
+      "concept": "PP-C020"
     },
     {
       "id": "PP099",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must compressor blade FOD be evaluated carefully?",
+      "section": "36",
+      "topic": "Hung start",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What best describes a hung start?",
       "options": [
-        "It increases blade strength",
-        "It has no effect unless the engine stops",
-        "Damage can reduce performance and create crack-producing stress concentrations",
-        "It only affects exterior appearance"
+        "The starter fails to rotate the engine at all.",
+        "The engine reaches idle but generator voltage is low.",
+        "The engine lights off but stabilizes below normal self-sustaining/idle RPM instead of continuing to accelerate.",
+        "The engine exceeds its temperature limit while accelerating normally to idle."
       ],
       "answer": 2,
-      "explanation": "Foreign object damage to compressor blades can reduce efficiency and create stress concentrations that require evaluation to approved limits."
+      "explanation": "A hung start is failure to continue acceleration after light-off.",
+      "concept": "PP-C020"
     },
     {
       "id": "PP100",
-      "section": "36.1",
-      "topic": "Turbine Engines",
-      "question": "An AME is reviewing this system. Why must compressor blade FOD be evaluated carefully?",
+      "section": "36",
+      "topic": "Hung start",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What best describes a hung start?",
       "options": [
-        "It has no effect unless the engine stops",
-        "Damage can reduce performance and create crack-producing stress concentrations",
-        "It only affects exterior appearance",
-        "It increases blade strength"
+        "The engine reaches idle but generator voltage is low.",
+        "The engine lights off but stabilizes below normal self-sustaining/idle RPM instead of continuing to accelerate.",
+        "The engine exceeds its temperature limit while accelerating normally to idle.",
+        "The starter fails to rotate the engine at all."
       ],
       "answer": 1,
-      "explanation": "Foreign object damage to compressor blades can reduce efficiency and create stress concentrations that require evaluation to approved limits."
+      "explanation": "A hung start is failure to continue acceleration after light-off.",
+      "concept": "PP-C020"
     },
     {
       "id": "PP101",
-      "section": "36.2",
-      "topic": "Turbine Instruments",
-      "question": "On many two-spool turbine engines, what does N1 indicate?",
+      "section": "36",
+      "topic": "FOD",
+      "difficulty": "Exam-style",
+      "question": "A compressor blade has a small leading-edge nick. Why must its location and dimensions be checked against approved limits rather than judged only by appearance?",
       "options": [
-        "Low-pressure spool or fan rotational speed",
-        "Fuel temperature",
-        "Cabin differential pressure",
-        "Propeller blade angle only"
+        "Even small damage can create a stress concentration and reduce fatigue margin.",
+        "Any visible compressor nick always requires blade replacement, regardless of approved blend limits.",
+        "Leading-edge damage affects only compressor efficiency, not structural integrity.",
+        "A nick is harmless if engine vibration is normal."
       ],
       "answer": 0,
-      "explanation": "N1 commonly refers to low-pressure spool/fan speed and N2 to a higher-pressure spool, depending on engine design."
+      "explanation": "Blade damage can be structurally significant; approved data defines allowable blend/repair/rejection limits.",
+      "concept": "PP-C021"
     },
     {
       "id": "PP102",
-      "section": "36.2",
-      "topic": "Turbine Instruments",
-      "question": "Which statement is correct regarding this subject: on many two-spool turbine engines, what does N1 indicate?",
+      "section": "36",
+      "topic": "FOD",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A compressor blade has a small leading-edge nick. Why must its location and dimensions be checked against approved limits rather than judged only by appearance?",
       "options": [
-        "Fuel temperature",
-        "Cabin differential pressure",
-        "Propeller blade angle only",
-        "Low-pressure spool or fan rotational speed"
+        "Any visible compressor nick always requires blade replacement, regardless of approved blend limits.",
+        "Leading-edge damage affects only compressor efficiency, not structural integrity.",
+        "A nick is harmless if engine vibration is normal.",
+        "Even small damage can create a stress concentration and reduce fatigue margin."
       ],
       "answer": 3,
-      "explanation": "N1 commonly refers to low-pressure spool/fan speed and N2 to a higher-pressure spool, depending on engine design."
+      "explanation": "Blade damage can be structurally significant; approved data defines allowable blend/repair/rejection limits.",
+      "concept": "PP-C021"
     },
     {
       "id": "PP103",
-      "section": "36.2",
-      "topic": "Turbine Instruments",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? On many two-spool turbine engines, what does N1 indicate?",
+      "section": "36",
+      "topic": "FOD",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A compressor blade has a small leading-edge nick. Why must its location and dimensions be checked against approved limits rather than judged only by appearance?",
       "options": [
-        "Cabin differential pressure",
-        "Propeller blade angle only",
-        "Low-pressure spool or fan rotational speed",
-        "Fuel temperature"
+        "Leading-edge damage affects only compressor efficiency, not structural integrity.",
+        "A nick is harmless if engine vibration is normal.",
+        "Even small damage can create a stress concentration and reduce fatigue margin.",
+        "Any visible compressor nick always requires blade replacement, regardless of approved blend limits."
       ],
       "answer": 2,
-      "explanation": "N1 commonly refers to low-pressure spool/fan speed and N2 to a higher-pressure spool, depending on engine design."
+      "explanation": "Blade damage can be structurally significant; approved data defines allowable blend/repair/rejection limits.",
+      "concept": "PP-C021"
     },
     {
       "id": "PP104",
-      "section": "36.2",
-      "topic": "Turbine Instruments",
-      "question": "An AME is reviewing this system. On many two-spool turbine engines, what does N1 indicate?",
+      "section": "36",
+      "topic": "FOD",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A compressor blade has a small leading-edge nick. Why must its location and dimensions be checked against approved limits rather than judged only by appearance?",
       "options": [
-        "Propeller blade angle only",
-        "Low-pressure spool or fan rotational speed",
-        "Fuel temperature",
-        "Cabin differential pressure"
+        "A nick is harmless if engine vibration is normal.",
+        "Even small damage can create a stress concentration and reduce fatigue margin.",
+        "Any visible compressor nick always requires blade replacement, regardless of approved blend limits.",
+        "Leading-edge damage affects only compressor efficiency, not structural integrity."
       ],
       "answer": 1,
-      "explanation": "N1 commonly refers to low-pressure spool/fan speed and N2 to a higher-pressure spool, depending on engine design."
+      "explanation": "Blade damage can be structurally significant; approved data defines allowable blend/repair/rejection limits.",
+      "concept": "PP-C021"
     },
     {
       "id": "PP105",
-      "section": "36.3",
-      "topic": "Accessory Gearbox",
-      "question": "What is a function of the turbine-engine accessory gearbox?",
+      "section": "36",
+      "topic": "FOD",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A compressor blade has a small leading-edge nick. Why must its location and dimensions be checked against approved limits rather than judged only by appearance?",
       "options": [
-        "Drive engine accessories at required speeds",
-        "Increase wing lift",
-        "Control cabin outflow",
-        "Store extinguishing agent"
+        "Even small damage can create a stress concentration and reduce fatigue margin.",
+        "Any visible compressor nick always requires blade replacement, regardless of approved blend limits.",
+        "Leading-edge damage affects only compressor efficiency, not structural integrity.",
+        "A nick is harmless if engine vibration is normal."
       ],
       "answer": 0,
-      "explanation": "The accessory gearbox provides mechanical drives for accessories such as pumps, generators and starters."
+      "explanation": "Blade damage can be structurally significant; approved data defines allowable blend/repair/rejection limits.",
+      "concept": "PP-C021"
     },
     {
       "id": "PP106",
-      "section": "36.3",
-      "topic": "Accessory Gearbox",
-      "question": "Which statement is correct regarding this subject: what is a function of the turbine-engine accessory gearbox?",
+      "section": "36",
+      "topic": "N1/N2",
+      "difficulty": "Exam-style",
+      "question": "On many two-spool turbofan engines, which statement is generally correct?",
       "options": [
-        "Increase wing lift",
-        "Control cabin outflow",
-        "Store extinguishing agent",
-        "Drive engine accessories at required speeds"
+        "N1 is turbine temperature and N2 is compressor pressure ratio.",
+        "N1 and N2 are always identical because both spools are mechanically locked together.",
+        "N2 represents propeller RPM on every turbofan.",
+        "N1 represents low-pressure spool/fan speed and N2 represents high-pressure spool speed."
       ],
       "answer": 3,
-      "explanation": "The accessory gearbox provides mechanical drives for accessories such as pumps, generators and starters."
+      "explanation": "Two-spool engines have independently rotating LP and HP systems; nomenclature is engine-specific but N1/N2 commonly follow this convention.",
+      "concept": "PP-C022"
     },
     {
       "id": "PP107",
-      "section": "36.3",
-      "topic": "Accessory Gearbox",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a function of the turbine-engine accessory gearbox?",
+      "section": "36",
+      "topic": "N1/N2",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. On many two-spool turbofan engines, which statement is generally correct?",
       "options": [
-        "Control cabin outflow",
-        "Store extinguishing agent",
-        "Drive engine accessories at required speeds",
-        "Increase wing lift"
+        "N1 and N2 are always identical because both spools are mechanically locked together.",
+        "N2 represents propeller RPM on every turbofan.",
+        "N1 represents low-pressure spool/fan speed and N2 represents high-pressure spool speed.",
+        "N1 is turbine temperature and N2 is compressor pressure ratio."
       ],
       "answer": 2,
-      "explanation": "The accessory gearbox provides mechanical drives for accessories such as pumps, generators and starters."
+      "explanation": "Two-spool engines have independently rotating LP and HP systems; nomenclature is engine-specific but N1/N2 commonly follow this convention.",
+      "concept": "PP-C022"
     },
     {
       "id": "PP108",
-      "section": "36.3",
-      "topic": "Accessory Gearbox",
-      "question": "An AME is reviewing this system. What is a function of the turbine-engine accessory gearbox?",
+      "section": "36",
+      "topic": "N1/N2",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? On many two-spool turbofan engines, which statement is generally correct?",
       "options": [
-        "Store extinguishing agent",
-        "Drive engine accessories at required speeds",
-        "Increase wing lift",
-        "Control cabin outflow"
+        "N2 represents propeller RPM on every turbofan.",
+        "N1 represents low-pressure spool/fan speed and N2 represents high-pressure spool speed.",
+        "N1 is turbine temperature and N2 is compressor pressure ratio.",
+        "N1 and N2 are always identical because both spools are mechanically locked together."
       ],
       "answer": 1,
-      "explanation": "The accessory gearbox provides mechanical drives for accessories such as pumps, generators and starters."
+      "explanation": "Two-spool engines have independently rotating LP and HP systems; nomenclature is engine-specific but N1/N2 commonly follow this convention.",
+      "concept": "PP-C022"
     },
     {
       "id": "PP109",
-      "section": "36.5",
-      "topic": "Trend Monitoring",
-      "question": "In turbine trend monitoring, what may a gradual rise in corrected EGT/ITT for the same performance indicate?",
+      "section": "36",
+      "topic": "N1/N2",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. On many two-spool turbofan engines, which statement is generally correct?",
       "options": [
-        "Deteriorating engine efficiency",
-        "Improving compressor efficiency",
-        "Lower aircraft weight only",
-        "Correct propeller balance"
+        "N1 represents low-pressure spool/fan speed and N2 represents high-pressure spool speed.",
+        "N1 is turbine temperature and N2 is compressor pressure ratio.",
+        "N1 and N2 are always identical because both spools are mechanically locked together.",
+        "N2 represents propeller RPM on every turbofan."
       ],
       "answer": 0,
-      "explanation": "Increasing EGT/ITT for the same thrust or power setting can indicate engine performance deterioration when corrected for conditions."
+      "explanation": "Two-spool engines have independently rotating LP and HP systems; nomenclature is engine-specific but N1/N2 commonly follow this convention.",
+      "concept": "PP-C022"
     },
     {
       "id": "PP110",
-      "section": "36.5",
-      "topic": "Trend Monitoring",
-      "question": "Which statement is correct regarding this subject: in turbine trend monitoring, what may a gradual rise in corrected EGT/ITT for the same performance indicate?",
+      "section": "36",
+      "topic": "N1/N2",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. On many two-spool turbofan engines, which statement is generally correct?",
       "options": [
-        "Improving compressor efficiency",
-        "Lower aircraft weight only",
-        "Correct propeller balance",
-        "Deteriorating engine efficiency"
+        "N1 is turbine temperature and N2 is compressor pressure ratio.",
+        "N1 and N2 are always identical because both spools are mechanically locked together.",
+        "N2 represents propeller RPM on every turbofan.",
+        "N1 represents low-pressure spool/fan speed and N2 represents high-pressure spool speed."
       ],
       "answer": 3,
-      "explanation": "Increasing EGT/ITT for the same thrust or power setting can indicate engine performance deterioration when corrected for conditions."
+      "explanation": "Two-spool engines have independently rotating LP and HP systems; nomenclature is engine-specific but N1/N2 commonly follow this convention.",
+      "concept": "PP-C022"
     },
     {
       "id": "PP111",
-      "section": "36.5",
-      "topic": "Trend Monitoring",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? In turbine trend monitoring, what may a gradual rise in corrected EGT/ITT for the same performance indicate?",
+      "section": "36",
+      "topic": "Borescope",
+      "difficulty": "Exam-style",
+      "question": "During borescope inspection, a defect appears larger than expected. What determines serviceability?",
       "options": [
-        "Lower aircraft weight only",
-        "Correct propeller balance",
-        "Deteriorating engine efficiency",
-        "Improving compressor efficiency"
+        "Whether engine parameters are still within cockpit limits.",
+        "Whether the same defect exists on another blade.",
+        "The applicable engine maintenance limits and approved inspection/repair data.",
+        "Whether the defect can be felt with a fingernail through the borescope port."
       ],
       "answer": 2,
-      "explanation": "Increasing EGT/ITT for the same thrust or power setting can indicate engine performance deterioration when corrected for conditions."
+      "explanation": "Visual findings must be evaluated to manufacturer-approved dimensional/location criteria.",
+      "concept": "PP-C023"
     },
     {
       "id": "PP112",
-      "section": "36.5",
-      "topic": "Trend Monitoring",
-      "question": "An AME is reviewing this system. In turbine trend monitoring, what may a gradual rise in corrected EGT/ITT for the same performance indicate?",
+      "section": "36",
+      "topic": "Borescope",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. During borescope inspection, a defect appears larger than expected. What determines serviceability?",
       "options": [
-        "Correct propeller balance",
-        "Deteriorating engine efficiency",
-        "Improving compressor efficiency",
-        "Lower aircraft weight only"
+        "Whether the same defect exists on another blade.",
+        "The applicable engine maintenance limits and approved inspection/repair data.",
+        "Whether the defect can be felt with a fingernail through the borescope port.",
+        "Whether engine parameters are still within cockpit limits."
       ],
       "answer": 1,
-      "explanation": "Increasing EGT/ITT for the same thrust or power setting can indicate engine performance deterioration when corrected for conditions."
+      "explanation": "Visual findings must be evaluated to manufacturer-approved dimensional/location criteria.",
+      "concept": "PP-C023"
     },
     {
       "id": "PP113",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "What is the purpose of scavenge pumps in many turbine-engine oil systems?",
+      "section": "36",
+      "topic": "Borescope",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? During borescope inspection, a defect appears larger than expected. What determines serviceability?",
       "options": [
-        "Return oil from bearing sumps/compartments to the tank",
-        "Pressurize fuel nozzles",
-        "Operate thrust reversers directly",
-        "Drive the compressor"
+        "The applicable engine maintenance limits and approved inspection/repair data.",
+        "Whether the defect can be felt with a fingernail through the borescope port.",
+        "Whether engine parameters are still within cockpit limits.",
+        "Whether the same defect exists on another blade."
       ],
       "answer": 0,
-      "explanation": "Turbine engine oil systems lubricate and cool bearings and gears; scavenge systems return oil from bearing compartments."
+      "explanation": "Visual findings must be evaluated to manufacturer-approved dimensional/location criteria.",
+      "concept": "PP-C023"
     },
     {
       "id": "PP114",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "Which statement is correct regarding this subject: what is the purpose of scavenge pumps in many turbine-engine oil systems?",
+      "section": "36",
+      "topic": "Borescope",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. During borescope inspection, a defect appears larger than expected. What determines serviceability?",
       "options": [
-        "Pressurize fuel nozzles",
-        "Operate thrust reversers directly",
-        "Drive the compressor",
-        "Return oil from bearing sumps/compartments to the tank"
+        "Whether the defect can be felt with a fingernail through the borescope port.",
+        "Whether engine parameters are still within cockpit limits.",
+        "Whether the same defect exists on another blade.",
+        "The applicable engine maintenance limits and approved inspection/repair data."
       ],
       "answer": 3,
-      "explanation": "Turbine engine oil systems lubricate and cool bearings and gears; scavenge systems return oil from bearing compartments."
+      "explanation": "Visual findings must be evaluated to manufacturer-approved dimensional/location criteria.",
+      "concept": "PP-C023"
     },
     {
       "id": "PP115",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of scavenge pumps in many turbine-engine oil systems?",
+      "section": "36",
+      "topic": "Borescope",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. During borescope inspection, a defect appears larger than expected. What determines serviceability?",
       "options": [
-        "Operate thrust reversers directly",
-        "Drive the compressor",
-        "Return oil from bearing sumps/compartments to the tank",
-        "Pressurize fuel nozzles"
+        "Whether engine parameters are still within cockpit limits.",
+        "Whether the same defect exists on another blade.",
+        "The applicable engine maintenance limits and approved inspection/repair data.",
+        "Whether the defect can be felt with a fingernail through the borescope port."
       ],
       "answer": 2,
-      "explanation": "Turbine engine oil systems lubricate and cool bearings and gears; scavenge systems return oil from bearing compartments."
+      "explanation": "Visual findings must be evaluated to manufacturer-approved dimensional/location criteria.",
+      "concept": "PP-C023"
     },
     {
       "id": "PP116",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "An AME is reviewing this system. What is the purpose of scavenge pumps in many turbine-engine oil systems?",
+      "section": "37",
+      "topic": "Scavenge system",
+      "difficulty": "Exam-style",
+      "question": "Why do many turbine engines use scavenge pumps with greater capacity than the pressure-pump delivery into a bearing compartment?",
       "options": [
-        "Drive the compressor",
-        "Return oil from bearing sumps/compartments to the tank",
-        "Pressurize fuel nozzles",
-        "Operate thrust reversers directly"
+        "To prevent the oil tank from being vented.",
+        "To ensure oil and entrained air are removed so oil does not accumulate in the sump.",
+        "To maintain higher oil pressure at the bearing than the pressure pump can provide.",
+        "To cool fuel by circulating excess oil through the combustor."
       ],
       "answer": 1,
-      "explanation": "Turbine engine oil systems lubricate and cool bearings and gears; scavenge systems return oil from bearing compartments."
+      "explanation": "Scavenge capacity is intentionally high to keep bearing sumps drained despite aerated return oil.",
+      "concept": "PP-C024"
     },
     {
       "id": "PP117",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "What does metal accumulation on a magnetic chip detector suggest?",
+      "section": "37",
+      "topic": "Scavenge system",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why do many turbine engines use scavenge pumps with greater capacity than the pressure-pump delivery into a bearing compartment?",
       "options": [
-        "Possible internal ferrous component wear",
-        "Normal fuel atomization",
-        "Excessive cabin humidity",
-        "Propeller icing"
+        "To ensure oil and entrained air are removed so oil does not accumulate in the sump.",
+        "To maintain higher oil pressure at the bearing than the pressure pump can provide.",
+        "To cool fuel by circulating excess oil through the combustor.",
+        "To prevent the oil tank from being vented."
       ],
       "answer": 0,
-      "explanation": "A magnetic chip detector collects ferrous particles and can provide warning of abnormal internal wear."
+      "explanation": "Scavenge capacity is intentionally high to keep bearing sumps drained despite aerated return oil.",
+      "concept": "PP-C024"
     },
     {
       "id": "PP118",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "Which statement is correct regarding this subject: what does metal accumulation on a magnetic chip detector suggest?",
+      "section": "37",
+      "topic": "Scavenge system",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why do many turbine engines use scavenge pumps with greater capacity than the pressure-pump delivery into a bearing compartment?",
       "options": [
-        "Normal fuel atomization",
-        "Excessive cabin humidity",
-        "Propeller icing",
-        "Possible internal ferrous component wear"
+        "To maintain higher oil pressure at the bearing than the pressure pump can provide.",
+        "To cool fuel by circulating excess oil through the combustor.",
+        "To prevent the oil tank from being vented.",
+        "To ensure oil and entrained air are removed so oil does not accumulate in the sump."
       ],
       "answer": 3,
-      "explanation": "A magnetic chip detector collects ferrous particles and can provide warning of abnormal internal wear."
+      "explanation": "Scavenge capacity is intentionally high to keep bearing sumps drained despite aerated return oil.",
+      "concept": "PP-C024"
     },
     {
       "id": "PP119",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does metal accumulation on a magnetic chip detector suggest?",
+      "section": "37",
+      "topic": "Scavenge system",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why do many turbine engines use scavenge pumps with greater capacity than the pressure-pump delivery into a bearing compartment?",
       "options": [
-        "Excessive cabin humidity",
-        "Propeller icing",
-        "Possible internal ferrous component wear",
-        "Normal fuel atomization"
+        "To cool fuel by circulating excess oil through the combustor.",
+        "To prevent the oil tank from being vented.",
+        "To ensure oil and entrained air are removed so oil does not accumulate in the sump.",
+        "To maintain higher oil pressure at the bearing than the pressure pump can provide."
       ],
       "answer": 2,
-      "explanation": "A magnetic chip detector collects ferrous particles and can provide warning of abnormal internal wear."
+      "explanation": "Scavenge capacity is intentionally high to keep bearing sumps drained despite aerated return oil.",
+      "concept": "PP-C024"
     },
     {
       "id": "PP120",
-      "section": "37.1",
-      "topic": "Turbine Lubrication",
-      "question": "An AME is reviewing this system. What does metal accumulation on a magnetic chip detector suggest?",
+      "section": "37",
+      "topic": "Scavenge system",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why do many turbine engines use scavenge pumps with greater capacity than the pressure-pump delivery into a bearing compartment?",
       "options": [
-        "Propeller icing",
-        "Possible internal ferrous component wear",
-        "Normal fuel atomization",
-        "Excessive cabin humidity"
+        "To prevent the oil tank from being vented.",
+        "To ensure oil and entrained air are removed so oil does not accumulate in the sump.",
+        "To maintain higher oil pressure at the bearing than the pressure pump can provide.",
+        "To cool fuel by circulating excess oil through the combustor."
       ],
       "answer": 1,
-      "explanation": "A magnetic chip detector collects ferrous particles and can provide warning of abnormal internal wear."
+      "explanation": "Scavenge capacity is intentionally high to keep bearing sumps drained despite aerated return oil.",
+      "concept": "PP-C024"
     },
     {
       "id": "PP121",
-      "section": "37.2",
-      "topic": "Turbine Cooling",
-      "question": "How are turbine blades commonly cooled in modern gas turbines?",
+      "section": "37",
+      "topic": "Chip detector",
+      "difficulty": "Exam-style",
+      "question": "A magnetic chip detector contains several ferrous particles. What is the correct maintenance approach?",
       "options": [
-        "With relatively cooler compressor bleed air through internal passages",
-        "By direct fuel spray on the blades",
-        "By hydraulic fluid circulation",
-        "By cabin ventilation air only"
+        "Evaluate particle type/quantity and engine condition per approved troubleshooting criteria rather than simply cleaning and reinstalling.",
+        "Clean it and return to service whenever no cockpit warning remains.",
+        "Replace the oil filter only; chip detectors do not indicate internal wear.",
+        "Demagnetize the detector before inspection to prevent false indications."
       ],
       "answer": 0,
-      "explanation": "Compressor bleed air is often routed internally to cool turbine components exposed to very high gas temperatures."
+      "explanation": "Metal findings are diagnostic evidence and must be assessed according to manufacturer limits/procedures.",
+      "concept": "PP-C025"
     },
     {
       "id": "PP122",
-      "section": "37.2",
-      "topic": "Turbine Cooling",
-      "question": "Which statement is correct regarding this subject: how are turbine blades commonly cooled in modern gas turbines?",
+      "section": "37",
+      "topic": "Chip detector",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A magnetic chip detector contains several ferrous particles. What is the correct maintenance approach?",
       "options": [
-        "By direct fuel spray on the blades",
-        "By hydraulic fluid circulation",
-        "By cabin ventilation air only",
-        "With relatively cooler compressor bleed air through internal passages"
+        "Clean it and return to service whenever no cockpit warning remains.",
+        "Replace the oil filter only; chip detectors do not indicate internal wear.",
+        "Demagnetize the detector before inspection to prevent false indications.",
+        "Evaluate particle type/quantity and engine condition per approved troubleshooting criteria rather than simply cleaning and reinstalling."
       ],
       "answer": 3,
-      "explanation": "Compressor bleed air is often routed internally to cool turbine components exposed to very high gas temperatures."
+      "explanation": "Metal findings are diagnostic evidence and must be assessed according to manufacturer limits/procedures.",
+      "concept": "PP-C025"
     },
     {
       "id": "PP123",
-      "section": "37.2",
-      "topic": "Turbine Cooling",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? How are turbine blades commonly cooled in modern gas turbines?",
+      "section": "37",
+      "topic": "Chip detector",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A magnetic chip detector contains several ferrous particles. What is the correct maintenance approach?",
       "options": [
-        "By hydraulic fluid circulation",
-        "By cabin ventilation air only",
-        "With relatively cooler compressor bleed air through internal passages",
-        "By direct fuel spray on the blades"
+        "Replace the oil filter only; chip detectors do not indicate internal wear.",
+        "Demagnetize the detector before inspection to prevent false indications.",
+        "Evaluate particle type/quantity and engine condition per approved troubleshooting criteria rather than simply cleaning and reinstalling.",
+        "Clean it and return to service whenever no cockpit warning remains."
       ],
       "answer": 2,
-      "explanation": "Compressor bleed air is often routed internally to cool turbine components exposed to very high gas temperatures."
+      "explanation": "Metal findings are diagnostic evidence and must be assessed according to manufacturer limits/procedures.",
+      "concept": "PP-C025"
     },
     {
       "id": "PP124",
-      "section": "37.2",
-      "topic": "Turbine Cooling",
-      "question": "An AME is reviewing this system. How are turbine blades commonly cooled in modern gas turbines?",
+      "section": "37",
+      "topic": "Chip detector",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A magnetic chip detector contains several ferrous particles. What is the correct maintenance approach?",
       "options": [
-        "By cabin ventilation air only",
-        "With relatively cooler compressor bleed air through internal passages",
-        "By direct fuel spray on the blades",
-        "By hydraulic fluid circulation"
+        "Demagnetize the detector before inspection to prevent false indications.",
+        "Evaluate particle type/quantity and engine condition per approved troubleshooting criteria rather than simply cleaning and reinstalling.",
+        "Clean it and return to service whenever no cockpit warning remains.",
+        "Replace the oil filter only; chip detectors do not indicate internal wear."
       ],
       "answer": 1,
-      "explanation": "Compressor bleed air is often routed internally to cool turbine components exposed to very high gas temperatures."
+      "explanation": "Metal findings are diagnostic evidence and must be assessed according to manufacturer limits/procedures.",
+      "concept": "PP-C025"
     },
     {
       "id": "PP125",
-      "section": "38.1",
-      "topic": "Fuel Control",
-      "question": "What is the fundamental purpose of a turbine-engine fuel control?",
+      "section": "37",
+      "topic": "Chip detector",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A magnetic chip detector contains several ferrous particles. What is the correct maintenance approach?",
       "options": [
-        "Meter fuel appropriate to engine conditions and commanded power",
-        "Control landing gear extension",
-        "Set cabin pressure directly",
-        "Regulate wheel braking"
+        "Evaluate particle type/quantity and engine condition per approved troubleshooting criteria rather than simply cleaning and reinstalling.",
+        "Clean it and return to service whenever no cockpit warning remains.",
+        "Replace the oil filter only; chip detectors do not indicate internal wear.",
+        "Demagnetize the detector before inspection to prevent false indications."
       ],
       "answer": 0,
-      "explanation": "A fuel control meters fuel to match engine operating requirements while respecting acceleration/deceleration and temperature/speed limits."
+      "explanation": "Metal findings are diagnostic evidence and must be assessed according to manufacturer limits/procedures.",
+      "concept": "PP-C025"
     },
     {
       "id": "PP126",
-      "section": "38.1",
-      "topic": "Fuel Control",
-      "question": "Which statement is correct regarding this subject: what is the fundamental purpose of a turbine-engine fuel control?",
+      "section": "37",
+      "topic": "Bearing compartment sealing",
+      "difficulty": "Exam-style",
+      "question": "What is a primary purpose of compressor bleed-air seals around turbine-engine bearing compartments?",
       "options": [
-        "Control landing gear extension",
-        "Set cabin pressure directly",
-        "Regulate wheel braking",
-        "Meter fuel appropriate to engine conditions and commanded power"
+        "Increase oil pressure by forcing compressor air into the lubrication passages.",
+        "Cool the fuel nozzles with oil mist.",
+        "Prevent the compressor from rotating backwards.",
+        "Control oil leakage by maintaining appropriate pressure relationships around the sump."
       ],
       "answer": 3,
-      "explanation": "A fuel control meters fuel to match engine operating requirements while respecting acceleration/deceleration and temperature/speed limits."
+      "explanation": "Air seals help contain oil and manage sump pressure; disrupted pressure balance can cause leakage.",
+      "concept": "PP-C026"
     },
     {
       "id": "PP127",
-      "section": "38.1",
-      "topic": "Fuel Control",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the fundamental purpose of a turbine-engine fuel control?",
+      "section": "37",
+      "topic": "Bearing compartment sealing",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is a primary purpose of compressor bleed-air seals around turbine-engine bearing compartments?",
       "options": [
-        "Set cabin pressure directly",
-        "Regulate wheel braking",
-        "Meter fuel appropriate to engine conditions and commanded power",
-        "Control landing gear extension"
+        "Cool the fuel nozzles with oil mist.",
+        "Prevent the compressor from rotating backwards.",
+        "Control oil leakage by maintaining appropriate pressure relationships around the sump.",
+        "Increase oil pressure by forcing compressor air into the lubrication passages."
       ],
       "answer": 2,
-      "explanation": "A fuel control meters fuel to match engine operating requirements while respecting acceleration/deceleration and temperature/speed limits."
+      "explanation": "Air seals help contain oil and manage sump pressure; disrupted pressure balance can cause leakage.",
+      "concept": "PP-C026"
     },
     {
       "id": "PP128",
-      "section": "38.1",
-      "topic": "Fuel Control",
-      "question": "An AME is reviewing this system. What is the fundamental purpose of a turbine-engine fuel control?",
+      "section": "37",
+      "topic": "Bearing compartment sealing",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is a primary purpose of compressor bleed-air seals around turbine-engine bearing compartments?",
       "options": [
-        "Regulate wheel braking",
-        "Meter fuel appropriate to engine conditions and commanded power",
-        "Control landing gear extension",
-        "Set cabin pressure directly"
+        "Prevent the compressor from rotating backwards.",
+        "Control oil leakage by maintaining appropriate pressure relationships around the sump.",
+        "Increase oil pressure by forcing compressor air into the lubrication passages.",
+        "Cool the fuel nozzles with oil mist."
       ],
       "answer": 1,
-      "explanation": "A fuel control meters fuel to match engine operating requirements while respecting acceleration/deceleration and temperature/speed limits."
+      "explanation": "Air seals help contain oil and manage sump pressure; disrupted pressure balance can cause leakage.",
+      "concept": "PP-C026"
     },
     {
       "id": "PP129",
-      "section": "38.1",
-      "topic": "FADEC",
-      "question": "What is a principal function of FADEC?",
+      "section": "37",
+      "topic": "Bearing compartment sealing",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is a primary purpose of compressor bleed-air seals around turbine-engine bearing compartments?",
       "options": [
-        "Electronically manage engine fuel/control functions using sensor inputs",
-        "Provide structural lightning protection",
-        "Pressurize the hydraulic reservoir",
-        "Operate windshield wipers"
+        "Control oil leakage by maintaining appropriate pressure relationships around the sump.",
+        "Increase oil pressure by forcing compressor air into the lubrication passages.",
+        "Cool the fuel nozzles with oil mist.",
+        "Prevent the compressor from rotating backwards."
       ],
       "answer": 0,
-      "explanation": "A FADEC electronically manages engine control functions using sensor inputs and programmed control laws, usually with no direct mechanical throttle-to-metering link."
+      "explanation": "Air seals help contain oil and manage sump pressure; disrupted pressure balance can cause leakage.",
+      "concept": "PP-C026"
     },
     {
       "id": "PP130",
-      "section": "38.1",
-      "topic": "FADEC",
-      "question": "Which statement is correct regarding this subject: what is a principal function of FADEC?",
+      "section": "37",
+      "topic": "Bearing compartment sealing",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is a primary purpose of compressor bleed-air seals around turbine-engine bearing compartments?",
       "options": [
-        "Provide structural lightning protection",
-        "Pressurize the hydraulic reservoir",
-        "Operate windshield wipers",
-        "Electronically manage engine fuel/control functions using sensor inputs"
+        "Increase oil pressure by forcing compressor air into the lubrication passages.",
+        "Cool the fuel nozzles with oil mist.",
+        "Prevent the compressor from rotating backwards.",
+        "Control oil leakage by maintaining appropriate pressure relationships around the sump."
       ],
       "answer": 3,
-      "explanation": "A FADEC electronically manages engine control functions using sensor inputs and programmed control laws, usually with no direct mechanical throttle-to-metering link."
+      "explanation": "Air seals help contain oil and manage sump pressure; disrupted pressure balance can cause leakage.",
+      "concept": "PP-C026"
     },
     {
       "id": "PP131",
-      "section": "38.1",
-      "topic": "FADEC",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a principal function of FADEC?",
+      "section": "38",
+      "topic": "Fuel control",
+      "difficulty": "Exam-style",
+      "question": "What is the primary job of a turbine-engine fuel control/FADEC during acceleration?",
       "options": [
-        "Pressurize the hydraulic reservoir",
-        "Operate windshield wipers",
-        "Electronically manage engine fuel/control functions using sensor inputs",
-        "Provide structural lightning protection"
+        "Hold fuel flow constant while the compressor accelerates.",
+        "Control engine oil pressure instead of fuel flow.",
+        "Schedule fuel to meet commanded power while avoiding limits such as overtemperature, overspeed and compressor instability.",
+        "Deliver maximum possible fuel until the selected RPM is reached."
       ],
       "answer": 2,
-      "explanation": "A FADEC electronically manages engine control functions using sensor inputs and programmed control laws, usually with no direct mechanical throttle-to-metering link."
+      "explanation": "Fuel scheduling must match available airflow and protect engine operating limits.",
+      "concept": "PP-C027"
     },
     {
       "id": "PP132",
-      "section": "38.1",
-      "topic": "FADEC",
-      "question": "An AME is reviewing this system. What is a principal function of FADEC?",
+      "section": "38",
+      "topic": "Fuel control",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the primary job of a turbine-engine fuel control/FADEC during acceleration?",
       "options": [
-        "Operate windshield wipers",
-        "Electronically manage engine fuel/control functions using sensor inputs",
-        "Provide structural lightning protection",
-        "Pressurize the hydraulic reservoir"
+        "Control engine oil pressure instead of fuel flow.",
+        "Schedule fuel to meet commanded power while avoiding limits such as overtemperature, overspeed and compressor instability.",
+        "Deliver maximum possible fuel until the selected RPM is reached.",
+        "Hold fuel flow constant while the compressor accelerates."
       ],
       "answer": 1,
-      "explanation": "A FADEC electronically manages engine control functions using sensor inputs and programmed control laws, usually with no direct mechanical throttle-to-metering link."
+      "explanation": "Fuel scheduling must match available airflow and protect engine operating limits.",
+      "concept": "PP-C027"
     },
     {
       "id": "PP133",
-      "section": "38.2",
-      "topic": "Governors",
-      "question": "What does a governor primarily regulate?",
+      "section": "38",
+      "topic": "Fuel control",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the primary job of a turbine-engine fuel control/FADEC during acceleration?",
       "options": [
-        "Rotational speed",
-        "Cabin humidity",
-        "Brake temperature",
-        "Fuel tank quantity"
+        "Schedule fuel to meet commanded power while avoiding limits such as overtemperature, overspeed and compressor instability.",
+        "Deliver maximum possible fuel until the selected RPM is reached.",
+        "Hold fuel flow constant while the compressor accelerates.",
+        "Control engine oil pressure instead of fuel flow."
       ],
       "answer": 0,
-      "explanation": "A propeller or power-turbine governor senses speed and adjusts the controlled system to maintain selected RPM within its authority."
+      "explanation": "Fuel scheduling must match available airflow and protect engine operating limits.",
+      "concept": "PP-C027"
     },
     {
       "id": "PP134",
-      "section": "38.2",
-      "topic": "Governors",
-      "question": "Which statement is correct regarding this subject: what does a governor primarily regulate?",
+      "section": "38",
+      "topic": "Fuel control",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the primary job of a turbine-engine fuel control/FADEC during acceleration?",
       "options": [
-        "Cabin humidity",
-        "Brake temperature",
-        "Fuel tank quantity",
-        "Rotational speed"
+        "Deliver maximum possible fuel until the selected RPM is reached.",
+        "Hold fuel flow constant while the compressor accelerates.",
+        "Control engine oil pressure instead of fuel flow.",
+        "Schedule fuel to meet commanded power while avoiding limits such as overtemperature, overspeed and compressor instability."
       ],
       "answer": 3,
-      "explanation": "A propeller or power-turbine governor senses speed and adjusts the controlled system to maintain selected RPM within its authority."
+      "explanation": "Fuel scheduling must match available airflow and protect engine operating limits.",
+      "concept": "PP-C027"
     },
     {
       "id": "PP135",
-      "section": "38.2",
-      "topic": "Governors",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does a governor primarily regulate?",
+      "section": "38",
+      "topic": "Fuel control",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the primary job of a turbine-engine fuel control/FADEC during acceleration?",
       "options": [
-        "Brake temperature",
-        "Fuel tank quantity",
-        "Rotational speed",
-        "Cabin humidity"
+        "Hold fuel flow constant while the compressor accelerates.",
+        "Control engine oil pressure instead of fuel flow.",
+        "Schedule fuel to meet commanded power while avoiding limits such as overtemperature, overspeed and compressor instability.",
+        "Deliver maximum possible fuel until the selected RPM is reached."
       ],
       "answer": 2,
-      "explanation": "A propeller or power-turbine governor senses speed and adjusts the controlled system to maintain selected RPM within its authority."
+      "explanation": "Fuel scheduling must match available airflow and protect engine operating limits.",
+      "concept": "PP-C027"
     },
     {
       "id": "PP136",
-      "section": "38.2",
-      "topic": "Governors",
-      "question": "An AME is reviewing this system. What does a governor primarily regulate?",
+      "section": "38",
+      "topic": "FADEC redundancy",
+      "difficulty": "Exam-style",
+      "question": "Why do FADEC systems commonly use redundant channels and power sources?",
       "options": [
-        "Fuel tank quantity",
-        "Rotational speed",
-        "Cabin humidity",
-        "Brake temperature"
+        "To permit operation without any approved dispatch limitations.",
+        "To maintain engine-control availability following certain single failures.",
+        "To allow both channels to command different fuel flows simultaneously.",
+        "To eliminate the need for engine sensors."
       ],
       "answer": 1,
-      "explanation": "A propeller or power-turbine governor senses speed and adjusts the controlled system to maintain selected RPM within its authority."
+      "explanation": "Redundancy improves fault tolerance; exact reversion/dispatch capability depends on the engine design.",
+      "concept": "PP-C028"
     },
     {
       "id": "PP137",
-      "section": "38.3",
-      "topic": "Fuel Nozzles",
-      "question": "What is the purpose of turbine-engine fuel nozzles?",
+      "section": "38",
+      "topic": "FADEC redundancy",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why do FADEC systems commonly use redundant channels and power sources?",
       "options": [
-        "Atomize and distribute fuel into the combustion chamber",
-        "Increase compressor blade angle",
-        "Cool wheel brakes",
-        "Measure oil quantity"
+        "To maintain engine-control availability following certain single failures.",
+        "To allow both channels to command different fuel flows simultaneously.",
+        "To eliminate the need for engine sensors.",
+        "To permit operation without any approved dispatch limitations."
       ],
       "answer": 0,
-      "explanation": "Fuel nozzles atomize and distribute metered fuel into the combustor for stable combustion."
+      "explanation": "Redundancy improves fault tolerance; exact reversion/dispatch capability depends on the engine design.",
+      "concept": "PP-C028"
     },
     {
       "id": "PP138",
-      "section": "38.3",
-      "topic": "Fuel Nozzles",
-      "question": "Which statement is correct regarding this subject: what is the purpose of turbine-engine fuel nozzles?",
+      "section": "38",
+      "topic": "FADEC redundancy",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why do FADEC systems commonly use redundant channels and power sources?",
       "options": [
-        "Increase compressor blade angle",
-        "Cool wheel brakes",
-        "Measure oil quantity",
-        "Atomize and distribute fuel into the combustion chamber"
+        "To allow both channels to command different fuel flows simultaneously.",
+        "To eliminate the need for engine sensors.",
+        "To permit operation without any approved dispatch limitations.",
+        "To maintain engine-control availability following certain single failures."
       ],
       "answer": 3,
-      "explanation": "Fuel nozzles atomize and distribute metered fuel into the combustor for stable combustion."
+      "explanation": "Redundancy improves fault tolerance; exact reversion/dispatch capability depends on the engine design.",
+      "concept": "PP-C028"
     },
     {
       "id": "PP139",
-      "section": "38.3",
-      "topic": "Fuel Nozzles",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of turbine-engine fuel nozzles?",
+      "section": "38",
+      "topic": "FADEC redundancy",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why do FADEC systems commonly use redundant channels and power sources?",
       "options": [
-        "Cool wheel brakes",
-        "Measure oil quantity",
-        "Atomize and distribute fuel into the combustion chamber",
-        "Increase compressor blade angle"
+        "To eliminate the need for engine sensors.",
+        "To permit operation without any approved dispatch limitations.",
+        "To maintain engine-control availability following certain single failures.",
+        "To allow both channels to command different fuel flows simultaneously."
       ],
       "answer": 2,
-      "explanation": "Fuel nozzles atomize and distribute metered fuel into the combustor for stable combustion."
+      "explanation": "Redundancy improves fault tolerance; exact reversion/dispatch capability depends on the engine design.",
+      "concept": "PP-C028"
     },
     {
       "id": "PP140",
-      "section": "38.3",
-      "topic": "Fuel Nozzles",
-      "question": "An AME is reviewing this system. What is the purpose of turbine-engine fuel nozzles?",
+      "section": "38",
+      "topic": "FADEC redundancy",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why do FADEC systems commonly use redundant channels and power sources?",
       "options": [
-        "Measure oil quantity",
-        "Atomize and distribute fuel into the combustion chamber",
-        "Increase compressor blade angle",
-        "Cool wheel brakes"
+        "To permit operation without any approved dispatch limitations.",
+        "To maintain engine-control availability following certain single failures.",
+        "To allow both channels to command different fuel flows simultaneously.",
+        "To eliminate the need for engine sensors."
       ],
       "answer": 1,
-      "explanation": "Fuel nozzles atomize and distribute metered fuel into the combustor for stable combustion."
+      "explanation": "Redundancy improves fault tolerance; exact reversion/dispatch capability depends on the engine design.",
+      "concept": "PP-C028"
     },
     {
       "id": "PP141",
-      "section": "38.4",
-      "topic": "Fuel Heating",
-      "question": "Why are fuel heaters used on some turbine aircraft?",
+      "section": "38",
+      "topic": "Fuel nozzle",
+      "difficulty": "Exam-style",
+      "question": "A partially clogged fuel nozzle is most likely to cause what local effect?",
       "options": [
-        "To prevent ice-related restriction in the fuel system",
-        "To increase fuel flash point for starting",
-        "To pressurize hydraulic accumulators",
-        "To cool engine oil below freezing"
+        "Poor atomization or uneven fuel distribution, potentially producing a hot spot or combustion instability.",
+        "Uniformly lower oil pressure in all bearing compartments.",
+        "Higher compressor efficiency because less fuel is burned.",
+        "Propeller overspeed with no change in engine temperature."
       ],
       "answer": 0,
-      "explanation": "Fuel heaters can prevent ice from restricting fuel filters or components by transferring heat to the fuel."
+      "explanation": "Nozzle condition affects spray pattern and circumferential temperature distribution.",
+      "concept": "PP-C029"
     },
     {
       "id": "PP142",
-      "section": "38.4",
-      "topic": "Fuel Heating",
-      "question": "Which statement is correct regarding this subject: why are fuel heaters used on some turbine aircraft?",
+      "section": "38",
+      "topic": "Fuel nozzle",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A partially clogged fuel nozzle is most likely to cause what local effect?",
       "options": [
-        "To increase fuel flash point for starting",
-        "To pressurize hydraulic accumulators",
-        "To cool engine oil below freezing",
-        "To prevent ice-related restriction in the fuel system"
+        "Uniformly lower oil pressure in all bearing compartments.",
+        "Higher compressor efficiency because less fuel is burned.",
+        "Propeller overspeed with no change in engine temperature.",
+        "Poor atomization or uneven fuel distribution, potentially producing a hot spot or combustion instability."
       ],
       "answer": 3,
-      "explanation": "Fuel heaters can prevent ice from restricting fuel filters or components by transferring heat to the fuel."
+      "explanation": "Nozzle condition affects spray pattern and circumferential temperature distribution.",
+      "concept": "PP-C029"
     },
     {
       "id": "PP143",
-      "section": "38.4",
-      "topic": "Fuel Heating",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why are fuel heaters used on some turbine aircraft?",
+      "section": "38",
+      "topic": "Fuel nozzle",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A partially clogged fuel nozzle is most likely to cause what local effect?",
       "options": [
-        "To pressurize hydraulic accumulators",
-        "To cool engine oil below freezing",
-        "To prevent ice-related restriction in the fuel system",
-        "To increase fuel flash point for starting"
+        "Higher compressor efficiency because less fuel is burned.",
+        "Propeller overspeed with no change in engine temperature.",
+        "Poor atomization or uneven fuel distribution, potentially producing a hot spot or combustion instability.",
+        "Uniformly lower oil pressure in all bearing compartments."
       ],
       "answer": 2,
-      "explanation": "Fuel heaters can prevent ice from restricting fuel filters or components by transferring heat to the fuel."
+      "explanation": "Nozzle condition affects spray pattern and circumferential temperature distribution.",
+      "concept": "PP-C029"
     },
     {
       "id": "PP144",
-      "section": "38.4",
-      "topic": "Fuel Heating",
-      "question": "An AME is reviewing this system. Why are fuel heaters used on some turbine aircraft?",
+      "section": "38",
+      "topic": "Fuel nozzle",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A partially clogged fuel nozzle is most likely to cause what local effect?",
       "options": [
-        "To cool engine oil below freezing",
-        "To prevent ice-related restriction in the fuel system",
-        "To increase fuel flash point for starting",
-        "To pressurize hydraulic accumulators"
+        "Propeller overspeed with no change in engine temperature.",
+        "Poor atomization or uneven fuel distribution, potentially producing a hot spot or combustion instability.",
+        "Uniformly lower oil pressure in all bearing compartments.",
+        "Higher compressor efficiency because less fuel is burned."
       ],
       "answer": 1,
-      "explanation": "Fuel heaters can prevent ice from restricting fuel filters or components by transferring heat to the fuel."
+      "explanation": "Nozzle condition affects spray pattern and circumferential temperature distribution.",
+      "concept": "PP-C029"
     },
     {
       "id": "PP145",
-      "section": "38.5",
-      "topic": "Oil Cooling",
-      "question": "What is a benefit of a fuel-oil heat exchanger?",
+      "section": "38",
+      "topic": "Fuel nozzle",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A partially clogged fuel nozzle is most likely to cause what local effect?",
       "options": [
-        "It transfers heat from oil to fuel, cooling oil and warming fuel",
-        "It mixes oil and fuel for combustion",
-        "It increases compressor pressure ratio",
-        "It replaces the engine-driven fuel pump"
+        "Poor atomization or uneven fuel distribution, potentially producing a hot spot or combustion instability.",
+        "Uniformly lower oil pressure in all bearing compartments.",
+        "Higher compressor efficiency because less fuel is burned.",
+        "Propeller overspeed with no change in engine temperature."
       ],
       "answer": 0,
-      "explanation": "Fuel-oil heat exchangers can cool engine oil while warming fuel."
+      "explanation": "Nozzle condition affects spray pattern and circumferential temperature distribution.",
+      "concept": "PP-C029"
     },
     {
       "id": "PP146",
-      "section": "38.5",
-      "topic": "Oil Cooling",
-      "question": "Which statement is correct regarding this subject: what is a benefit of a fuel-oil heat exchanger?",
+      "section": "38",
+      "topic": "Filter bypass",
+      "difficulty": "Exam-style",
+      "question": "What is the purpose of a fuel or oil filter bypass valve?",
       "options": [
-        "It mixes oil and fuel for combustion",
-        "It increases compressor pressure ratio",
-        "It replaces the engine-driven fuel pump",
-        "It transfers heat from oil to fuel, cooling oil and warming fuel"
+        "Shut off all flow whenever the filter begins to load.",
+        "Route fluid through a finer secondary filter during normal operation.",
+        "Increase system pressure whenever contamination is present.",
+        "Maintain fluid flow when differential pressure across the filter becomes excessive, though filtration may be lost."
       ],
       "answer": 3,
-      "explanation": "Fuel-oil heat exchangers can cool engine oil while warming fuel."
+      "explanation": "Bypass protects flow continuity if the filter becomes restricted; a bypass indication still requires maintenance.",
+      "concept": "PP-C030"
     },
     {
       "id": "PP147",
-      "section": "38.5",
-      "topic": "Oil Cooling",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is a benefit of a fuel-oil heat exchanger?",
+      "section": "38",
+      "topic": "Filter bypass",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the purpose of a fuel or oil filter bypass valve?",
       "options": [
-        "It increases compressor pressure ratio",
-        "It replaces the engine-driven fuel pump",
-        "It transfers heat from oil to fuel, cooling oil and warming fuel",
-        "It mixes oil and fuel for combustion"
+        "Route fluid through a finer secondary filter during normal operation.",
+        "Increase system pressure whenever contamination is present.",
+        "Maintain fluid flow when differential pressure across the filter becomes excessive, though filtration may be lost.",
+        "Shut off all flow whenever the filter begins to load."
       ],
       "answer": 2,
-      "explanation": "Fuel-oil heat exchangers can cool engine oil while warming fuel."
+      "explanation": "Bypass protects flow continuity if the filter becomes restricted; a bypass indication still requires maintenance.",
+      "concept": "PP-C030"
     },
     {
       "id": "PP148",
-      "section": "38.5",
-      "topic": "Oil Cooling",
-      "question": "An AME is reviewing this system. What is a benefit of a fuel-oil heat exchanger?",
+      "section": "38",
+      "topic": "Filter bypass",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the purpose of a fuel or oil filter bypass valve?",
       "options": [
-        "It replaces the engine-driven fuel pump",
-        "It transfers heat from oil to fuel, cooling oil and warming fuel",
-        "It mixes oil and fuel for combustion",
-        "It increases compressor pressure ratio"
+        "Increase system pressure whenever contamination is present.",
+        "Maintain fluid flow when differential pressure across the filter becomes excessive, though filtration may be lost.",
+        "Shut off all flow whenever the filter begins to load.",
+        "Route fluid through a finer secondary filter during normal operation."
       ],
       "answer": 1,
-      "explanation": "Fuel-oil heat exchangers can cool engine oil while warming fuel."
+      "explanation": "Bypass protects flow continuity if the filter becomes restricted; a bypass indication still requires maintenance.",
+      "concept": "PP-C030"
     },
     {
       "id": "PP149",
-      "section": "38.6",
-      "topic": "Filters",
-      "question": "What is the purpose of a filter bypass valve?",
+      "section": "38",
+      "topic": "Filter bypass",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the purpose of a fuel or oil filter bypass valve?",
       "options": [
-        "Maintain fluid flow if the filter becomes excessively restricted",
-        "Shut the engine down immediately for any contamination",
-        "Increase filter mesh density",
-        "Drain all fluid overboard"
+        "Maintain fluid flow when differential pressure across the filter becomes excessive, though filtration may be lost.",
+        "Shut off all flow whenever the filter begins to load.",
+        "Route fluid through a finer secondary filter during normal operation.",
+        "Increase system pressure whenever contamination is present."
       ],
       "answer": 0,
-      "explanation": "A filter bypass valve allows continued fluid flow if the filter becomes excessively restricted, although unfiltered flow may result."
+      "explanation": "Bypass protects flow continuity if the filter becomes restricted; a bypass indication still requires maintenance.",
+      "concept": "PP-C030"
     },
     {
       "id": "PP150",
-      "section": "38.6",
-      "topic": "Filters",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a filter bypass valve?",
+      "section": "38",
+      "topic": "Filter bypass",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the purpose of a fuel or oil filter bypass valve?",
       "options": [
-        "Shut the engine down immediately for any contamination",
-        "Increase filter mesh density",
-        "Drain all fluid overboard",
-        "Maintain fluid flow if the filter becomes excessively restricted"
+        "Shut off all flow whenever the filter begins to load.",
+        "Route fluid through a finer secondary filter during normal operation.",
+        "Increase system pressure whenever contamination is present.",
+        "Maintain fluid flow when differential pressure across the filter becomes excessive, though filtration may be lost."
       ],
       "answer": 3,
-      "explanation": "A filter bypass valve allows continued fluid flow if the filter becomes excessively restricted, although unfiltered flow may result."
+      "explanation": "Bypass protects flow continuity if the filter becomes restricted; a bypass indication still requires maintenance.",
+      "concept": "PP-C030"
     },
     {
       "id": "PP151",
-      "section": "38.6",
-      "topic": "Filters",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a filter bypass valve?",
+      "section": "39",
+      "topic": "Inlet distortion",
+      "difficulty": "Exam-style",
+      "question": "Why can significant inlet distortion be damaging to a turbine engine?",
       "options": [
-        "Increase filter mesh density",
-        "Drain all fluid overboard",
-        "Maintain fluid flow if the filter becomes excessively restricted",
-        "Shut the engine down immediately for any contamination"
+        "It affects only thrust measurement and not engine stability.",
+        "It always causes an immediate flameout before any compressor effect.",
+        "It can create non-uniform compressor airflow and reduce stall margin.",
+        "It raises compressor efficiency by increasing swirl."
       ],
       "answer": 2,
-      "explanation": "A filter bypass valve allows continued fluid flow if the filter becomes excessively restricted, although unfiltered flow may result."
+      "explanation": "Distorted inlet flow can destabilize compressor stages and reduce performance margin.",
+      "concept": "PP-C031"
     },
     {
       "id": "PP152",
-      "section": "38.6",
-      "topic": "Filters",
-      "question": "An AME is reviewing this system. What is the purpose of a filter bypass valve?",
+      "section": "39",
+      "topic": "Inlet distortion",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why can significant inlet distortion be damaging to a turbine engine?",
       "options": [
-        "Drain all fluid overboard",
-        "Maintain fluid flow if the filter becomes excessively restricted",
-        "Shut the engine down immediately for any contamination",
-        "Increase filter mesh density"
+        "It always causes an immediate flameout before any compressor effect.",
+        "It can create non-uniform compressor airflow and reduce stall margin.",
+        "It raises compressor efficiency by increasing swirl.",
+        "It affects only thrust measurement and not engine stability."
       ],
       "answer": 1,
-      "explanation": "A filter bypass valve allows continued fluid flow if the filter becomes excessively restricted, although unfiltered flow may result."
+      "explanation": "Distorted inlet flow can destabilize compressor stages and reduce performance margin.",
+      "concept": "PP-C031"
     },
     {
       "id": "PP153",
-      "section": "39.1",
-      "topic": "Induction",
-      "question": "Why is inlet condition important on a turbine engine?",
+      "section": "39",
+      "topic": "Inlet distortion",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why can significant inlet distortion be damaging to a turbine engine?",
       "options": [
-        "Distorted or restricted airflow can degrade compressor performance",
-        "It changes landing gear geometry",
-        "It controls battery electrolyte",
-        "It sets propeller track only"
+        "It can create non-uniform compressor airflow and reduce stall margin.",
+        "It raises compressor efficiency by increasing swirl.",
+        "It affects only thrust measurement and not engine stability.",
+        "It always causes an immediate flameout before any compressor effect."
       ],
       "answer": 0,
-      "explanation": "Engine inlet damage or obstruction can distort airflow and reduce compressor performance."
+      "explanation": "Distorted inlet flow can destabilize compressor stages and reduce performance margin.",
+      "concept": "PP-C031"
     },
     {
       "id": "PP154",
-      "section": "39.1",
-      "topic": "Induction",
-      "question": "Which statement is correct regarding this subject: why is inlet condition important on a turbine engine?",
+      "section": "39",
+      "topic": "Inlet distortion",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why can significant inlet distortion be damaging to a turbine engine?",
       "options": [
-        "It changes landing gear geometry",
-        "It controls battery electrolyte",
-        "It sets propeller track only",
-        "Distorted or restricted airflow can degrade compressor performance"
+        "It raises compressor efficiency by increasing swirl.",
+        "It affects only thrust measurement and not engine stability.",
+        "It always causes an immediate flameout before any compressor effect.",
+        "It can create non-uniform compressor airflow and reduce stall margin."
       ],
       "answer": 3,
-      "explanation": "Engine inlet damage or obstruction can distort airflow and reduce compressor performance."
+      "explanation": "Distorted inlet flow can destabilize compressor stages and reduce performance margin.",
+      "concept": "PP-C031"
     },
     {
       "id": "PP155",
-      "section": "39.1",
-      "topic": "Induction",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is inlet condition important on a turbine engine?",
+      "section": "39",
+      "topic": "Inlet distortion",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why can significant inlet distortion be damaging to a turbine engine?",
       "options": [
-        "It controls battery electrolyte",
-        "It sets propeller track only",
-        "Distorted or restricted airflow can degrade compressor performance",
-        "It changes landing gear geometry"
+        "It affects only thrust measurement and not engine stability.",
+        "It always causes an immediate flameout before any compressor effect.",
+        "It can create non-uniform compressor airflow and reduce stall margin.",
+        "It raises compressor efficiency by increasing swirl."
       ],
       "answer": 2,
-      "explanation": "Engine inlet damage or obstruction can distort airflow and reduce compressor performance."
+      "explanation": "Distorted inlet flow can destabilize compressor stages and reduce performance margin.",
+      "concept": "PP-C031"
     },
     {
       "id": "PP156",
-      "section": "39.1",
-      "topic": "Induction",
-      "question": "An AME is reviewing this system. Why is inlet condition important on a turbine engine?",
+      "section": "39",
+      "topic": "Exhaust crack",
+      "difficulty": "Exam-style",
+      "question": "Why is a crack in a turbine-engine exhaust component important even when engine indications are normal?",
       "options": [
-        "It sets propeller track only",
-        "Distorted or restricted airflow can degrade compressor performance",
-        "It changes landing gear geometry",
-        "It controls battery electrolyte"
+        "The exhaust section carries no thermal or vibratory stress.",
+        "Hot-gas leakage can damage nearby structure, wiring or systems and the crack can propagate.",
+        "Exhaust cracks affect only acoustic noise outside the aircraft.",
+        "Normal engine indications prove the crack is structurally stable."
       ],
       "answer": 1,
-      "explanation": "Engine inlet damage or obstruction can distort airflow and reduce compressor performance."
+      "explanation": "Exhaust components operate in severe heat/vibration; leakage and crack growth can create secondary damage.",
+      "concept": "PP-C032"
     },
     {
       "id": "PP157",
-      "section": "39.2",
-      "topic": "Exhaust",
-      "question": "Why must turbine exhaust cracks be evaluated promptly?",
+      "section": "39",
+      "topic": "Exhaust crack",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why is a crack in a turbine-engine exhaust component important even when engine indications are normal?",
       "options": [
-        "Escaping hot gas can damage adjacent components and structure",
-        "They always improve thrust",
-        "They only affect noise level",
-        "They increase oil pressure"
+        "Hot-gas leakage can damage nearby structure, wiring or systems and the crack can propagate.",
+        "Exhaust cracks affect only acoustic noise outside the aircraft.",
+        "Normal engine indications prove the crack is structurally stable.",
+        "The exhaust section carries no thermal or vibratory stress."
       ],
       "answer": 0,
-      "explanation": "Exhaust system cracks or distortion can create hot-gas leakage and may damage nearby structure or systems."
+      "explanation": "Exhaust components operate in severe heat/vibration; leakage and crack growth can create secondary damage.",
+      "concept": "PP-C032"
     },
     {
       "id": "PP158",
-      "section": "39.2",
-      "topic": "Exhaust",
-      "question": "Which statement is correct regarding this subject: why must turbine exhaust cracks be evaluated promptly?",
+      "section": "39",
+      "topic": "Exhaust crack",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why is a crack in a turbine-engine exhaust component important even when engine indications are normal?",
       "options": [
-        "They always improve thrust",
-        "They only affect noise level",
-        "They increase oil pressure",
-        "Escaping hot gas can damage adjacent components and structure"
+        "Exhaust cracks affect only acoustic noise outside the aircraft.",
+        "Normal engine indications prove the crack is structurally stable.",
+        "The exhaust section carries no thermal or vibratory stress.",
+        "Hot-gas leakage can damage nearby structure, wiring or systems and the crack can propagate."
       ],
       "answer": 3,
-      "explanation": "Exhaust system cracks or distortion can create hot-gas leakage and may damage nearby structure or systems."
+      "explanation": "Exhaust components operate in severe heat/vibration; leakage and crack growth can create secondary damage.",
+      "concept": "PP-C032"
     },
     {
       "id": "PP159",
-      "section": "39.2",
-      "topic": "Exhaust",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must turbine exhaust cracks be evaluated promptly?",
+      "section": "39",
+      "topic": "Exhaust crack",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why is a crack in a turbine-engine exhaust component important even when engine indications are normal?",
       "options": [
-        "They only affect noise level",
-        "They increase oil pressure",
-        "Escaping hot gas can damage adjacent components and structure",
-        "They always improve thrust"
+        "Normal engine indications prove the crack is structurally stable.",
+        "The exhaust section carries no thermal or vibratory stress.",
+        "Hot-gas leakage can damage nearby structure, wiring or systems and the crack can propagate.",
+        "Exhaust cracks affect only acoustic noise outside the aircraft."
       ],
       "answer": 2,
-      "explanation": "Exhaust system cracks or distortion can create hot-gas leakage and may damage nearby structure or systems."
+      "explanation": "Exhaust components operate in severe heat/vibration; leakage and crack growth can create secondary damage.",
+      "concept": "PP-C032"
     },
     {
       "id": "PP160",
-      "section": "39.2",
-      "topic": "Exhaust",
-      "question": "An AME is reviewing this system. Why must turbine exhaust cracks be evaluated promptly?",
+      "section": "39",
+      "topic": "Exhaust crack",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why is a crack in a turbine-engine exhaust component important even when engine indications are normal?",
       "options": [
-        "They increase oil pressure",
-        "Escaping hot gas can damage adjacent components and structure",
-        "They always improve thrust",
-        "They only affect noise level"
+        "The exhaust section carries no thermal or vibratory stress.",
+        "Hot-gas leakage can damage nearby structure, wiring or systems and the crack can propagate.",
+        "Exhaust cracks affect only acoustic noise outside the aircraft.",
+        "Normal engine indications prove the crack is structurally stable."
       ],
       "answer": 1,
-      "explanation": "Exhaust system cracks or distortion can create hot-gas leakage and may damage nearby structure or systems."
+      "explanation": "Exhaust components operate in severe heat/vibration; leakage and crack growth can create secondary damage.",
+      "concept": "PP-C032"
     },
     {
       "id": "PP161",
-      "section": "39.3",
-      "topic": "Thrust Reversers",
-      "question": "What is the purpose of a thrust reverser?",
+      "section": "39",
+      "topic": "Thrust reverser",
+      "difficulty": "Exam-style",
+      "question": "Which statement about thrust reversers is most accurate?",
       "options": [
-        "Redirect thrust to assist aircraft deceleration after landing",
-        "Increase lift during cruise",
-        "Replace all wheel braking",
-        "Control cabin temperature"
+        "They redirect engine thrust to assist deceleration and are used within aircraft-specific limitations; they do not replace wheel brakes.",
+        "They reverse the direction of engine rotation to produce reverse thrust.",
+        "They are the primary means of stopping the aircraft on every runway.",
+        "They increase lift by directing exhaust over the wing."
       ],
       "answer": 0,
-      "explanation": "Thrust reversers redirect engine thrust to assist deceleration after landing; they are not intended to replace wheel braking."
+      "explanation": "Reversers redirect flow or fan thrust; wheel brakes remain the primary stopping system.",
+      "concept": "PP-C033"
     },
     {
       "id": "PP162",
-      "section": "39.3",
-      "topic": "Thrust Reversers",
-      "question": "Which statement is correct regarding this subject: what is the purpose of a thrust reverser?",
+      "section": "39",
+      "topic": "Thrust reverser",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Which statement about thrust reversers is most accurate?",
       "options": [
-        "Increase lift during cruise",
-        "Replace all wheel braking",
-        "Control cabin temperature",
-        "Redirect thrust to assist aircraft deceleration after landing"
+        "They reverse the direction of engine rotation to produce reverse thrust.",
+        "They are the primary means of stopping the aircraft on every runway.",
+        "They increase lift by directing exhaust over the wing.",
+        "They redirect engine thrust to assist deceleration and are used within aircraft-specific limitations; they do not replace wheel brakes."
       ],
       "answer": 3,
-      "explanation": "Thrust reversers redirect engine thrust to assist deceleration after landing; they are not intended to replace wheel braking."
+      "explanation": "Reversers redirect flow or fan thrust; wheel brakes remain the primary stopping system.",
+      "concept": "PP-C033"
     },
     {
       "id": "PP163",
-      "section": "39.3",
-      "topic": "Thrust Reversers",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of a thrust reverser?",
+      "section": "39",
+      "topic": "Thrust reverser",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Which statement about thrust reversers is most accurate?",
       "options": [
-        "Replace all wheel braking",
-        "Control cabin temperature",
-        "Redirect thrust to assist aircraft deceleration after landing",
-        "Increase lift during cruise"
+        "They are the primary means of stopping the aircraft on every runway.",
+        "They increase lift by directing exhaust over the wing.",
+        "They redirect engine thrust to assist deceleration and are used within aircraft-specific limitations; they do not replace wheel brakes.",
+        "They reverse the direction of engine rotation to produce reverse thrust."
       ],
       "answer": 2,
-      "explanation": "Thrust reversers redirect engine thrust to assist deceleration after landing; they are not intended to replace wheel braking."
+      "explanation": "Reversers redirect flow or fan thrust; wheel brakes remain the primary stopping system.",
+      "concept": "PP-C033"
     },
     {
       "id": "PP164",
-      "section": "39.3",
-      "topic": "Thrust Reversers",
-      "question": "An AME is reviewing this system. What is the purpose of a thrust reverser?",
+      "section": "39",
+      "topic": "Thrust reverser",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Which statement about thrust reversers is most accurate?",
       "options": [
-        "Control cabin temperature",
-        "Redirect thrust to assist aircraft deceleration after landing",
-        "Increase lift during cruise",
-        "Replace all wheel braking"
+        "They increase lift by directing exhaust over the wing.",
+        "They redirect engine thrust to assist deceleration and are used within aircraft-specific limitations; they do not replace wheel brakes.",
+        "They reverse the direction of engine rotation to produce reverse thrust.",
+        "They are the primary means of stopping the aircraft on every runway."
       ],
       "answer": 1,
-      "explanation": "Thrust reversers redirect engine thrust to assist deceleration after landing; they are not intended to replace wheel braking."
+      "explanation": "Reversers redirect flow or fan thrust; wheel brakes remain the primary stopping system.",
+      "concept": "PP-C033"
     },
     {
       "id": "PP165",
-      "section": "39.4",
-      "topic": "Engine Anti-ice",
-      "question": "What is the goal of turbine-engine inlet anti-ice?",
+      "section": "39",
+      "topic": "Thrust reverser",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Which statement about thrust reversers is most accurate?",
       "options": [
-        "Prevent ice accumulation that could restrict or damage the engine",
-        "Remove metal particles from oil",
-        "Increase fuel density",
-        "Balance the turbine rotor"
+        "They redirect engine thrust to assist deceleration and are used within aircraft-specific limitations; they do not replace wheel brakes.",
+        "They reverse the direction of engine rotation to produce reverse thrust.",
+        "They are the primary means of stopping the aircraft on every runway.",
+        "They increase lift by directing exhaust over the wing."
       ],
       "answer": 0,
-      "explanation": "Engine anti-ice commonly uses hot compressor bleed air or electrical heating to prevent ice accumulation on critical inlet areas."
+      "explanation": "Reversers redirect flow or fan thrust; wheel brakes remain the primary stopping system.",
+      "concept": "PP-C033"
     },
     {
       "id": "PP166",
-      "section": "39.4",
-      "topic": "Engine Anti-ice",
-      "question": "Which statement is correct regarding this subject: what is the goal of turbine-engine inlet anti-ice?",
+      "section": "39",
+      "topic": "Engine anti-ice",
+      "difficulty": "Exam-style",
+      "question": "Why can use of engine bleed-air anti-ice reduce available engine performance?",
       "options": [
-        "Remove metal particles from oil",
-        "Increase fuel density",
-        "Balance the turbine rotor",
-        "Prevent ice accumulation that could restrict or damage the engine"
+        "Anti-ice increases inlet air density and therefore always increases thrust.",
+        "Bleed-air anti-ice mechanically slows the turbine with a brake.",
+        "It changes fuel grade requirements.",
+        "Some compressor air/energy is diverted for heating instead of contributing fully to the engine cycle."
       ],
       "answer": 3,
-      "explanation": "Engine anti-ice commonly uses hot compressor bleed air or electrical heating to prevent ice accumulation on critical inlet areas."
+      "explanation": "Bleeding compressed air has a performance cost, especially at high demand.",
+      "concept": "PP-C034"
     },
     {
       "id": "PP167",
-      "section": "39.4",
-      "topic": "Engine Anti-ice",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the goal of turbine-engine inlet anti-ice?",
+      "section": "39",
+      "topic": "Engine anti-ice",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why can use of engine bleed-air anti-ice reduce available engine performance?",
       "options": [
-        "Increase fuel density",
-        "Balance the turbine rotor",
-        "Prevent ice accumulation that could restrict or damage the engine",
-        "Remove metal particles from oil"
+        "Bleed-air anti-ice mechanically slows the turbine with a brake.",
+        "It changes fuel grade requirements.",
+        "Some compressor air/energy is diverted for heating instead of contributing fully to the engine cycle.",
+        "Anti-ice increases inlet air density and therefore always increases thrust."
       ],
       "answer": 2,
-      "explanation": "Engine anti-ice commonly uses hot compressor bleed air or electrical heating to prevent ice accumulation on critical inlet areas."
+      "explanation": "Bleeding compressed air has a performance cost, especially at high demand.",
+      "concept": "PP-C034"
     },
     {
       "id": "PP168",
-      "section": "39.4",
-      "topic": "Engine Anti-ice",
-      "question": "An AME is reviewing this system. What is the goal of turbine-engine inlet anti-ice?",
+      "section": "39",
+      "topic": "Engine anti-ice",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why can use of engine bleed-air anti-ice reduce available engine performance?",
       "options": [
-        "Balance the turbine rotor",
-        "Prevent ice accumulation that could restrict or damage the engine",
-        "Remove metal particles from oil",
-        "Increase fuel density"
+        "It changes fuel grade requirements.",
+        "Some compressor air/energy is diverted for heating instead of contributing fully to the engine cycle.",
+        "Anti-ice increases inlet air density and therefore always increases thrust.",
+        "Bleed-air anti-ice mechanically slows the turbine with a brake."
       ],
       "answer": 1,
-      "explanation": "Engine anti-ice commonly uses hot compressor bleed air or electrical heating to prevent ice accumulation on critical inlet areas."
+      "explanation": "Bleeding compressed air has a performance cost, especially at high demand.",
+      "concept": "PP-C034"
     },
     {
       "id": "PP169",
-      "section": "40.1",
-      "topic": "Indicating Systems",
-      "question": "Why are EGT/ITT/TGT limits critical?",
+      "section": "39",
+      "topic": "Engine anti-ice",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why can use of engine bleed-air anti-ice reduce available engine performance?",
       "options": [
-        "Exceeding them can damage hot-section components",
-        "They determine tire pressure",
-        "They control radio frequency",
-        "They are used only for passenger comfort"
+        "Some compressor air/energy is diverted for heating instead of contributing fully to the engine cycle.",
+        "Anti-ice increases inlet air density and therefore always increases thrust.",
+        "Bleed-air anti-ice mechanically slows the turbine with a brake.",
+        "It changes fuel grade requirements."
       ],
       "answer": 0,
-      "explanation": "Turbine temperature limits protect hot-section components from excessive thermal stress and damage."
+      "explanation": "Bleeding compressed air has a performance cost, especially at high demand.",
+      "concept": "PP-C034"
     },
     {
       "id": "PP170",
-      "section": "40.1",
-      "topic": "Indicating Systems",
-      "question": "Which statement is correct regarding this subject: why are EGT/ITT/TGT limits critical?",
+      "section": "39",
+      "topic": "Engine anti-ice",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why can use of engine bleed-air anti-ice reduce available engine performance?",
       "options": [
-        "They determine tire pressure",
-        "They control radio frequency",
-        "They are used only for passenger comfort",
-        "Exceeding them can damage hot-section components"
+        "Anti-ice increases inlet air density and therefore always increases thrust.",
+        "Bleed-air anti-ice mechanically slows the turbine with a brake.",
+        "It changes fuel grade requirements.",
+        "Some compressor air/energy is diverted for heating instead of contributing fully to the engine cycle."
       ],
       "answer": 3,
-      "explanation": "Turbine temperature limits protect hot-section components from excessive thermal stress and damage."
+      "explanation": "Bleeding compressed air has a performance cost, especially at high demand.",
+      "concept": "PP-C034"
     },
     {
       "id": "PP171",
-      "section": "40.1",
-      "topic": "Indicating Systems",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why are EGT/ITT/TGT limits critical?",
+      "section": "40",
+      "topic": "Temperature limit",
+      "difficulty": "Exam-style",
+      "question": "Why are turbine-engine EGT/ITT/TGT limits critical?",
       "options": [
-        "They control radio frequency",
-        "They are used only for passenger comfort",
-        "Exceeding them can damage hot-section components",
-        "They determine tire pressure"
+        "Exceeding the limit is acceptable if N1 remains below maximum.",
+        "Temperature has no effect on turbine material strength once the engine is running.",
+        "Excess temperature can reduce hot-section life or cause immediate thermal damage.",
+        "Temperature limits exist mainly to protect the oil quantity transmitter."
       ],
       "answer": 2,
-      "explanation": "Turbine temperature limits protect hot-section components from excessive thermal stress and damage."
+      "explanation": "Hot-section materials are temperature-limited; time and magnitude of exceedance determine required action.",
+      "concept": "PP-C035"
     },
     {
       "id": "PP172",
-      "section": "40.1",
-      "topic": "Indicating Systems",
-      "question": "An AME is reviewing this system. Why are EGT/ITT/TGT limits critical?",
+      "section": "40",
+      "topic": "Temperature limit",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why are turbine-engine EGT/ITT/TGT limits critical?",
       "options": [
-        "They are used only for passenger comfort",
-        "Exceeding them can damage hot-section components",
-        "They determine tire pressure",
-        "They control radio frequency"
+        "Temperature has no effect on turbine material strength once the engine is running.",
+        "Excess temperature can reduce hot-section life or cause immediate thermal damage.",
+        "Temperature limits exist mainly to protect the oil quantity transmitter.",
+        "Exceeding the limit is acceptable if N1 remains below maximum."
       ],
       "answer": 1,
-      "explanation": "Turbine temperature limits protect hot-section components from excessive thermal stress and damage."
+      "explanation": "Hot-section materials are temperature-limited; time and magnitude of exceedance determine required action.",
+      "concept": "PP-C035"
     },
     {
       "id": "PP173",
-      "section": "40.3",
-      "topic": "Torque Indication",
-      "question": "What does an engine torque indication represent?",
+      "section": "40",
+      "topic": "Temperature limit",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why are turbine-engine EGT/ITT/TGT limits critical?",
       "options": [
-        "Twisting force being transmitted by the engine output system",
-        "Compressor inlet temperature",
-        "Fuel tank pressure",
-        "Propeller diameter"
+        "Excess temperature can reduce hot-section life or cause immediate thermal damage.",
+        "Temperature limits exist mainly to protect the oil quantity transmitter.",
+        "Exceeding the limit is acceptable if N1 remains below maximum.",
+        "Temperature has no effect on turbine material strength once the engine is running."
       ],
       "answer": 0,
-      "explanation": "Torque indication on turboprop/turboshaft engines represents the twisting output transmitted through the reduction or output system."
+      "explanation": "Hot-section materials are temperature-limited; time and magnitude of exceedance determine required action.",
+      "concept": "PP-C035"
     },
     {
       "id": "PP174",
-      "section": "40.3",
-      "topic": "Torque Indication",
-      "question": "Which statement is correct regarding this subject: what does an engine torque indication represent?",
+      "section": "40",
+      "topic": "Temperature limit",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why are turbine-engine EGT/ITT/TGT limits critical?",
       "options": [
-        "Compressor inlet temperature",
-        "Fuel tank pressure",
-        "Propeller diameter",
-        "Twisting force being transmitted by the engine output system"
+        "Temperature limits exist mainly to protect the oil quantity transmitter.",
+        "Exceeding the limit is acceptable if N1 remains below maximum.",
+        "Temperature has no effect on turbine material strength once the engine is running.",
+        "Excess temperature can reduce hot-section life or cause immediate thermal damage."
       ],
       "answer": 3,
-      "explanation": "Torque indication on turboprop/turboshaft engines represents the twisting output transmitted through the reduction or output system."
+      "explanation": "Hot-section materials are temperature-limited; time and magnitude of exceedance determine required action.",
+      "concept": "PP-C035"
     },
     {
       "id": "PP175",
-      "section": "40.3",
-      "topic": "Torque Indication",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does an engine torque indication represent?",
+      "section": "40",
+      "topic": "Temperature limit",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why are turbine-engine EGT/ITT/TGT limits critical?",
       "options": [
-        "Fuel tank pressure",
-        "Propeller diameter",
-        "Twisting force being transmitted by the engine output system",
-        "Compressor inlet temperature"
+        "Exceeding the limit is acceptable if N1 remains below maximum.",
+        "Temperature has no effect on turbine material strength once the engine is running.",
+        "Excess temperature can reduce hot-section life or cause immediate thermal damage.",
+        "Temperature limits exist mainly to protect the oil quantity transmitter."
       ],
       "answer": 2,
-      "explanation": "Torque indication on turboprop/turboshaft engines represents the twisting output transmitted through the reduction or output system."
+      "explanation": "Hot-section materials are temperature-limited; time and magnitude of exceedance determine required action.",
+      "concept": "PP-C035"
     },
     {
       "id": "PP176",
-      "section": "40.3",
-      "topic": "Torque Indication",
-      "question": "An AME is reviewing this system. What does an engine torque indication represent?",
+      "section": "40",
+      "topic": "Torque indication",
+      "difficulty": "Exam-style",
+      "question": "On a turboprop or turboshaft engine, what does torque indication represent most directly?",
       "options": [
-        "Propeller diameter",
-        "Twisting force being transmitted by the engine output system",
-        "Compressor inlet temperature",
-        "Fuel tank pressure"
+        "Fuel flow corrected for density.",
+        "Twisting output transmitted through the engine output/reduction system.",
+        "Propeller aerodynamic thrust measured at the blade tips.",
+        "Gas-generator compressor pressure ratio."
       ],
       "answer": 1,
-      "explanation": "Torque indication on turboprop/turboshaft engines represents the twisting output transmitted through the reduction or output system."
+      "explanation": "Torque is shaft twisting force and is a primary power indication on shaft-output engines.",
+      "concept": "PP-C036"
     },
     {
       "id": "PP177",
-      "section": "40.3",
-      "topic": "Vibration",
-      "question": "What can an increasing turbine-engine vibration trend indicate?",
+      "section": "40",
+      "topic": "Torque indication",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. On a turboprop or turboshaft engine, what does torque indication represent most directly?",
       "options": [
-        "A developing rotating-component or bearing problem",
-        "Improved aerodynamic efficiency",
-        "Correct fuel grade only",
-        "Normal battery charging"
+        "Twisting output transmitted through the engine output/reduction system.",
+        "Propeller aerodynamic thrust measured at the blade tips.",
+        "Gas-generator compressor pressure ratio.",
+        "Fuel flow corrected for density."
       ],
       "answer": 0,
-      "explanation": "Engine vibration monitoring helps detect imbalance, bearing problems or other rotating-system abnormalities."
+      "explanation": "Torque is shaft twisting force and is a primary power indication on shaft-output engines.",
+      "concept": "PP-C036"
     },
     {
       "id": "PP178",
-      "section": "40.3",
-      "topic": "Vibration",
-      "question": "Which statement is correct regarding this subject: what can an increasing turbine-engine vibration trend indicate?",
+      "section": "40",
+      "topic": "Torque indication",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? On a turboprop or turboshaft engine, what does torque indication represent most directly?",
       "options": [
-        "Improved aerodynamic efficiency",
-        "Correct fuel grade only",
-        "Normal battery charging",
-        "A developing rotating-component or bearing problem"
+        "Propeller aerodynamic thrust measured at the blade tips.",
+        "Gas-generator compressor pressure ratio.",
+        "Fuel flow corrected for density.",
+        "Twisting output transmitted through the engine output/reduction system."
       ],
       "answer": 3,
-      "explanation": "Engine vibration monitoring helps detect imbalance, bearing problems or other rotating-system abnormalities."
+      "explanation": "Torque is shaft twisting force and is a primary power indication on shaft-output engines.",
+      "concept": "PP-C036"
     },
     {
       "id": "PP179",
-      "section": "40.3",
-      "topic": "Vibration",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What can an increasing turbine-engine vibration trend indicate?",
+      "section": "40",
+      "topic": "Torque indication",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. On a turboprop or turboshaft engine, what does torque indication represent most directly?",
       "options": [
-        "Correct fuel grade only",
-        "Normal battery charging",
-        "A developing rotating-component or bearing problem",
-        "Improved aerodynamic efficiency"
+        "Gas-generator compressor pressure ratio.",
+        "Fuel flow corrected for density.",
+        "Twisting output transmitted through the engine output/reduction system.",
+        "Propeller aerodynamic thrust measured at the blade tips."
       ],
       "answer": 2,
-      "explanation": "Engine vibration monitoring helps detect imbalance, bearing problems or other rotating-system abnormalities."
+      "explanation": "Torque is shaft twisting force and is a primary power indication on shaft-output engines.",
+      "concept": "PP-C036"
     },
     {
       "id": "PP180",
-      "section": "40.3",
-      "topic": "Vibration",
-      "question": "An AME is reviewing this system. What can an increasing turbine-engine vibration trend indicate?",
+      "section": "40",
+      "topic": "Torque indication",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. On a turboprop or turboshaft engine, what does torque indication represent most directly?",
       "options": [
-        "Normal battery charging",
-        "A developing rotating-component or bearing problem",
-        "Improved aerodynamic efficiency",
-        "Correct fuel grade only"
+        "Fuel flow corrected for density.",
+        "Twisting output transmitted through the engine output/reduction system.",
+        "Propeller aerodynamic thrust measured at the blade tips.",
+        "Gas-generator compressor pressure ratio."
       ],
       "answer": 1,
-      "explanation": "Engine vibration monitoring helps detect imbalance, bearing problems or other rotating-system abnormalities."
+      "explanation": "Torque is shaft twisting force and is a primary power indication on shaft-output engines.",
+      "concept": "PP-C036"
     },
     {
       "id": "PP181",
-      "section": "40.4",
-      "topic": "BITE",
-      "question": "What is the purpose of BITE?",
+      "section": "40",
+      "topic": "Vibration trend",
+      "difficulty": "Exam-style",
+      "question": "A previously stable engine shows a gradual increase in vibration over several flights while all other parameters remain normal. What is the best maintenance interpretation?",
       "options": [
-        "Assist fault detection and isolation",
-        "Provide propulsion during engine failure",
-        "Increase hydraulic pressure",
-        "Control aircraft weight and balance"
+        "Treat the trend as potentially significant and investigate for rotating-component/bearing imbalance or deterioration per approved data.",
+        "Ignore it until vibration reaches the red line because trends below limits have no maintenance value.",
+        "Increase idle speed to move the vibration outside the measured range.",
+        "Balance the propeller regardless of engine type."
       ],
       "answer": 0,
-      "explanation": "Built-In Test Equipment assists maintenance by detecting, isolating and recording system faults."
+      "explanation": "Trend changes can provide early warning before absolute limits are reached.",
+      "concept": "PP-C037"
     },
     {
       "id": "PP182",
-      "section": "40.4",
-      "topic": "BITE",
-      "question": "Which statement is correct regarding this subject: what is the purpose of BITE?",
+      "section": "40",
+      "topic": "Vibration trend",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A previously stable engine shows a gradual increase in vibration over several flights while all other parameters remain normal. What is the best maintenance interpretation?",
       "options": [
-        "Provide propulsion during engine failure",
-        "Increase hydraulic pressure",
-        "Control aircraft weight and balance",
-        "Assist fault detection and isolation"
+        "Ignore it until vibration reaches the red line because trends below limits have no maintenance value.",
+        "Increase idle speed to move the vibration outside the measured range.",
+        "Balance the propeller regardless of engine type.",
+        "Treat the trend as potentially significant and investigate for rotating-component/bearing imbalance or deterioration per approved data."
       ],
       "answer": 3,
-      "explanation": "Built-In Test Equipment assists maintenance by detecting, isolating and recording system faults."
+      "explanation": "Trend changes can provide early warning before absolute limits are reached.",
+      "concept": "PP-C037"
     },
     {
       "id": "PP183",
-      "section": "40.4",
-      "topic": "BITE",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of BITE?",
+      "section": "40",
+      "topic": "Vibration trend",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A previously stable engine shows a gradual increase in vibration over several flights while all other parameters remain normal. What is the best maintenance interpretation?",
       "options": [
-        "Increase hydraulic pressure",
-        "Control aircraft weight and balance",
-        "Assist fault detection and isolation",
-        "Provide propulsion during engine failure"
+        "Increase idle speed to move the vibration outside the measured range.",
+        "Balance the propeller regardless of engine type.",
+        "Treat the trend as potentially significant and investigate for rotating-component/bearing imbalance or deterioration per approved data.",
+        "Ignore it until vibration reaches the red line because trends below limits have no maintenance value."
       ],
       "answer": 2,
-      "explanation": "Built-In Test Equipment assists maintenance by detecting, isolating and recording system faults."
+      "explanation": "Trend changes can provide early warning before absolute limits are reached.",
+      "concept": "PP-C037"
     },
     {
       "id": "PP184",
-      "section": "40.4",
-      "topic": "BITE",
-      "question": "An AME is reviewing this system. What is the purpose of BITE?",
+      "section": "40",
+      "topic": "Vibration trend",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A previously stable engine shows a gradual increase in vibration over several flights while all other parameters remain normal. What is the best maintenance interpretation?",
       "options": [
-        "Control aircraft weight and balance",
-        "Assist fault detection and isolation",
-        "Provide propulsion during engine failure",
-        "Increase hydraulic pressure"
+        "Balance the propeller regardless of engine type.",
+        "Treat the trend as potentially significant and investigate for rotating-component/bearing imbalance or deterioration per approved data.",
+        "Ignore it until vibration reaches the red line because trends below limits have no maintenance value.",
+        "Increase idle speed to move the vibration outside the measured range."
       ],
       "answer": 1,
-      "explanation": "Built-In Test Equipment assists maintenance by detecting, isolating and recording system faults."
+      "explanation": "Trend changes can provide early warning before absolute limits are reached.",
+      "concept": "PP-C037"
     },
     {
       "id": "PP185",
-      "section": "40.5",
-      "topic": "Fault Detection",
-      "question": "What is the best maintenance response to a turbine-engine fault message?",
+      "section": "40",
+      "topic": "Vibration trend",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A previously stable engine shows a gradual increase in vibration over several flights while all other parameters remain normal. What is the best maintenance interpretation?",
       "options": [
-        "Use approved troubleshooting procedures to isolate the fault",
-        "Replace the first component named regardless of test results",
-        "Clear the message and release the aircraft",
-        "Ignore intermittent faults"
+        "Treat the trend as potentially significant and investigate for rotating-component/bearing imbalance or deterioration per approved data.",
+        "Ignore it until vibration reaches the red line because trends below limits have no maintenance value.",
+        "Increase idle speed to move the vibration outside the measured range.",
+        "Balance the propeller regardless of engine type."
       ],
       "answer": 0,
-      "explanation": "Fault messages must be interpreted with approved troubleshooting data; replacing the indicated component without diagnosis may not correct the root cause."
+      "explanation": "Trend changes can provide early warning before absolute limits are reached.",
+      "concept": "PP-C037"
     },
     {
       "id": "PP186",
-      "section": "40.5",
-      "topic": "Fault Detection",
-      "question": "Which statement is correct regarding this subject: what is the best maintenance response to a turbine-engine fault message?",
+      "section": "40",
+      "topic": "BITE",
+      "difficulty": "Exam-style",
+      "question": "What is the main limitation of relying on a BITE fault message alone?",
       "options": [
-        "Replace the first component named regardless of test results",
-        "Clear the message and release the aircraft",
-        "Ignore intermittent faults",
-        "Use approved troubleshooting procedures to isolate the fault"
+        "BITE cannot store any intermittent faults.",
+        "BITE always identifies the exact failed component with no possibility of wiring/sensor causes.",
+        "A BITE message has no maintenance value unless the engine is running.",
+        "The message identifies detected fault information but approved troubleshooting is still needed to determine the root cause and corrective action."
       ],
       "answer": 3,
-      "explanation": "Fault messages must be interpreted with approved troubleshooting data; replacing the indicated component without diagnosis may not correct the root cause."
+      "explanation": "Fault codes are diagnostic inputs, not always a complete root-cause determination.",
+      "concept": "PP-C038"
     },
     {
       "id": "PP187",
-      "section": "40.5",
-      "topic": "Fault Detection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the best maintenance response to a turbine-engine fault message?",
+      "section": "40",
+      "topic": "BITE",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the main limitation of relying on a BITE fault message alone?",
       "options": [
-        "Clear the message and release the aircraft",
-        "Ignore intermittent faults",
-        "Use approved troubleshooting procedures to isolate the fault",
-        "Replace the first component named regardless of test results"
+        "BITE always identifies the exact failed component with no possibility of wiring/sensor causes.",
+        "A BITE message has no maintenance value unless the engine is running.",
+        "The message identifies detected fault information but approved troubleshooting is still needed to determine the root cause and corrective action.",
+        "BITE cannot store any intermittent faults."
       ],
       "answer": 2,
-      "explanation": "Fault messages must be interpreted with approved troubleshooting data; replacing the indicated component without diagnosis may not correct the root cause."
+      "explanation": "Fault codes are diagnostic inputs, not always a complete root-cause determination.",
+      "concept": "PP-C038"
     },
     {
       "id": "PP188",
-      "section": "40.5",
-      "topic": "Fault Detection",
-      "question": "An AME is reviewing this system. What is the best maintenance response to a turbine-engine fault message?",
+      "section": "40",
+      "topic": "BITE",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the main limitation of relying on a BITE fault message alone?",
       "options": [
-        "Ignore intermittent faults",
-        "Use approved troubleshooting procedures to isolate the fault",
-        "Replace the first component named regardless of test results",
-        "Clear the message and release the aircraft"
+        "A BITE message has no maintenance value unless the engine is running.",
+        "The message identifies detected fault information but approved troubleshooting is still needed to determine the root cause and corrective action.",
+        "BITE cannot store any intermittent faults.",
+        "BITE always identifies the exact failed component with no possibility of wiring/sensor causes."
       ],
       "answer": 1,
-      "explanation": "Fault messages must be interpreted with approved troubleshooting data; replacing the indicated component without diagnosis may not correct the root cause."
+      "explanation": "Fault codes are diagnostic inputs, not always a complete root-cause determination.",
+      "concept": "PP-C038"
     },
     {
       "id": "PP189",
-      "section": "41.1",
-      "topic": "Water Injection",
-      "question": "Why is water or water-methanol injection used on some engines?",
+      "section": "40",
+      "topic": "BITE",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the main limitation of relying on a BITE fault message alone?",
       "options": [
-        "Temporarily increase available power under specified conditions",
-        "Lubricate turbine bearings",
-        "Prevent tire skidding",
-        "Provide cabin oxygen"
+        "The message identifies detected fault information but approved troubleshooting is still needed to determine the root cause and corrective action.",
+        "BITE cannot store any intermittent faults.",
+        "BITE always identifies the exact failed component with no possibility of wiring/sensor causes.",
+        "A BITE message has no maintenance value unless the engine is running."
       ],
       "answer": 0,
-      "explanation": "Water or water-methanol injection was used on some engines to increase takeoff power by cooling the airflow/combustion process and permitting greater mass flow or fuel flow."
+      "explanation": "Fault codes are diagnostic inputs, not always a complete root-cause determination.",
+      "concept": "PP-C038"
     },
     {
       "id": "PP190",
-      "section": "41.1",
-      "topic": "Water Injection",
-      "question": "Which statement is correct regarding this subject: why is water or water-methanol injection used on some engines?",
+      "section": "40",
+      "topic": "BITE",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the main limitation of relying on a BITE fault message alone?",
       "options": [
-        "Lubricate turbine bearings",
-        "Prevent tire skidding",
-        "Provide cabin oxygen",
-        "Temporarily increase available power under specified conditions"
+        "BITE cannot store any intermittent faults.",
+        "BITE always identifies the exact failed component with no possibility of wiring/sensor causes.",
+        "A BITE message has no maintenance value unless the engine is running.",
+        "The message identifies detected fault information but approved troubleshooting is still needed to determine the root cause and corrective action."
       ],
       "answer": 3,
-      "explanation": "Water or water-methanol injection was used on some engines to increase takeoff power by cooling the airflow/combustion process and permitting greater mass flow or fuel flow."
+      "explanation": "Fault codes are diagnostic inputs, not always a complete root-cause determination.",
+      "concept": "PP-C038"
     },
     {
       "id": "PP191",
-      "section": "41.1",
-      "topic": "Water Injection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why is water or water-methanol injection used on some engines?",
+      "section": "41",
+      "topic": "Water injection",
+      "difficulty": "Exam-style",
+      "question": "What was the main purpose of water or water-methanol injection on engines equipped with such systems?",
       "options": [
-        "Prevent tire skidding",
-        "Provide cabin oxygen",
-        "Temporarily increase available power under specified conditions",
-        "Lubricate turbine bearings"
+        "Reduce propeller RPM by increasing air density at the governor.",
+        "Replace fuel enrichment during all cruise operation.",
+        "Provide temporary power augmentation under specified conditions by cooling the charge/combustion process.",
+        "Provide continuous lubrication to compressor blades."
       ],
       "answer": 2,
-      "explanation": "Water or water-methanol injection was used on some engines to increase takeoff power by cooling the airflow/combustion process and permitting greater mass flow or fuel flow."
+      "explanation": "Water injection was a controlled performance-augmentation system, not a normal lubrication or governing function.",
+      "concept": "PP-C039"
     },
     {
       "id": "PP192",
-      "section": "41.1",
-      "topic": "Water Injection",
-      "question": "An AME is reviewing this system. Why is water or water-methanol injection used on some engines?",
+      "section": "41",
+      "topic": "Water injection",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What was the main purpose of water or water-methanol injection on engines equipped with such systems?",
       "options": [
-        "Provide cabin oxygen",
-        "Temporarily increase available power under specified conditions",
-        "Lubricate turbine bearings",
-        "Prevent tire skidding"
+        "Replace fuel enrichment during all cruise operation.",
+        "Provide temporary power augmentation under specified conditions by cooling the charge/combustion process.",
+        "Provide continuous lubrication to compressor blades.",
+        "Reduce propeller RPM by increasing air density at the governor."
       ],
       "answer": 1,
-      "explanation": "Water or water-methanol injection was used on some engines to increase takeoff power by cooling the airflow/combustion process and permitting greater mass flow or fuel flow."
+      "explanation": "Water injection was a controlled performance-augmentation system, not a normal lubrication or governing function.",
+      "concept": "PP-C039"
     },
     {
       "id": "PP193",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "What is propeller blade angle measured relative to?",
+      "section": "41",
+      "topic": "Water injection",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What was the main purpose of water or water-methanol injection on engines equipped with such systems?",
       "options": [
-        "The plane of rotation",
-        "The aircraft longitudinal axis only",
-        "The ground horizon",
-        "The engine crankshaft centreline only"
+        "Provide temporary power augmentation under specified conditions by cooling the charge/combustion process.",
+        "Provide continuous lubrication to compressor blades.",
+        "Reduce propeller RPM by increasing air density at the governor.",
+        "Replace fuel enrichment during all cruise operation."
       ],
       "answer": 0,
-      "explanation": "Propeller blade angle is the angle between the blade chord and the plane of rotation, and it varies along a twisted blade."
+      "explanation": "Water injection was a controlled performance-augmentation system, not a normal lubrication or governing function.",
+      "concept": "PP-C039"
     },
     {
       "id": "PP194",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "Which statement is correct regarding this subject: what is propeller blade angle measured relative to?",
+      "section": "41",
+      "topic": "Water injection",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What was the main purpose of water or water-methanol injection on engines equipped with such systems?",
       "options": [
-        "The aircraft longitudinal axis only",
-        "The ground horizon",
-        "The engine crankshaft centreline only",
-        "The plane of rotation"
+        "Provide continuous lubrication to compressor blades.",
+        "Reduce propeller RPM by increasing air density at the governor.",
+        "Replace fuel enrichment during all cruise operation.",
+        "Provide temporary power augmentation under specified conditions by cooling the charge/combustion process."
       ],
       "answer": 3,
-      "explanation": "Propeller blade angle is the angle between the blade chord and the plane of rotation, and it varies along a twisted blade."
+      "explanation": "Water injection was a controlled performance-augmentation system, not a normal lubrication or governing function.",
+      "concept": "PP-C039"
     },
     {
       "id": "PP195",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is propeller blade angle measured relative to?",
+      "section": "41",
+      "topic": "Water injection",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What was the main purpose of water or water-methanol injection on engines equipped with such systems?",
       "options": [
-        "The ground horizon",
-        "The engine crankshaft centreline only",
-        "The plane of rotation",
-        "The aircraft longitudinal axis only"
+        "Reduce propeller RPM by increasing air density at the governor.",
+        "Replace fuel enrichment during all cruise operation.",
+        "Provide temporary power augmentation under specified conditions by cooling the charge/combustion process.",
+        "Provide continuous lubrication to compressor blades."
       ],
       "answer": 2,
-      "explanation": "Propeller blade angle is the angle between the blade chord and the plane of rotation, and it varies along a twisted blade."
+      "explanation": "Water injection was a controlled performance-augmentation system, not a normal lubrication or governing function.",
+      "concept": "PP-C039"
     },
     {
       "id": "PP196",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "An AME is reviewing this system. What is propeller blade angle measured relative to?",
+      "section": "42",
+      "topic": "Constant-speed propeller",
+      "difficulty": "Exam-style",
+      "question": "How does a constant-speed propeller system maintain selected RPM as aerodynamic load changes?",
       "options": [
-        "The engine crankshaft centreline only",
-        "The plane of rotation",
-        "The aircraft longitudinal axis only",
-        "The ground horizon"
+        "The governor changes propeller diameter.",
+        "The governor changes blade angle to restore the selected RPM.",
+        "The governor changes engine ignition timing while blade angle remains fixed.",
+        "The blades flex elastically to a new angle without governor action."
       ],
       "answer": 1,
-      "explanation": "Propeller blade angle is the angle between the blade chord and the plane of rotation, and it varies along a twisted blade."
+      "explanation": "Blade angle is varied automatically to absorb the power at the selected rotational speed.",
+      "concept": "PP-C040"
     },
     {
       "id": "PP197",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "How does a constant-speed propeller maintain selected RPM?",
+      "section": "42",
+      "topic": "Constant-speed propeller",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. How does a constant-speed propeller system maintain selected RPM as aerodynamic load changes?",
       "options": [
-        "By automatically varying blade angle",
-        "By changing tire pressure",
-        "By switching magnetos on and off",
-        "By varying wing incidence"
+        "The governor changes blade angle to restore the selected RPM.",
+        "The governor changes engine ignition timing while blade angle remains fixed.",
+        "The blades flex elastically to a new angle without governor action.",
+        "The governor changes propeller diameter."
       ],
       "answer": 0,
-      "explanation": "A constant-speed propeller system automatically changes blade angle to maintain selected RPM as load and operating conditions change."
+      "explanation": "Blade angle is varied automatically to absorb the power at the selected rotational speed.",
+      "concept": "PP-C040"
     },
     {
       "id": "PP198",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "Which statement is correct regarding this subject: how does a constant-speed propeller maintain selected RPM?",
+      "section": "42",
+      "topic": "Constant-speed propeller",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? How does a constant-speed propeller system maintain selected RPM as aerodynamic load changes?",
       "options": [
-        "By changing tire pressure",
-        "By switching magnetos on and off",
-        "By varying wing incidence",
-        "By automatically varying blade angle"
+        "The governor changes engine ignition timing while blade angle remains fixed.",
+        "The blades flex elastically to a new angle without governor action.",
+        "The governor changes propeller diameter.",
+        "The governor changes blade angle to restore the selected RPM."
       ],
       "answer": 3,
-      "explanation": "A constant-speed propeller system automatically changes blade angle to maintain selected RPM as load and operating conditions change."
+      "explanation": "Blade angle is varied automatically to absorb the power at the selected rotational speed.",
+      "concept": "PP-C040"
     },
     {
       "id": "PP199",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? How does a constant-speed propeller maintain selected RPM?",
+      "section": "42",
+      "topic": "Constant-speed propeller",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. How does a constant-speed propeller system maintain selected RPM as aerodynamic load changes?",
       "options": [
-        "By switching magnetos on and off",
-        "By varying wing incidence",
-        "By automatically varying blade angle",
-        "By changing tire pressure"
+        "The blades flex elastically to a new angle without governor action.",
+        "The governor changes propeller diameter.",
+        "The governor changes blade angle to restore the selected RPM.",
+        "The governor changes engine ignition timing while blade angle remains fixed."
       ],
       "answer": 2,
-      "explanation": "A constant-speed propeller system automatically changes blade angle to maintain selected RPM as load and operating conditions change."
+      "explanation": "Blade angle is varied automatically to absorb the power at the selected rotational speed.",
+      "concept": "PP-C040"
     },
     {
       "id": "PP200",
-      "section": "42.1",
-      "topic": "Propellers",
-      "question": "An AME is reviewing this system. How does a constant-speed propeller maintain selected RPM?",
+      "section": "42",
+      "topic": "Constant-speed propeller",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. How does a constant-speed propeller system maintain selected RPM as aerodynamic load changes?",
       "options": [
-        "By varying wing incidence",
-        "By automatically varying blade angle",
-        "By changing tire pressure",
-        "By switching magnetos on and off"
+        "The governor changes propeller diameter.",
+        "The governor changes blade angle to restore the selected RPM.",
+        "The governor changes engine ignition timing while blade angle remains fixed.",
+        "The blades flex elastically to a new angle without governor action."
       ],
       "answer": 1,
-      "explanation": "A constant-speed propeller system automatically changes blade angle to maintain selected RPM as load and operating conditions change."
+      "explanation": "Blade angle is varied automatically to absorb the power at the selected rotational speed.",
+      "concept": "PP-C040"
     },
     {
       "id": "PP201",
-      "section": "42.2",
-      "topic": "Propeller Governors",
-      "question": "What does a propeller governor sense directly to control RPM?",
+      "section": "42",
+      "topic": "Feathering",
+      "difficulty": "Exam-style",
+      "question": "Why is a propeller feathered after loss of power on an applicable multi-engine aircraft?",
       "options": [
-        "Propeller/engine rotational speed",
-        "Cabin altitude",
-        "Fuel quantity",
-        "Wing angle of attack"
+        "To turn the blades toward a high angle that minimizes windmilling drag.",
+        "To turn the blades to fine pitch so the propeller windmills faster.",
+        "To reverse blade angle and produce braking thrust in flight.",
+        "To lock the propeller at the takeoff blade angle."
       ],
       "answer": 0,
-      "explanation": "A propeller governor uses engine oil pressure and flyweight/speeder-spring action to control blade angle in many systems."
+      "explanation": "Feather reduces aerodynamic drag by aligning blade chord more nearly with the relative airflow.",
+      "concept": "PP-C041"
     },
     {
       "id": "PP202",
-      "section": "42.2",
-      "topic": "Propeller Governors",
-      "question": "Which statement is correct regarding this subject: what does a propeller governor sense directly to control RPM?",
+      "section": "42",
+      "topic": "Feathering",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. Why is a propeller feathered after loss of power on an applicable multi-engine aircraft?",
       "options": [
-        "Cabin altitude",
-        "Fuel quantity",
-        "Wing angle of attack",
-        "Propeller/engine rotational speed"
+        "To turn the blades to fine pitch so the propeller windmills faster.",
+        "To reverse blade angle and produce braking thrust in flight.",
+        "To lock the propeller at the takeoff blade angle.",
+        "To turn the blades toward a high angle that minimizes windmilling drag."
       ],
       "answer": 3,
-      "explanation": "A propeller governor uses engine oil pressure and flyweight/speeder-spring action to control blade angle in many systems."
+      "explanation": "Feather reduces aerodynamic drag by aligning blade chord more nearly with the relative airflow.",
+      "concept": "PP-C041"
     },
     {
       "id": "PP203",
-      "section": "42.2",
-      "topic": "Propeller Governors",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What does a propeller governor sense directly to control RPM?",
+      "section": "42",
+      "topic": "Feathering",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? Why is a propeller feathered after loss of power on an applicable multi-engine aircraft?",
       "options": [
-        "Fuel quantity",
-        "Wing angle of attack",
-        "Propeller/engine rotational speed",
-        "Cabin altitude"
+        "To reverse blade angle and produce braking thrust in flight.",
+        "To lock the propeller at the takeoff blade angle.",
+        "To turn the blades toward a high angle that minimizes windmilling drag.",
+        "To turn the blades to fine pitch so the propeller windmills faster."
       ],
       "answer": 2,
-      "explanation": "A propeller governor uses engine oil pressure and flyweight/speeder-spring action to control blade angle in many systems."
+      "explanation": "Feather reduces aerodynamic drag by aligning blade chord more nearly with the relative airflow.",
+      "concept": "PP-C041"
     },
     {
       "id": "PP204",
-      "section": "42.2",
-      "topic": "Propeller Governors",
-      "question": "An AME is reviewing this system. What does a propeller governor sense directly to control RPM?",
+      "section": "42",
+      "topic": "Feathering",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. Why is a propeller feathered after loss of power on an applicable multi-engine aircraft?",
       "options": [
-        "Wing angle of attack",
-        "Propeller/engine rotational speed",
-        "Cabin altitude",
-        "Fuel quantity"
+        "To lock the propeller at the takeoff blade angle.",
+        "To turn the blades toward a high angle that minimizes windmilling drag.",
+        "To turn the blades to fine pitch so the propeller windmills faster.",
+        "To reverse blade angle and produce braking thrust in flight."
       ],
       "answer": 1,
-      "explanation": "A propeller governor uses engine oil pressure and flyweight/speeder-spring action to control blade angle in many systems."
+      "explanation": "Feather reduces aerodynamic drag by aligning blade chord more nearly with the relative airflow.",
+      "concept": "PP-C041"
     },
     {
       "id": "PP205",
-      "section": "42.2",
+      "section": "42",
       "topic": "Feathering",
-      "question": "What is the purpose of feathering a propeller?",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. Why is a propeller feathered after loss of power on an applicable multi-engine aircraft?",
       "options": [
-        "Reduce drag from an inoperative engine propeller",
-        "Increase drag for landing",
-        "Increase engine compression",
-        "Improve cabin pressurization"
+        "To turn the blades toward a high angle that minimizes windmilling drag.",
+        "To turn the blades to fine pitch so the propeller windmills faster.",
+        "To reverse blade angle and produce braking thrust in flight.",
+        "To lock the propeller at the takeoff blade angle."
       ],
       "answer": 0,
-      "explanation": "Feathering turns propeller blades toward a high blade angle to reduce aerodynamic drag after loss of engine power."
+      "explanation": "Feather reduces aerodynamic drag by aligning blade chord more nearly with the relative airflow.",
+      "concept": "PP-C041"
     },
     {
       "id": "PP206",
-      "section": "42.2",
-      "topic": "Feathering",
-      "question": "Which statement is correct regarding this subject: what is the purpose of feathering a propeller?",
+      "section": "42",
+      "topic": "Overspeed governor",
+      "difficulty": "Exam-style",
+      "question": "What is the function of a propeller overspeed governor on systems that use one?",
       "options": [
-        "Increase drag for landing",
-        "Increase engine compression",
-        "Improve cabin pressurization",
-        "Reduce drag from an inoperative engine propeller"
+        "Set the normal selected propeller RPM during all flight conditions instead of the primary governor.",
+        "Prevent engine compressor overspeed by closing turbine bleed valves.",
+        "Feather the propeller whenever oil temperature rises.",
+        "Provide independent or backup control to limit excessive propeller RPM if primary governing is insufficient."
       ],
       "answer": 3,
-      "explanation": "Feathering turns propeller blades toward a high blade angle to reduce aerodynamic drag after loss of engine power."
+      "explanation": "Overspeed governing is a protective layer distinct from normal RPM governing.",
+      "concept": "PP-C042"
     },
     {
       "id": "PP207",
-      "section": "42.2",
-      "topic": "Feathering",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the purpose of feathering a propeller?",
+      "section": "42",
+      "topic": "Overspeed governor",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. What is the function of a propeller overspeed governor on systems that use one?",
       "options": [
-        "Increase engine compression",
-        "Improve cabin pressurization",
-        "Reduce drag from an inoperative engine propeller",
-        "Increase drag for landing"
+        "Prevent engine compressor overspeed by closing turbine bleed valves.",
+        "Feather the propeller whenever oil temperature rises.",
+        "Provide independent or backup control to limit excessive propeller RPM if primary governing is insufficient.",
+        "Set the normal selected propeller RPM during all flight conditions instead of the primary governor."
       ],
       "answer": 2,
-      "explanation": "Feathering turns propeller blades toward a high blade angle to reduce aerodynamic drag after loss of engine power."
+      "explanation": "Overspeed governing is a protective layer distinct from normal RPM governing.",
+      "concept": "PP-C042"
     },
     {
       "id": "PP208",
-      "section": "42.2",
-      "topic": "Feathering",
-      "question": "An AME is reviewing this system. What is the purpose of feathering a propeller?",
+      "section": "42",
+      "topic": "Overspeed governor",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? What is the function of a propeller overspeed governor on systems that use one?",
       "options": [
-        "Improve cabin pressurization",
-        "Reduce drag from an inoperative engine propeller",
-        "Increase drag for landing",
-        "Increase engine compression"
+        "Feather the propeller whenever oil temperature rises.",
+        "Provide independent or backup control to limit excessive propeller RPM if primary governing is insufficient.",
+        "Set the normal selected propeller RPM during all flight conditions instead of the primary governor.",
+        "Prevent engine compressor overspeed by closing turbine bleed valves."
       ],
       "answer": 1,
-      "explanation": "Feathering turns propeller blades toward a high blade angle to reduce aerodynamic drag after loss of engine power."
+      "explanation": "Overspeed governing is a protective layer distinct from normal RPM governing.",
+      "concept": "PP-C042"
     },
     {
       "id": "PP209",
-      "section": "42.2",
-      "topic": "Propeller Overspeed",
-      "question": "What is the function of a propeller overspeed governor?",
+      "section": "42",
+      "topic": "Overspeed governor",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. What is the function of a propeller overspeed governor on systems that use one?",
       "options": [
-        "Provide backup protection against excessive propeller RPM",
-        "Control mixture at idle",
-        "Operate landing gear uplocks",
-        "Prevent carburetor ice"
+        "Provide independent or backup control to limit excessive propeller RPM if primary governing is insufficient.",
+        "Set the normal selected propeller RPM during all flight conditions instead of the primary governor.",
+        "Prevent engine compressor overspeed by closing turbine bleed valves.",
+        "Feather the propeller whenever oil temperature rises."
       ],
       "answer": 0,
-      "explanation": "An overspeed governor provides backup protection by limiting propeller RPM if the primary governing system cannot control it."
+      "explanation": "Overspeed governing is a protective layer distinct from normal RPM governing.",
+      "concept": "PP-C042"
     },
     {
       "id": "PP210",
-      "section": "42.2",
-      "topic": "Propeller Overspeed",
-      "question": "Which statement is correct regarding this subject: what is the function of a propeller overspeed governor?",
+      "section": "42",
+      "topic": "Overspeed governor",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. What is the function of a propeller overspeed governor on systems that use one?",
       "options": [
-        "Control mixture at idle",
-        "Operate landing gear uplocks",
-        "Prevent carburetor ice",
-        "Provide backup protection against excessive propeller RPM"
+        "Set the normal selected propeller RPM during all flight conditions instead of the primary governor.",
+        "Prevent engine compressor overspeed by closing turbine bleed valves.",
+        "Feather the propeller whenever oil temperature rises.",
+        "Provide independent or backup control to limit excessive propeller RPM if primary governing is insufficient."
       ],
       "answer": 3,
-      "explanation": "An overspeed governor provides backup protection by limiting propeller RPM if the primary governing system cannot control it."
+      "explanation": "Overspeed governing is a protective layer distinct from normal RPM governing.",
+      "concept": "PP-C042"
     },
     {
       "id": "PP211",
-      "section": "42.2",
-      "topic": "Propeller Overspeed",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? What is the function of a propeller overspeed governor?",
+      "section": "42",
+      "topic": "Propeller damage",
+      "difficulty": "Exam-style",
+      "question": "A small nick is found on a metal propeller blade leading edge. Which statement is correct?",
       "options": [
-        "Operate landing gear uplocks",
-        "Prevent carburetor ice",
-        "Provide backup protection against excessive propeller RPM",
-        "Control mixture at idle"
+        "A nick is acceptable if it is outside the outer third of the blade.",
+        "A nick is only an aerodynamic issue and cannot initiate fatigue cracking.",
+        "Its location, depth and repairability must be evaluated to the approved propeller maintenance data because even small nicks can create stress concentrations.",
+        "Any nick may be blended by hand until visually smooth, regardless of depth."
       ],
       "answer": 2,
-      "explanation": "An overspeed governor provides backup protection by limiting propeller RPM if the primary governing system cannot control it."
+      "explanation": "Propeller blades are highly stressed; damage limits and blend procedures are manufacturer-controlled.",
+      "concept": "PP-C043"
     },
     {
       "id": "PP212",
-      "section": "42.2",
-      "topic": "Propeller Overspeed",
-      "question": "An AME is reviewing this system. What is the function of a propeller overspeed governor?",
+      "section": "42",
+      "topic": "Propeller damage",
+      "difficulty": "Exam-style",
+      "question": "Read the wording carefully. A small nick is found on a metal propeller blade leading edge. Which statement is correct?",
       "options": [
-        "Prevent carburetor ice",
-        "Provide backup protection against excessive propeller RPM",
-        "Control mixture at idle",
-        "Operate landing gear uplocks"
+        "A nick is only an aerodynamic issue and cannot initiate fatigue cracking.",
+        "Its location, depth and repairability must be evaluated to the approved propeller maintenance data because even small nicks can create stress concentrations.",
+        "Any nick may be blended by hand until visually smooth, regardless of depth.",
+        "A nick is acceptable if it is outside the outer third of the blade."
       ],
       "answer": 1,
-      "explanation": "An overspeed governor provides backup protection by limiting propeller RPM if the primary governing system cannot control it."
+      "explanation": "Propeller blades are highly stressed; damage limits and blend procedures are manufacturer-controlled.",
+      "concept": "PP-C043"
     },
     {
       "id": "PP213",
-      "section": "42.2",
-      "topic": "Propeller Inspection",
-      "question": "Why must even small propeller blade nicks be assessed correctly?",
+      "section": "42",
+      "topic": "Propeller damage",
+      "difficulty": "Exam-style",
+      "question": "During an AME technical examination, which option is the MOST accurate? A small nick is found on a metal propeller blade leading edge. Which statement is correct?",
       "options": [
-        "They can create stress concentrations and initiate fatigue cracks",
-        "They always improve aerodynamic efficiency",
-        "They reduce blade stress",
-        "They affect only appearance"
+        "Its location, depth and repairability must be evaluated to the approved propeller maintenance data because even small nicks can create stress concentrations.",
+        "Any nick may be blended by hand until visually smooth, regardless of depth.",
+        "A nick is acceptable if it is outside the outer third of the blade.",
+        "A nick is only an aerodynamic issue and cannot initiate fatigue cracking."
       ],
       "answer": 0,
-      "explanation": "Propeller nicks, dents, cracks and erosion must be assessed to approved limits because stress concentrations can lead to fatigue cracking."
+      "explanation": "Propeller blades are highly stressed; damage limits and blend procedures are manufacturer-controlled.",
+      "concept": "PP-C043"
     },
     {
       "id": "PP214",
-      "section": "42.2",
-      "topic": "Propeller Inspection",
-      "question": "Which statement is correct regarding this subject: why must even small propeller blade nicks be assessed correctly?",
+      "section": "42",
+      "topic": "Propeller damage",
+      "difficulty": "Exam-style",
+      "question": "An AME is evaluating the following maintenance principle. A small nick is found on a metal propeller blade leading edge. Which statement is correct?",
       "options": [
-        "They always improve aerodynamic efficiency",
-        "They reduce blade stress",
-        "They affect only appearance",
-        "They can create stress concentrations and initiate fatigue cracks"
+        "Any nick may be blended by hand until visually smooth, regardless of depth.",
+        "A nick is acceptable if it is outside the outer third of the blade.",
+        "A nick is only an aerodynamic issue and cannot initiate fatigue cracking.",
+        "Its location, depth and repairability must be evaluated to the approved propeller maintenance data because even small nicks can create stress concentrations."
       ],
       "answer": 3,
-      "explanation": "Propeller nicks, dents, cracks and erosion must be assessed to approved limits because stress concentrations can lead to fatigue cracking."
+      "explanation": "Propeller blades are highly stressed; damage limits and blend procedures are manufacturer-controlled.",
+      "concept": "PP-C043"
     },
     {
       "id": "PP215",
-      "section": "42.2",
-      "topic": "Propeller Inspection",
-      "question": "During maintenance troubleshooting, which answer best reflects the correct principle? Why must even small propeller blade nicks be assessed correctly?",
+      "section": "42",
+      "topic": "Propeller damage",
+      "difficulty": "Exam-style",
+      "question": "Select the BEST answer; more than one choice may sound plausible. A small nick is found on a metal propeller blade leading edge. Which statement is correct?",
       "options": [
-        "They reduce blade stress",
-        "They affect only appearance",
-        "They can create stress concentrations and initiate fatigue cracks",
-        "They always improve aerodynamic efficiency"
+        "A nick is acceptable if it is outside the outer third of the blade.",
+        "A nick is only an aerodynamic issue and cannot initiate fatigue cracking.",
+        "Its location, depth and repairability must be evaluated to the approved propeller maintenance data because even small nicks can create stress concentrations.",
+        "Any nick may be blended by hand until visually smooth, regardless of depth."
       ],
       "answer": 2,
-      "explanation": "Propeller nicks, dents, cracks and erosion must be assessed to approved limits because stress concentrations can lead to fatigue cracking."
-    },
+      "explanation": "Propeller blades are highly stressed; damage limits and blend procedures are manufacturer-controlled.",
+      "concept": "PP-C043"
+    }
+  ],
+  "GENERAL": [
     {
-      "id": "PP216",
-      "section": "42.2",
-      "topic": "Propeller Inspection",
-      "question": "An AME is reviewing this system. Why must even small propeller blade nicks be assessed correctly?",
+      "id": "GM001",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During helicopter maintenance inspection, which rotor system component primarily changes blade pitch to control lift and directional flight movement?",
       "options": [
-        "They affect only appearance",
-        "They can create stress concentrations and initiate fatigue cracks",
-        "They always improve aerodynamic efficiency",
-        "They reduce blade stress"
-      ],
-      "answer": 1,
-      "explanation": "Propeller nicks, dents, cracks and erosion must be assessed to approved limits because stress concentrations can lead to fatigue cracking."
-    },
-    {
-      "id": "PP217",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Select the most accurate maintenance statement: What is the correct sequence of a four-stroke engine cycle?",
-      "options": [
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust"
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Tail rotor gearbox",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Swashplate assembly"
       ],
       "answer": 3,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The swashplate assembly transmits pilot control inputs to rotor blades, allowing cyclic and collective pitch adjustments necessary for helicopter flight control. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C001"
     },
     {
-      "id": "PP218",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Select the most accurate maintenance statement: Which statement is correct regarding this subject: what is the correct sequence of a four-stroke engine cycle?",
+      "id": "GM002",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which statement best explains why compliance with Airworthiness Directives is mandatory before releasing an aircraft for flight?",
       "options": [
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power"
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "They provide optional manufacturer suggestions for performance improvement",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "They identify legally required actions correcting unsafe aircraft conditions"
       ],
-      "answer": 2,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "answer": 3,
+      "explanation": "Airworthiness Directives are legally enforceable instructions issued to correct unsafe conditions affecting aircraft safety. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C002"
     },
     {
-      "id": "PP219",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Select the most accurate maintenance statement: During maintenance troubleshooting, which answer best reflects the correct principle? What is the correct sequence of a four-stroke engine cycle?",
+      "id": "GM003",
+      "section": "General M",
+      "topic": "Piston",
+      "difficulty": "General AME M • Tricky style",
+      "question": "While performing scheduled inspection on a piston aircraft engine, what condition would most likely indicate improper lubrication system performance?",
       "options": [
-        "Power, exhaust, compression, intake",
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust"
+        "Correct magneto timing places the ignition event at the specified crankshaft position for combustion.",
+        "Stable oil temperature and pressure readings",
+        "A magneto requires aircraft battery power to generate ignition voltage during all normal operation.",
+        "Excessive metal particles found in the oil filter element"
+      ],
+      "answer": 3,
+      "explanation": "Metal particles in oil filters often indicate abnormal engine wear or lubrication system malfunction. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C003"
+    },
+    {
+      "id": "GM004",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary aerodynamic purpose of the helicopter tail rotor during normal flight operations?",
+      "options": [
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Counteract torque produced by the main rotor system",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Increase lift during vertical climb"
       ],
       "answer": 1,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "The tail rotor counters torque created by the main rotor, maintaining directional stability and preventing uncontrolled rotation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C004"
     },
     {
-      "id": "PP220",
-      "section": "31.1",
-      "topic": "Reciprocating Engines",
-      "question": "Select the most accurate maintenance statement: An AME is reviewing this system. What is the correct sequence of a four-stroke engine cycle?",
+      "id": "GM005",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "When inspecting aircraft aluminum structures, which corrosion type commonly appears as white powdery deposits on exposed surfaces?",
       "options": [
-        "Intake, compression, power, exhaust",
-        "Compression, intake, exhaust, power",
-        "Intake, power, compression, exhaust",
-        "Power, exhaust, compression, intake"
+        "Surface oxidation corrosion",
+        "Intergranular corrosion",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film.",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface."
       ],
       "answer": 0,
-      "explanation": "A four-stroke reciprocating engine cycle consists of intake, compression, power and exhaust strokes."
+      "explanation": "Surface oxidation corrosion forms when aluminum reacts with oxygen, producing a powdery white residue. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C005"
+    },
+    {
+      "id": "GM006",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance practice is most effective for preventing foreign object damage during aircraft maintenance operations?",
+      "options": [
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "Increasing maintenance intervals",
+        "Implementing strict tool control procedures",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection."
+      ],
+      "answer": 2,
+      "explanation": "Tool control programs help prevent tools or debris from remaining inside aircraft structures or systems. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C006"
+    },
+    {
+      "id": "GM007",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "When reviewing aircraft maintenance records before releasing an aircraft for service, what must the AME verify regarding completed repairs?",
+      "options": [
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "All maintenance actions must be properly recorded and certified",
+        "Only engine repairs require documentation",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 1,
+      "explanation": "All maintenance work must be documented and signed by authorized personnel to maintain legal airworthiness. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C007"
+    },
+    {
+      "id": "GM008",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which component in a turbine engine compresses incoming air before fuel combustion occurs inside the combustion chamber?",
+      "options": [
+        "Compressor section",
+        "Exhaust nozzle",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor."
+      ],
+      "answer": 0,
+      "explanation": "The compressor increases air pressure before combustion, improving engine efficiency and power output. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C008"
+    },
+    {
+      "id": "GM009",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During aircraft electrical system troubleshooting, which component protects wiring circuits from overload or short-circuit damage?",
+      "options": [
+        "Circuit breaker",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Alternator regulator",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker."
+      ],
+      "answer": 0,
+      "explanation": "Circuit breakers interrupt electrical flow when excessive current occurs, preventing wiring damage. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C009"
+    },
+    {
+      "id": "GM010",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the most important purpose of performing blade tracking and balancing on a helicopter rotor system?",
+      "options": [
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Improve cabin interior lighting efficiency",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Reduce rotor vibration and structural stress"
+      ],
+      "answer": 3,
+      "explanation": "Proper blade tracking ensures smooth rotor operation and reduces vibration that can damage aircraft structures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C010"
+    },
+    {
+      "id": "GM011",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft structural design distributes loads across the skin and internal framework simultaneously during flight stresses?",
+      "options": [
+        "Truss structure design",
+        "Semi-monocoque structure design",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 1,
+      "explanation": "Semi-monocoque construction distributes loads through the skin and internal members such as frames and stringers. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C011"
+    },
+    {
+      "id": "GM012",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During maintenance troubleshooting, what is the primary benefit of following manufacturer fault-isolation procedures in aircraft manuals?",
+      "options": [
+        "They eliminate the need for inspections",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "They guide technicians systematically toward the probable cause of system malfunctions",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem."
+      ],
+      "answer": 2,
+      "explanation": "Fault-isolation procedures help technicians efficiently locate and repair system defects. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C012"
+    },
+    {
+      "id": "GM013",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic principle explains how rotor blades produce lift as air flows faster over the curved upper blade surface?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Pascal’s law",
+        "Bernoulli’s principle"
+      ],
+      "answer": 3,
+      "explanation": "Bernoulli’s principle explains pressure differences between airflow over and under the blade that create lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C013"
+    },
+    {
+      "id": "GM014",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter flight control allows the pilot to increase or decrease lift simultaneously on all rotor blades?",
+      "options": [
+        "Cyclic control",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Collective pitch control"
+      ],
+      "answer": 3,
+      "explanation": "Collective pitch increases or decreases pitch on all blades simultaneously, controlling vertical lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C014"
+    },
+    {
+      "id": "GM015",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which inspection technique allows technicians to detect cracks or internal defects without damaging the aircraft component?",
+      "options": [
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Non-destructive testing methods",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Chemical stripping"
+      ],
+      "answer": 1,
+      "explanation": "Non-destructive testing allows internal inspection without harming components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C015"
+    },
+    {
+      "id": "GM016",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft hydraulic systems in larger helicopters and fixed- wing aircraft?",
+      "options": [
+        "Provide structural reinforcement",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "Transmit power to operate landing gear, brakes, and flight control systems"
+      ],
+      "answer": 3,
+      "explanation": "Hydraulic systems transmit force for mechanical movement of aircraft components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C016"
+    },
+    {
+      "id": "GM017",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "When calculating aircraft weight and balance before flight, which factor most significantly affects aircraft stability and control?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Cabin interior temperature",
+        "Location of the center of gravity relative to allowable limits",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 2,
+      "explanation": "Center of gravity placement affects aircraft stability and safe flight performance. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C017"
+    },
+    {
+      "id": "GM018",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which engine ignition component generates high voltage required to ignite the fuel-air mixture in piston aircraft engines?",
+      "options": [
+        "Carburetor float assembly",
+        "Magneto system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor."
+      ],
+      "answer": 1,
+      "explanation": "Magnetos generate high voltage for spark plugs independent of aircraft electrical systems. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C018"
+    },
+    {
+      "id": "GM019",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Why must aircraft wiring installations follow strict routing and protection standards during maintenance or repair?",
+      "options": [
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "To improve cockpit aesthetics",
+        "To prevent electrical shorts, overheating, and interference with moving parts"
+      ],
+      "answer": 3,
+      "explanation": "Proper wiring installation prevents electrical hazards and mechanical interference. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C019"
+    },
+    {
+      "id": "GM020",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What primary purpose does safety wiring serve when securing aircraft bolts or fasteners in critical systems?",
+      "options": [
+        "Improve electrical conductivity",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Prevent fasteners from loosening due to vibration"
+      ],
+      "answer": 3,
+      "explanation": "Safety wire ensures fasteners remain secure during aircraft operation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C020"
+    },
+    {
+      "id": "GM021",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic condition occurs when airflow separates from the wing or rotor blade surface, causing a rapid loss of lift?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Stall condition",
+        "Autorotation",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 1,
+      "explanation": "A stall occurs when the angle of attack exceeds critical limits and airflow separates from the surface. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C021"
+    },
+    {
+      "id": "GM022",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance documentation provides detailed procedures for performing routine inspections and repairs on specific aircraft systems?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Pilot Operating Handbook",
+        "Aircraft Maintenance Manual"
+      ],
+      "answer": 3,
+      "explanation": "The Aircraft Maintenance Manual contains approved maintenance procedures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C022"
+    },
+    {
+      "id": "GM023",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During corrosion prevention procedures, which method is commonly used to protect aluminum aircraft structures from environmental damage?",
+      "options": [
+        "Application of protective coatings and sealants",
+        "Electrical grounding systems",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 0,
+      "explanation": "Protective coatings prevent moisture and chemicals from damaging aircraft structures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C023"
+    },
+    {
+      "id": "GM024",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What mechanical device regulates propeller blade angle automatically to maintain efficient engine RPM during flight?",
+      "options": [
+        "Carburetor heat control",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Propeller governor",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem."
+      ],
+      "answer": 2,
+      "explanation": "Propeller governors adjust blade pitch to maintain constant RPM. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C024"
+    },
+    {
+      "id": "GM025",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary benefit of implementing Safety Management Systems in aviation maintenance organizations?",
+      "options": [
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection.",
+        "Identify hazards and improve safety through proactive risk management",
+        "Reduce maintenance documentation"
+      ],
+      "answer": 2,
+      "explanation": "Safety Management Systems help organizations manage operational risk effectively. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C025"
+    },
+    {
+      "id": "GM026",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What helicopter flight condition allows the rotor system to continue turning during engine failure by airflow moving upward through the rotor?",
+      "options": [
+        "Autorotation",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Dynamic rollover",
+        "Translational lift, because the rotor is moving into progressively cleaner air."
+      ],
+      "answer": 0,
+      "explanation": "Autorotation allows helicopters to descend safely without engine power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C026"
+    },
+    {
+      "id": "GM027",
+      "section": "General M",
+      "topic": "Landing",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which landing gear component absorbs impact loads during aircraft landing operations?",
+      "options": [
+        "Static wick assembly",
+        "Shock strut or oleo strut",
+        "The shock strut absorbs landing energy through controlled compression of gas and hydraulic fluid.",
+        "The brake system absorbs vertical touchdown loads before the shock strut begins to compress."
+      ],
+      "answer": 1,
+      "explanation": "Shock struts absorb landing forces and protect aircraft structure. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C027"
+    },
+    {
+      "id": "GM028",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of aircraft fuel system boost pumps during engine operation?",
+      "options": [
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Increase aerodynamic lift",
+        "Ensure adequate fuel pressure to the engine",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself."
+      ],
+      "answer": 2,
+      "explanation": "Boost pumps maintain fuel pressure for proper engine operation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C028"
+    },
+    {
+      "id": "GM029",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most commonly contributes to maintenance-related human error during aircraft repair activities?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Fatigue, time pressure, or poor communication among technicians",
+        "Excessive cockpit instrumentation",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 1,
+      "explanation": "Human factors such as fatigue and miscommunication often lead to maintenance errors. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C029"
+    },
+    {
+      "id": "GM030",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What function does the aircraft alternator perform during normal engine operation?",
+      "options": [
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Generate electrical power for aircraft systems and recharge batteries",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Increase fuel pressure for combustion"
+      ],
+      "answer": 1,
+      "explanation": "Alternators generate electrical power and recharge aircraft batteries. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C030"
+    },
+    {
+      "id": "GM031",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During inspection of a helicopter tail rotor assembly, which condition would require immediate maintenance action before the aircraft can be returned to service?",
+      "options": [
+        "Minor dust accumulation on the rotor hub assembly",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Excessive play in the tail rotor pitch control linkage system",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control."
+      ],
+      "answer": 2,
+      "explanation": "Excessive play in pitch control linkages can compromise directional control, making the aircraft unsafe for flight. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C031"
+    },
+    {
+      "id": "GM032",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "When performing corrosion inspection on aircraft aluminum skin panels, which environmental factor most commonly accelerates corrosion formation?",
+      "options": [
+        "Low atmospheric humidity and cold temperature",
+        "Exposure to moisture, salt contamination, and pollutants",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 1,
+      "explanation": "Moisture and salt promote electrochemical reactions that accelerate corrosion on aluminum aircraft structures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C032"
+    },
+    {
+      "id": "GM033",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which turbine engine component mixes compressed air with fuel and ignites the mixture to generate expanding gases for power production?",
+      "options": [
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Combustion chamber section",
+        "Compressor stage assembly"
+      ],
+      "answer": 2,
+      "explanation": "The combustion chamber burns the air-fuel mixture, producing high-energy gases that drive turbine stages. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C033"
+    },
+    {
+      "id": "GM034",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During maintenance of a helicopter rotor head assembly, which component transmits pilot cyclic control inputs to change blade pitch during rotation?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Swashplate assembly",
+        "Static mast support",
+        "Collective control changes pitch differentially around the rotor disc to command direction."
+      ],
+      "answer": 1,
+      "explanation": "The swashplate transfers cyclic and collective control movements to the rotor blades. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C034"
+    },
+    {
+      "id": "GM035",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of performing torque checks on aircraft fasteners during scheduled maintenance inspections?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ensure fasteners maintain correct clamping force to prevent loosening",
+        "Improve aircraft aerodynamic efficiency",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 1,
+      "explanation": "Proper torque ensures fasteners maintain structural integrity and resist vibration- induced loosening. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C035"
+    },
+    {
+      "id": "GM036",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft electrical component converts mechanical engine power into electrical energy used by onboard systems?",
+      "options": [
+        "Alternator or generator assembly",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Static discharge wick",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 0,
+      "explanation": "Alternators generate electrical power and maintain battery charge during aircraft operation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C036"
+    },
+    {
+      "id": "GM037",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During aircraft fuel system inspection, which condition could indicate contamination that may cause engine performance problems?",
+      "options": [
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "Clear fuel sample with no visible debris",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Presence of water droplets or sediment in fuel sample"
+      ],
+      "answer": 3,
+      "explanation": "Water or debris contamination can interrupt combustion and damage engine components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C037"
+    },
+    {
+      "id": "GM038",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic factor increases when rotor blades operate at higher angles of attack during helicopter flight?",
+      "options": [
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Static electricity buildup on the fuselage",
+        "Induced drag created by lift production",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth."
+      ],
+      "answer": 2,
+      "explanation": "Higher angles of attack increase lift but also increase induced drag. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C038"
+    },
+    {
+      "id": "GM039",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What maintenance action should an AME take when discovering a crack in a primary aircraft structural component during inspection?",
+      "options": [
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Ignore the crack if it appears small and non-propagating",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Document the defect and repair according to approved structural repair procedures"
+      ],
+      "answer": 3,
+      "explanation": "Structural cracks must be documented and repaired according to approved maintenance procedures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C039"
+    },
+    {
+      "id": "GM040",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which component in a piston engine distributes high-voltage electrical current from the magneto to the appropriate spark plug?",
+      "options": [
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Hydraulic accumulator valve",
+        "Ignition distributor assembly"
+      ],
+      "answer": 3,
+      "explanation": "The ignition distributor directs high voltage from the magneto to individual spark plugs. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C040"
+    },
+    {
+      "id": "GM041",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During aircraft weight and balance calculations, what could occur if the center of gravity is located significantly behind the approved limit?",
+      "options": [
+        "Increased aircraft structural strength",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Reduced aircraft controllability and potential instability",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 2,
+      "explanation": "An aft center of gravity can cause instability and difficulty controlling aircraft pitch. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C041"
+    },
+    {
+      "id": "GM042",
+      "section": "General M",
+      "topic": "Landing",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of aircraft landing gear braking systems during ground operations?",
+      "options": [
+        "The shock strut absorbs landing energy through controlled compression of gas and hydraulic fluid.",
+        "The brake system absorbs vertical touchdown loads before the shock strut begins to compress.",
+        "Increase aerodynamic lift during takeoff",
+        "Slow or stop aircraft movement safely during landing or taxi operations"
+      ],
+      "answer": 3,
+      "explanation": "Brake systems provide controlled deceleration during landing and taxiing. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C042"
+    },
+    {
+      "id": "GM043",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system commonly uses hydraulic pressure to operate retractable landing gear and flight control surfaces?",
+      "options": [
+        "Electrical avionics system",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "Hydraulic power system"
+      ],
+      "answer": 3,
+      "explanation": "Hydraulic systems transmit force efficiently for heavy mechanical operations. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C043"
+    },
+    {
+      "id": "GM044",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the most important purpose of reviewing aircraft technical logbooks before performing maintenance tasks?",
+      "options": [
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Confirm pilot flight hours for licensing requirements",
+        "Identify previous defects, maintenance history, and outstanding discrepancies",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 2,
+      "explanation": "Maintenance records provide essential information about aircraft condition and prior repairs. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C044"
+    },
+    {
+      "id": "GM045",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most commonly contributes to dynamic rollover accidents in helicopters during ground operations?",
+      "options": [
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Excessive engine oil pressure during startup",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Uneven ground contact combined with excessive lateral cyclic control input"
+      ],
+      "answer": 3,
+      "explanation": "Dynamic rollover occurs when rolling motion exceeds recovery capability. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C045"
+    },
+    {
+      "id": "GM046",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During inspection of aircraft electrical wiring bundles, what condition would indicate potential fire hazard requiring corrective maintenance?",
+      "options": [
+        "Properly secured wiring harnesses with protective insulation",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Frayed insulation or exposed wiring conductors",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker."
+      ],
+      "answer": 2,
+      "explanation": "Exposed wires may short circuit and cause electrical fires. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C046"
+    },
+    {
+      "id": "GM047",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic principle states that for every action force applied by a rotor blade on the air, an equal and opposite reaction force occurs?",
+      "options": [
+        "Bernoulli’s Principle",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Newton’s Third Law of Motion"
+      ],
+      "answer": 3,
+      "explanation": "Newton’s third law explains how rotor blades push air downward to produce lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C047"
+    },
+    {
+      "id": "GM048",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft documentation provides illustrated diagrams and part numbers for ordering replacement components during maintenance?",
+      "options": [
+        "Flight Operations Manual",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Illustrated Parts Catalogue (IPC)",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action."
+      ],
+      "answer": 2,
+      "explanation": "The IPC contains detailed parts diagrams and identification numbers for aircraft components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C048"
+    },
+    {
+      "id": "GM049",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Why is proper torque application especially critical when installing components in aircraft engine assemblies?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "To prevent component failure caused by over-tightening or insufficient clamping force",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "To improve electrical system voltage stability"
+      ],
+      "answer": 1,
+      "explanation": "Incorrect torque can cause structural damage or fastener loosening. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C049"
+    },
+    {
+      "id": "GM050",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of implementing fatigue management practices in aviation maintenance organizations?",
+      "options": [
+        "Increase aircraft fuel efficiency",
+        "Reduce maintenance errors caused by technician fatigue and impaired decision-making",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 1,
+      "explanation": "Fatigue management improves technician performance and reduces safety risks. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C050"
+    },
+    {
+      "id": "GM051",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During inspection of a helicopter rotor blade, which condition would most likely indicate structural damage requiring immediate repair or replacement?",
+      "options": [
+        "Slight accumulation of dust near blade root area",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Visible crack extending across the rotor blade skin or spar structure",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible."
+      ],
+      "answer": 2,
+      "explanation": "Structural cracks in rotor blades can rapidly propagate during flight loads and pose a severe safety hazard. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C051"
+    },
+    {
+      "id": "GM052",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of an aircraft fuel filter installed in the fuel delivery system between the tank and engine?",
+      "options": [
+        "Increase fuel pressure entering the engine cylinders",
+        "Remove contaminants or debris that could damage engine components",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself."
+      ],
+      "answer": 1,
+      "explanation": "Fuel filters remove contaminants such as dirt, rust, or water that could block fuel flow or damage engine components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C052"
+    },
+    {
+      "id": "GM053",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance procedure ensures rotor blades move in the same rotational plane during helicopter flight operations?",
+      "options": [
+        "Blade feathering adjustment",
+        "Rotor blade tracking procedure",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Translational lift, because the rotor is moving into progressively cleaner air."
+      ],
+      "answer": 1,
+      "explanation": "Blade tracking ensures all rotor blades follow the same path, reducing vibration and improving flight stability. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C053"
+    },
+    {
+      "id": "GM054",
+      "section": "General M",
+      "topic": "Environment",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary role of aircraft pneumatic systems in certain aircraft configurations?",
+      "options": [
+        "Bleed or conditioned-air supply alone determines cabin pressure regardless of outflow-valve position.",
+        "Provide mechanical power for landing gear operation",
+        "Supply compressed air for systems such as de-icing or cabin pressurization",
+        "The outflow/pressure-control function regulates cabin pressure by controlling air leaving the pressure vessel."
+      ],
+      "answer": 2,
+      "explanation": "Pneumatic systems use compressed air for functions including de-icing, environmental control, and pressurization. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C054"
+    },
+    {
+      "id": "GM055",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During inspection of aircraft sheet metal structures, which defect typically results from repeated cyclic stresses over time?",
+      "options": [
+        "Metal fatigue cracking",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Static pressure imbalance"
+      ],
+      "answer": 0,
+      "explanation": "Fatigue cracking develops from repeated stress cycles during aircraft operation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C055"
+    },
+    {
+      "id": "GM056",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance practice ensures that replacement parts installed during repairs meet manufacturer specifications?",
+      "options": [
+        "Verifying part numbers using the Illustrated Parts Catalogue",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Installing generic components without documentation"
+      ],
+      "answer": 0,
+      "explanation": "The Illustrated Parts Catalogue ensures the correct approved parts are installed. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C056"
+    },
+    {
+      "id": "GM057",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter control input allows the pilot to tilt the rotor disc in a specific direction to control forward, backward, or lateral movement?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective pitch lever",
+        "Cyclic control stick",
+        "Collective control changes pitch differentially around the rotor disc to command direction."
+      ],
+      "answer": 2,
+      "explanation": "Cyclic control changes blade pitch during rotation, tilting the rotor disc and controlling direction. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C057"
+    },
+    {
+      "id": "GM058",
+      "section": "General M",
+      "topic": "Piston",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of performing periodic magneto timing checks on piston aircraft engines during maintenance?",
+      "options": [
+        "A magneto requires aircraft battery power to generate ignition voltage during all normal operation.",
+        "Correct magneto timing places the ignition event at the specified crankshaft position for combustion.",
+        "Increase electrical output of aircraft alternator systems",
+        "Ensure spark ignition occurs at the correct moment for efficient combustion"
+      ],
+      "answer": 3,
+      "explanation": "Proper magneto timing ensures optimal combustion efficiency and engine performance. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C058"
+    },
+    {
+      "id": "GM059",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance factor most directly affects the reliability and safety of hydraulic system operations?",
+      "options": [
+        "Correct hydraulic fluid level and absence of contamination",
+        "Color of hydraulic system reservoir cap",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure."
+      ],
+      "answer": 0,
+      "explanation": "Hydraulic systems require proper fluid levels and clean fluid to operate effectively. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C059"
+    },
+    {
+      "id": "GM060",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic effect occurs when an aircraft wing or rotor blade produces lift and generates swirling air patterns at its tips?",
+      "options": [
+        "Static electricity discharge",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Wingtip vortices formation",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 2,
+      "explanation": "Wingtip vortices result from pressure differences between upper and lower wing surfaces. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C060"
+    },
+    {
+      "id": "GM061",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "When reviewing aircraft maintenance documentation, what does a signed maintenance release certify by an AME?",
+      "options": [
+        "The aircraft has completed at least one flight since maintenance",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Maintenance work performed complies with regulations and aircraft is airworthy",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 2,
+      "explanation": "Maintenance release certifies the aircraft meets regulatory airworthiness requirements. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C061"
+    },
+    {
+      "id": "GM062",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft component absorbs and dissipates landing impact forces to protect the fuselage structure?",
+      "options": [
+        "Static port assembly",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Oleo or shock strut in the landing gear system"
+      ],
+      "answer": 3,
+      "explanation": "Shock struts absorb landing forces and prevent structural damage. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C062"
+    },
+    {
+      "id": "GM063",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During aircraft electrical troubleshooting, which tool is most commonly used to measure voltage, resistance, and electrical continuity?",
+      "options": [
+        "Torque wrench",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Multimeter testing instrument"
+      ],
+      "answer": 3,
+      "explanation": "Multimeters measure electrical properties used in diagnosing electrical faults. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C063"
+    },
+    {
+      "id": "GM064",
+      "section": "General M",
+      "topic": "Piston",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which condition is most likely to cause overheating in an aircraft piston engine during prolonged operation?",
+      "options": [
+        "A magneto requires aircraft battery power to generate ignition voltage during all normal operation.",
+        "Proper lubrication system functioning",
+        "Insufficient cooling airflow or blocked cooling fins",
+        "Correct magneto timing places the ignition event at the specified crankshaft position for combustion."
+      ],
+      "answer": 2,
+      "explanation": "Blocked cooling passages prevent heat dissipation from the engine. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C064"
+    },
+    {
+      "id": "GM065",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What maintenance procedure is required when an aircraft component reaches its manufacturer-specified service life limit?",
+      "options": [
+        "Replace or overhaul the component according to approved maintenance requirements",
+        "Continue operating until visible damage appears",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "The component performs a related system function, but not the specific function asked in the question."
+      ],
+      "answer": 0,
+      "explanation": "Components with life limits must be replaced or overhauled to maintain safety. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C065"
+    },
+    {
+      "id": "GM066",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force directly opposes aircraft motion through the air during flight?",
+      "options": [
+        "Drag force",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift force",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth."
+      ],
+      "answer": 0,
+      "explanation": "Drag resists forward motion of the aircraft through the air. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C066"
+    },
+    {
+      "id": "GM067",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of aircraft static wicks installed on trailing edges of wings and control surfaces?",
+      "options": [
+        "Dissipate static electricity buildup during flight",
+        "Improve aerodynamic lift production",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker."
+      ],
+      "answer": 0,
+      "explanation": "Static wicks safely discharge accumulated electrical charges. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C067"
+    },
+    {
+      "id": "GM068",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During helicopter maintenance inspection, which component transfers engine power to the main rotor system?",
+      "options": [
+        "Static pressure port",
+        "Main transmission gearbox assembly",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "The component performs a related system function, but not the specific function asked in the question."
+      ],
+      "answer": 1,
+      "explanation": "The transmission converts engine output into rotor rotation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C068"
+    },
+    {
+      "id": "GM069",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system provides pressurized fluid power used to operate heavy mechanical components such as landing gear and brakes?",
+      "options": [
+        "Hydraulic power system",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "Electrical distribution system"
+      ],
+      "answer": 0,
+      "explanation": "Hydraulic systems use fluid pressure to operate mechanical components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C069"
+    },
+    {
+      "id": "GM070",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which inspection practice helps technicians detect early signs of corrosion or fatigue before they become severe structural problems?",
+      "options": [
+        "Ignoring minor structural surface irregularities",
+        "Routine visual inspections combined with non-destructive testing methods",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 1,
+      "explanation": "Early detection through inspection prevents structural failures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C070"
+    },
+    {
+      "id": "GM071",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most commonly contributes to maintenance errors involving installation of incorrect aircraft parts?",
+      "options": [
+        "Failure to verify part numbers against technical documentation",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Strict adherence to maintenance manuals"
+      ],
+      "answer": 0,
+      "explanation": "Incorrect parts often result from failing to confirm part numbers. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C071"
+    },
+    {
+      "id": "GM072",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which engine system supplies pressurized oil to lubricate moving internal components and reduce friction during operation?",
+      "options": [
+        "Ignition timing system",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Engine lubrication system"
+      ],
+      "answer": 3,
+      "explanation": "Lubrication systems minimize friction and wear inside engines. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C072"
+    },
+    {
+      "id": "GM073",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic condition occurs when airflow separates from the upper wing surface due to excessive angle of attack?",
+      "options": [
+        "Stall condition",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Autorotation"
+      ],
+      "answer": 0,
+      "explanation": "Stalls occur when airflow separates, drastically reducing lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C073"
+    },
+    {
+      "id": "GM074",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of maintenance safety training programs in aviation organizations?",
+      "options": [
+        "Reduce aircraft manufacturing costs",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "Ensure technicians follow safe procedures and minimize workplace accidents",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection."
+      ],
+      "answer": 2,
+      "explanation": "Safety training helps technicians prevent accidents and errors. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C074"
+    },
+    {
+      "id": "GM075",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During fuel system inspection, which device measures the amount of fuel remaining in aircraft tanks?",
+      "options": [
+        "Fuel quantity indicator system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "Static discharge wick",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor."
+      ],
+      "answer": 0,
+      "explanation": "Fuel quantity indicators display tank fuel levels to the cockpit. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C075"
+    },
+    {
+      "id": "GM076",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What structural feature strengthens aircraft wings by distributing aerodynamic loads across internal members?",
+      "options": [
+        "Wing spars and ribs structure",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Static pressure tubing"
+      ],
+      "answer": 0,
+      "explanation": "Spars and ribs support wing loads during flight. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C076"
+    },
+    {
+      "id": "GM077",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most significantly influences helicopter hover performance capability?",
+      "options": [
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Vortex ring state, because upward flow through the entire rotor disc sustains RPM after power loss.",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Rotor blade lift efficiency and available engine power"
+      ],
+      "answer": 3,
+      "explanation": "Hover requires sufficient lift and engine power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C077"
+    },
+    {
+      "id": "GM078",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance document provides step-by-step procedures for performing repairs and system inspections?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Airline route planning handbook",
+        "Aircraft Maintenance Manual (AMM)"
+      ],
+      "answer": 3,
+      "explanation": "AMMs contain official procedures for maintenance work. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C078"
+    },
+    {
+      "id": "GM079",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What condition most commonly indicates improper rotor blade balance in helicopters during flight testing?",
+      "options": [
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Excessive vibration felt throughout the airframe",
+        "Improved aircraft climb performance"
+      ],
+      "answer": 2,
+      "explanation": "Unbalanced blades cause vibrations affecting structural integrity. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C079"
+    },
+    {
+      "id": "GM080",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft circuit protection devices such as fuses or circuit breakers?",
+      "options": [
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Prevent electrical system damage caused by excessive current flow",
+        "Increase electrical power generation",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker."
+      ],
+      "answer": 1,
+      "explanation": "Circuit protection devices prevent overheating and wiring damage. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C080"
+    },
+    {
+      "id": "GM081",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance factor directly contributes to preventing foreign object damage inside engines or mechanical systems?",
+      "options": [
+        "Strict tool accountability and workspace cleanliness",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Increased engine operating temperatures",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads."
+      ],
+      "answer": 0,
+      "explanation": "Tool control programs prevent debris entering aircraft systems. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C081"
+    },
+    {
+      "id": "GM082",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which engine component controls fuel flow into the combustion chamber to regulate power output in turbine engines?",
+      "options": [
+        "Fuel control unit system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Wing spar assembly"
+      ],
+      "answer": 0,
+      "explanation": "Fuel control units regulate fuel delivery to maintain engine performance. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C082"
+    },
+    {
+      "id": "GM083",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance action should be taken if hydraulic fluid contamination is discovered during inspection?",
+      "options": [
+        "Drain, flush, and refill the system with approved fluid while replacing filters",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "Ignore contamination until next maintenance interval"
+      ],
+      "answer": 0,
+      "explanation": "Contaminated hydraulic fluid can damage system components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C083"
+    },
+    {
+      "id": "GM084",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts perpendicular to airflow and supports the aircraft in flight?",
+      "options": [
+        "Lift force",
+        "Drag force",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 0,
+      "explanation": "Lift counters weight and keeps the aircraft airborne. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C084"
+    },
+    {
+      "id": "GM085",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance inspection method uses dye penetrant or magnetic particles to reveal small cracks on metal surfaces?",
+      "options": [
+        "Aerodynamic stress testing",
+        "Non-destructive testing procedures",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws."
+      ],
+      "answer": 1,
+      "explanation": "NDT methods reveal defects without damaging the component. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C085"
+    },
+    {
+      "id": "GM086",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor must an AME verify before signing a maintenance release following completion of repairs?",
+      "options": [
+        "Aircraft maintenance work complies with regulations and manufacturer procedures",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Aircraft has completed at least one test flight",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 0,
+      "explanation": "Certification confirms compliance and airworthiness. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C086"
+    },
+    {
+      "id": "GM087",
+      "section": "General M",
+      "topic": "Instruments",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft instrument provides pilots with information about the aircraft’s vertical speed or rate of climb and descent?",
+      "options": [
+        "An airspeed indicator uses pitot and static pressure and does not directly display rate of climb.",
+        "Vertical speed indicator instrument",
+        "A vertical speed indicator senses rate of static-pressure change rather than directly measuring aircraft pitch attitude.",
+        "Airspeed indicator gauge"
+      ],
+      "answer": 1,
+      "explanation": "The VSI measures rate of climb or descent. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C087"
+    },
+    {
+      "id": "GM088",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most directly affects helicopter anti-torque control during hover operations?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Wing flap position",
+        "Tail rotor thrust produced by adjustable blade pitch"
+      ],
+      "answer": 3,
+      "explanation": "Tail rotor thrust counteracts main rotor torque. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C088"
+    },
+    {
+      "id": "GM089",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance practice improves aircraft reliability by identifying and correcting problems before failure occurs?",
+      "options": [
+        "Preventive maintenance and scheduled inspections",
+        "Ignoring minor irregularities",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection.",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making."
+      ],
+      "answer": 0,
+      "explanation": "Preventive maintenance reduces failure risk. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C089"
+    },
+    {
+      "id": "GM090",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which engine system mixes fuel with incoming air before combustion in many piston aircraft engines?",
+      "options": [
+        "Carburetor or fuel injection system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Hydraulic pressure regulator"
+      ],
+      "answer": 0,
+      "explanation": "Carburetors or injectors create the combustible mixture. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C090"
+    },
+    {
+      "id": "GM091",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the main purpose of safety management systems in aviation maintenance organizations?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Eliminate aircraft inspection programs",
+        "Identify hazards and improve safety through structured risk management processes"
+      ],
+      "answer": 3,
+      "explanation": "SMS focuses on proactive safety management. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C091"
+    },
+    {
+      "id": "GM092",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic principle explains how faster airflow over a curved wing surface lowers pressure and contributes to lift generation?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ohm’s law of electrical resistance",
+        "Bernoulli’s principle of fluid dynamics",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 2,
+      "explanation": "Bernoulli’s principle explains pressure differences that help create lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C092"
+    },
+    {
+      "id": "GM093",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft documentation contains detailed diagrams showing routing of electrical wiring systems?",
+      "options": [
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Flight itinerary schedule",
+        "Aircraft wiring diagram manual",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 2,
+      "explanation": "Wiring diagrams show electrical system layouts. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C093"
+    },
+    {
+      "id": "GM094",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most significantly affects aircraft takeoff performance capability?",
+      "options": [
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Weight, runway length, and available engine thrust",
+        "A stall is determined primarily by exceeding the critical angle of attack, not by a single fixed airspeed.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth."
+      ],
+      "answer": 1,
+      "explanation": "Takeoff performance depends on weight, thrust, and runway length. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C094"
+    },
+    {
+      "id": "GM095",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which condition would most likely indicate improper rigging of aircraft flight control surfaces?",
+      "options": [
+        "Control surfaces move smoothly with correct alignment",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Uneven or restricted movement during control input checks",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem."
+      ],
+      "answer": 2,
+      "explanation": "Restricted or uneven movement indicates incorrect rigging. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C095"
+    },
+    {
+      "id": "GM096",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance practice ensures accurate tightening of bolts to manufacturer specifications?",
+      "options": [
+        "Using a calibrated torque wrench during installation",
+        "Tightening bolts by hand estimation only",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 0,
+      "explanation": "Torque wrenches ensure correct fastener tension. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C096"
+    },
+    {
+      "id": "GM097",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which rotorcraft aerodynamic principle explains how helicopters can descend safely without engine power during autorotation?",
+      "options": [
+        "Electrical generators provide lift",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Upward airflow through rotor blades maintains rotor rotation"
+      ],
+      "answer": 3,
+      "explanation": "Autorotation occurs when upward airflow drives the rotor. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C097"
+    },
+    {
+      "id": "GM098",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance factor most strongly contributes to maintaining aircraft airworthiness over long operational periods?",
+      "options": [
+        "Increasing aircraft cruise speed",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Consistent adherence to inspection schedules and maintenance procedures"
+      ],
+      "answer": 3,
+      "explanation": "Proper maintenance ensures continued airworthiness. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C098"
+    },
+    {
+      "id": "GM099",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft component provides directional stability during forward flight in helicopters?",
+      "options": [
+        "Tail rotor and vertical stabilizer system",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Wing flap mechanism",
+        "Collective control changes pitch differentially around the rotor disc to command direction."
+      ],
+      "answer": 0,
+      "explanation": "Tail rotor thrust controls yaw and directional stability. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C099"
+    },
+    {
+      "id": "GM100",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the ultimate responsibility of a licensed Aircraft Maintenance Engineer when certifying an aircraft for return to service?",
+      "options": [
+        "Approve airline flight schedules",
+        "Ensure all maintenance work complies with regulations and aircraft is safe for operation",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem."
+      ],
+      "answer": 1,
+      "explanation": "The AME’s certification confirms that maintenance meets regulatory standards and the aircraft is airworthy. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C100"
+    },
+    {
+      "id": "GM101",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During inspection of a helicopter main rotor hub assembly, which condition would most likely require immediate corrective maintenance action before further flight operations?",
+      "options": [
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Normal grease accumulation around lubrication fittings",
+        "Excessive wear or cracking detected in rotor hub attachment bolts",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible."
+      ],
+      "answer": 2,
+      "explanation": "Structural wear or cracks in rotor hub attachment components can lead to catastrophic rotor system failure. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C101"
+    },
+    {
+      "id": "GM102",
+      "section": "General M",
+      "topic": "Piston",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft engine cooling systems in piston-powered aircraft during extended flight operations?",
+      "options": [
+        "Maintain engine operating temperatures within safe limits to prevent overheating damage",
+        "A magneto requires aircraft battery power to generate ignition voltage during all normal operation.",
+        "Correct magneto timing places the ignition event at the specified crankshaft position for combustion.",
+        "Increase aircraft electrical power generation capacity"
+      ],
+      "answer": 0,
+      "explanation": "Cooling systems regulate engine temperature to prevent damage and maintain efficient operation. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C102"
+    },
+    {
+      "id": "GM103",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance procedure helps detect hidden structural flaws in aircraft components without causing damage to the material itself?",
+      "options": [
+        "Non-destructive testing methods such as ultrasonic or dye penetrant inspection",
+        "Mechanical stress testing",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible."
+      ],
+      "answer": 0,
+      "explanation": "NDT techniques detect cracks or defects without harming aircraft structures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C103"
+    },
+    {
+      "id": "GM104",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts directly opposite the thrust produced by aircraft engines during forward flight operations?",
+      "options": [
+        "Lift force generated by wings",
+        "Drag force created by air resistance",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 1,
+      "explanation": "Drag opposes forward motion created by thrust. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C104"
+    },
+    {
+      "id": "GM105",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During maintenance troubleshooting of an aircraft electrical system, which instrument is most commonly used to verify voltage output from a generator or alternator?",
+      "options": [
+        "Hydraulic pressure gauge",
+        "Multimeter electrical testing device",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 1,
+      "explanation": "Multimeters measure voltage, resistance, and current in electrical circuits. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C105"
+    },
+    {
+      "id": "GM106",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of the helicopter collective pitch control lever during flight operations?",
+      "options": [
+        "Change rotor blade pitch simultaneously to increase or decrease lift",
+        "Control directional yaw movement of the aircraft",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control."
+      ],
+      "answer": 0,
+      "explanation": "Collective pitch changes blade angle simultaneously to control lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C106"
+    },
+    {
+      "id": "GM107",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft structural component serves as the primary load-bearing member in most wing structures?",
+      "options": [
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Static pressure port",
+        "Wing spar structural member"
+      ],
+      "answer": 3,
+      "explanation": "Wing spars carry major aerodynamic loads. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C107"
+    },
+    {
+      "id": "GM108",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the most common cause of corrosion formation on aircraft structures operating in coastal environments?",
+      "options": [
+        "Exposure to salt moisture and humid atmospheric conditions",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Increased engine power output during takeoff",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 0,
+      "explanation": "Salt and humidity accelerate corrosion reactions. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C108"
+    },
+    {
+      "id": "GM109",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance document provides step-by-step procedures for inspecting and repairing aircraft systems and components?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Aircraft Maintenance Manual (AMM)"
+      ],
+      "answer": 3,
+      "explanation": "The AMM contains approved maintenance procedures. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C109"
+    },
+    {
+      "id": "GM110",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which condition would most likely indicate improper balance of helicopter rotor blades during operation?",
+      "options": [
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Noticeable vibration transmitted through the airframe during flight",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Reduced electrical system voltage output"
+      ],
+      "answer": 1,
+      "explanation": "Unbalanced rotor blades create vibration and structural stress. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C110"
+    },
+    {
+      "id": "GM111",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of safety wiring fasteners installed in critical aircraft components during maintenance procedures?",
+      "options": [
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Prevent fasteners from loosening due to vibration during operation",
+        "Increase electrical conductivity of metallic components",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 1,
+      "explanation": "Safety wire secures bolts against vibration loosening. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C111"
+    },
+    {
+      "id": "GM112",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft fuel system component ensures fuel flows continuously to the engine even during high altitude operations?",
+      "options": [
+        "Static pressure sensor",
+        "Fuel boost pump assembly",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself."
+      ],
+      "answer": 1,
+      "explanation": "Boost pumps maintain adequate fuel pressure to the engine. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C112"
+    },
+    {
+      "id": "GM113",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic principle states that airflow velocity increases while pressure decreases across a curved surface generating lift?",
+      "options": [
+        "Bernoulli’s principle of fluid motion",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Newton’s law of gravity"
+      ],
+      "answer": 0,
+      "explanation": "Bernoulli’s principle explains lift generation due to pressure differences. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C113"
+    },
+    {
+      "id": "GM114",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What maintenance action should be taken when a life-limited aircraft component reaches its manufacturer-specified operational limit?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Replace or overhaul the component according to approved maintenance schedules",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Continue operating until signs of damage appear"
+      ],
+      "answer": 1,
+      "explanation": "Life-limited components must be replaced or overhauled to ensure safety. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C114"
+    },
+    {
+      "id": "GM115",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system uses pressurized hydraulic fluid to move landing gear and braking mechanisms during flight operations?",
+      "options": [
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "Hydraulic power system",
+        "Static pressure system"
+      ],
+      "answer": 2,
+      "explanation": "Hydraulic systems operate heavy mechanical components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C115"
+    },
+    {
+      "id": "GM116",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the main purpose of aircraft weight and balance calculations performed before flight operations?",
+      "options": [
+        "Ensure the aircraft center of gravity remains within approved operational limits",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Increase engine thrust output"
+      ],
+      "answer": 0,
+      "explanation": "Proper weight and balance ensure aircraft stability. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C116"
+    },
+    {
+      "id": "GM117",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system provides electrical power for avionics instruments and cockpit lighting during flight operations?",
+      "options": [
+        "Fuel injection system",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Alternator or generator electrical system"
+      ],
+      "answer": 3,
+      "explanation": "Alternators generate electrical power for onboard systems. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C117"
+    },
+    {
+      "id": "GM118",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter aerodynamic condition occurs when the rotor system loses lift due to excessive angle of attack on rotor blades?",
+      "options": [
+        "Static pressure drop",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Rotor blade stall condition",
+        "Translational lift, because the rotor is moving into progressively cleaner air."
+      ],
+      "answer": 2,
+      "explanation": "Blade stall reduces lift and can cause vibration. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C118"
+    },
+    {
+      "id": "GM119",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance practice most effectively prevents foreign object damage inside aircraft engines during maintenance procedures?",
+      "options": [
+        "Maintaining strict tool accountability and workspace cleanliness",
+        "Increasing engine idle speed",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection."
+      ],
+      "answer": 0,
+      "explanation": "Tool control programs prevent objects entering engines. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C119"
+    },
+    {
+      "id": "GM120",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of helicopter tail rotor pedals during flight operations?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Control yaw direction by adjusting tail rotor blade pitch",
+        "Adjust engine fuel mixture automatically"
+      ],
+      "answer": 2,
+      "explanation": "Pedals adjust tail rotor pitch to control yaw. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C120"
+    },
+    {
+      "id": "GM121",
+      "section": "General M",
+      "topic": "Instruments",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft instrument provides pilots with information about rate of climb or descent during flight?",
+      "options": [
+        "An airspeed indicator uses pitot and static pressure and does not directly display rate of climb.",
+        "A vertical speed indicator senses rate of static-pressure change rather than directly measuring aircraft pitch attitude.",
+        "Vertical speed indicator instrument",
+        "Magnetic compass"
+      ],
+      "answer": 2,
+      "explanation": "VSI shows vertical speed changes. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C121"
+    },
+    {
+      "id": "GM122",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which engine system mixes fuel with incoming air before combustion in piston aircraft engines?",
+      "options": [
+        "Hydraulic fluid distribution system",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Carburetor or fuel injection system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself."
+      ],
+      "answer": 2,
+      "explanation": "Fuel-air mixture is prepared by carburetors or injectors. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C122"
+    },
+    {
+      "id": "GM123",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary benefit of implementing preventive maintenance programs in aviation maintenance organizations?",
+      "options": [
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection.",
+        "Reduce aircraft failure risks through early detection of potential problems",
+        "Reduce pilot training requirements",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making."
+      ],
+      "answer": 1,
+      "explanation": "Preventive maintenance identifies issues before failure occurs. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C123"
+    },
+    {
+      "id": "GM124",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft structural defect develops gradually due to repeated stress cycles during normal flight operations?",
+      "options": [
+        "Static electricity buildup",
+        "Metal fatigue cracking",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible."
+      ],
+      "answer": 1,
+      "explanation": "Fatigue cracks result from cyclic loading over time. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C124"
+    },
+    {
+      "id": "GM125",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What maintenance procedure ensures aircraft control surfaces move freely and correctly following repairs or adjustments?",
+      "options": [
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Flight control rigging and operational checks",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Increasing hydraulic pressure settings"
+      ],
+      "answer": 1,
+      "explanation": "Rigging checks confirm proper control movement. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C125"
+    },
+    {
+      "id": "GM126",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts perpendicular to airflow and supports the aircraft’s weight during flight?",
+      "options": [
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Drag force",
+        "Lift force",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth."
+      ],
+      "answer": 2,
+      "explanation": "Lift counters gravitational weight. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C126"
+    },
+    {
+      "id": "GM127",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance document contains diagrams identifying parts and approved replacement components?",
+      "options": [
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Illustrated Parts Catalogue (IPC)",
+        "Airline scheduling manual"
+      ],
+      "answer": 2,
+      "explanation": "IPC provides part identification and numbers. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C127"
+    },
+    {
+      "id": "GM128",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter flight condition allows controlled descent without engine power through airflow driving rotor rotation?",
+      "options": [
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Static hover condition",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Autorotation maneuver"
+      ],
+      "answer": 3,
+      "explanation": "Autorotation allows safe descent after engine failure. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C128"
+    },
+    {
+      "id": "GM129",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most frequently contributes to human error in aircraft maintenance operations?",
+      "options": [
+        "Proper maintenance documentation",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Technician fatigue, time pressure, and poor communication"
+      ],
+      "answer": 3,
+      "explanation": "Human factors commonly cause maintenance mistakes. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C129"
+    },
+    {
+      "id": "GM130",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of aircraft circuit breakers within electrical distribution systems?",
+      "options": [
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Increase electrical generation capacity",
+        "Protect circuits from excessive current and electrical damage"
+      ],
+      "answer": 3,
+      "explanation": "Circuit breakers interrupt electrical flow during overload. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C130"
+    },
+    {
+      "id": "GM131",
+      "section": "General M",
+      "topic": "Landing",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft landing gear component absorbs impact loads during touchdown?",
+      "options": [
+        "The shock strut absorbs landing energy through controlled compression of gas and hydraulic fluid.",
+        "Static discharge wick",
+        "The brake system absorbs vertical touchdown loads before the shock strut begins to compress.",
+        "Oleo or shock strut assembly"
+      ],
+      "answer": 3,
+      "explanation": "Shock struts absorb landing forces. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C131"
+    },
+    {
+      "id": "GM132",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic effect forms swirling air currents behind wing tips due to pressure differences during lift generation?",
+      "options": [
+        "Wingtip vortices formation",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Static discharge buildup"
+      ],
+      "answer": 0,
+      "explanation": "Wingtip vortices result from pressure differences around the wing. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C132"
+    },
+    {
+      "id": "GM133",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance factor must an AME verify before signing a maintenance release certifying aircraft airworthiness?",
+      "options": [
+        "All maintenance tasks comply with regulatory and manufacturer requirements",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Aircraft fuel tanks are full",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 0,
+      "explanation": "Certification confirms regulatory compliance. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C133"
+    },
+    {
+      "id": "GM134",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter component transfers engine power from the engine to the rotor system?",
+      "options": [
+        "Cabin air conditioning system",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Main transmission gearbox"
+      ],
+      "answer": 3,
+      "explanation": "The transmission delivers power to the rotor. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C134"
+    },
+    {
+      "id": "GM135",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which inspection technique uses fluorescent dye or magnetic particles to reveal cracks on metal surfaces?",
+      "options": [
+        "Aerodynamic testing method",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Non-destructive testing procedure",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible."
+      ],
+      "answer": 2,
+      "explanation": "Dye penetrant and magnetic particle inspections reveal cracks. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C135"
+    },
+    {
+      "id": "GM136",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic force must be overcome by engine thrust for an aircraft to accelerate forward during flight?",
+      "options": [
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift force",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag force"
+      ],
+      "answer": 3,
+      "explanation": "Drag opposes thrust and motion. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C136"
+    },
+    {
+      "id": "GM137",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance practice ensures fasteners are tightened precisely according to manufacturer specifications?",
+      "options": [
+        "Tightening bolts using visual estimation only",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Using a calibrated torque wrench during installation",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 2,
+      "explanation": "Torque wrenches ensure proper tension. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C137"
+    },
+    {
+      "id": "GM138",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system stores electrical energy to power systems during engine startup or alternator failure?",
+      "options": [
+        "Hydraulic pump assembly",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs.",
+        "Aircraft battery system"
+      ],
+      "answer": 3,
+      "explanation": "Batteries provide backup electrical power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C138"
+    },
+    {
+      "id": "GM139",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic factor increases when an aircraft flies faster through the air causing greater air resistance?",
+      "options": [
+        "Drag force increases proportionally with speed",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Lift decreases to zero"
+      ],
+      "answer": 0,
+      "explanation": "Drag increases with airspeed. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C139"
+    },
+    {
+      "id": "GM140",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter flight control is used primarily to control directional yaw movement during hover or forward flight?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Cyclic control stick",
+        "Tail rotor pedals",
+        "Collective control changes pitch differentially around the rotor disc to command direction."
+      ],
+      "answer": 2,
+      "explanation": "Pedals adjust tail rotor thrust. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C140"
+    },
+    {
+      "id": "GM141",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft corrosion prevention programs implemented during maintenance inspections?",
+      "options": [
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Prevent structural weakening caused by chemical reactions between metals and environmental elements",
+        "Increase aircraft electrical generation capacity",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 1,
+      "explanation": "Corrosion weakens structural components if untreated. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C141"
+    },
+    {
+      "id": "GM142",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance documentation records the history of repairs, inspections, and modifications performed on an aircraft?",
+      "options": [
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Aircraft technical logbook and maintenance records",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification.",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits."
+      ],
+      "answer": 1,
+      "explanation": "Logbooks track aircraft maintenance history. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C142"
+    },
+    {
+      "id": "GM143",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic principle explains lift generation through equal and opposite reaction when air is pushed downward by wings or rotor blades?",
+      "options": [
+        "Newton’s Third Law of Motion",
+        "Ohm’s electrical law",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 0,
+      "explanation": "Newton’s third law explains lift reaction forces. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C143"
+    },
+    {
+      "id": "GM144",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance practice helps ensure long-term reliability of engine components during operation?",
+      "options": [
+        "Increasing engine RPM during inspections",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Regular lubrication system inspection and oil analysis"
+      ],
+      "answer": 3,
+      "explanation": "Oil analysis helps detect engine wear early. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C144"
+    },
+    {
+      "id": "GM145",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter aerodynamic phenomenon may occur when airflow around rotor blades becomes disturbed during steep descent conditions?",
+      "options": [
+        "Vortex ring state condition",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Electrical discharge state",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent."
+      ],
+      "answer": 0,
+      "explanation": "Vortex ring state causes loss of lift in steep descents. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C145"
+    },
+    {
+      "id": "GM146",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance factor most strongly influences the safety and reliability of flight operations?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Strict compliance with maintenance procedures and regulatory standards",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Reducing maintenance documentation"
+      ],
+      "answer": 1,
+      "explanation": "Compliance ensures aircraft airworthiness. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C146"
+    },
+    {
+      "id": "GM147",
+      "section": "General M",
+      "topic": "Instruments",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft component measures and displays engine rotational speed to the pilot during flight operations?",
+      "options": [
+        "Vertical speed indicator",
+        "An airspeed indicator uses pitot and static pressure and does not directly display rate of climb.",
+        "Tachometer instrument gauge",
+        "A vertical speed indicator senses rate of static-pressure change rather than directly measuring aircraft pitch attitude."
+      ],
+      "answer": 2,
+      "explanation": "Tachometers measure engine RPM. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C147"
+    },
+    {
+      "id": "GM148",
+      "section": "General M",
+      "topic": "Environment",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system regulates cabin air pressure and temperature for passenger comfort at high altitudes?",
+      "options": [
+        "Environmental control system",
+        "The outflow/pressure-control function regulates cabin pressure by controlling air leaving the pressure vessel.",
+        "Fuel injection system",
+        "Bleed or conditioned-air supply alone determines cabin pressure regardless of outflow-valve position."
+      ],
+      "answer": 0,
+      "explanation": "Environmental systems maintain cabin conditions. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C148"
+    },
+    {
+      "id": "GM149",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance action must be performed after completing major structural repairs to verify aircraft performance and safety?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Conduct inspection and functional checks according to approved maintenance procedures",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Immediately return aircraft to commercial service"
+      ],
+      "answer": 1,
+      "explanation": "Functional checks confirm repairs were successful. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C149"
+    },
+    {
+      "id": "GM150",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the ultimate responsibility of a licensed Aircraft Maintenance Engineer when approving an aircraft for return to service?",
+      "options": [
+        "Schedule airline flight routes",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Certify that all maintenance work complies with regulatory requirements and the aircraft is airworthy"
+      ],
+      "answer": 3,
+      "explanation": "The AME ensures the aircraft meets safety and regulatory standards before release. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C150"
+    },
+    {
+      "id": "GM151",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "During routine inspection of an aircraft hydraulic system, which condition would most likely indicate internal contamination requiring system servicing?",
+      "options": [
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "Darkened fluid with visible particles inside the reservoir",
+        "Clean hydraulic fluid with proper pressure readings"
+      ],
+      "answer": 2,
+      "explanation": "Contaminated fluid containing debris can damage pumps, valves, and actuators. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C151"
+    },
+    {
+      "id": "GM152",
+      "section": "General M",
+      "topic": "Turbine",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary function of the compressor section in a turbine engine used in many Category M aircraft?",
+      "options": [
+        "Reduce engine exhaust temperature",
+        "Increase air pressure before entering the combustion chamber",
+        "The compressor raises pressure of the inlet air before it enters the combustor.",
+        "The turbine section compresses inlet air before combustion and the compressor extracts energy after combustion."
+      ],
+      "answer": 1,
+      "explanation": "Compressors increase air pressure for efficient combustion. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C152"
+    },
+    {
+      "id": "GM153",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft structural inspection method uses ultrasonic waves to detect hidden internal cracks within metal components?",
+      "options": [
+        "Ultrasonic non-destructive testing technique",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Visual inspection procedure",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws."
+      ],
+      "answer": 0,
+      "explanation": "Ultrasonic inspection detects subsurface structural flaws. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C153"
+    },
+    {
+      "id": "GM154",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force must be balanced by lift to maintain steady level flight conditions?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag force from airflow resistance",
+        "Weight force produced by gravity",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 2,
+      "explanation": "Lift must equal weight during level flight. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C154"
+    },
+    {
+      "id": "GM155",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft corrosion control programs implemented during regular maintenance inspections?",
+      "options": [
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Increase engine thrust during takeoff",
+        "Prevent structural damage caused by chemical reactions between metals and environmental elements",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film."
+      ],
+      "answer": 2,
+      "explanation": "Corrosion weakens aircraft structures and must be prevented. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C155"
+    },
+    {
+      "id": "GM156",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter rotor control component changes blade pitch simultaneously on all blades to control vertical lift?",
+      "options": [
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Tail rotor pedal assembly",
+        "Collective pitch control system"
+      ],
+      "answer": 3,
+      "explanation": "Collective control changes pitch equally across rotor blades. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C156"
+    },
+    {
+      "id": "GM157",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system distributes electrical energy from generators or batteries to avionics, lighting, and other onboard equipment?",
+      "options": [
+        "Hydraulic pressure system",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Electrical power distribution system",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 2,
+      "explanation": "Electrical systems distribute power to aircraft components. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C157"
+    },
+    {
+      "id": "GM158",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What aerodynamic condition occurs when airflow separates from the wing surface due to excessive angle of attack?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Static electrical discharge event",
+        "Stall condition resulting in rapid lift loss"
+      ],
+      "answer": 3,
+      "explanation": "Stall occurs when airflow separation reduces lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C158"
+    },
+    {
+      "id": "GM159",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance practice helps prevent foreign object damage inside engines and critical mechanical systems?",
+      "options": [
+        "Increasing engine idle RPM during inspections",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "Strict tool control and workplace cleanliness procedures",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection."
+      ],
+      "answer": 2,
+      "explanation": "Tool control prevents objects from entering engines. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C159"
+    },
+    {
+      "id": "GM160",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter component transmits engine power from the engine to the rotor system through mechanical gearing?",
+      "options": [
+        "Cabin ventilation system",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Main transmission gearbox assembly"
+      ],
+      "answer": 3,
+      "explanation": "Transmission transfers engine power to rotors. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C160"
+    },
+    {
+      "id": "GM161",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance document contains detailed diagrams and part numbers used for ordering replacement components?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Illustrated Parts Catalogue (IPC)",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification."
+      ],
+      "answer": 2,
+      "explanation": "IPC identifies approved replacement parts. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C161"
+    },
+    {
+      "id": "GM162",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic effect causes rotating airflow patterns behind aircraft wing tips during lift generation?",
+      "options": [
+        "Wingtip vortices formation",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Static electricity discharge"
+      ],
+      "answer": 0,
+      "explanation": "Pressure differences create wingtip vortices. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C162"
+    },
+    {
+      "id": "GM163",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What maintenance procedure is required when an aircraft fastener requires tightening according to manufacturer torque specifications?",
+      "options": [
+        "Use of calibrated torque wrench during installation",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads.",
+        "Tightening by hand estimation"
+      ],
+      "answer": 0,
+      "explanation": "Torque wrenches ensure correct fastener tension. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C163"
+    },
+    {
+      "id": "GM164",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system stores electrical energy to provide power during engine startup or generator failure?",
+      "options": [
+        "Aircraft battery system",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Hydraulic pump system",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 0,
+      "explanation": "Batteries provide backup electrical power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C164"
+    },
+    {
+      "id": "GM165",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter aerodynamic condition occurs when descending vertically into disturbed rotor downwash airflow?",
+      "options": [
+        "Vortex ring state condition",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Static hover condition",
+        "Translational lift, because the rotor is moving into progressively cleaner air."
+      ],
+      "answer": 0,
+      "explanation": "Vortex ring state reduces lift during steep descent. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C165"
+    },
+    {
+      "id": "GM166",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of aircraft fuel boost pumps installed within fuel delivery systems?",
+      "options": [
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself.",
+        "Maintain consistent fuel pressure to engine components",
+        "Increase aircraft electrical voltage output",
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor."
+      ],
+      "answer": 1,
+      "explanation": "Boost pumps ensure reliable fuel flow. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C166"
+    },
+    {
+      "id": "GM167",
+      "section": "General M",
+      "topic": "Landing",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft landing gear component absorbs impact loads when the aircraft touches down on the runway?",
+      "options": [
+        "The brake system absorbs vertical touchdown loads before the shock strut begins to compress.",
+        "Static discharge wick",
+        "The shock strut absorbs landing energy through controlled compression of gas and hydraulic fluid.",
+        "Oleo or shock strut assembly"
+      ],
+      "answer": 3,
+      "explanation": "Shock struts absorb landing forces. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C167"
+    },
+    {
+      "id": "GM168",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most frequently contributes to human error during aircraft maintenance operations?",
+      "options": [
+        "Technician fatigue and communication breakdowns",
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Use of maintenance manuals",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 0,
+      "explanation": "Fatigue and communication issues cause many errors. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C168"
+    },
+    {
+      "id": "GM169",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts parallel to airflow and opposes the forward motion produced by aircraft engines?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Drag force",
+        "Lift force",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 1,
+      "explanation": "Drag resists forward aircraft movement. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C169"
+    },
+    {
+      "id": "GM170",
+      "section": "General M",
+      "topic": "Instruments",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft instrument provides pilots with engine rotational speed readings during flight operations?",
+      "options": [
+        "An airspeed indicator uses pitot and static pressure and does not directly display rate of climb.",
+        "Tachometer instrument gauge",
+        "A vertical speed indicator senses rate of static-pressure change rather than directly measuring aircraft pitch attitude.",
+        "Vertical speed indicator"
+      ],
+      "answer": 1,
+      "explanation": "Tachometers measure engine RPM. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C170"
+    },
+    {
+      "id": "GM171",
+      "section": "General M",
+      "topic": "Fuel",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system mixes fuel and air before combustion occurs in piston aircraft engines?",
+      "options": [
+        "A boost pump meters the exact fuel-air ratio at the cylinders or combustor.",
+        "Carburetor or fuel injection system",
+        "Hydraulic pressure system",
+        "A fuel filter removes contaminants but does not normally regulate engine fuel pressure by itself."
+      ],
+      "answer": 1,
+      "explanation": "These systems prepare the combustible mixture. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C171"
+    },
+    {
+      "id": "GM172",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance inspection technique uses fluorescent dye to reveal cracks on metal surfaces?",
+      "options": [
+        "Hydraulic pressure test procedure",
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Dye penetrant non-destructive testing method",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws."
+      ],
+      "answer": 2,
+      "explanation": "Dye penetrant reveals surface cracks. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C172"
+    },
+    {
+      "id": "GM173",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the primary purpose of performing weight and balance calculations prior to aircraft flight operations?",
+      "options": [
+        "Improve cockpit instrument display brightness",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Ensure center of gravity remains within safe operational limits",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight."
+      ],
+      "answer": 2,
+      "explanation": "Proper CG ensures stability and safe flight. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C173"
+    },
+    {
+      "id": "GM174",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft component provides directional yaw control during helicopter flight operations?",
+      "options": [
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Wing flap system",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Tail rotor assembly"
+      ],
+      "answer": 3,
+      "explanation": "Tail rotor controls yaw. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C174"
+    },
+    {
+      "id": "GM175",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance action must an AME perform before signing a maintenance release certifying aircraft airworthiness?",
+      "options": [
+        "Verify all work complies with regulatory requirements and manufacturer procedures",
+        "Determine aircraft route schedule",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action."
+      ],
+      "answer": 0,
+      "explanation": "AMEs certify that maintenance meets regulatory standards. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C175"
+    },
+    {
+      "id": "GM176",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic principle explains lift creation by equal and opposite reaction when air is pushed downward by wings or rotor blades?",
+      "options": [
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Ohm’s electrical law",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Newton’s Third Law of Motion"
+      ],
+      "answer": 3,
+      "explanation": "Newton’s third law explains reaction forces generating lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C176"
+    },
+    {
+      "id": "GM177",
+      "section": "General M",
+      "topic": "Hydraulic",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system uses pressurized hydraulic fluid to operate heavy mechanical components like landing gear and brakes?",
+      "options": [
+        "A hydraulic accumulator creates continuous system pressure and therefore replaces the engine-driven pump during normal operation.",
+        "A relief valve controls actuator direction while the selector valve limits maximum system pressure.",
+        "Hydraulic power system",
+        "Static air pressure system"
+      ],
+      "answer": 2,
+      "explanation": "Hydraulic systems transmit force efficiently. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C177"
+    },
+    {
+      "id": "GM178",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance record tracks all inspections, repairs, and modifications performed throughout the aircraft’s operational life?",
+      "options": [
+        "Weather forecast report",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "Aircraft technical logbook"
+      ],
+      "answer": 3,
+      "explanation": "Technical logs document maintenance history. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C178"
+    },
+    {
+      "id": "GM179",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts perpendicular to airflow and supports aircraft weight during flight?",
+      "options": [
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth.",
+        "Lift force",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Drag force"
+      ],
+      "answer": 1,
+      "explanation": "Lift counteracts gravity. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C179"
+    },
+    {
+      "id": "GM180",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter flight control allows pilots to tilt the rotor disc to control forward or lateral movement?",
+      "options": [
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Collective pitch lever",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Cyclic control stick"
+      ],
+      "answer": 3,
+      "explanation": "Cyclic changes blade pitch positionally. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C180"
+    },
+    {
+      "id": "GM181",
+      "section": "General M",
+      "topic": "Human",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance program identifies potential hazards and improves operational safety through risk management practices?",
+      "options": [
+        "Safety Management System (SMS)",
+        "Fatigue, time pressure and poor communication can degrade maintenance performance and decision-making.",
+        "SMS is a structured approach to identifying hazards and managing safety risk; it does not replace required maintenance programs.",
+        "Tool control and housekeeping reduce FOD risk but do not eliminate the need for final inspection."
+      ],
+      "answer": 0,
+      "explanation": "SMS focuses on proactive safety management. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C181"
+    },
+    {
+      "id": "GM182",
+      "section": "General M",
+      "topic": "Electrical",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft electrical component protects circuits from excessive current and potential fire hazards?",
+      "options": [
+        "Hydraulic accumulator",
+        "A voltage regulator protects each branch circuit from short-circuit current in the same manner as a circuit breaker.",
+        "Circuit breaker device",
+        "A circuit breaker is intended to interrupt excessive current before wiring damage occurs."
+      ],
+      "answer": 2,
+      "explanation": "Circuit breakers stop overload current flow. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C182"
+    },
+    {
+      "id": "GM183",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which factor most significantly affects helicopter hover performance capability?",
+      "options": [
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Cabin interior lighting",
+        "Available engine power and rotor blade efficiency"
+      ],
+      "answer": 3,
+      "explanation": "Hover requires sufficient lift and power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C183"
+    },
+    {
+      "id": "GM184",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft structural component helps distribute aerodynamic loads across wing surfaces?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Wing ribs and spars assembly",
+        "Electrical wiring harness",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 1,
+      "explanation": "Spars and ribs support structural loads. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C184"
+    },
+    {
+      "id": "GM185",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance practice helps ensure correct movement of flight control surfaces after repairs?",
+      "options": [
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Increasing hydraulic pressure levels",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Flight control rigging and operational checks"
+      ],
+      "answer": 3,
+      "explanation": "Rigging checks ensure proper control movement. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C185"
+    },
+    {
+      "id": "GM186",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic phenomenon causes swirling air patterns behind rotating helicopter blades during lift production?",
+      "options": [
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Electrical discharge event",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Rotor vortex formation"
+      ],
+      "answer": 3,
+      "explanation": "Rotor vortices form due to pressure differences. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C186"
+    },
+    {
+      "id": "GM187",
+      "section": "General M",
+      "topic": "Environment",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system regulates cabin pressure and air temperature at high altitudes?",
+      "options": [
+        "The outflow/pressure-control function regulates cabin pressure by controlling air leaving the pressure vessel.",
+        "Bleed or conditioned-air supply alone determines cabin pressure regardless of outflow-valve position.",
+        "Environmental control system",
+        "Fuel injection system"
+      ],
+      "answer": 2,
+      "explanation": "Environmental systems maintain cabin conditions. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C187"
+    },
+    {
+      "id": "GM188",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance factor most directly improves long-term reliability of aircraft engines?",
+      "options": [
+        "Regular lubrication inspections and oil analysis programs",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Increasing engine operating temperatures"
+      ],
+      "answer": 0,
+      "explanation": "Oil analysis helps detect internal wear early. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C188"
+    },
+    {
+      "id": "GM189",
+      "section": "General M",
+      "topic": "Instruments",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft instrument measures the rate of climb or descent during flight?",
+      "options": [
+        "An airspeed indicator uses pitot and static pressure and does not directly display rate of climb.",
+        "Vertical speed indicator",
+        "A vertical speed indicator senses rate of static-pressure change rather than directly measuring aircraft pitch attitude.",
+        "Tachometer gauge"
+      ],
+      "answer": 1,
+      "explanation": "VSI shows vertical speed. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C189"
+    },
+    {
+      "id": "GM190",
+      "section": "General M",
+      "topic": "Rotor Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter aerodynamic maneuver allows controlled descent after engine failure?",
+      "options": [
+        "Autorotation maneuver",
+        "Translational lift, because the rotor is moving into progressively cleaner air.",
+        "Retreating-blade stall, because the retreating side always stalls during a power-off descent.",
+        "Static hover condition"
+      ],
+      "answer": 0,
+      "explanation": "Autorotation allows safe landing without engine power. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C190"
+    },
+    {
+      "id": "GM191",
+      "section": "General M",
+      "topic": "Corrosion",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance procedure ensures corrosion is removed and protective coatings are applied to exposed metal surfaces?",
+      "options": [
+        "Corrosion inspection and treatment program",
+        "Exfoliation corrosion, which normally appears first as a uniform removable white surface film.",
+        "Intergranular corrosion, which is confined to exposed surface oxide and cannot progress below the surface.",
+        "Engine thrust calibration"
+      ],
+      "answer": 0,
+      "explanation": "Corrosion control protects structural integrity. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C191"
+    },
+    {
+      "id": "GM192",
+      "section": "General M",
+      "topic": "General",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft system delivers lubricating oil to moving engine components to reduce friction and wear?",
+      "options": [
+        "The statement can be true under some conditions, but it does not answer the primary function or condition in the stem.",
+        "Engine lubrication system",
+        "The component performs a related system function, but not the specific function asked in the question.",
+        "Fuel metering system"
+      ],
+      "answer": 1,
+      "explanation": "Lubrication reduces friction and heat. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C192"
+    },
+    {
+      "id": "GM193",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which maintenance factor must always be verified before aircraft return to service following major repairs?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action.",
+        "Compliance with regulatory standards and successful functional system checks",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification."
+      ],
+      "answer": 2,
+      "explanation": "Repairs must be verified and approved. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C193"
+    },
+    {
+      "id": "GM194",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter control input primarily affects vertical climb and descent during flight?",
+      "options": [
+        "Collective pitch lever",
+        "Collective control changes pitch differentially around the rotor disc to command direction.",
+        "Tail rotor pedals",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control."
+      ],
+      "answer": 0,
+      "explanation": "Collective changes lift. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C194"
+    },
+    {
+      "id": "GM195",
+      "section": "General M",
+      "topic": "Aero",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aerodynamic force acts opposite gravity and supports aircraft weight during flight?",
+      "options": [
+        "Drag force",
+        "Lift force",
+        "Drag acts parallel and opposite to the relative airflow; thrust generally opposes drag in steady flight.",
+        "Lift acts perpendicular to the relative airflow; weight acts toward the earth."
+      ],
+      "answer": 1,
+      "explanation": "Lift keeps aircraft airborne. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C195"
+    },
+    {
+      "id": "GM196",
+      "section": "General M",
+      "topic": "Structures",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft maintenance factor most strongly contributes to preventing maintenance- related accidents?",
+      "options": [
+        "Spars are primary spanwise load-carrying members, while ribs establish/support airfoil shape and distribute loads.",
+        "Reducing documentation",
+        "Strict adherence to maintenance procedures and safety regulations",
+        "Ribs are normally the principal spanwise members carrying the majority of wing bending loads."
+      ],
+      "answer": 2,
+      "explanation": "Compliance with procedures ensures safety. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C196"
+    },
+    {
+      "id": "GM197",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which aircraft documentation outlines detailed inspection intervals and maintenance schedules for specific aircraft models?",
+      "options": [
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification.",
+        "Aircraft maintenance planning document or maintenance schedule",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action."
+      ],
+      "answer": 2,
+      "explanation": "Maintenance schedules define required inspections. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C197"
+    },
+    {
+      "id": "GM198",
+      "section": "General M",
+      "topic": "Rotor Controls",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which helicopter component provides anti-torque control during flight by producing sideways thrust?",
+      "options": [
+        "Tail rotor assembly",
+        "Cyclic control changes blade pitch collectively and is therefore the primary vertical-lift control.",
+        "Wing flap mechanism",
+        "Collective control changes pitch differentially around the rotor disc to command direction."
+      ],
+      "answer": 0,
+      "explanation": "Tail rotor counters main rotor torque. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C198"
+    },
+    {
+      "id": "GM199",
+      "section": "General M",
+      "topic": "Ndt",
+      "difficulty": "General AME M • Tricky style",
+      "question": "Which inspection method allows technicians to identify structural cracks without removing the component from the aircraft?",
+      "options": [
+        "Visual inspection is sufficient to confirm all subsurface cracking when the surface is accessible.",
+        "Non-destructive testing procedures",
+        "Dye penetrant is intended primarily for open-to-surface discontinuities, not deeply buried internal flaws.",
+        "Structural disassembly inspection"
+      ],
+      "answer": 1,
+      "explanation": "NDT detects flaws without damaging parts. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C199"
+    },
+    {
+      "id": "GM200",
+      "section": "General M",
+      "topic": "Docs",
+      "difficulty": "General AME M • Tricky style",
+      "question": "What is the ultimate responsibility of a licensed Aircraft Maintenance Engineer when approving an aircraft for return to service after maintenance?",
+      "options": [
+        "Certify that the aircraft meets regulatory requirements and is safe for flight operations",
+        "The Illustrated Parts Catalogue, because it identifies approved maintenance procedures and inspection limits.",
+        "The applicable approved maintenance data and regulatory requirements must be satisfied before certification.",
+        "The Aircraft Maintenance Manual, because it establishes every legally mandatory continuing-airworthiness action."
+      ],
+      "answer": 0,
+      "explanation": "The AME’s signature confirms the aircraft is airworthy and compliant with regulations. The correct-answer concept and rationale are preserved from the supplied PDF; distractors were strengthened for practice.",
+      "concept": "GM-C200"
     }
   ]
 };

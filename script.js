@@ -4,7 +4,45 @@ function show(id){screens.forEach(x=>$(x).classList.toggle("hidden",x!==id));}
 function shuffle(a){let c=[...a];for(let i=c.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[c[i],c[j]]=[c[j],c[i]];}return c;}
 function esc(s){const d=document.createElement("div");d.textContent=s;return d.innerHTML;}
 document.querySelectorAll('.exam-pick').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.exam-pick').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');examChoice=b.dataset.exam;}));
-function pool(){let p=examChoice==='BOTH'?[...questionBanks.AF,...questionBanks.PP]:[...questionBanks[examChoice]];if($("shuffleQuestions").checked)p=shuffle(p);let cv=$("questionCount").value,n=cv==='all'?p.length:Number(cv);p=p.slice(0,Math.min(n,p.length));return p.map(q=>{let o=q.options.map((text,i)=>({text,correct:i===q.answer}));if($("shuffleAnswers").checked)o=shuffle(o);return {...q,bank:q.id.startsWith('AF')?'AF':'PP',options:o.map(x=>x.text),answer:o.findIndex(x=>x.correct)};});}
+function pool(){
+  let p;
+  if(examChoice==='BOTH'){
+    p=[...questionBanks.AF,...questionBanks.PP];
+  }else if(examChoice==='GENERAL'){
+    p=[...questionBanks.GENERAL];
+  }else{
+    p=[...questionBanks[examChoice]];
+  }
+
+  if($("shuffleQuestions").checked){
+    const groups={};
+    p.forEach(q=>(groups[q.concept||q.id]??=[]).push(q));
+    let keys=shuffle(Object.keys(groups)),ordered=[],round=0,remaining=true;
+    while(remaining){
+      remaining=false;
+      for(const k of keys){
+        if(groups[k][round]){
+          ordered.push(groups[k][round]);
+          remaining=true;
+        }
+      }
+      round++;
+      keys=shuffle(keys);
+    }
+    p=ordered;
+  }
+
+  let cv=$("questionCount").value;
+  let n=cv==='all'?p.length:Number(cv);
+  p=p.slice(0,Math.min(n,p.length));
+
+  return p.map(q=>{
+    let o=q.options.map((text,i)=>({text,correct:i===q.answer}));
+    if($("shuffleAnswers").checked)o=shuffle(o);
+    let bank=q.id.startsWith('AF')?'AF':q.id.startsWith('PP')?'PP':'GENERAL';
+    return {...q,bank,options:o.map(x=>x.text),answer:o.findIndex(x=>x.correct)};
+  });
+}
 function startQuiz(){clearInterval(timerId);activeQuestions=pool();responses=activeQuestions.map(()=>null);currentIndex=0;startedAt=Date.now();const t=$("timerSetting").value;remainingSeconds=t==='off'?null:Number(t)*60;if(remainingSeconds!==null){timerId=setInterval(()=>{remainingSeconds--;drawTimer();if(remainingSeconds<=0){clearInterval(timerId);finish(true)}},1000)}show('quizScreen');render();window.scrollTo({top:0,behavior:'auto'});}
 function drawTimer(){if(remainingSeconds===null){const s=Math.floor((Date.now()-startedAt)/1000),m=Math.floor(s/60),sec=s%60;$("timerText").textContent=`${m}:${String(sec).padStart(2,'0')}`;}else{const m=Math.floor(Math.max(0,remainingSeconds)/60),sec=Math.max(0,remainingSeconds)%60;$("timerText").textContent=`${m}:${String(sec).padStart(2,'0')}`;}}
 function stats(){const done=responses.filter(x=>x!==null).length,correct=responses.filter(x=>x&&x.correct).length;$("scoreText").textContent=$("quizMode").value==='exam'?`${done} answered`:`${correct} / ${done}`;$("accuracyText").textContent=$("quizMode").value==='exam'?'Hidden':done?`${Math.round(correct/done*100)}%`:'—';}
@@ -12,7 +50,7 @@ function render(){const q=activeQuestions[currentIndex],r=responses[currentIndex
 function answer(i){const q=activeQuestions[currentIndex],mode=$("quizMode").value;if(responses[currentIndex]&&mode==='practice')return;responses[currentIndex]={choice:i,correct:i===q.answer};render();}
 function feedback(q,r){const fb=$("feedback");fb.className=`feedback ${r.correct?'correct':'incorrect'}`;fb.innerHTML=`<strong>${r.correct?'✓ Correct':'✗ Incorrect'}</strong><div>${r.correct?'Good job!':'Correct answer: '+String.fromCharCode(65+q.answer)+'. '+esc(q.options[q.answer])}</div><div style="margin-top:8px"><strong>Explanation:</strong> ${esc(q.explanation)}</div>`;}
 function move(dir){if(dir>0&&currentIndex===activeQuestions.length-1){finish(false);return}currentIndex=Math.max(0,Math.min(activeQuestions.length-1,currentIndex+dir));const y=window.scrollY;render();requestAnimationFrame(()=>window.scrollTo({top:y,behavior:'auto'}));}
-function finish(timeout=false){clearInterval(timerId);const done=responses.filter(Boolean).length,correct=responses.filter(x=>x&&x.correct).length,total=activeQuestions.length,pct=Math.round(correct/total*100);show('resultsScreen');$("finalScore").textContent=`${correct} / ${total} (${pct}%)`;$("resultMessage").textContent=timeout?`Time expired. You answered ${done} of ${total} questions.`:pct>=80?'Strong result. Review the questions you missed and keep rotating through the TP 14038 subject areas.':pct>=70?'Good progress. Review missed topics before another timed attempt.':'Use the review to identify weak subject areas, then repeat a smaller focused set.';const parts=['AF','PP'].map(bank=>{const idx=activeQuestions.map((q,i)=>q.bank===bank?i:-1).filter(i=>i>=0);if(!idx.length)return '';const c=idx.filter(i=>responses[i]&&responses[i].correct).length;return `<div class="break-item"><span>${bank==='AF'?'Airframe':'Powerplant'}</span><strong>${c} / ${idx.length} (${Math.round(c/idx.length*100)}%)</strong></div>`}).join('');$("breakdown").innerHTML=parts;$("reviewBtn").disabled=!responses.some(x=>x&&!x.correct);window.scrollTo({top:0,behavior:'auto'});}
+function finish(timeout=false){clearInterval(timerId);const done=responses.filter(Boolean).length,correct=responses.filter(x=>x&&x.correct).length,total=activeQuestions.length,pct=Math.round(correct/total*100);show('resultsScreen');$("finalScore").textContent=`${correct} / ${total} (${pct}%)`;$("resultMessage").textContent=timeout?`Time expired. You answered ${done} of ${total} questions.`:pct>=80?'Strong result. Review the questions you missed and keep rotating through the TP 14038 subject areas.':pct>=70?'Good progress. Review missed topics before another timed attempt.':'Use the review to identify weak subject areas, then repeat a smaller focused set.';const parts=['AF','PP','GENERAL'].map(bank=>{const idx=activeQuestions.map((q,i)=>q.bank===bank?i:-1).filter(i=>i>=0);if(!idx.length)return '';const c=idx.filter(i=>responses[i]&&responses[i].correct).length;return `<div class="break-item"><span>${bank==='AF'?'Airframe':(bank==='PP'?'Powerplant':'General AME M Practice')}</span><strong>${c} / ${idx.length} (${Math.round(c/idx.length*100)}%)</strong></div>`}).join('');$("breakdown").innerHTML=parts;$("reviewBtn").disabled=!responses.some(x=>x&&!x.correct);window.scrollTo({top:0,behavior:'auto'});}
 function review(){const items=activeQuestions.map((q,i)=>({q,r:responses[i]})).filter(x=>x.r&&!x.r.correct);$("reviewList").innerHTML=items.map(({q,r})=>`<div class="review-item"><div class="question-meta"><span>${q.id}</span><span class="topic-pill">${q.section} ${q.topic}</span></div><h3>${esc(q.question)}</h3><div class="review-answer">Your answer: ${String.fromCharCode(65+r.choice)}. ${esc(q.options[r.choice])}</div><div class="review-answer"><b>Correct: ${String.fromCharCode(65+q.answer)}. ${esc(q.options[q.answer])}</b></div><div class="review-answer">${esc(q.explanation)}</div></div>`).join('')||'<p>No incorrect answered questions to review.</p>';show('reviewScreen');window.scrollTo({top:0,behavior:'auto'});}
 function home(){clearInterval(timerId);show('startScreen');window.scrollTo({top:0,behavior:'auto'});}
 $("startBtn").onclick=startQuiz;$("nextBtn").onclick=()=>move(1);$("prevBtn").onclick=()=>move(-1);$("restartBtn").onclick=startQuiz;$("settingsBtn").onclick=home;$("homeTop").onclick=home;$("restartTop").onclick=()=>{if(!$("quizScreen").classList.contains('hidden')||!$("resultsScreen").classList.contains('hidden'))startQuiz();};$("reviewBtn").onclick=review;$("reviewBack").onclick=()=>show('resultsScreen');setInterval(()=>{if(!$("quizScreen").classList.contains('hidden')&&remainingSeconds===null)drawTimer()},1000);
